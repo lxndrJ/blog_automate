@@ -1,0 +1,12 @@
+---
+Datei: _posts/20250821_Geologische_Besonderheiten_in_Weissrussland.md
+Land: Weißrussland, Hauptstadt: Minsk
+Thema: Geologische Besonderheiten, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Minsk** im Kontext von **Geologische Besonderheiten**.
+Berücksichtige die Hauptstadt **Weißrussland**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1629995608973-16686dae6b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwV2VpJUMzJTlGcnVzc2xhbmR8ZW58MHwwfHx8MTc1NTc4NjQyN3ww&ixlib=rb-4.1.0&q=80&w=1080
+---
