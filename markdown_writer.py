@@ -1,12 +1,33 @@
-import os
 from datetime import datetime
+import os
 
-def save_markdown(title, content, image_url):
-    os.makedirs("_posts", exist_ok=True)
-    date_prefix = datetime.today().strftime("%Y%m%d")
-    sanitized_title = title.replace(" ", "_").replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
-    filename = f"{date_prefix}_{sanitized_title}.md"
-    filepath = os.path.join("_posts", filename)
-    with open(filepath, "w", encoding="utf-8") as f:
+def save_markdown(title, content, image_url=None, categories=None):
+    # Ensure _posts directory exists
+    os.makedirs('_posts', exist_ok=True)
+
+    # Format date and filename for Jekyll
+    date_obj = datetime.now()
+    date_str = date_obj.strftime("%Y-%m-%d")
+    safe_title = title.replace(" ", "-").replace("**", "").lower()
+    filename = f"_posts/{date_str}-{safe_title}.md"
+
+    # Prepare YAML front matter
+    front_matter = "---\n"
+    front_matter += "layout: post\n"
+    front_matter += f"title: \"{title}\"\n"
+    front_matter += f"date: {date_str}\n"
+    if categories:
+        front_matter += f"categories: {categories}\n"
+    if image_url:
+        front_matter += f"image: {image_url}\n"
+    front_matter += "---\n\n"
+
+    # Write to file
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(front_matter)
+        if image_url:
+            f.write(f"![{title}]({image_url})\n\n")
         f.write(content)
-    return filepath
+
+    return filename
+

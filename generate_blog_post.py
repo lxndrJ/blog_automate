@@ -8,6 +8,11 @@ from datetime import datetime
 from anthropic_config import MODEL, TEMPERATURE, MAX_TOKENS, SYSTEM_PROMPT, generate_prompt
 from unsplash_image import search_unsplash_image
 from markdown_writer import save_markdown
+from dotenv import load_dotenv
+
+load_dotenv()
+UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 def get_random_country():
     conn = sqlite3.connect("countries.db")
@@ -33,7 +38,7 @@ theme, category = get_random_theme()
 prompt = generate_prompt(theme, country_name, capital, category)
 
 # === Schritt 3: Anthropic API aufrufen ===
-client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 response = client.messages.create(
     model=MODEL,
     max_tokens=MAX_TOKENS,

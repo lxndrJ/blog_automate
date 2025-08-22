@@ -10,3 +10,63 @@ Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich
 
 Bild-URL: https://images.unsplash.com/photo-1629995608973-16686dae6b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwV2VpJUMzJTlGcnVzc2xhbmR8ZW58MHwwfHx8MTc1NTc4NjQyN3ww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/20250821_Familienfreundliche_Reiseziele_in_Tokelau.md
+Land: Tokelau, Hauptstadt: Fakaofo
+Thema: Familienfreundliche Reiseziele, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Fakaofo** im Kontext von **Familienfreundliche Reiseziele**.
+Berücksichtige die Hauptstadt **Tokelau**, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1598376270322-584b88b3f738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGYW1pbGllbmZyZXVuZGxpY2hlJTIwUmVpc2V6aWVsZSUyMFRva2VsYXV8ZW58MHwwfHx8MTc1NTc4ODE3NXww&ixlib=rb-4.1.0&q=80&w=1080
+---
+---
+Datei: 20250821_Historische_Persönlichkeiten_in_Westsahara.md
+Land: Westsahara, Hauptstadt: El Aaiún
+Thema: Historische Persönlichkeiten, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **El Aaiún** im Kontext von **Historische Persönlichkeiten**.
+Berücksichtige die Hauptstadt **Westsahara**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1590802163243-290dd8621032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFBlcnMlQzMlQjZubGljaGtlaXRlbiUyMFdlc3RzYWhhcmF8ZW58MHwwfHx8MTc1NTc4ODUzMHww&ixlib=rb-4.1.0&q=80&w=1080
+---
+---
+Datei: 20250822_Antike_Kulturen_in_Jemen.md
+Land: Jemen, Hauptstadt: Sana'a
+Thema: Antike Kulturen, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Sana'a** im Kontext von **Antike Kulturen**.
+Berücksichtige die Hauptstadt **Jemen**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1678038592346-364001cfe5b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBbnRpa2UlMjBLdWx0dXJlbiUyMEplbWVufGVufDB8MHx8fDE3NTU4Mzk1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
+---
+Datei: _posts/2025-08-22-arbeitsmarkttrends-in-neuseeland.md
+Land: Neuseeland, Hauptstadt: Wellington
+Thema: Arbeitsmarkttrends, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Wellington** im Kontext von **Arbeitsmarkttrends**.
+Berücksichtige die Hauptstadt **Neuseeland**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1573704344165-3943375a4204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmJlaXRzbWFya3R0cmVuZHMlMjBOZXVzZWVsYW5kfGVufDB8MHx8fDE3NTU4NDEyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
+---
+Datei: _posts/2025-08-22-gebirge-und-wanderwege-in-vanuatu.md
+Land: Vanuatu, Hauptstadt: Port Vila
+Thema: Gebirge und Wanderwege, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Port Vila** im Kontext von **Gebirge und Wanderwege**.
+Berücksichtige die Hauptstadt **Vanuatu**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
