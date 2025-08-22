@@ -4,3 +4,7 @@ venv
 **/*.pyc
 __pycache__/
 **/__pycache__/
+
+# Python cache files
+*.pyo
+*.pyd
