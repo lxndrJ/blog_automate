@@ -70,3 +70,27 @@ Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2025-08-22-wälder-und-forstwirtschaft-in-osttimor.md
+Land: Osttimor, Hauptstadt: Dili
+Thema: Wälder und Forstwirtschaft, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Dili** im Kontext von **Wälder und Forstwirtschaft**.
+Berücksichtige die Hauptstadt **Osttimor**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1720086301592-c26d22710ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXJUMzJUE0bGRlciUyMHVuZCUyMEZvcnN0d2lydHNjaGFmdCUyME9zdHRpbW9yfGVufDB8MHx8fDE3NTU4Njg0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
+---
+Datei: _posts/2025-08-22-sprachbarrieren-überwinden-in-thailand.md
+Land: Thailand, Hauptstadt: Bangkok
+Thema: Sprachbarrieren überwinden, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Bangkok** im Kontext von **Sprachbarrieren überwinden**.
+Berücksichtige die Hauptstadt **Thailand**, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1731865745283-115d25ec30f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBUaGFpbGFuZHxlbnwwfDB8fHwxNzU1ODY4NTc0fDA&ixlib=rb-4.1.0&q=80&w=1080
+---

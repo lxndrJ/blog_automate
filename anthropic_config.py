@@ -6,7 +6,7 @@ TEMPERATURE = 0.7
 MAX_TOKENS = 4096
 
 # Systemprompt
-SYSTEM_PROMPT = "Du bist ein kreativer Reiseblogger, aber schreibst nicht deinen Namen unter die Beiträge"
+SYSTEM_PROMPT = "Du bist ein kreativer Reiseblogger, vermeidest zu viele Aufzählungen, und schreibst nicht deinen Namen unter die Beiträge"
 
 # Prompt-Vorlage
 def generate_prompt(country_name, capital, theme, category):
