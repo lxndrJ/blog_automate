@@ -1,0 +1,91 @@
+---
+name: Sync Posts to Blog Repository
+
+on:
+  push:
+    paths:
+      - '_posts/**'
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual triggering for testing
+
+jobs:
+  sync-posts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: target
+
+      - name: Sync _posts folder
+        run: |
+          echo "Starting synchronization of _posts folder..."
+
+          # Create _posts directory in target if it doesn't exist
+          mkdir -p target/_posts
+
+          # Show current state
+          echo "Source _posts contents:"
+          ls -la source/_posts/ || \
+            echo "Source _posts directory is empty or doesn't exist"
+
+          echo "Target _posts contents before sync:"
+          ls -la target/_posts/ || \
+            echo "Target _posts directory is empty or doesn't exist"
+
+          # Use rsync for efficient synchronization
+          # (handles additions, modifications, and deletions)
+          rsync -av --delete \
+            --include="*.md" --include="*.markdown" --exclude="*" \
+            source/_posts/ target/_posts/
+
+          echo "Synchronization completed. Target _posts contents after sync:"
+          ls -la target/_posts/ || echo "Target _posts directory is now empty"
+
+      - name: Validate synchronization
+        run: |
+          echo "Validating synchronization results..."
+
+          # Count files in both directories
+          source_count=$(find source/_posts -name "*.md" -o -name "*.markdown" \
+            2>/dev/null | wc -l)
+          target_count=$(find target/_posts -name "*.md" -o -name "*.markdown" \
+            2>/dev/null | wc -l)
+
+          echo "Source _posts file count: $source_count"
+          echo "Target _posts file count: $target_count"
+
+          if [ "$source_count" -eq "$target_count" ]; then
+            echo "✅ File counts match - synchronization successful"
+          else
+            echo "⚠️ File counts don't match - please review"
+          fi
+
+      - name: Commit and push changes to target repository
+        run: |
+          cd target
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action (Blog Sync)"
+
+          # Add all changes
+          git add _posts/
+
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Changes detected, committing..."
+            git status
+            git commit -m "Sync _posts from blog_automate - $(date +%Y-%m-%d)"
+            git push
+            echo "Changes successfully pushed to blog.pandango.de repository"
+          fi
