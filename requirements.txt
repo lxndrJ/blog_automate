@@ -1,0 +1,11 @@
+# Requirements for blog_automate
+# Python dependencies for generate_blog_post.py and related scripts
+
+# Anthropic Claude API client
+anthropic>=0.8.0
+
+# HTTP requests library for API calls
+requests>=2.28.0
+
+# Environment variable management for .env files
+python-dotenv>=1.0.0
