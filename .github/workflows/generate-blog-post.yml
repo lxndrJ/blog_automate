@@ -1,0 +1,59 @@
+name: Generate Daily Blog Post
+
+on:
+  schedule:
+    # Runs every day at 5:00 AM UTC
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allows manual triggering for testing
+
+jobs:
+  generate-blog-post:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Verify database files exist
+      run: |
+        if [ ! -f "countries.db" ]; then
+          echo "Error: countries.db not found"
+          exit 1
+        fi
+        if [ ! -f "themes.db" ]; then
+          echo "Error: themes.db not found"
+          exit 1
+        fi
+        echo "Database files verified"
+        
+    - name: Generate blog post
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      run: |
+        echo "Starting blog post generation..."
+        python generate_blog_post.py
+        echo "Blog post generation completed"
+      
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automatischer Blogpost vom $(date +%Y-%m-%d)"
+          git push
+          echo "Changes successfully pushed to repository"
+        fi
