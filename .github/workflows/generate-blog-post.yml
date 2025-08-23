@@ -1,28 +1,14 @@
-# Previous version of generate-blog-post.yml
-
-# Workflow to generate blog post
 name: Generate Blog Post
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '15 5 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Generate blog post
-        run: |
-          echo 'Generating blog post...'
-
-      - name: Commit blog post
-        run: |
-          git config --local user.email 'you@example.com'
-          git config --local user.name 'Your Name'
-          git add .
-          git commit -m 'Add generated blog post' || echo 'Nothing to commit'
-          git push
+      - name: Generate Blog Post
+        run: echo 'Generating blog post...'
