@@ -9,7 +9,7 @@ MAX_TOKENS = 4096
 SYSTEM_PROMPT = "Du bist ein kreativer Reiseblogger, vermeidest zu viele Aufzählungen, und schreibst nicht deinen Namen unter die Beiträge"
 
 # Prompt-Vorlage
-def generate_prompt(country_name, capital, theme, category):
+def generate_prompt(theme, country_name, capital, category):
     return f"""
 Schreibe einen Blogbeitrag im Markdown-Format über das Thema **{theme}** im Kontext von **{country_name}**.
 Berücksichtige die Hauptstadt **{capital}**, kulturelle Besonderheiten und die Kategorie **{category}**.
