@@ -1,59 +1,141 @@
+---
 name: Generate Daily Blog Post
 
 on:
   schedule:
     # Runs every day at 5:00 AM UTC
     - cron: '0 5 * * *'
-  workflow_dispatch: # Allows manual triggering for testing
+  workflow_dispatch:  # Allows manual triggering for testing
 
 jobs:
   generate-blog-post:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.12'
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        
-    - name: Verify database files exist
-      run: |
-        if [ ! -f "countries.db" ]; then
-          echo "Error: countries.db not found"
-          exit 1
-        fi
-        if [ ! -f "themes.db" ]; then
-          echo "Error: themes.db not found"
-          exit 1
-        fi
-        echo "Database files verified"
-        
-    - name: Generate blog post
-      env:
-        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-      run: |
-        echo "Starting blog post generation..."
-        python generate_blog_post.py
-        echo "Blog post generation completed"
-      
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Automatischer Blogpost vom $(date +%Y-%m-%d)"
-          git push
-          echo "Changes successfully pushed to repository"
-        fi
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify database files exist
+        run: |
+          if [ ! -f "countries.db" ]; then
+            echo "Error: countries.db not found"
+            exit 1
+          fi
+          if [ ! -f "themes.db" ]; then
+            echo "Error: themes.db not found"
+            exit 1
+          fi
+          echo "Database files verified"
+
+      - name: Generate blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: |
+          echo "Starting blog post generation..."
+          python generate_blog_post.py
+          echo "Blog post generation completed"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automatischer Blogpost vom $(date +%Y-%m-%d)"
+            git push
+            echo "Changes successfully pushed to repository"
+          fi
+
+  sync-posts:
+    runs-on: ubuntu-latest
+    needs: [generate-blog-post]
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: target
+
+      - name: Sync _posts folder
+        run: |
+          echo "Starting synchronization of _posts folder..."
+
+          # Create _posts directory in target if it doesn't exist
+          mkdir -p target/_posts
+
+          # Show current state
+          echo "Source _posts contents:"
+          ls -la source/_posts/ || \
+            echo "Source _posts directory is empty or doesn't exist"
+
+          echo "Target _posts contents before sync:"
+          ls -la target/_posts/ || \
+            echo "Target _posts directory is empty or doesn't exist"
+
+          # Use rsync for efficient synchronization
+          # (handles additions, modifications, and deletions)
+          rsync -av --delete \
+            --include="*.md" --include="*.markdown" --exclude="*" \
+            source/_posts/ target/_posts/
+
+          echo "Synchronization completed. Target _posts contents after sync:"
+          ls -la target/_posts/ || echo "Target _posts directory is now empty"
+
+      - name: Validate synchronization
+        run: |
+          echo "Validating synchronization results..."
+
+          # Count files in both directories
+          source_count=$(find source/_posts -name "*.md" -o -name "*.markdown" \
+            2>/dev/null | wc -l)
+          target_count=$(find target/_posts -name "*.md" -o -name "*.markdown" \
+            2>/dev/null | wc -l)
+
+          echo "Source _posts file count: $source_count"
+          echo "Target _posts file count: $target_count"
+
+          if [ "$source_count" -eq "$target_count" ]; then
+            echo "✅ File counts match - synchronization successful"
+          else
+            echo "⚠️ File counts don't match - please review"
+          fi
+
+      - name: Commit and push changes to target repository
+        run: |
+          cd target
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action (Blog Sync)"
+
+          # Add all changes
+          git add _posts/
+
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Changes detected, committing..."
+            git status
+            git commit -m "Sync _posts from blog_automate - $(date +%Y-%m-%d)"
+            git push
+            echo "Changes successfully pushed to blog.pandango.de repository"
+          fi

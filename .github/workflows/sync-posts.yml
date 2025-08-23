@@ -2,11 +2,6 @@
 name: Sync Posts to Blog Repository
 
 on:
-  push:
-    paths:
-      - '_posts/**'
-    branches:
-      - main
   workflow_dispatch:  # Allows manual triggering for testing
 
 jobs:
