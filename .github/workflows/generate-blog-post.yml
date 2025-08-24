@@ -3,7 +3,7 @@ name: Generate Daily Blog Post
 on:
   schedule:
     # Runs every day at 5:00 AM UTC
-    - cron: '0 5 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch: # Allows manual triggering for testing
 
 jobs:
