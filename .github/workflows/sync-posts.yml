@@ -2,7 +2,8 @@
 name: Sync Posts to Blog Repository
 
 on:
-  workflow_dispatch:  # Allows manual triggering for testing
+  schedule:
+    - cron: '15 3 * * *'
 
 jobs:
   sync-posts:
