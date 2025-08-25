@@ -13,5 +13,5 @@ def generate_prompt(theme, country_name, capital, category):
     return f"""
 Schreibe einen Blogbeitrag im Markdown-Format über das Thema **{theme}** im Kontext von **{country_name}**.
 Berücksichtige die Hauptstadt **{capital}**, kulturelle Besonderheiten und die Kategorie **{category}**.
-Der Beitrag soll informativ, kreativ und für ein breites Publikum verständlich sein.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 """
