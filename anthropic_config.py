@@ -2,7 +2,7 @@
 
 # Modellparameter
 MODEL = "claude-3-5-haiku-latest"
-TEMPERATURE = 0.7
+TEMPERATURE = 0.8
 MAX_TOKENS = 4096
 
 # Systemprompt
