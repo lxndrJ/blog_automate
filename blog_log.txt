@@ -178,3 +178,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1596988096171-6fda257c33de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGZWllcnRhZ2UlMjB1bmQlMjBpaHJlJTIwVXJzcHIlQzMlQkNuZ2UlMjBLb2tvc2luc2VsbnxlbnwwfDB8fHwxNzU2MTc5MzMxfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-08-27-unternehmer-in-suriname.md
+Land: Suriname, Hauptstadt: Paramaribo
+Thema: Unternehmer, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Unternehmer** im Kontext von **Suriname**.
+Berücksichtige die Hauptstadt **Paramaribo**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1718134840922-53c040c33552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyMFN1cmluYW1lfGVufDB8MHx8fDE3NTYyNjUzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
