@@ -214,3 +214,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1697308364285-994346ce5e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjBOb3J3ZWdlbnxlbnwwfDB8fHwxNzU2NDM4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-08-30-musiker-und-komponisten-in-grönland.md
+Land: Grönland, Hauptstadt: Nuuk
+Thema: Musiker und Komponisten, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Musiker und Komponisten** im Kontext von **Grönland**.
+Berücksichtige die Hauptstadt **Nuuk**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1571513667348-b510e24bbbc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBHciVDMyVCNm5sYW5kfGVufDB8MHx8fDE3NTY1MjQxNDR8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
