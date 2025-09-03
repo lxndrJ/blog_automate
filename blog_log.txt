@@ -262,3 +262,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1623602235002-8d15f7ed2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFeHBvcnRwcm9kdWt0ZSUyMEFudGFya3Rpc3xlbnwwfDB8fHwxNzU2NzgzOTcyfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-03-nachhaltiger-tourismus-in-australien.md
+Land: Australien, Hauptstadt: Canberra
+Thema: Nachhaltiger Tourismus, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Nachhaltiger Tourismus** im Kontext von **Australien**.
+Berücksichtige die Hauptstadt **Canberra**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1589685523979-6544ec36b055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZXIlMjBUb3VyaXNtdXMlMjBBdXN0cmFsaWVufGVufDB8MHx8fDE3NTY4Njk1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
