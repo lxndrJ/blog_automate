@@ -286,3 +286,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1749573190592-837cc54740d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBPbWFufGVufDB8MHx8fDE3NTY5NTYwNjN8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-05-visionäre-und-erfinder-in-island.md
+Land: Island, Hauptstadt: Reykjavik
+Thema: Visionäre und Erfinder, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Visionäre und Erfinder** im Kontext von **Island**.
+Berücksichtige die Hauptstadt **Reykjavik**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1667568988311-ba6cdb337edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWaXNpb24lQzMlQTRyZSUyMHVuZCUyMEVyZmluZGVyJTIwSXNsYW5kfGVufDB8MHx8fDE3NTcwNDI2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
