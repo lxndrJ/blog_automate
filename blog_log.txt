@@ -346,3 +346,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1591224792832-7751d3f0ce14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxMaXRlcmF0dXJnZXNjaGljaHRlJTIwTm9yZG1hemVkb25pZW58ZW58MHwwfHx8MTc1NzM4ODQ2Nnww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-10-künstler-und-kreative-in-åland.md
+Land: Åland, Hauptstadt: Mariehamn
+Thema: Künstler und Kreative, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Künstler und Kreative** im Kontext von **Åland**.
+Berücksichtige die Hauptstadt **Mariehamn**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1629207041597-fd125925e98c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjAlQzMlODVsYW5kfGVufDB8MHx8fDE3NTc0NzQ0MDd8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
