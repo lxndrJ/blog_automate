@@ -370,3 +370,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1678084407222-1d14111a613f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwS29uZ298ZW58MHwwfHx8MTc1NzU2MTE3MHww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-12-familienstrukturen-in-nepal.md
+Land: Nepal, Hauptstadt: Kathmandu
+Thema: Familienstrukturen, Kategorie: Kultur und Traditionen
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Familienstrukturen** im Kontext von **Nepal**.
+Berücksichtige die Hauptstadt **Kathmandu**, kulturelle Besonderheiten und die Kategorie **Kultur und Traditionen**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1667184087086-ac955d1f300d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGYW1pbGllbnN0cnVrdHVyZW4lMjBOZXBhbHxlbnwwfDB8fHwxNzU3NjQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
