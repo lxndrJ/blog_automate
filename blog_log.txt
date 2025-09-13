@@ -382,3 +382,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1667184087086-ac955d1f300d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGYW1pbGllbnN0cnVrdHVyZW4lMjBOZXBhbHxlbnwwfDB8fHwxNzU3NjQ3MjEyfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-13-musiker-und-komponisten-in-libyen.md
+Land: Libyen, Hauptstadt: Tripoli
+Thema: Musiker und Komponisten, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Musiker und Komponisten** im Kontext von **Libyen**.
+Berücksichtige die Hauptstadt **Tripoli**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1582960587554-31340c8de57c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBMaWJ5ZW58ZW58MHwwfHx8MTc1NzczMzI1NXww&ixlib=rb-4.1.0&q=80&w=1080
+---
