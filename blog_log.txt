@@ -394,3 +394,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1582960587554-31340c8de57c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBMaWJ5ZW58ZW58MHwwfHx8MTc1NzczMzI1NXww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-14-vogelbeobachtung-in-st.-lucia.md
+Land: St. Lucia, Hauptstadt: Castries
+Thema: Vogelbeobachtung, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Vogelbeobachtung** im Kontext von **St. Lucia**.
+Berücksichtige die Hauptstadt **Castries**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1749581655204-dc47e3e4249f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWb2dlbGJlb2JhY2h0dW5nJTIwU3QuJTIwTHVjaWF8ZW58MHwwfHx8MTc1NzgyMDQxMnww&ixlib=rb-4.1.0&q=80&w=1080
+---
