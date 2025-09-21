@@ -466,3 +466,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1660742507665-4e6edfabeace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBHaGFuYXxlbnwwfDB8fHwxNzU4MjUyNDExfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-09-21-architektur-und-baukunst-in-guam.md
+Land: Guam, Hauptstadt: Hagåtña
+Thema: Architektur und Baukunst, Kategorie: Kultur und Traditionen
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Architektur und Baukunst** im Kontext von **Guam**.
+Berücksichtige die Hauptstadt **Hagåtña**, kulturelle Besonderheiten und die Kategorie **Kultur und Traditionen**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1693733255357-f80176629e62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoaXRla3R1ciUyMHVuZCUyMEJhdWt1bnN0JTIwR3VhbXxlbnwwfDB8fHwxNzU4NDI1NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
