@@ -586,3 +586,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1670859087426-bb5d48f2dd87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFeHBvcnRwcm9kdWt0ZSUyMFRhaXdhbnxlbnwwfDB8fHwxNzU5MjAyNjY3fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-01-sternenhimmel-und-astronomie-in-jemen.md
+Land: Jemen, Hauptstadt: Sana'a
+Thema: Sternenhimmel und Astronomie, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Sternenhimmel und Astronomie** im Kontext von **Jemen**.
+Berücksichtige die Hauptstadt **Sana'a**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1586168753096-6abb405d1f36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdGVybmVuaGltbWVsJTIwdW5kJTIwQXN0cm9ub21pZSUyMEplbWVufGVufDB8MHx8fDE3NTkyODk4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
