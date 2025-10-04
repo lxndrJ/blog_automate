@@ -622,3 +622,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1726115471777-e5cfbdfe9efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwTml1ZXxlbnwwfDB8fHwxNzU5NDYxNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-04-musiker-und-komponisten-in-brasilien.md
+Land: Brasilien, Hauptstadt: Brasília
+Thema: Musiker und Komponisten, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Musiker und Komponisten** im Kontext von **Brasilien**.
+Berücksichtige die Hauptstadt **Brasília**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1675855545269-ac1eb48a4aba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc1OTU0Nzg0M3ww&ixlib=rb-4.1.0&q=80&w=1080
+---
