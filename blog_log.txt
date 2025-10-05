@@ -634,3 +634,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1675855545269-ac1eb48a4aba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc1OTU0Nzg0M3ww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-05-unternehmenskultur-in-insel-man.md
+Land: Insel Man, Hauptstadt: Douglas
+Thema: Unternehmenskultur, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Unternehmenskultur** im Kontext von **Insel Man**.
+Berücksichtige die Hauptstadt **Douglas**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1503863369250-3ab1905ea94a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lbnNrdWx0dXIlMjBJbnNlbCUyME1hbnxlbnwwfDB8fHwxNzU5NjM1MDE4fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
