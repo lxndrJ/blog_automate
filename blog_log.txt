@@ -646,3 +646,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1503863369250-3ab1905ea94a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lbnNrdWx0dXIlMjBJbnNlbCUyME1hbnxlbnwwfDB8fHwxNzU5NjM1MDE4fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-06-migration-und-diaspora-in-singapur.md
+Land: Singapur, Hauptstadt: Singapore
+Thema: Migration und Diaspora, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Migration und Diaspora** im Kontext von **Singapur**.
+Berücksichtige die Hauptstadt **Singapore**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1580524764801-9be1651979f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaWdyYXRpb24lMjB1bmQlMjBEaWFzcG9yYSUyMFNpbmdhcHVyfGVufDB8MHx8fDE3NTk3MjEyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
