@@ -802,3 +802,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1588929101758-d29c6c6f6429?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa3RyYWRpdGlvbmVuJTIwTWV4aWtvfGVufDB8MHx8fDE3NjA3NTc2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-19-entdecker-und-reisende-in-armenien.md
+Land: Armenien, Hauptstadt: Yerevan
+Thema: Entdecker und Reisende, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Entdecker und Reisende** im Kontext von **Armenien**.
+Berücksichtige die Hauptstadt **Yerevan**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1624430217253-271fe2722584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFbnRkZWNrZXIlMjB1bmQlMjBSZWlzZW5kZSUyMEFybWVuaWVufGVufDB8MHx8fDE3NjA4NDUxODV8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
