@@ -898,3 +898,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1682332322118-75312faae724?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFjaHRlbiUyMHVuZCUyMEtsZWlkdW5nJTIwTmllZGVybGFuZGV8ZW58MHwwfHx8MTc2MTQ0OTcxNXww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-27-industriegeschichte-in-martinique.md
+Land: Martinique, Hauptstadt: Fort-de-France
+Thema: Industriegeschichte, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Industriegeschichte** im Kontext von **Martinique**.
+Berücksichtige die Hauptstadt **Fort-de-France**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1678908643985-1c8c3ea192d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwTWFydGluaXF1ZXxlbnwwfDB8fHwxNzYxNTM2NzM0fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
