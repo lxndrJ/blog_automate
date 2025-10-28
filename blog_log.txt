@@ -910,3 +910,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1678908643985-1c8c3ea192d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwTWFydGluaXF1ZXxlbnwwfDB8fHwxNzYxNTM2NzM0fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-10-28-industrialisierung-in-st.-vincent-und-die-grenadinen.md
+Land: St. Vincent und die Grenadinen, Hauptstadt: Kingstown
+Thema: Industrialisierung, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Industrialisierung** im Kontext von **St. Vincent und die Grenadinen**.
+Berücksichtige die Hauptstadt **Kingstown**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1715201716393-c6b400e1bd4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjBTdC4lMjBWaW5jZW50JTIwdW5kJTIwZGllJTIwR3JlbmFkaW5lbnxlbnwwfDB8fHwxNzYxNjIyNTM4fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
