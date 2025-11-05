@@ -1006,3 +1006,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1613987420654-dd36450b9f44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUYW56Zm9ybWVuJTIwV2VpaG5hY2h0c2luc2VsfGVufDB8MHx8fDE3NjIyMjczNzh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-05-geologische-besonderheiten-in-thailand.md
+Land: Thailand, Hauptstadt: Bangkok
+Thema: Geologische Besonderheiten, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Geologische Besonderheiten** im Kontext von **Thailand**.
+Berücksichtige die Hauptstadt **Bangkok**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1709287852348-b0ac9240a2f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwVGhhaWxhbmR8ZW58MHwwfHx8MTc2MjMxMzkwNXww&ixlib=rb-4.1.0&q=80&w=1080
+---
