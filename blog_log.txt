@@ -1078,3 +1078,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1634491252755-81c49cbced0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBGYWxrbGFuZGluc2VsbnxlbnwwfDB8fHwxNzYyNzQ2MjUzfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-11-naturphänomene-in-guadeloupe.md
+Land: Guadeloupe, Hauptstadt: Basse-Terre
+Thema: Naturphänomene, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Naturphänomene** im Kontext von **Guadeloupe**.
+Berücksichtige die Hauptstadt **Basse-Terre**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1708526499804-2c0156e69123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXR1cnBoJUMzJUE0bm9tZW5lJTIwR3VhZGVsb3VwZXxlbnwwfDB8fHwxNzYyODMyNDAzfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
