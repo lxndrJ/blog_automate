@@ -1102,3 +1102,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1588859959601-12d5ecb1b354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBTJUMzJUJDZGdlb3JnaWVuJTIwdW5kJTIwZGllJTIwUyVDMyVCQ2RsaWNoZW4lMjBTYW5kd2ljaGluc2VsbnxlbnwwfDB8fHwxNzYyOTE4NzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-13-nachhaltige-unternehmen-in-aserbaidschan.md
+Land: Aserbaidschan, Hauptstadt: Baku
+Thema: Nachhaltige Unternehmen, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Nachhaltige Unternehmen** im Kontext von **Aserbaidschan**.
+Berücksichtige die Hauptstadt **Baku**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1695902127509-5283dc9950fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZSUyMFVudGVybmVobWVuJTIwQXNlcmJhaWRzY2hhbnxlbnwwfDB8fHwxNzYzMDA1MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
