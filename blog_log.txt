@@ -1126,3 +1126,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1592220746339-37c227a6a687?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjBLaXJnaXNpc3RhbnxlbnwwfDB8fHwxNzYzMDkxNTc4fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-15-vegetarische-spezialitäten-in-vereinigte-arabische-emirate.md
+Land: Vereinigte Arabische Emirate, Hauptstadt: Abu Dhabi
+Thema: Vegetarische Spezialitäten, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Vegetarische Spezialitäten** im Kontext von **Vereinigte Arabische Emirate**.
+Berücksichtige die Hauptstadt **Abu Dhabi**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1667143384108-cc61acd3d841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWZWdldGFyaXNjaGUlMjBTcGV6aWFsaXQlQzMlQTR0ZW4lMjBWZXJlaW5pZ3RlJTIwQXJhYmlzY2hlJTIwRW1pcmF0ZXxlbnwwfDB8fHwxNzYzMTc3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
