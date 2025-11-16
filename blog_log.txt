@@ -1138,3 +1138,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1667143384108-cc61acd3d841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWZWdldGFyaXNjaGUlMjBTcGV6aWFsaXQlQzMlQTR0ZW4lMjBWZXJlaW5pZ3RlJTIwQXJhYmlzY2hlJTIwRW1pcmF0ZXxlbnwwfDB8fHwxNzYzMTc3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-16-brotvielfalt-in-burundi.md
+Land: Burundi, Hauptstadt: Gitega
+Thema: Brotvielfalt, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Brotvielfalt** im Kontext von **Burundi**.
+Berücksichtige die Hauptstadt **Gitega**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1680200023508-5289ae3de157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxCcm90dmllbGZhbHQlMjBCdXJ1bmRpfGVufDB8MHx8fDE3NjMyNjQ1Njl8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
