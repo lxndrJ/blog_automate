@@ -1162,3 +1162,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1546979501-bb706ea8475e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBTcGFuaWVufGVufDB8MHx8fDE3NjMzNTA5Njh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-18-aktivisten-in-französisch-guayana.md
+Land: Französisch-Guayana, Hauptstadt: Cayenne
+Thema: Aktivisten, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Aktivisten** im Kontext von **Französisch-Guayana**.
+Berücksichtige die Hauptstadt **Cayenne**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1720799535832-c863af8d0906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBa3RpdmlzdGVuJTIwRnJhbnolQzMlQjZzaXNjaC1HdWF5YW5hfGVufDB8MHx8fDE3NjM0MzcxNDh8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
