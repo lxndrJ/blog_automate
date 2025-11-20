@@ -1186,3 +1186,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2025-11-20-gewürze-und-kräuter-in-tansania.md
+Land: Tansania, Hauptstadt: Dodoma
+Thema: Gewürze und Kräuter, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Gewürze und Kräuter** im Kontext von **Tansania**.
+Berücksichtige die Hauptstadt **Dodoma**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1580684828750-34199f28ef2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXclQzMlQkNyemUlMjB1bmQlMjBLciVDMyVBNHV0ZXIlMjBUYW5zYW5pYXxlbnwwfDB8fHwxNzYzNjA5ODQyfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
