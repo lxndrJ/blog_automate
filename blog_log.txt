@@ -1222,3 +1222,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1723593638247-0dfd1c759997?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwTGliZXJpYXxlbnwwfDB8fHwxNzYzNzgyMzAzfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-11-23-archäologische-funde-in-jemen.md
+Land: Jemen, Hauptstadt: Sana'a
+Thema: Archäologische Funde, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Archäologische Funde** im Kontext von **Jemen**.
+Berücksichtige die Hauptstadt **Sana'a**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
