@@ -1318,3 +1318,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1647551226093-2f015910d3ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFjaHRlbiUyMHVuZCUyMEtsZWlkdW5nJTIwR3V5YW5hfGVufDB8MHx8fDE3NjQ0NzQ3NDV8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-12-01-kriege-und-konflikte-in-tuvalu.md
+Land: Tuvalu, Hauptstadt: Funafuti
+Thema: Kriege und Konflikte, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Kriege und Konflikte** im Kontext von **Tuvalu**.
+Berücksichtige die Hauptstadt **Funafuti**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1733714088980-eefda17a7d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBUdXZhbHV8ZW58MHwwfHx8MTc2NDU2MTk3Nnww&ixlib=rb-4.1.0&q=80&w=1080
+---
