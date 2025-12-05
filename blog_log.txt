@@ -1366,3 +1366,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1692723756896-c0451ac027af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBGaW5ubGFuZHxlbnwwfDB8fHwxNzY0ODE5OTcwfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-12-05-mittelalterliche-städte-in-guadeloupe.md
+Land: Guadeloupe, Hauptstadt: Basse-Terre
+Thema: Mittelalterliche Städte, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Mittelalterliche Städte** im Kontext von **Guadeloupe**.
+Berücksichtige die Hauptstadt **Basse-Terre**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1672611998679-8d1e5384ce56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaXR0ZWxhbHRlcmxpY2hlJTIwU3QlQzMlQTRkdGUlMjBHdWFkZWxvdXBlfGVufDB8MHx8fDE3NjQ5MDYyOTd8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
