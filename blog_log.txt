@@ -1462,3 +1462,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1625138385193-bca1f03448ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjBMaWVjaHRlbnN0ZWlufGVufDB8MHx8fDE3NjU1MTE0Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-12-13-küstenlandschaften-in-irak.md
+Land: Irak, Hauptstadt: Baghdad
+Thema: Küstenlandschaften, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Küstenlandschaften** im Kontext von **Irak**.
+Berücksichtige die Hauptstadt **Baghdad**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1572332880751-a750d4f32871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDc3RlbmxhbmRzY2hhZnRlbiUyMElyYWt8ZW58MHwwfHx8MTc2NTU5NzM3MHww&ixlib=rb-4.1.0&q=80&w=1080
+---
