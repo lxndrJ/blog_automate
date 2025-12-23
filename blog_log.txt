@@ -1582,3 +1582,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2025-12-23-saisonale-küche-in-gabun.md
+Land: Gabun, Hauptstadt: Libreville
+Thema: Saisonale Küche, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Saisonale Küche** im Kontext von **Gabun**.
+Berücksichtige die Hauptstadt **Libreville**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
