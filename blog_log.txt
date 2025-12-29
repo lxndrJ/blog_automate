@@ -1654,3 +1654,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1613380273632-4543c3376393?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGYW1pbGllbmZyZXVuZGxpY2hlJTIwUmVpc2V6aWVsZSUyMEhvbmdrb25nfGVufDB8MHx8fDE3NjY4OTQ1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-12-29-seen-und-flüsse-in-sint-maarten.md
+Land: Sint Maarten, Hauptstadt: Philipsburg
+Thema: Seen und Flüsse, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Seen und Flüsse** im Kontext von **Sint Maarten**.
+Berücksichtige die Hauptstadt **Philipsburg**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1709966426625-1bf605168d0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBTaW50JTIwTWFhcnRlbnxlbnwwfDB8fHwxNzY2OTgxMDk1fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
