@@ -1678,3 +1678,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1683782440921-823862401342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NjcwNjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2025-12-31-künstler-und-kreative-in-japan.md
+Land: Japan, Hauptstadt: Tokyo
+Thema: Künstler und Kreative, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Künstler und Kreative** im Kontext von **Japan**.
+Berücksichtige die Hauptstadt **Tokyo**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1720058842141-60d859e0aad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjBKYXBhbnxlbnwwfDB8fHwxNzY3MTUzMzQwfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
