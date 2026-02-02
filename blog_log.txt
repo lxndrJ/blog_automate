@@ -2074,3 +2074,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-02-02-industriegeschichte-in-griechenland.md
+Land: Griechenland, Hauptstadt: Athens
+Thema: Industriegeschichte, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Industriegeschichte** im Kontext von **Griechenland**.
+Berücksichtige die Hauptstadt **Athens**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1642008078843-989cc47f21f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwR3JpZWNoZW5sYW5kfGVufDB8MHx8fDE3NzAwMDc4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
