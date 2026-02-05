@@ -2110,3 +2110,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-02-05-unterkunftsarten-in-zentralafrikanische-republik.md
+Land: Zentralafrikanische Republik, Hauptstadt: Bangui
+Thema: Unterkunftsarten, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Unterkunftsarten** im Kontext von **Zentralafrikanische Republik**.
+Berücksichtige die Hauptstadt **Bangui**, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
