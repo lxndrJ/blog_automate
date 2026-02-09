@@ -2158,3 +2158,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1603691539562-cf2b672203a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGYW1pbGllbnN0cnVrdHVyZW4lMjBSdXNzbGFuZHxlbnwwfDB8fHwxNzcwNTI2NTU2fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-02-09-sternenhimmel-und-astronomie-in-swasiland.md
+Land: Swasiland, Hauptstadt: Mbabane
+Thema: Sternenhimmel und Astronomie, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Sternenhimmel und Astronomie** im Kontext von **Swasiland**.
+Berücksichtige die Hauptstadt **Mbabane**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
