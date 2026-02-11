@@ -2182,3 +2182,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1684861746842-7115e4530437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwTmljYXJhZ3VhfGVufDB8MHx8fDE3NzA2OTkzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-02-11-mittelalterliche-städte-in-italien.md
+Land: Italien, Hauptstadt: Rome
+Thema: Mittelalterliche Städte, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Mittelalterliche Städte** im Kontext von **Italien**.
+Berücksichtige die Hauptstadt **Rome**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1591608468579-b4b443ace890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaXR0ZWxhbHRlcmxpY2hlJTIwU3QlQzMlQTRkdGUlMjBJdGFsaWVufGVufDB8MHx8fDE3NzA3ODU3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
