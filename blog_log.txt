@@ -2266,3 +2266,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1661030190122-4d8e07279224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFJlemVwdGUlMjBNb250c2VycmF0fGVufDB8MHx8fDE3NzEzMDM1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-02-18-vogelbeobachtung-in-aserbaidschan.md
+Land: Aserbaidschan, Hauptstadt: Baku
+Thema: Vogelbeobachtung, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Vogelbeobachtung** im Kontext von **Aserbaidschan**.
+Berücksichtige die Hauptstadt **Baku**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1672931453015-cba6713fe785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWb2dlbGJlb2JhY2h0dW5nJTIwQXNlcmJhaWRzY2hhbnxlbnwwfDB8fHwxNzcxMzg5OTk5fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
