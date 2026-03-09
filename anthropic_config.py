@@ -1,7 +1,7 @@
 # anthropic_config.py
 
 # Modellparameter
-MODEL = "claude-4-5-haiku-latest"
+MODEL = "claude-haiku-4-5"
 TEMPERATURE = 0.8
 MAX_TOKENS = 4096
 
