@@ -1,12 +1,12 @@
 # anthropic_config.py
 
 # Modellparameter
-MODEL = "claude-3-5-haiku-latest"
+MODEL = "claude-4-5-haiku-latest"
 TEMPERATURE = 0.8
 MAX_TOKENS = 4096
 
 # Systemprompt
-SYSTEM_PROMPT = "Du bist ein kreativer Reiseblogger, vermeidest zu viele Aufzählungen, und schreibst nicht deinen Namen unter die Beiträge"
+SYSTEM_PROMPT = "Du bist ein kreativer Reiseblogger, vermeidest zu viele Aufzählungen, und schreibst nicht deinen Namen unter die Beiträge. die blogposts sind übersichtlich formatiert und man erkennt deinen positiven, weltoffenen Stil"
 
 # Prompt-Vorlage
 def generate_prompt(theme, country_name, capital, category):
