@@ -2350,3 +2350,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-03-13-küstenlandschaften-in-mikronesien.md
+Land: Mikronesien, Hauptstadt: Palikir
+Thema: Küstenlandschaften, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Küstenlandschaften** im Kontext von **Mikronesien**.
+Berücksichtige die Hauptstadt **Palikir**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
