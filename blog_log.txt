@@ -2362,3 +2362,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-03-14-street-food-in-botswana.md
+Land: Botswana, Hauptstadt: Gaborone
+Thema: Street Food, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Street Food** im Kontext von **Botswana**.
+Berücksichtige die Hauptstadt **Gaborone**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
