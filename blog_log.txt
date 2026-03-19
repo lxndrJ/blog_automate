@@ -2422,3 +2422,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1759167631378-0545007f9799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lbnNrdWx0dXIlMjBLYXNhY2hzdGFufGVufDB8MHx8fDE3NzM4MDkzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-03-19-geschichte-der-religionen-in-libanon.md
+Land: Libanon, Hauptstadt: Beirut
+Thema: Geschichte der Religionen, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Geschichte der Religionen** im Kontext von **Libanon**.
+Berücksichtige die Hauptstadt **Beirut**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMExpYmFub258ZW58MHwwfHx8MTc3Mzg5NTY4OHww&ixlib=rb-4.1.0&q=80&w=1080
+---
