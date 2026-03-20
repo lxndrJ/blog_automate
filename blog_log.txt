@@ -2434,3 +2434,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMExpYmFub258ZW58MHwwfHx8MTc3Mzg5NTY4OHww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-03-20-architektur-und-baukunst-in-san-marino.md
+Land: San Marino, Hauptstadt: City of San Marino
+Thema: Architektur und Baukunst, Kategorie: Kultur und Traditionen
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Architektur und Baukunst** im Kontext von **San Marino**.
+Berücksichtige die Hauptstadt **City of San Marino**, kulturelle Besonderheiten und die Kategorie **Kultur und Traditionen**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1679112600374-0ac944dabba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoaXRla3R1ciUyMHVuZCUyMEJhdWt1bnN0JTIwU2FuJTIwTWFyaW5vfGVufDB8MHx8fDE3NzM5ODA5Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
