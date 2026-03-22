@@ -2458,3 +2458,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-03-22-zeitgeschichte-in-niger.md
+Land: Niger, Hauptstadt: Niamey
+Thema: Zeitgeschichte, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Zeitgeschichte** im Kontext von **Niger**.
+Berücksichtige die Hauptstadt **Niamey**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
