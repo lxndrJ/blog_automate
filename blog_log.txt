@@ -2530,3 +2530,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1705077016068-0613769219a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBVc2Jla2lzdGFufGVufDB8MHx8fDE3NzQ1ODc2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-03-28-seen-und-flüsse-in-guinea.md
+Land: Guinea, Hauptstadt: Conakry
+Thema: Seen und Flüsse, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Seen und Flüsse** im Kontext von **Guinea**.
+Berücksichtige die Hauptstadt **Conakry**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1653277276716-276f1bcb7c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBHdWluZWF8ZW58MHwwfHx8MTc3NDY3MzE3OXww&ixlib=rb-4.1.0&q=80&w=1080
+---
