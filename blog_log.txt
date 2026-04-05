@@ -2626,3 +2626,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1700840477291-b1929c834254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTYWlzb25hbGUlMjBLJUMzJUJDY2hlJTIwVmVyZWluaWd0ZSUyMEFyYWJpc2NoZSUyMEVtaXJhdGV8ZW58MHwwfHx8MTc3NTI3NzgxN3ww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-04-05-nachhaltiger-tourismus-in-nicaragua.md
+Land: Nicaragua, Hauptstadt: Managua
+Thema: Nachhaltiger Tourismus, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Nachhaltiger Tourismus** im Kontext von **Nicaragua**.
+Berücksichtige die Hauptstadt **Managua**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1599147092675-8f6dbafe46b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZXIlMjBUb3VyaXNtdXMlMjBOaWNhcmFndWF8ZW58MHwwfHx8MTc3NTM2NTQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080
+---
