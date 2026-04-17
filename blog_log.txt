@@ -2770,3 +2770,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1653136776900-9e375fd81ce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTeW1ib2xpayUyMGluJTIwZGVyJTIwS3VsdHVyJTIwUGFraXN0YW58ZW58MHwwfHx8MTc3NjMxNjg4N3ww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-04-17-forschungseinrichtungen-in-marshallinseln.md
+Land: Marshallinseln, Hauptstadt: Majuro
+Thema: Forschungseinrichtungen, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Forschungseinrichtungen** im Kontext von **Marshallinseln**.
+Berücksichtige die Hauptstadt **Majuro**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1584704876450-0eb3fd5a2f65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGb3JzY2h1bmdzZWlucmljaHR1bmdlbiUyME1hcnNoYWxsaW5zZWxufGVufDB8MHx8fDE3NzY0MDMxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
