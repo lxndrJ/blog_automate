@@ -2842,3 +2842,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1531509799580-b8dda5301d9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjBGJUMzJUE0ciVDMyVCNmVyLUluc2VsbnxlbnwwfDB8fHwxNzc2ODM0OTM4fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-04-23-revolutionen-in-grönland.md
+Land: Grönland, Hauptstadt: Nuuk
+Thema: Revolutionen, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Revolutionen** im Kontext von **Grönland**.
+Berücksichtige die Hauptstadt **Nuuk**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1704253511580-b6056cd71c70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBHciVDMyVCNm5sYW5kfGVufDB8MHx8fDE3NzY5MjE2MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
