@@ -2938,3 +2938,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1583685186268-d8ac789e1603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUZWNobm9sb2dpc2NoZSUyMEVudHdpY2tsdW5nZW4lMjBMaWVjaHRlbnN0ZWlufGVufDB8MHx8fDE3Nzc1MjgwNjN8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-01-gewürze-und-kräuter-in-libyen.md
+Land: Libyen, Hauptstadt: Tripoli
+Thema: Gewürze und Kräuter, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Gewürze und Kräuter** im Kontext von **Libyen**.
+Berücksichtige die Hauptstadt **Tripoli**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1580590562911-89d31480d993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXclQzMlQkNyemUlMjB1bmQlMjBLciVDMyVBNHV0ZXIlMjBMaWJ5ZW58ZW58MHwwfHx8MTc3NzYxNTA2OXww&ixlib=rb-4.1.0&q=80&w=1080
+---
