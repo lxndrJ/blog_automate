@@ -2986,3 +2986,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1708513428322-1f56b3d1f3bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTeW1ib2xpayUyMGluJTIwZGVyJTIwS3VsdHVyJTIwR3VpbmVhLUJpc3NhdXxlbnwwfDB8fHwxNzc3ODczOTkzfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-05-regionale-gerichte-in-salomonen.md
+Land: Salomonen, Hauptstadt: Honiara
+Thema: Regionale Gerichte, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Regionale Gerichte** im Kontext von **Salomonen**.
+Berücksichtige die Hauptstadt **Honiara**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1571607182000-b1d278eb9bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZWdpb25hbGUlMjBHZXJpY2h0ZSUyMFNhbG9tb25lbnxlbnwwfDB8fHwxNzc3OTU5MTMwfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
