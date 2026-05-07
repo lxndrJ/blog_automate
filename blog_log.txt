@@ -3010,3 +3010,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1656334897274-bc260dc58552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjBFbGZlbmJlaW5rJUMzJUJDc3RlfGVufDB8MHx8fDE3NzgwNDY0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-07-flora-und-fauna-in-dominica.md
+Land: Dominica, Hauptstadt: Roseau
+Thema: Flora und Fauna, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Flora und Fauna** im Kontext von **Dominica**.
+Berücksichtige die Hauptstadt **Roseau**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1674231048902-a6b67847db9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwRG9taW5pY2F8ZW58MHwwfHx8MTc3ODEzMzA1N3ww&ixlib=rb-4.1.0&q=80&w=1080
+---
