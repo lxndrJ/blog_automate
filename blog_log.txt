@@ -3070,3 +3070,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-05-12-klimazonen-in-angola.md
+Land: Angola, Hauptstadt: Luanda
+Thema: Klimazonen, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Klimazonen** im Kontext von **Angola**.
+Berücksichtige die Hauptstadt **Luanda**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
