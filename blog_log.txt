@@ -3154,3 +3154,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1647907818543-a47006c82328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NzkwODY1Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-19-politiker-in-dominikanische-republik.md
+Land: Dominikanische Republik, Hauptstadt: Santo Domingo
+Thema: Politiker, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Politiker** im Kontext von **Dominikanische Republik**.
+Berücksichtige die Hauptstadt **Santo Domingo**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBEb21pbmlrYW5pc2NoZSUyMFJlcHVibGlrfGVufDB8MHx8fDE3NzkxNzI2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
