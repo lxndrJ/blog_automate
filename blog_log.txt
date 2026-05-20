@@ -3166,3 +3166,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBEb21pbmlrYW5pc2NoZSUyMFJlcHVibGlrfGVufDB8MHx8fDE3NzkxNzI2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-20-volksfeste-und-bräuche-in-portugal.md
+Land: Portugal, Hauptstadt: Lisbon
+Thema: Volksfeste und Bräuche, Kategorie: Kultur und Traditionen
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Volksfeste und Bräuche** im Kontext von **Portugal**.
+Berücksichtige die Hauptstadt **Lisbon**, kulturelle Besonderheiten und die Kategorie **Kultur und Traditionen**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1565636167429-7ceb7f007a0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWb2xrc2Zlc3RlJTIwdW5kJTIwQnIlQzMlQTR1Y2hlJTIwUG9ydHVnYWx8ZW58MHwwfHx8MTc3OTI1OTAyOHww&ixlib=rb-4.1.0&q=80&w=1080
+---
