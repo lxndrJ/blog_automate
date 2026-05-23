@@ -3190,3 +3190,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1665589892113-536089be8d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXR1cnBoJUMzJUE0bm9tZW5lJTIwTW9uZ29sZWl8ZW58MHwwfHx8MTc3OTM0NTU2NHww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-23-antike-kulturen-in-komoren.md
+Land: Komoren, Hauptstadt: Moroni
+Thema: Antike Kulturen, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Antike Kulturen** im Kontext von **Komoren**.
+Berücksichtige die Hauptstadt **Moroni**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1602147259257-f15bf74711ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBbnRpa2UlMjBLdWx0dXJlbiUyMEtvbW9yZW58ZW58MHwwfHx8MTc3OTUxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080
+---
