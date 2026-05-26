@@ -3226,3 +3226,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-05-26-kulinarische-feste-in-vanuatu.md
+Land: Vanuatu, Hauptstadt: Port Vila
+Thema: Kulinarische Feste, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Kulinarische Feste** im Kontext von **Vanuatu**.
+Berücksichtige die Hauptstadt **Port Vila**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1552643450-44f3e5c7d875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBGZXN0ZSUyMFZhbnVhdHV8ZW58MHwwfHx8MTc3OTc3NzMwOHww&ixlib=rb-4.1.0&q=80&w=1080
+---
