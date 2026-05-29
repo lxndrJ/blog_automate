@@ -3262,3 +3262,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1571037288111-a4d130100fd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXR1cnBoJUMzJUE0bm9tZW5lJTIwTW9udHNlcnJhdHxlbnwwfDB8fHwxNzc5OTUwNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-05-29-kulinarische-feste-in-china.md
+Land: China, Hauptstadt: Beijing
+Thema: Kulinarische Feste, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Kulinarische Feste** im Kontext von **China**.
+Berücksichtige die Hauptstadt **Beijing**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1506158669146-619067262a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBGZXN0ZSUyMENoaW5hfGVufDB8MHx8fDE3ODAwMzY5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
