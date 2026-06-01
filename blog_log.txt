@@ -3298,3 +3298,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1518005068251-37900150dfca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZXIlMjBUb3VyaXNtdXMlMjBJcmxhbmR8ZW58MHwwfHx8MTc4MDIwOTg5Nnww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-06-01-nationalparks-in-swasiland.md
+Land: Swasiland, Hauptstadt: Mbabane
+Thema: Nationalparks, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Nationalparks** im Kontext von **Swasiland**.
+Berücksichtige die Hauptstadt **Mbabane**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
