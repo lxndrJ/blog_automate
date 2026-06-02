@@ -3310,3 +3310,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-02-gebirge-und-wanderwege-in-malaysia.md
+Land: Malaysia, Hauptstadt: Kuala Lumpur
+Thema: Gebirge und Wanderwege, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Gebirge und Wanderwege** im Kontext von **Malaysia**.
+Berücksichtige die Hauptstadt **Kuala Lumpur**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/flagged/photo-1560505455-11cee7a131b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWJpcmdlJTIwdW5kJTIwV2FuZGVyd2VnZSUyME1hbGF5c2lhfGVufDB8MHx8fDE3ODAzODQ0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
