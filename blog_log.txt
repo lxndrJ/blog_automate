@@ -3406,3 +3406,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-10-industrialisierung-in-mayotte.md
+Land: Mayotte, Hauptstadt: Mamoudzou
+Thema: Industrialisierung, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Industrialisierung** im Kontext von **Mayotte**.
+Berücksichtige die Hauptstadt **Mamoudzou**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
