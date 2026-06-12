@@ -3430,3 +3430,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-12-geschichte-der-bildung-in-åland.md
+Land: Åland, Hauptstadt: Mariehamn
+Thema: Geschichte der Bildung, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Geschichte der Bildung** im Kontext von **Åland**.
+Berücksichtige die Hauptstadt **Mariehamn**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
