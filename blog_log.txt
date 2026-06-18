@@ -3502,3 +3502,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-18-käse--und-wurstsorten-in-estland.md
+Land: Estland, Hauptstadt: Tallinn
+Thema: Käse- und Wurstsorten, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Käse- und Wurstsorten** im Kontext von **Estland**.
+Berücksichtige die Hauptstadt **Tallinn**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
