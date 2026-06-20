@@ -3526,3 +3526,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-20-wirtschaftspolitik-in-weißrussland.md
+Land: Weißrussland, Hauptstadt: Minsk
+Thema: Wirtschaftspolitik, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Wirtschaftspolitik** im Kontext von **Weißrussland**.
+Berücksichtige die Hauptstadt **Minsk**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
