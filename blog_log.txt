@@ -3550,3 +3550,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-22-handwerkskunst-in-französisch-polynesien.md
+Land: Französisch-Polynesien, Hauptstadt: Papeetē
+Thema: Handwerkskunst, Kategorie: Kultur und Traditionen
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Handwerkskunst** im Kontext von **Französisch-Polynesien**.
+Berücksichtige die Hauptstadt **Papeetē**, kulturelle Besonderheiten und die Kategorie **Kultur und Traditionen**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
