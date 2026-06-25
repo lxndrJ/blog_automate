@@ -3586,3 +3586,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1628601883607-6d0c5e0d8881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoaXRla3R1ciUyMHVuZCUyMEJhdWt1bnN0JTIwTGFvc3xlbnwwfDB8fHwxNzgyMjgyODI5fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-06-25-unterkunftsarten-in-heard-und-die-mcdonaldinseln.md
+Land: Heard und die McDonaldinseln, Hauptstadt: 
+Thema: Unterkunftsarten, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Unterkunftsarten** im Kontext von **Heard und die McDonaldinseln**.
+Berücksichtige die Hauptstadt ****, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1619881589670-43629f0e90f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcmt1bmZ0c2FydGVuJTIwSGVhcmQlMjB1bmQlMjBkaWUlMjBNY0RvbmFsZGluc2VsbnxlbnwwfDB8fHwxNzgyMzY5NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
