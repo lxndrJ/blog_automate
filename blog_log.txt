@@ -3610,3 +3610,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-06-27-exportprodukte-in-salomonen.md
+Land: Salomonen, Hauptstadt: Honiara
+Thema: Exportprodukte, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Exportprodukte** im Kontext von **Salomonen**.
+Berücksichtige die Hauptstadt **Honiara**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
