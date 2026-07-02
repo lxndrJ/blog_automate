@@ -3670,3 +3670,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1551668117-9fb91ab2aae6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBUdXJrbWVuaXN0YW58ZW58MHwwfHx8MTc4Mjg4OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-02-bildung-und-innovation-in-australien.md
+Land: Australien, Hauptstadt: Canberra
+Thema: Bildung und Innovation, Kategorie: Wirtschaft und Innovation
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Bildung und Innovation** im Kontext von **Australien**.
+Berücksichtige die Hauptstadt **Canberra**, kulturelle Besonderheiten und die Kategorie **Wirtschaft und Innovation**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1724018305000-616597f21304?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxCaWxkdW5nJTIwdW5kJTIwSW5ub3ZhdGlvbiUyMEF1c3RyYWxpZW58ZW58MHwwfHx8MTc4Mjk3MzY2MXww&ixlib=rb-4.1.0&q=80&w=1080
+---
