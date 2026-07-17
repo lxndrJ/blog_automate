@@ -3850,3 +3850,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1634548082207-671d952e93d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTaWNoZXJoZWl0JTIwYXVmJTIwUmVpc2VuJTIwSXRhbGllbnxlbnwwfDB8fHwxNzg0MTc5NzU4fDA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-17-wälder-und-forstwirtschaft-in-benin.md
+Land: Benin, Hauptstadt: Porto-Novo
+Thema: Wälder und Forstwirtschaft, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Wälder und Forstwirtschaft** im Kontext von **Benin**.
+Berücksichtige die Hauptstadt **Porto-Novo**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
