@@ -3898,3 +3898,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1592851536816-bb9fc8b2073a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoJUMzJUE0b2xvZ2lzY2hlJTIwRnVuZGUlMjBHdXlhbmF8ZW58MHwwfHx8MTc4NDUyNzAyNHww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-21-geschichte-der-bildung-in-tunesien.md
+Land: Tunesien, Hauptstadt: Tunis
+Thema: Geschichte der Bildung, Kategorie: Geschichte
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Geschichte der Bildung** im Kontext von **Tunesien**.
+Berücksichtige die Hauptstadt **Tunis**, kulturelle Besonderheiten und die Kategorie **Geschichte**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
