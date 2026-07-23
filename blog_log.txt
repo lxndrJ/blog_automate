@@ -3922,3 +3922,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1688999989632-4aff12c12c42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyME5hbWliaWF8ZW58MHwwfHx8MTc4NDY5ODY2NXww&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-23-transportmittel-im-vergleich-in-südafrika.md
+Land: Südafrika, Hauptstadt: Pretoria
+Thema: Transportmittel im Vergleich, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Transportmittel im Vergleich** im Kontext von **Südafrika**.
+Berücksichtige die Hauptstadt **Pretoria**, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1704037180905-d8c5bc1b1cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFuc3BvcnRtaXR0ZWwlMjBpbSUyMFZlcmdsZWljaCUyMFMlQzMlQkNkYWZyaWthfGVufDB8MHx8fDE3ODQ3ODUzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080
+---
