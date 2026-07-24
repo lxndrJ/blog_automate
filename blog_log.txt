@@ -3934,3 +3934,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1704037180905-d8c5bc1b1cdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFuc3BvcnRtaXR0ZWwlMjBpbSUyMFZlcmdsZWljaCUyMFMlQzMlQkNkYWZyaWthfGVufDB8MHx8fDE3ODQ3ODUzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-24-klimazonen-in-niue.md
+Land: Niue, Hauptstadt: Alofi
+Thema: Klimazonen, Kategorie: Natur und Landschaft
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Klimazonen** im Kontext von **Niue**.
+Berücksichtige die Hauptstadt **Alofi**, kulturelle Besonderheiten und die Kategorie **Natur und Landschaft**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1631130707565-0a8f628f6cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwTml1ZXxlbnwwfDB8fHwxNzg0ODcxNTE4fDA&ixlib=rb-4.1.0&q=80&w=1080
+---
