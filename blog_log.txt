@@ -3994,3 +3994,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: https://images.unsplash.com/photo-1601734327281-438e2fa9930b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwTm9yZGtvcmVhfGVufDB8MHx8fDE3ODUyMTY5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
 ---
+---
+Datei: _posts/2026-07-29-wellness-und-erholung-in-französisch-polynesien.md
+Land: Französisch-Polynesien, Hauptstadt: Papeetē
+Thema: Wellness und Erholung, Kategorie: Reisetipps
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Wellness und Erholung** im Kontext von **Französisch-Polynesien**.
+Berücksichtige die Hauptstadt **Papeetē**, kulturelle Besonderheiten und die Kategorie **Reisetipps**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
