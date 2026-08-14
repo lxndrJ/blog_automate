@@ -4186,3 +4186,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-08-14-regionale-gerichte-in-bhutan.md
+Land: Bhutan, Hauptstadt: Thimphu
+Thema: Regionale Gerichte, Kategorie: Kulinarische Spezialitäten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Regionale Gerichte** im Kontext von **Bhutan**.
+Berücksichtige die Hauptstadt **Thimphu**, kulturelle Besonderheiten und die Kategorie **Kulinarische Spezialitäten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: https://images.unsplash.com/photo-1584003734930-b12779f66351?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZWdpb25hbGUlMjBHZXJpY2h0ZSUyMEJodXRhbnxlbnwwfDB8fHwxNzg2NjgyNDIwfDA&ixlib=rb-4.1.0&q=80&w=1080
+---
