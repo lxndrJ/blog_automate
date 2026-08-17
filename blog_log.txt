@@ -4222,3 +4222,15 @@ Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
 
 Bild-URL: None
 ---
+---
+Datei: _posts/2026-08-17-musiker-und-komponisten-in-mayotte.md
+Land: Mayotte, Hauptstadt: Mamoudzou
+Thema: Musiker und Komponisten, Kategorie: Besondere Persönlichkeiten
+Prompt:
+
+Schreibe einen Blogbeitrag im Markdown-Format über das Thema **Musiker und Komponisten** im Kontext von **Mayotte**.
+Berücksichtige die Hauptstadt **Mamoudzou**, kulturelle Besonderheiten und die Kategorie **Besondere Persönlichkeiten**.
+Der Beitrag soll kreativ und für ein breites Publikum verständlich sein.
+
+Bild-URL: None
+---
