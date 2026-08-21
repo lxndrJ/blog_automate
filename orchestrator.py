@@ -44,6 +44,7 @@ def main() -> int:
     else:
         picked = topics.pick_topic(topics.used_topics())
         topic, context = picked["topic"], picked["context"]
+        base = picked["base"]
         if args.context:
             context += " " + args.context
 
