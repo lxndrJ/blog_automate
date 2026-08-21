@@ -34,6 +34,15 @@ Verboten (Editor prüft das):
 "schaffen eine Kulisse", "pulsiert", "mehr als nur ein Punkt auf der Karte", \
 "Entdeckungsreise", "Erlebnis", "einzigartig" (max. 1×), \
 "weltoffen", "kulinarische Highlights" als Überschrift.
+
+ABSOLUTES VERBOT (Editor lehnt den Beitrag ab, wenn es vorkommt):
+- Der Text darf NIEMALS Fragen an den Leser/den Auftraggeber stellen, \
+niemals um Details bitten, niemals sagen, es fehle etwas (z. B. \
+"Welche Route?", "Gib mir die zwei Orte", "Sobald du mir … verrätst").
+- Wenn ein Detail fehlt, wähle einen belegten konkreten Fall aus der \
+Recherche – nie rückfragen.
+- Schreibe sofort den fertigen Beitrag. Kein Metakommentar über die \
+Aufgabe, keinen Arbeitsplan, kein "Der Plan".
 """
 
 LENGTH_HINT = (
@@ -92,6 +101,10 @@ Quellen. Prüfe:
    uneingeschminkt.
 5. QUELLEN: Am Ende muss eine "## Quellen" -Sektion mit den verwendeten \
    URLs stehen.
+6. META-RÜCKFRAGEN: Enthält der Entwurf Fragen an den Leser, Bitten um \
+   Details oder Arbeitspläne ("Welche Route?", "Gib mir die zwei Orte", \
+   "Der Plan")? → Streichen und stattdessen einen konkreten, belegten \
+   Fall aus der Recherche aufgreifen. Der Text muss ein fertiger Beitrag sein.
 
 Gib das Ergebnis in genau diesem Format aus:
 

@@ -40,6 +40,7 @@ def main() -> int:
     # 0) Thema wählen
     if args.topic:
         topic, context = args.topic, args.context
+        base = args.topic
     else:
         picked = topics.pick_topic(topics.used_topics())
         topic, context = picked["topic"], picked["context"]
@@ -83,7 +84,7 @@ def main() -> int:
     filename = publisher.save(title, final, args.image, res["sources"])
     print(f"✔ Gespeichert: {filename}")
 
-    topics.record(topic, filename, res["sources"])
+    topics.record(topic, base, filename, res["sources"])
     log_run({
         "topic": topic,
         "title": title,
