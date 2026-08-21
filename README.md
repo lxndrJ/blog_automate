@@ -1,49 +1,79 @@
-# blog_automate
-AI generierter blog
+# blog_automate v2
 
-## Automatisierte Blog-Generierung mit GitHub Actions
+KI-gestützte Blog-Pipeline für **blog.pandango.de** – mit Recherche, Lektorat
+und Transparenz statt „random Land × random Thema".
 
-Dieses Repository enthält eine GitHub Action, die jeden Morgen um 5:00 Uhr UTC automatisch einen Blogbeitrag generiert.
+## Architektur
 
-### Setup
+```
+topics.py            Kuratierte Themen-Hooks + Duplikat-Prüfung (history.json)
+      │
+      ▼
+agents/researcher.py  Web-Search (Anthropic Tool) → belegte Fakten + Quellen
+      │
+      ▼
+agents/drafter.py     Stimm-Prompt, 450–1100 Wörter, variable Struktur
+      │
+      ▼
+agents/editor.py      Lektor: Fakten-Check, Klischee-Filter, Quellen-Sektion
+      │
+      ▼
+publisher.py          Markdown + Frontmatter (author, ai_assisted: true, sources)
+orchestrator.py       CLI, die alles sequenziert + run_log.jsonl
+```
 
-#### 1. GitHub Secrets konfigurieren
+## Schnellstart (lokal)
 
-Fügen Sie die folgenden Secrets in Ihren GitHub Repository-Einstellungen hinzu:
+```bash
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=sk-ant-…
 
-- `ANTHROPIC_API_KEY`: Ihr API-Schlüssel für Anthropic Claude
-- `UNSPLASH_ACCESS_KEY`: Ihr Access Key für die Unsplash API
-- `BLOG_SYNC_TOKEN`: Personal Access Token mit Schreibzugriff auf das `blog.pandango.de` Repository (für die automatische Synchronisation)
+# Nur Thema + Recherche prüfen
+python orchestrator.py --dry-run
 
-#### 2. Erforderliche Dateien
+# Freies Thema
+python orchestrator.py --topic "Markttag in Leipzig" --context "Fokus: Gemüsestand"
 
-Das Repository enthält:
-- `generate_blog_post.py` - Hauptskript für die Blog-Generierung
-- `requirements.txt` - Python-Abhängigkeiten
-- `.github/workflows/generate-blog-post.yml` - GitHub Action Workflow für tägliche Blog-Generierung
-- `.github/workflows/sync-posts.yml` - GitHub Action Workflow für Synchronisation der `_posts` mit dem Blog-Repository
-- `countries.db` und `themes.db` - SQLite-Datenbanken mit Ländern und Themen
+# Kompletten Beitrag erzeugen (landet in _posts/)
+python orchestrator.py
+```
 
-#### 3. GitHub Actions
+## GitHub-Actions
 
-Das Repository enthält zwei automatisierte Workflows:
+`.github/workflows/generate-blog-post.yml` läuft Mo/Do/So um 08:00 Berlin.
 
-##### Blog-Generierung (generate-blog-post.yml)
-Die Action läuft automatisch jeden Tag um 5:00 Uhr UTC und:
-1. Installiert Python-Abhängigkeiten
-2. Führt das Blog-Generierungsskript aus
-3. Committed und pushed die generierten Dateien
+Zwei Modi (Repo-Variable `PR_FLOW`):
 
-##### Blog-Synchronisation (sync-posts.yml)
-Die Action wird automatisch ausgelöst bei Änderungen im `_posts` Ordner und:
-1. Synchronisiert alle Dateien aus dem `_posts` Ordner mit dem `blog.pandango.de` Repository
-2. Behandelt hinzugefügte, geänderte und gelöschte Dateien korrekt
-3. Committed und pushed die Änderungen zum Ziel-Repository
+| `PR_FLOW` | Verhalten |
+|---|---|
+| `true` (empfohlen) | Erzeugt einen **Pull Request**, du mergest nach Review |
+| `false` | Push direkt nach `main` (wie bisher) |
 
-**Hinweis:** Für die Synchronisation ist ein Personal Access Token (`BLOG_SYNC_TOKEN`) erforderlich, das Schreibzugriff auf das Ziel-Repository hat.
+Erforderliches Secret: `ANTHROPIC_API_KEY`.
 
-### Manuelle Ausführung
+## Qualitäts-Maßnahmen vs. v1
 
-Sie können beide Actions auch manuell über den "Actions" Tab in GitHub ausführen:
-- **Generate Daily Blog Post**: Erstellt sofort einen neuen Blogbeitrag
-- **Sync Posts to Blog Repository**: Synchronisiert den aktuellen `_posts` Ordner manuell mit dem Blog-Repository
+- **Recherche vor dem Schreiben** – Namen/Fakten müssen belegt sein (Editor
+  streicht alles, was nicht in den Quellen steht → keine „Sofia Jern" mehr).
+- **Kuratierte Themen** statt Zufallsgenerator – keine „Exportprodukte
+  Antarktis"-Kombos.
+- **Stimm-Regeln + verbotene Floskeln** sind im Prompt, der Lektor prüft sie.
+- **Variable Länge** (450–1100 Wörter) & freie Struktur.
+- **Quellen-Sektion** in jedem Beitrag + `sources:` im Frontmatter.
+- **Transparenz**: `author: lxndrJ`, `ai_assisted: true`, Hinweis am Ende.
+- **Dreimal pro Woche** statt täglich – Konstanz schlägt Häufigkeit.
+- **Review per PR** optional – menschlicher Merge-Stempel.
+
+## Modelle (per Env überschreibbar)
+
+| Rolle | Default |
+|---|---|
+| Recherche | `claude-3-5-haiku-latest` |
+| Entwurf | `claude-3-5-haiku-latest` |
+| Lektor | `claude-3-5-sonnet-latest` |
+
+## Altes (noch vorhanden)
+
+`generate_blog_post.py`, `anthropic_config.py`, `countries.db`, `themes.db`,
+`unsplash_image.py`, `auto_push_blog.sh` bleiben für Abwärtskompatibilität –
+die neue Pipeline nutzt sie nicht.
