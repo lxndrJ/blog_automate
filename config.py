@@ -2,9 +2,10 @@
 import os
 
 # --- Modelle (per Env überschreibbar) -------------------------------------
-RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-3-5-haiku-latest")
-DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-3-5-haiku-latest")
-EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-3-5-sonnet-latest")
+# Modellnamen können hier je Account/Katalog abweichen – per Env überschreibbar.
+RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-haiku-4-5")
+DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-haiku-4-5")
+EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-haiku-4-5")
 
 TEMPERATURE    = float(os.getenv("BLOG_TEMPERATURE", "0.85"))
 MAX_TOKENS     = int(os.getenv("BLOG_MAX_TOKENS", "4096"))

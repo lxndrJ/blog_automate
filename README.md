@@ -68,9 +68,9 @@ Erforderliches Secret: `ANTHROPIC_API_KEY`.
 
 | Rolle | Default |
 |---|---|
-| Recherche | `claude-3-5-haiku-latest` |
-| Entwurf | `claude-3-5-haiku-latest` |
-| Lektor | `claude-3-5-sonnet-latest` |
+| Recherche | `claude-haiku-4-5` |
+| Entwurf | `claude-haiku-4-5` |
+| Lektor | `claude-haiku-4-5` (besser: `claude-sonnet-4-5`) |
 
 ## Altes (noch vorhanden)
 
