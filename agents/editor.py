@@ -24,7 +24,6 @@ def run(draft: str, research: str, sources: list[str]) -> tuple[str, list[str]]:
     response = client.messages.create(
         model=EDITOR_MODEL,
         max_tokens=MAX_TOKENS,
-        temperature=0.2,
         system=EDITOR_SYSTEM,
         messages=[{"role": "user", "content": brief}],
     )

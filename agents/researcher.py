@@ -16,7 +16,6 @@ def run(topic: str, context: str) -> dict:
     response = client.messages.create(
         model=RESEARCH_MODEL,
         max_tokens=MAX_TOKENS,
-        temperature=0.2,
         system=RESEARCH_SYSTEM,
         messages=[{"role": "user", "content": brief}],
         tools=[{

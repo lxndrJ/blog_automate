@@ -26,7 +26,6 @@ def run(topic: str, context: str, research: str, sources: list[str]) -> str:
     response = client.messages.create(
         model=DRAFTER_MODEL,
         max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
         system=DRAFTER_SYSTEM,
         messages=[{"role": "user", "content": brief}],
     )
