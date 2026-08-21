@@ -11,5 +11,12 @@
     "base": "Ein historischer Konflikt, der heute still nachwirkt",
     "file": "_posts/2026-08-21-vukovar-wie-ein-krieg-von-vor-30-jahren-noch-immer-den-schulhof-teilt.md",
     "n_sources": 10
+  },
+  {
+    "date": "2026-08-21T20:00:03",
+    "topic": "Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat",
+    "base": "Fünf Dinge, die mir in {land} niemand vorher gesagt hat",
+    "file": "_posts/2026-08-21-fünf-dinge-die-mir-in-schweden-götaland-niemand-vorher-gesagt-hat.md",
+    "n_sources": 10
   }
 ]
