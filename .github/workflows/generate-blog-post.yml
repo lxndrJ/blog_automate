@@ -2,10 +2,8 @@ name: Generate Blog Post (3×/Woche)
 
 on:
   schedule:
-    # Mo/Do/So um 08:00 Europe/Berlin
-    - cron: "0 6 * * 1"
-    - cron: "0 6 * * 4"
-    - cron: "0 6 * * 0"
+    #  um 08:00 Europe/Berlin
+    - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       topic:
