@@ -1,4 +1,4 @@
-name: Generate Blog Post (3×/Woche)
+name: Generate Blog Post (daily)
 
 on:
   schedule:
