@@ -3,7 +3,7 @@ name: Sync Posts to Blog Repository
 
 on:
   schedule:
-    - cron: '15 3 * * *'
+    - cron: '15 6 * * *'
   workflow_dispatch: # Allows manual triggering for testing
 
 jobs:
