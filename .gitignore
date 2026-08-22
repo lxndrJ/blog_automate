@@ -1,10 +1,12 @@
+# --- Secrets: NIEMALS committen! ---
 .env
-venv
-*.pyc
-**/*.pyc
-__pycache__/
-**/__pycache__/
 
-# Python cache files
+# Python-Kachel/Cache
+venv/
+__pycache__/
+*.pyc
 *.pyo
 *.pyd
+
+# Bild-Cache (lokal, wird bei Bedarf neu heruntergeladen)
+image_cache/
