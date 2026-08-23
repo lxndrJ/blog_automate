@@ -2,9 +2,9 @@
 layout: post
 title: "Feiertage und ihre Ursprünge in Algerien"
 date: 2026-06-11
+image: https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Algiriens Feiertage: Zwischen Tradition und Geschichte
+![Feiertage und ihre Ursprünge in Algerien](https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Algiriens Feiertage: Zwischen Tradition und Geschichte
 
 Wenn man durch die Straßen von Algier schlendert, spürt man es sofort – dieses besondere Kribbeln in der Luft an Feiertagen. Die Stadt erwacht zu neuem Leben, Flaggen wehen, Menschen umarmen sich auf den Plätzen, und überall duftet es nach traditionellen Köstlichkeiten. Doch hinter jedem Feiertag steckt eine Geschichte, die Algerien und seine Seele prägt.
 

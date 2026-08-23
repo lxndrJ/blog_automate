@@ -2,9 +2,9 @@
 layout: post
 title: "Kulturreisen in Norfolkinsel"
 date: 2026-07-13
+image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Auf den Spuren der Moai: Kulturreisen zur Norfolk-Insel
+![Kulturreisen in Norfolkinsel](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Auf den Spuren der Moai: Kulturreisen zur Norfolk-Insel
 
 Die Norfolk-Insel ist nicht gerade die erste Destination, die einem in den Sinn kommt, wenn man von Kulturreisen träumt. Doch genau das macht sie so reizvoll! Dieses kleine Eiland im Pazifik, zwischen Australien und Neuseeland gelegen, birgt eine faszinierende Geschichte, die weit über das hinausgeht, was man auf den ersten Blick vermuten würde.
 

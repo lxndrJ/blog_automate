@@ -2,9 +2,9 @@
 layout: post
 title: "Migration und Diaspora in Sambia"
 date: 2025-11-27
+image: https://upload.wikimedia.org/wikipedia/commons/2/29/02024_1039_Large_amber_nuggets_from_a_mine_in_Sambia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Sambia: Eine Reise durch Migration und Identität
+![Migration und Diaspora in Sambia](https://upload.wikimedia.org/wikipedia/commons/2/29/02024_1039_Large_amber_nuggets_from_a_mine_in_Sambia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Sambia: Eine Reise durch Migration und Identität
 
 ## Zwischen Wurzeln und Neuanfang
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Geschichte der Bildung in Tunesien"
 date: 2026-07-21
+image: https://upload.wikimedia.org/wikipedia/commons/c/ca/Heinrich_Barth%2C_der_Bahnbrecher_des_deutschen_Afrikaforschung%3B_ein_Lebens-_und_Charakterbild_auf_Grund_ungedruckter_Quellen_entworfen_%28IA_heinrichbarthder00schu%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die faszinierende Reise der Bildung in Tunesien – Von den Medersas bis zur modernen Universität
+![Geschichte der Bildung in Tunesien](https://upload.wikimedia.org/wikipedia/commons/c/ca/Heinrich_Barth%2C_der_Bahnbrecher_des_deutschen_Afrikaforschung%3B_ein_Lebens-_und_Charakterbild_auf_Grund_ungedruckter_Quellen_entworfen_%28IA_heinrichbarthder00schu%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die faszinierende Reise der Bildung in Tunesien – Von den Medersas bis zur modernen Universität
 
 Wenn man durch die Gassen der Medina von Tunis spaziert und die alten Moscheen und Schulgebäude entdeckt, wird man sofort in eine Geschichte hineingezogen, die Jahrtausende zurückreicht. Die Bildungslandschaft Tunesiens ist wie ein lebendiges Geschichtsbuch – voller Wendungen, Einflüsse und einer bewundernswerten Widerstandskraft.
 

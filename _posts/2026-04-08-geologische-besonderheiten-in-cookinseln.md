@@ -2,9 +2,9 @@
 layout: post
 title: "Geologische Besonderheiten in Cookinseln"
 date: 2026-04-08
+image: https://upload.wikimedia.org/wikipedia/commons/3/3c/00_4368_Cookinseln_im_S%C3%BCdpazifik_-_Rarotonga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Wenn die Erde ihre Geheimnisse offenbart: Die faszinierende Geologie der Cookinseln
+![Geologische Besonderheiten in Cookinseln](https://upload.wikimedia.org/wikipedia/commons/3/3c/00_4368_Cookinseln_im_S%C3%BCdpazifik_-_Rarotonga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wenn die Erde ihre Geheimnisse offenbart: Die faszinierende Geologie der Cookinseln
 
 Die Cookinseln sind weit mehr als nur ein tropisches Paradies mit weißen Stränden und kristallklarem Wasser. Unter der Oberfläche dieser südpazifischen Inselgruppe verbirgt sich eine geologische Geschichte, die sich über Millionen von Jahren erstreckt und die Kulturen ihrer Bewohner tiefgreifend geprägt hat.
 

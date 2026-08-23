@@ -2,9 +2,9 @@
 layout: post
 title: "Gebirge und Wanderwege in Vanuatu"
 date: 2025-08-22
+image: https://images.unsplash.com/photo-1551890999-32eb3076ef31?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8R2ViaXJnZSUyMHVuZCUyMFdhbmRlcndlZ2UlMjBpbiUyMFZhbnVhdHV8ZW58MHwwfHx8MTc4NzQzMzM2NXww&ixlib=rb-4.1.0
 ---
-
-# Port Vila: Ein Wanderparadies zwischen Vulkanen und Tropengrün
+![Gebirge und Wanderwege in Vanuatu](https://images.unsplash.com/photo-1551890999-32eb3076ef31?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8R2ViaXJnZSUyMHVuZCUyMFdhbmRlcndlZ2UlMjBpbiUyMFZhbnVhdHV8ZW58MHwwfHx8MTc4NzQzMzM2NXww&ixlib=rb-4.1.0)# Port Vila: Ein Wanderparadies zwischen Vulkanen und Tropengrün
 
 ## Einführung in eine atemberaubende Wanderregion
 

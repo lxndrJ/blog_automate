@@ -2,9 +2,9 @@
 layout: post
 title: "Literaturgeschichte in Brunei"
 date: 2026-07-10
+image: https://upload.wikimedia.org/wikipedia/commons/8/86/A_classified_index_to_the_Serapeum_%28IA_classifiedindext00procuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die verborgenen Geschichten Bruneis: Eine literarische Entdeckungsreise
+![Literaturgeschichte in Brunei](https://upload.wikimedia.org/wikipedia/commons/8/86/A_classified_index_to_the_Serapeum_%28IA_classifiedindext00procuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die verborgenen Geschichten Bruneis: Eine literarische Entdeckungsreise
 
 Wenn man an Literaturgeschichte denkt, fallen den meisten Menschen wahrscheinlich zuerst europäische oder asiatische Metropolen ein. Aber Brunei? Das kleine Sultanat an Borneos Küste hat eine faszinierende literarische Tradition, die wie ein gut gehütetes Geheimnis wartet, entdeckt zu werden.
 

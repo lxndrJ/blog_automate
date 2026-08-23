@@ -2,9 +2,9 @@
 layout: post
 title: "Politiker in Kenia"
 date: 2026-03-25
+image: https://upload.wikimedia.org/wikipedia/commons/b/b5/2017_22_Inauguration_Ceremony_-3_%2832895812172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Gesichter der Macht: Kenias Politiker und ihre faszinierende Geschichte
+![Politiker in Kenia](https://upload.wikimedia.org/wikipedia/commons/b/b5/2017_22_Inauguration_Ceremony_-3_%2832895812172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Gesichter der Macht: Kenias Politiker und ihre faszinierende Geschichte
 
 Wenn man durch die pulsierenden Straßen Nairobis spaziert, wird schnell klar: Kenia ist ein Land, in dem Politik lebt und atmet. Nicht nur in den klimatisierten Büros des Parlamentsgebäudes, sondern auch in Matatu-Minibussen, auf Märkten und in den Wohnzimmern der Menschen. Die politische Landschaft dieses ostafrikanischen Landes ist bunt, kontrovers und vor allem: zutiefst menschlich.
 

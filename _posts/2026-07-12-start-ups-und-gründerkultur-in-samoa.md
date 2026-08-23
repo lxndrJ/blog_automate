@@ -2,9 +2,9 @@
 layout: post
 title: "Start-ups und Gründerkultur in Samoa"
 date: 2026-07-12
+image: https://images.unsplash.com/photo-1567696176949-396c415ec914?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8U3RhcnQtdXBzJTIwdW5kJTIwR3IlQzMlQkNuZGVya3VsdHVyJTIwaW4lMjBTYW1vYXxlbnwwfDB8fHwxNzg3NDY3ODg4fDA&ixlib=rb-4.1.0
 ---
-
-# Von Südsee-Träumen zu digitalen Realitäten: Gründerkultur in Samoa
+![Start-ups und Gründerkultur in Samoa](https://images.unsplash.com/photo-1567696176949-396c415ec914?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8U3RhcnQtdXBzJTIwdW5kJTIwR3IlQzMlQkNuZGVya3VsdHVyJTIwaW4lMjBTYW1vYXxlbnwwfDB8fHwxNzg3NDY3ODg4fDA&ixlib=rb-4.1.0)# Von Südsee-Träumen zu digitalen Realitäten: Gründerkultur in Samoa
 
 Wenn man an Samoa denkt, kommen den meisten Menschen wohl eher Bilder von weißen Stränden und entspannten Inselvibes in den Sinn – nicht gerade das klassische Bild einer Start-up-Hochburg. Doch genau das macht die Geschichte der samoanischen Gründerszene so faszinierend. In der Hauptstadt Apia wächst derzeit eine kleine, aber energische Gemeinschaft von Unternehmern heran, die zeigt, dass Innovation nicht an Größe oder geografische Lage gebunden ist.
 

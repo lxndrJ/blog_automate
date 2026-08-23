@@ -2,9 +2,9 @@
 layout: post
 title: "Fischgerichte in Amerikanische Jungferninseln"
 date: 2026-03-31
+image: https://upload.wikimedia.org/wikipedia/commons/3/33/Dog_island-just_off_St._John.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Fischgenuss auf den Amerikanischen Jungferninseln: Wo das Meer auf den Teller kommt
+![Fischgerichte in Amerikanische Jungferninseln](https://upload.wikimedia.org/wikipedia/commons/3/33/Dog_island-just_off_St._John.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Fischgenuss auf den Amerikanischen Jungferninseln: Wo das Meer auf den Teller kommt
 
 Die Amerikanischen Jungferninseln sind ein Traum aus türkisblauem Wasser, weißen Stränden und – das wird oft übersehen – einer der faszinierendsten Küchen der Karibik. Besonders die Fischgerichte hier erzählen die Geschichte eines Ortes, wo afrikanische, europäische und karibische Einflüsse in einer einzigen Mahlzeit verschmelzen.
 

@@ -2,11 +2,11 @@
 layout: post
 title: "Transport in [Region]: Von A nach B – ohne Romantik"
 date: 2026-08-21
+image: https://upload.wikimedia.org/wikipedia/commons/b/bf/Meine_Amerikafahrt_zur_Ausstellung_1893_%28IA_gri_33125010389662%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 ---
-
-# Transport in [Region]: Von A nach B – ohne Romantik
+![Transport in [Region]: Von A nach B – ohne Romantik](https://upload.wikimedia.org/wikipedia/commons/b/bf/Meine_Amerikafahrt_zur_Ausstellung_1893_%28IA_gri_33125010389662%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Transport in [Region]: Von A nach B – ohne Romantik
 
 Okay, ich muss dir ehrlich sagen: Ich sitze hier ohne die konkrete Region vor mir. Dein Recherche-Brief ist angekommen, aber du hast mir noch nicht verraten, *wohin* es gehen soll. Delhi nach Agra? Lima nach Cusco? Hanoi nach Da Nang? Das ändert alles – Kosten, Dauer, wie wahrscheinlich es ist, dass du pünktlich ankommst.
 

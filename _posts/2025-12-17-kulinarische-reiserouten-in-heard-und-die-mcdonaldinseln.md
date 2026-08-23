@@ -2,9 +2,9 @@
 layout: post
 title: "Kulinarische Reiserouten in Heard und die McDonaldinseln"
 date: 2025-12-17
+image: https://upload.wikimedia.org/wikipedia/commons/b/b7/AmberHeardTIFFSept10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Kulinarische Entdeckungsreise auf Heard und den McDonaldinseln: Ein gastronomisches Abenteuer am Ende der Welt
+![Kulinarische Reiserouten in Heard und die McDonaldinseln](https://upload.wikimedia.org/wikipedia/commons/b/b7/AmberHeardTIFFSept10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Kulinarische Entdeckungsreise auf Heard und den McDonaldinseln: Ein gastronomisches Abenteuer am Ende der Welt
 
 Die Heard- und McDonaldinseln - ein Name, der bei den meisten Reisenden Fragezeichen hervorruft. Weit draußen im Südlichen Ozean, zwischen Antarktis und Australien, verbirgt sich eine kulinarische Herausforderung der besonderen Art.
 

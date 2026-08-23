@@ -2,9 +2,9 @@
 layout: post
 title: "Bildung und Innovation in Saudi-Arabien"
 date: 2026-08-18
+image: https://upload.wikimedia.org/wikipedia/commons/d/da/OJ_C_102_of_2016_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Wenn Tradition auf Zukunft trifft: Bildung und Innovation in Saudi-Arabien
+![Bildung und Innovation in Saudi-Arabien](https://upload.wikimedia.org/wikipedia/commons/d/da/OJ_C_102_of_2016_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wenn Tradition auf Zukunft trifft: Bildung und Innovation in Saudi-Arabien
 
 Es ist eine Transformation, die man mit bloßem Auge sehen kann. Wenn man durch die glänzenden Straßen von Riad spaziert, erblickt man nicht nur futuristische Wolkenkratzer und ambitionierte Bauprojekte – man sieht auch den pulsierenden Geist einer Nation, die ihre Zukunft aktiv gestaltet. Und alles beginnt mit Bildung.
 

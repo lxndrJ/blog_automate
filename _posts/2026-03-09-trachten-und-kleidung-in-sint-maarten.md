@@ -2,9 +2,9 @@
 layout: post
 title: "Trachten und Kleidung in Sint Maarten"
 date: 2026-03-09
+image: https://upload.wikimedia.org/wikipedia/commons/8/85/Westindische_Skizzen_-_Reise-Erinnerungen_%28IA_BNA-DIG-KOSTBARE-0152%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die farbenfrohe Welt der Sint Maarten Trachten: Wo Kultur lebendig wird
+![Trachten und Kleidung in Sint Maarten](https://upload.wikimedia.org/wikipedia/commons/8/85/Westindische_Skizzen_-_Reise-Erinnerungen_%28IA_BNA-DIG-KOSTBARE-0152%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die farbenfrohe Welt der Sint Maarten Trachten: Wo Kultur lebendig wird
 
 Sint Maarten ist ein Ort, an dem sich die Kulturen des Nordens und Südens auf wunderbare Weise vermischen. Und nirgendwo wird diese bunte Vielfalt deutlicher als in der traditionellen Kleidung und den Trachten, die du hier entdecken kannst – besonders in der lebendigen Hauptstadt Philipsburg.
 

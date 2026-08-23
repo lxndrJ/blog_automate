@@ -2,9 +2,9 @@
 layout: post
 title: "Street Food in Botswana"
 date: 2026-03-14
+image: https://upload.wikimedia.org/wikipedia/commons/2/26/Cabbage_on_display_shelf_at_a_local_supermarket_in_Palapye%2C_Botswana_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Street Food in Botswana: Geschmäcker und Geschichten auf der Straße
+![Street Food in Botswana](https://upload.wikimedia.org/wikipedia/commons/2/26/Cabbage_on_display_shelf_at_a_local_supermarket_in_Palapye%2C_Botswana_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Street Food in Botswana: Geschmäcker und Geschichten auf der Straße
 
 Wenn ich durch die Straßen von Gaborone schlendere, wird mir schnell bewusst: Die wahre Seele einer Stadt findet man nicht in den großen Restaurants, sondern dort, wo der Rauch aufsteigt, wo Händler ihre Köstlichkeiten anpreisen und wo Einheimische und Reisende sich um dampfende Behälter scharen. Botswanas Street Food ist eine wunderbare Mischung aus Tradition, Improvisation und unbändiger Kreativität.
 

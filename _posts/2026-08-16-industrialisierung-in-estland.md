@@ -2,9 +2,9 @@
 layout: post
 title: "Industrialisierung in Estland"
 date: 2026-08-16
+image: https://upload.wikimedia.org/wikipedia/commons/e/e8/Lewicky_Die_Ukraine_1915.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Von der Hansestadt zur digitalen Nation: Estlands industrielle Transformation
+![Industrialisierung in Estland](https://upload.wikimedia.org/wikipedia/commons/e/e8/Lewicky_Die_Ukraine_1915.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Von der Hansestadt zur digitalen Nation: Estlands industrielle Transformation
 
 Tallinn ist eine Stadt der Gegensätze – mittelalterliche Kopfsteinpflaster treffen auf moderne Glasfassaden, und alte Handwerkszünfte existierten lange Zeit neben sowjetischen Fabriken. Die Geschichte der Industrialisierung Estlands ist nicht einfach eine Geschichte von Dampfmaschinen und Fabriksirenen, sondern eine faszinierende Reise durch politische Umbrüche, kulturelle Widerstandskraft und technologische Sprünge.
 

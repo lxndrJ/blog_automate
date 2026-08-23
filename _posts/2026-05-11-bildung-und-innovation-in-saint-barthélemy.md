@@ -2,9 +2,9 @@
 layout: post
 title: "Bildung und Innovation in Saint-Barthélemy"
 date: 2026-05-11
+image: https://upload.wikimedia.org/wikipedia/commons/d/d1/OJ_C_258E_of_2013_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Kleine Insel, große Ideen: Wie Saint-Barthélemy Bildung und Innovation neu denkt
+![Bildung und Innovation in Saint-Barthélemy](https://upload.wikimedia.org/wikipedia/commons/d/d1/OJ_C_258E_of_2013_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Kleine Insel, große Ideen: Wie Saint-Barthélemy Bildung und Innovation neu denkt
 
 Saint-Barthélemy – eine Insel, die vielen Menschen hauptsächlich als Luxusreiseziel bekannt ist. Doch wer genauer hinschaut, entdeckt hier etwas Faszinierendes: einen Ort, wo Bildung und Innovation ganz neu zusammenwachsen.
 

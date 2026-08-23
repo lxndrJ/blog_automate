@@ -2,9 +2,9 @@
 layout: post
 title: "Hochzeitsbräuche in Kasachstan"
 date: 2026-06-08
+image: https://upload.wikimedia.org/wikipedia/commons/8/8f/Administrative_subdivisions_of_the_Republic_of_Kazakhsatn.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Hochzeitsbräuche in Kasachstan: Wo Tradition auf Moderne trifft
+![Hochzeitsbräuche in Kasachstan](https://upload.wikimedia.org/wikipedia/commons/8/8f/Administrative_subdivisions_of_the_Republic_of_Kazakhsatn.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Hochzeitsbräuche in Kasachstan: Wo Tradition auf Moderne trifft
 
 Wenn man an Hochzeiten in Kasachstan denkt, stellt man sich schnell bunte Feiern, prachtvolle Kleider und rituelle Handlungen vor – und genau das ist es! Die kasachischen Hochzeitsbräuche sind ein wunderschönes Mosaik aus nomadischen Traditionen, islamischen Einflüssen und modernem Flair. Besonders in der glänzenden Hauptstadt Astana zeigt sich diese faszinierende Mischung auf eindrucksvolle Weise.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Industrialisierung in Mayotte"
 date: 2026-06-10
+image: https://upload.wikimedia.org/wikipedia/commons/2/27/OJ_C_202503148_of_2025_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Mayotte: Wenn die Vergangenheit auf die Zukunft trifft
+![Industrialisierung in Mayotte](https://upload.wikimedia.org/wikipedia/commons/2/27/OJ_C_202503148_of_2025_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Mayotte: Wenn die Vergangenheit auf die Zukunft trifft
 
 Es gibt Orte auf dieser Welt, an denen man förmlich spüren kann, wie sich Geschichte anfühlt. Mayotte ist so ein Ort. Diese kleine Inselgruppe im Indischen Ozean, zwischen Afrika und Asien gelegen, hat eine Industrialisierungsgeschichte, die so faszinierend und widersprüchlich ist wie die Insel selbst.
 

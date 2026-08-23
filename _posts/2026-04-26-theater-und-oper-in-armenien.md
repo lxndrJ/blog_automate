@@ -2,9 +2,9 @@
 layout: post
 title: "Theater und Oper in Armenien"
 date: 2026-04-26
+image: https://upload.wikimedia.org/wikipedia/commons/8/87/2014_Erywa%C5%84%2C_Ormia%C5%84ski_Akademicki_Teatr_Opery_i_Baletu_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Magie der Bühne: Theater und Oper in Armenien
+![Theater und Oper in Armenien](https://upload.wikimedia.org/wikipedia/commons/8/87/2014_Erywa%C5%84%2C_Ormia%C5%84ski_Akademicki_Teatr_Opery_i_Baletu_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Magie der Bühne: Theater und Oper in Armenien
 
 Wenn du in Yerevan über die breiten Straßen spazierst und die pastellfarbenen Gebäude bewunderst, wirst du früher oder später an einem imposanten Gebäude vorbeigehen, das dich regelrecht anzieht. Es ist das Armenische Nationaltheater für Oper und Ballett – ein Ort, wo Jahrhunderte von Leidenschaft und künstlerischem Ausdruck lebendig werden.
 

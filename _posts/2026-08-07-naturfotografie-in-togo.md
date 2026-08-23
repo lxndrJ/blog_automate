@@ -2,9 +2,9 @@
 layout: post
 title: "Naturfotografie in Togo"
 date: 2026-08-07
+image: https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Mit der Kamera durchs grüne Herz Togos: Naturfotografie zwischen Strand und Savanne
+![Naturfotografie in Togo](https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Mit der Kamera durchs grüne Herz Togos: Naturfotografie zwischen Strand und Savanne
 
 Togo ist ein Geheimtipp für Naturfotografen – ein Land, das mit unerwarteter Vielfalt besticht und dabei deutlich weniger überlaufen ist als seine größeren Nachbarn in Westafrika. Auf meinen Reisen durch diesen schmalen Landstreifen zwischen Ghana und Benin habe ich gelernt, dass die besten Motive oft dort entstehen, wo man die Ruhe findet, um wirklich hinzuschauen.
 

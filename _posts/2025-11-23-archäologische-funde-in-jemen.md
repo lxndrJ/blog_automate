@@ -2,9 +2,9 @@
 layout: post
 title: "Archäologische Funde in Jemen"
 date: 2025-11-23
+image: https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_the_Yemen_Arab_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Verborgene Schätze: Archäologische Entdeckungen im Herzen des Jemen
+![Archäologische Funde in Jemen](https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_the_Yemen_Arab_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Verborgene Schätze: Archäologische Entdeckungen im Herzen des Jemen
 
 ## Eine Zeitreise durch Sana'a und seine verborgene Vergangenheit
 

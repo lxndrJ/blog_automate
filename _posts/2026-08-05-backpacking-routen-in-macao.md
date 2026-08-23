@@ -2,9 +2,9 @@
 layout: post
 title: "Backpacking-Routen in Macao"
 date: 2026-08-05
+image: https://upload.wikimedia.org/wikipedia/commons/7/76/Aomen_China_Mailbox-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Mit dem Rucksack durch Macau: Zwischen Glitzer und Geheimtipps
+![Backpacking-Routen in Macao](https://upload.wikimedia.org/wikipedia/commons/7/76/Aomen_China_Mailbox-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Mit dem Rucksack durch Macau: Zwischen Glitzer und Geheimtipps
 
 Macau – der Name weckt Assoziationen mit leuchtenden Casinos, spektakulären Shows und unbegrenztem Luxus. Doch wer mit Rucksack und offenen Augen durch diese faszinierende Stadt wandert, entdeckt eine ganz andere Geschichte. Eine Geschichte von Tempeln und Tradition, von portugiesischer Vergangenheit und chinesischer Gegenwart, die sich auf den engen Gassen ein spannendes Tänzchen aufführen.
 

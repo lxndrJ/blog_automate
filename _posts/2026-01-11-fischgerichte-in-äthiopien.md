@@ -2,9 +2,9 @@
 layout: post
 title: "Fischgerichte in Äthiopien"
 date: 2026-01-11
+image: https://upload.wikimedia.org/wikipedia/commons/8/84/A_Step_Forward%2C_Ethiopia_%2813599989815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Fischgerichte in Äthiopien: Eine kulinarische Entdeckungsreise
+![Fischgerichte in Äthiopien](https://upload.wikimedia.org/wikipedia/commons/8/84/A_Step_Forward%2C_Ethiopia_%2813599989815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Fischgerichte in Äthiopien: Eine kulinarische Entdeckungsreise
 
 Wenn man an äthiopische Küche denkt, kommen den meisten zunächst würzige Fleischgerichte und das traditionelle Injera-Brot in den Sinn. Doch die Fischküche des ostafrikanischen Landes ist ein verborgener Schatz, der darauf wartet, entdeckt zu werden.
 

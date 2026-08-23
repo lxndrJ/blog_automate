@@ -2,9 +2,9 @@
 layout: post
 title: "Architektur und Baukunst in Kongo"
 date: 2026-01-18
+image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Deutsche_Bauzeitung_%28IA_deutschebauzeitu2018frit%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Architektur zwischen Tradition und Moderne: Eine Reise durch Kongos Baukunst
+![Architektur und Baukunst in Kongo](https://upload.wikimedia.org/wikipedia/commons/1/1c/Deutsche_Bauzeitung_%28IA_deutschebauzeitu2018frit%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Architektur zwischen Tradition und Moderne: Eine Reise durch Kongos Baukunst
 
 Wenn man an Kongo denkt, tauchen oft Bilder von üppigem Regenwald und bewegter Geschichte auf. Doch die Architektur dieses faszinierenden Landes erzählt eine ebenso spannende Geschichte - eine Symphonie aus traditionellen Baustilen und modernen Einflüssen.
 

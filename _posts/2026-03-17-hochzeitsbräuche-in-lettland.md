@@ -2,9 +2,9 @@
 layout: post
 title: "Hochzeitsbräuche in Lettland"
 date: 2026-03-17
+image: https://upload.wikimedia.org/wikipedia/commons/8/8c/House_of_Blackheads_and_St._Peter%27s_Church_Tower%2C_Riga%2C_Latvia_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Hochzeitsbräuche in Lettland – Wo Tradition und Romantik tanzen
+![Hochzeitsbräuche in Lettland](https://upload.wikimedia.org/wikipedia/commons/8/8c/House_of_Blackheads_and_St._Peter%27s_Church_Tower%2C_Riga%2C_Latvia_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Hochzeitsbräuche in Lettland – Wo Tradition und Romantik tanzen
 
 Wenn man an Hochzeiten denkt, stellt man sich oft weiße Kleider und kirchliche Trauringe vor. Doch in Lettland erlebt die Eheschließung eine ganz eigene, wunderbar lebendige Interpretation. Ein Land, das zwischen Ostsee und Geschichte eingeklemmt ist, hat sich seine Hochzeitstraditionen bewahrt – und sie sind einfach bezaubernd.
 

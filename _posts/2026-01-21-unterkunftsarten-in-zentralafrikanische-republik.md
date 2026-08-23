@@ -2,9 +2,9 @@
 layout: post
 title: "Unterkunftsarten in Zentralafrikanische Republik"
 date: 2026-01-21
+image: https://upload.wikimedia.org/wikipedia/commons/a/a3/Kulturabkommen_Zentralafrikanische_Republik_1991.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Übernachten in der Zentralafrikanischen Republik: Eine ungewöhnliche Reise
+![Unterkunftsarten in Zentralafrikanische Republik](https://upload.wikimedia.org/wikipedia/commons/a/a3/Kulturabkommen_Zentralafrikanische_Republik_1991.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Übernachten in der Zentralafrikanischen Republik: Eine ungewöhnliche Reise
 
 Die Zentralafrikanische Republik - ein Land, das die meisten Reisenden auf ihrer Bucket List eher selten finden. Doch wer Abenteuer sucht und bereit ist, die Komfortzone zu verlassen, wird hier einzigartige Unterkunftserlebnisse entdecken.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Wirtschaftspolitik in Weißrussland"
 date: 2026-06-20
+image: https://upload.wikimedia.org/wikipedia/commons/a/a4/Bibliografia_historii_gospodarczej_Polski_podczas_II_wojny_swiatowej.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Minsk und die verborgenen Wirtschaftspotenziale Weißrusslands
+![Wirtschaftspolitik in Weißrussland](https://upload.wikimedia.org/wikipedia/commons/a/a4/Bibliografia_historii_gospodarczej_Polski_podczas_II_wojny_swiatowej.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Minsk und die verborgenen Wirtschaftspotenziale Weißrusslands
 
 Wenn man an innovative Wirtschaftszentren denkt, fällt Minsk nicht unbedingt in die gleiche Kategorie wie Singapur oder Stockholm. Und genau das ist das Geheimnis dieser faszinierenden Stadt. Weißrussland verfolgt einen ganz eigenen wirtschaftlichen Weg – einen, der zwischen sowjetischen Wurzeln und modernen Ambitionen pendelt.
 

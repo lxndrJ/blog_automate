@@ -2,9 +2,9 @@
 layout: post
 title: "Frauen in der Geschichte in Algerien"
 date: 2025-10-23
+image: https://upload.wikimedia.org/wikipedia/commons/1/1c/Der_Zoologische_Garten_1866_%28IA_zoologischegarte7186komm%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Frauen in Algerien: Unerzählte Geschichten zwischen Tradition und Aufbruch
+![Frauen in der Geschichte in Algerien](https://upload.wikimedia.org/wikipedia/commons/1/1c/Der_Zoologische_Garten_1866_%28IA_zoologischegarte7186komm%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Frauen in Algerien: Unerzählte Geschichten zwischen Tradition und Aufbruch
 
 Die Straßen von Algiers erzählen Geschichten von Stärke und Widerstandskraft. Während die weißen Häuser der Kasbah in der Sonne glitzern, schweben die Erinnerungen an Generationen von Frauen durch die engen Gassen.
 

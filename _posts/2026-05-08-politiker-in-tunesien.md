@@ -2,9 +2,9 @@
 layout: post
 title: "Politiker in Tunesien"
 date: 2026-05-08
+image: https://upload.wikimedia.org/wikipedia/commons/3/35/AssembleedesRepresentantsduPeupleDec2015_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Gesichter der Veränderung: Tunesiens Politiker und ihre Geschichten
+![Politiker in Tunesien](https://upload.wikimedia.org/wikipedia/commons/3/35/AssembleedesRepresentantsduPeupleDec2015_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Gesichter der Veränderung: Tunesiens Politiker und ihre Geschichten
 
 Wenn man durch die Straßen von Tunis spaziert, vorbei an den farbenfrohen Medinas und den modernen Geschäftsvierteln, wird man schnell merken, dass dieses Land voller Dynamik und Wandel steckt. Und mittendrin? Menschen, die versuchen, eine Nation zu lenken – mit all ihren Widersprüchen, Träumen und Realitäten.
 

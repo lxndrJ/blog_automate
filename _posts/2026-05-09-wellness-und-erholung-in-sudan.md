@@ -2,9 +2,9 @@
 layout: post
 title: "Wellness und Erholung in Sudan"
 date: 2026-05-09
+image: https://upload.wikimedia.org/wikipedia/commons/2/2e/Abendpost_1898-03-23-_Vol_10_Iss_69_%28IA_sim_abendpost-sonntagpost_1898-03-23_10_69%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Wellness im Herzen Afrikas: Entspannung im Sudan
+![Wellness und Erholung in Sudan](https://upload.wikimedia.org/wikipedia/commons/2/2e/Abendpost_1898-03-23-_Vol_10_Iss_69_%28IA_sim_abendpost-sonntagpost_1898-03-23_10_69%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wellness im Herzen Afrikas: Entspannung im Sudan
 
 Der Sudan ist nicht unbedingt das erste Land, das einem in den Sinn kommt, wenn man an Wellness und Entspannung denkt. Doch genau das macht es so spannend! Zwischen den faszinierenden Pyramiden von Meroe und den Ufern des Nils wartet ein ganz besonderer Ort auf alle, die echte Erholung suchen – fernab der ausgetretenen Pfade.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Vegetarische Spezialitäten in Togo"
 date: 2026-03-29
+image: https://images.unsplash.com/photo-1785516058937-b8e60d032ddd?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VmVnZXRhcmlzY2hlJTIwU3BlemlhbGl0JUMzJUE0dGVuJTIwaW4lMjBUb2dvfGVufDB8MHx8fDE3ODc0MzM0ODV8MA&ixlib=rb-4.1.0
 ---
-
-# Grüne Vielfalt am Golf von Guinea: Vegetarische Schätze aus Togo
+![Vegetarische Spezialitäten in Togo](https://images.unsplash.com/photo-1785516058937-b8e60d032ddd?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VmVnZXRhcmlzY2hlJTIwU3BlemlhbGl0JUMzJUE0dGVuJTIwaW4lMjBUb2dvfGVufDB8MHx8fDE3ODc0MzM0ODV8MA&ixlib=rb-4.1.0)# Grüne Vielfalt am Golf von Guinea: Vegetarische Schätze aus Togo
 
 Wenn man an westafrikanische Küche denkt, stellt man sich oft Fleischgerichte vor. Doch wer nach Togo reist – besonders nach Lomé – wird schnell eines Besseren belehrt. Das kleine Land zwischen Ghana und Benin versteckt eine erstaunliche vegetarische Tradition, die so farbenfroh und geschmacksintensiv ist wie die Stoffe auf den Märkten der Hauptstadt.
 

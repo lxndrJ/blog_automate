@@ -2,9 +2,9 @@
 layout: post
 title: "Musiktraditionen in Äquatorialguinea"
 date: 2026-07-19
+image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Equatorialguinea_w1_locator.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Rhythmen von Äquatorialguinea: Eine musikalische Reise
+![Musiktraditionen in Äquatorialguinea](https://upload.wikimedia.org/wikipedia/commons/b/b5/Equatorialguinea_w1_locator.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Rhythmen von Äquatorialguinea: Eine musikalische Reise
 
 Wenn man an afrikanische Musik denkt, tanzen einem sofort Bilder von pulsierenden Trommeln, swingenden Hüften und ansteckender Energie vor Augen. Äquatorialguinea ist genau dieses Land – ein musikalisches Juwel an der Westküste Afrikas, das lange im Schatten größerer Nachbarn stand. Doch wer sich Zeit für die Klänge dieser Nation nimmt, entdeckt eine faszinierende Welt voller Geschichte, Leidenschaft und Überraschungen.
 

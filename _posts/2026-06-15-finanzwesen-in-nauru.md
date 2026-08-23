@@ -2,9 +2,9 @@
 layout: post
 title: "Finanzwesen in Nauru"
 date: 2026-06-15
+image: https://upload.wikimedia.org/wikipedia/commons/4/40/Coat_of_arms_of_Nauru_%282020%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Finanzwesen auf Nauru: Wenn Inselträume auf wirtschaftliche Realität treffen
+![Finanzwesen in Nauru](https://upload.wikimedia.org/wikipedia/commons/4/40/Coat_of_arms_of_Nauru_%282020%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Finanzwesen auf Nauru: Wenn Inselträume auf wirtschaftliche Realität treffen
 
 Stellt euch vor, ihr sitzt auf einer der kleinsten Inseln der Welt – Nauru, nicht viel größer als eine europäische Gemeinde – und müsst dennoch ein ganzes Finanzsystem am Laufen halten. Das ist die tägliche Herausforderung dieses faszinierenden Inselstaates im Pazifik.
 

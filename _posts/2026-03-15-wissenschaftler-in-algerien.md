@@ -2,9 +2,9 @@
 layout: post
 title: "Wissenschaftler in Algerien"
 date: 2026-03-15
+image: https://upload.wikimedia.org/wikipedia/commons/8/8a/OJ_C_138_of_2018_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Geister der Wissenschaft: Algeriens Beitrag zur Weltforschung
+![Wissenschaftler in Algerien](https://upload.wikimedia.org/wikipedia/commons/8/8a/OJ_C_138_of_2018_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Geister der Wissenschaft: Algeriens Beitrag zur Weltforschung
 
 Wenn man an Algerien denkt, stellt man sich oft Wüstensand, farbenfrohe Märkte und die beeindruckende Geschichte vor. Doch hinter dieser faszinierenden Kulisse verbirgt sich eine weniger bekannte Geschichte – eine Geschichte brillanter Köpfe, die die Wissenschaft geprägt haben und bis heute prägen.
 

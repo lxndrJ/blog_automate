@@ -2,9 +2,9 @@
 layout: post
 title: "Dialekte und Sprachvielfalt in Vereinigtes Königreich"
 date: 2026-05-10
+image: https://upload.wikimedia.org/wikipedia/commons/8/87/Bev%C3%B6lkerungspyramide_Vereinigtes_K%C3%B6nigreich_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die faszinierende Welt der britischen Dialekte: Mehr als nur "The Queen's English"
+![Dialekte und Sprachvielfalt in Vereinigtes Königreich](https://upload.wikimedia.org/wikipedia/commons/8/87/Bev%C3%B6lkerungspyramide_Vereinigtes_K%C3%B6nigreich_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die faszinierende Welt der britischen Dialekte: Mehr als nur "The Queen's English"
 
 Wenn man an die britische Sprache denkt, erscheint vielen sofort das elegante "Oxford English" vor Augen – jene melodische Aussprache aus den Klassenzimmern der Elite-Universitäten. Doch die Realität ist weit bunter und lebendiger. Das Vereinigte Königreich ist ein faszinierendes Mosaik aus Dialekten, Akzenten und sprachlichen Eigenheiten, die die Geschichte, Kultur und Identität seiner Regionen widerspiegeln.
 

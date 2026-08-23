@@ -2,9 +2,9 @@
 layout: post
 title: "Geheimtipps für Städtereisen in Turks-und Caicosinseln"
 date: 2026-04-14
+image: https://upload.wikimedia.org/wikipedia/commons/c/ce/Captured_Turks_and_Albanians_loaded_onto_trains_in_Skopje.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Abseits der Strände: Geheimtipps für Turks und Caicos
+![Geheimtipps für Städtereisen in Turks-und Caicosinseln](https://upload.wikimedia.org/wikipedia/commons/c/ce/Captured_Turks_and_Albanians_loaded_onto_trains_in_Skopje.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Abseits der Strände: Geheimtipps für Turks und Caicos
 
 Die Turks- und Caicosinseln sind für ihre traumhaften Strände bekannt – aber wer genauer hinschaut, entdeckt weit mehr als nur Sand und Meer. Lass mich dir zeigen, wo die echte Magie dieser Inselgruppe verborgen liegt.
 

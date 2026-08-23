@@ -2,9 +2,9 @@
 layout: post
 title: "Kolonialgeschichte in Britische Jungferninseln"
 date: 2026-01-30
+image: https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Vergessene Geschichten: Die Britischen Jungferninseln zwischen Kolonialzeit und Gegenwart
+![Kolonialgeschichte in Britische Jungferninseln](https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Vergessene Geschichten: Die Britischen Jungferninseln zwischen Kolonialzeit und Gegenwart
 
 Die sanften Wellen des Karibischen Meeres spülen die Küsten der Britischen Jungferninseln und tragen Geschichten mit sich, die tiefer sind als der Ozean selbst. Road Town, die pulsierende Hauptstadt der Inselgruppe, ist mehr als nur ein malerischer Hafen - sie ist ein lebendiges Archiv kolonialer Vergangenheit.
 

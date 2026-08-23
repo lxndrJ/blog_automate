@@ -2,9 +2,9 @@
 layout: post
 title: "Geschichte der Bildung in Åland"
 date: 2026-06-12
+image: https://upload.wikimedia.org/wikipedia/commons/4/43/Allgemeine_L%C3%A4nder-_und_V%C3%B6lkerkunde%3B_nebst_einem_Abriss_der_physikalischen_Erdbeschreibung._Ein_Lehr-_und_Hausbuch_f%C3%BCr_alle_St%C3%A4nde_%28IA_allgemeinelnd02berg%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Vom Schulmeister zum Smartphone: Bildungsgeschichte auf Åland
+![Geschichte der Bildung in Åland](https://upload.wikimedia.org/wikipedia/commons/4/43/Allgemeine_L%C3%A4nder-_und_V%C3%B6lkerkunde%3B_nebst_einem_Abriss_der_physikalischen_Erdbeschreibung._Ein_Lehr-_und_Hausbuch_f%C3%BCr_alle_St%C3%A4nde_%28IA_allgemeinelnd02berg%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Vom Schulmeister zum Smartphone: Bildungsgeschichte auf Åland
 
 Stellt euch vor, ihr sitzt in einem gemütlichen Café in Mariehamn, schlürft Kaffee und beobachtet Schulkinder, die mit Tablets durch die Straßen gehen. Genau hier, auf dieser friedlichen autonomen Inselregion zwischen Schweden und Finnland, hat sich die Bildungslandschaft in den letzten 200 Jahren dramatisch gewandelt. Die Geschichte der Bildung auf Åland ist eine faszinierende Reise vom 19. Jahrhundert bis in unsere digitale Gegenwart.
 

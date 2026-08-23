@@ -2,6 +2,7 @@
 layout: post
 title: "Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag"
 date: 2026-08-23
+image: https://images.unsplash.com/photo-1760344477109-872dcde91b49?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VGFsbGlubiUyMG5pZ2h0bGlmZSUzQSUyMEVpbmUlMjBTdGFkdCUyMHp3aXNjaGVuJTIwRHVua2VsaGVpdCUyMHVuZCUyMEFsbHRhZ3xlbnwwfDB8fHwxNzg3NDc5MjcwfDA&ixlib=rb-4.1.0
 author: lxndrJ
 ai_assisted: true
 sources:
@@ -16,8 +17,7 @@ sources:
   - https://steffistraumzeit.de/fast-24-stunden-in-tallinn-tipps/
   - https://www.laenderdaten.info/Europa/Estland/sonnenuntergang.php
 ---
-
-# Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag
+![Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag](https://images.unsplash.com/photo-1760344477109-872dcde91b49?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VGFsbGlubiUyMG5pZ2h0bGlmZSUzQSUyMEVpbmUlMjBTdGFkdCUyMHp3aXNjaGVuJTIwRHVua2VsaGVpdCUyMHVuZCUyMEFsbHRhZ3xlbnwwfDB8fHwxNzg3NDc5MjcwfDA&ixlib=rb-4.1.0)# Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag
 
 Als ich nachts durch Tallinn lief, fiel mir zuerst auf, was ich nicht sah: Spätis. Die Lichter von 24-Stunden-Kiosken, die man aus deutschen Städten kennt, gibt es hier nicht. Um 22 Uhr ist Schluss – ab dann ist der Alkoholverkauf aus Geschäften verboten. Seit 2007 gilt das Gesetz, und es prägt den Rhythmus der Stadt deutlich mehr, als man vom Touristenviertel aus vermuten würde.
 

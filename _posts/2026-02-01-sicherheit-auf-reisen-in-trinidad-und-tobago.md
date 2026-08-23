@@ -2,9 +2,9 @@
 layout: post
 title: "Sicherheit auf Reisen in Trinidad und Tobago"
 date: 2026-02-01
+image: https://upload.wikimedia.org/wikipedia/commons/a/a8/Baltische_Monatsschrift._1872%2C_Bd._21%2C_N._F._3_%28IA_bub_gb_bSAsAAAAYAAJ%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Sicher unterwegs in Trinidad und Tobago: Ein Reiseabenteuer zwischen Karibik und Vorsicht
+![Sicherheit auf Reisen in Trinidad und Tobago](https://upload.wikimedia.org/wikipedia/commons/a/a8/Baltische_Monatsschrift._1872%2C_Bd._21%2C_N._F._3_%28IA_bub_gb_bSAsAAAAYAAJ%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Sicher unterwegs in Trinidad und Tobago: Ein Reiseabenteuer zwischen Karibik und Vorsicht
 
 Die Karibik lockt mit ihren türkisblauen Gewässern und pulsierenden Rhythmen - und Trinidad und Tobago ist kein Geheimtipp mehr für Weltentdecker. Aber wie navigiert man sicher durch diesen faszinierenden Inselstaat?
 

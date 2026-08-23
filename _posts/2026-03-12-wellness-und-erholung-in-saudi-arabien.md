@@ -2,9 +2,9 @@
 layout: post
 title: "Wellness und Erholung in Saudi-Arabien"
 date: 2026-03-12
+image: https://upload.wikimedia.org/wikipedia/commons/9/99/Emblem_of_Saudi_Arabia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Wellness im Wüstenlicht: Warum Riyadh dein neues Erholungsparadies sein könnte
+![Wellness und Erholung in Saudi-Arabien](https://upload.wikimedia.org/wikipedia/commons/9/99/Emblem_of_Saudi_Arabia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wellness im Wüstenlicht: Warum Riyadh dein neues Erholungsparadies sein könnte
 
 Saudi-Arabien ist nicht unbedingt das erste Land, das dir in den Sinn kommt, wenn du an Wellness und Entspannung denkst. Doch genau das macht die Entdeckung so reizvoll. Riyadh, die pulsierende Hauptstadt, offenbart sich als überraschend moderne Oase für alle, die dem Alltag entfliehen möchten – nur eben mit einem ganz eigenen Charakter.
 

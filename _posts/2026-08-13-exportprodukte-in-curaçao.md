@@ -2,9 +2,9 @@
 layout: post
 title: "Exportprodukte in Curaçao"
 date: 2026-08-13
+image: https://upload.wikimedia.org/wikipedia/commons/5/5f/Ben_Cura%2C_Richmond%2C_Surrey%2C_UK%2C_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Curaçao: Kleine Insel, große Exportgeschichten
+![Exportprodukte in Curaçao](https://upload.wikimedia.org/wikipedia/commons/5/5f/Ben_Cura%2C_Richmond%2C_Surrey%2C_UK%2C_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Curaçao: Kleine Insel, große Exportgeschichten
 
 Die karibische Insel Curaçao ist weit mehr als nur ein Traumziel für Strandliebhaber. Hinter den farbenfrohen Häusern von Willemstad verbirgt sich eine faszinierende Exportwirtschaft, die zeigt, wie eine kleine Insel ihre Stärken nutzt, um global erfolgreich zu sein.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Käse- und Wurstsorten in Estland"
 date: 2026-06-18
+image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Tallinn kulinarisch: Estlands Käse und Wurst zwischen Mittelalter und Moderne
+![Käse- und Wurstsorten in Estland](https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Tallinn kulinarisch: Estlands Käse und Wurst zwischen Mittelalter und Moderne
 
 Estland ist nicht gerade das erste Land, das einem in den Sinn kommt, wenn man an europäische Käse- und Wurstkultur denkt. Doch wer diese baltische Perle besucht, wird schnell eines Besseren belehrt. Besonders in Tallinns charmanter Altstadt offenbaren sich geschmackliche Schätze, die Generationen von Handwerkern perfektioniert haben.
 

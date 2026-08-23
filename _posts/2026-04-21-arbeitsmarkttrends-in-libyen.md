@@ -2,9 +2,9 @@
 layout: post
 title: "Arbeitsmarkttrends in Libyen"
 date: 2026-04-21
+image: https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Zwischen Tradition und Aufbruch: Libyens neuer Arbeitsmarkt
+![Arbeitsmarkttrends in Libyen](https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Zwischen Tradition und Aufbruch: Libyens neuer Arbeitsmarkt
 
 Wenn man an Libyen denkt, fallen den meisten Menschen zunächst die historischen Wunder der Antike ein – die Ruinen von Leptis Magna, die goldenen Strände der Mittelmeerküste. Doch während die Welt auf die Vergangenheit schaut, passiert etwas Spannendes in den Straßen von Tripoli und darüber hinaus: Der libysche Arbeitsmarkt erlebt einen stillen, aber bedeutsamen Wandel.
 

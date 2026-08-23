@@ -2,9 +2,9 @@
 layout: post
 title: "Architektur und Baukunst in Grönland"
 date: 2026-06-21
+image: https://upload.wikimedia.org/wikipedia/commons/9/9b/Geschichte_der_bildenden_K%C3%BCnste_.._%28IA_bildendenkunstesec2v2schn%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Grönlands bunte Häuser und die Architektur der Polarregion
+![Architektur und Baukunst in Grönland](https://upload.wikimedia.org/wikipedia/commons/9/9b/Geschichte_der_bildenden_K%C3%BCnste_.._%28IA_bildendenkunstesec2v2schn%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Grönlands bunte Häuser und die Architektur der Polarregion
 
 Die ersten Sekunden, die ich in Nuuk verbringe, sind magisch. Nicht wegen monumentaler Kathedralen oder glänzender Wolkenkratzer – sondern wegen einer Farbexplosion, die sich über die Hügel der grönländischen Hauptstadt ausbreitet. Rote, gelbe, grüne und blaue Häuser kleben förmlich an den felsigen Abhängen, als hätte jemand einen Kasten Buntstifte über die Stadt gekippt. Das ist Grönlands Architektur: praktisch, lebendig und durchdrungen von der Seele eines Volkes, das sich dem Extreme nicht beugt, sondern es umarmt.
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Der Fischräucherer – ein Beruf, den es in Deutschland kaum noch gibt"
 date: 2026-08-23
+image: https://upload.wikimedia.org/wikipedia/commons/1/17/Hexenbuche_mit_Kreuzberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 sources:
@@ -16,8 +17,7 @@ sources:
   - https://www.deutschesee.de/manufaktur/fisch-experten/unser-raeuchermeister/
   - https://www.deutschesee.de/manufaktur/raeucherei/
 ---
-
-# Der Fischräucherer – ein Beruf, den es in Deutschland kaum noch gibt
+![Der Fischräucherer – ein Beruf, den es in Deutschland kaum noch gibt](https://upload.wikimedia.org/wikipedia/commons/1/17/Hexenbuche_mit_Kreuzberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Der Fischräucherer – ein Beruf, den es in Deutschland kaum noch gibt
 
 Es ist kein anerkannter Ausbildungsberuf wie der Fischwirt. Es gibt keine bundesweit standardisierte Lehre. Stattdessen wird das Handwerk von Generation zu Generation weitergegeben, oder man lernt es direkt im Betrieb. Hans-Joachim Fiedler, ein erfahrener Räucherer, war nach eigener Aussage „als Letzter in Deutschland" in der klassischen Form als Fischräucherer ausgebildet worden. Das sagt viel über den Zustand des Berufes aus.
 

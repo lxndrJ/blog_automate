@@ -2,9 +2,9 @@
 layout: post
 title: "Musiktraditionen in Dominica"
 date: 2026-06-03
+image: https://upload.wikimedia.org/wikipedia/commons/e/e6/1884_2half_red-brown_Dominica_unused_Yv20_SG15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Die Rhythmen von Dominica: Wo Afrika und die Karibik verschmelzen
+![Musiktraditionen in Dominica](https://upload.wikimedia.org/wikipedia/commons/e/e6/1884_2half_red-brown_Dominica_unused_Yv20_SG15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Rhythmen von Dominica: Wo Afrika und die Karibik verschmelzen
 
 Stellt euch vor: Der Himmel färbt sich orange, während die Sonne hinter den grünen Bergen Dominicas versinkt. In den Straßen von Roseau erklingt Musik, die Geschichten von Widerstand, Freude und Zusammenhalt erzählt. Das ist die Essenz der dominikanischen Musiktraditionen – ein faszinierendes Erbe, das die Seele dieser Insel ausmacht.
 

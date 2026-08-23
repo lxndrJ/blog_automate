@@ -2,9 +2,9 @@
 layout: post
 title: "Sternenhimmel und Astronomie in Swasiland"
 date: 2026-02-09
+image: https://upload.wikimedia.org/wikipedia/commons/d/d8/Dj_Stunner_Mozambique_TxC_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
-
-# Sterne über Swasiland: Eine nächtliche Reise durch Eswatini
+![Sternenhimmel und Astronomie in Swasiland](https://upload.wikimedia.org/wikipedia/commons/d/d8/Dj_Stunner_Mozambique_TxC_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Sterne über Swasiland: Eine nächtliche Reise durch Eswatini
 
 Die Dunkelheit senkt sich über die sanften Hügel von Eswatini, und mit ihr entfaltet sich ein spektakuläres kosmisches Schauspiel. Von der Hauptstadt Mbabane aus öffnet sich ein Sternenhimmel, der Träume und Geschichten erzählt, die älter sind als die Menschheit selbst.
 
