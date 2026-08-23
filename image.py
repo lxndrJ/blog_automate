@@ -166,6 +166,10 @@ def commons_pick(topic: str) -> Optional[dict]:
         url = ii.get("url", "")
         if not url:
             continue
+        # Nur echte Foto-Dateien – keine SVGs, PDFs, Dokumente, Audio, Video
+        lower_url = url.lower().split("?")[0]
+        if not any(lower_url.endswith(ext) for ext in (".jpg", ".jpeg", ".png", ".webp")):
+            continue
         # Lizenz aus den Metadaten (LicenseShortName, z. B. "CC BY-SA 4.0")
         ext = ii.get("extmetadata") or {}
         lic = (ext.get("LicenseShortName") or {}).get("value", "") or ""
@@ -219,19 +223,19 @@ def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict
 
 
 def pick_image(topic: str, orientation: str = "landscape") -> dict:
-    """Bilder-Service: 1. Wikimedia Commons (reale Fotos, CC), 2. Unsplash.
+    """Bilder-Service: 1. Unsplash (Hochglanz-Fotos, CDN), 2. Wikimedia Commons (CC).
 
     Rückgabe: {"url", "source", "license", "caption"} – url ist die Remote-Bild-URL
     (direkt in Posts nutzbar), None wenn nichts gefunden wurde.
     """
-    wm = commons_pick(topic)
-    if wm and wm.get("url"):
-        return wm
-
     en_query = _en_query(topic)
     us = unsplash_search(en_query, orientation)
     if us and us.get("url"):
         return us
+
+    wm = commons_pick(topic)
+    if wm and wm.get("url"):
+        return wm
 
     return {"url": None, "source": None, "license": None, "caption": None}
 
