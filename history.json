@@ -32,5 +32,12 @@
     "base": "Ein Beruf, den man bei uns so nicht kennt",
     "file": "_posts/2026-08-23-der-fischräucherer-ein-beruf-den-es-in-deutschland-kaum-noch-gibt.md",
     "n_sources": 10
+  },
+  {
+    "date": "2026-08-23T09:36:24",
+    "topic": "Was Tallinn nachts wirklich ist",
+    "base": "Was {stadt} nachts wirklich ist",
+    "file": "_posts/2026-08-23-tallinn-nachts-eine-stadt-zwischen-dunkelheit-und-alltag.md",
+    "n_sources": 10
   }
 ]
