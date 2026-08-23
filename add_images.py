@@ -28,6 +28,48 @@ LICENSE_NOTE = {
 }
 
 
+# Bekannte Länder/Regionen – Fallback wenn der volle Titel zu spezifisch ist
+KNOWN_LOCATIONS = [
+    "Antarktis", "Jemen", "Sambia", "Niue", "Heard", "Gabun", "Kiribati",
+    "Tokelau", "Weissrussland", "Belarus", "Tadschikistan", "Äthiopien",
+    "Wallis", "Futuna", "Zentralafrikanische", "Jungferninseln", "Saudi",
+    "Mikronesien", "Lettland", "Amerikanische", "Botswana", "Algerien",
+    "Kenia", "Niger", "Togo", "Armenien", "Tunesien", "Sudan", "Saint",
+    "Barthélemy", "Aruba", "Libanon", "Macao", "Norfolkinsel", "Curaçao",
+    "Mayotte", "Vukovar", "Kroatien", "Tschechien", "Tschad", "Fiji",
+    "Vanuatu", "Mongolei", "Brasilien", "Kongo", "Georgien", "Trinidad",
+    "Tobago", "Elfenbeinküste", "Sint Maarten", "Niederländische Antillen",
+    "Seychellen", "Kap Verde", "Komoren", "Marokko", "Tunesien", "Ägypten",
+    "Libyen", "Algerien", "Mali", "Niger", "Tschad", "Sudan", "Sambia",
+    "Zambia", "Malawi", "Mosambik", "Madagaskar", "Mauritius", "Lesotho",
+    "Eswatini", "Simbabwe", "Botswana", "Namibia", "Angola",
+    "Französisch", "Polynesien", "Neukaledonien", "Tonga", "Samoa",
+    "Fidschi", "Kiribati", "Tuvalu", "Palau", "Marshall",
+    "Nauru", "Kiribati", "Cookinseln", "Niue", "Tokelau",
+    "Britische", "Amerikanische", "Französische", "Niederländische",
+    "Süd-", "Nord-", "Ost-", "West-", "Zentral-",
+    "Antarktis", "Arktis", "Polynesien", "Mikronesien", "Melanesien",
+]
+
+
+def extract_location(title: str) -> str | None:
+    """Extrahiert einen Ländernamen aus dem Post-Titel als Fallback-Suchbegriff."""
+    # Muster: "… in <Land>" (Deutsch: in, auf, bei)
+    m = re.search(r'\b(?:in|auf|bei)\s+([A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)*)', title)
+    if m:
+        loc = m.group(1).strip()
+        # Entferne generische Wörter
+        stop = {"der", "die", "das", "und", "den", "dem", "einer", "einem"}
+        words = [w for w in loc.split() if w.lower() not in stop]
+        if words:
+            return " ".join(words)
+    # Fallback: Suche bekannte Ländernamen im Titel
+    for loc in KNOWN_LOCATIONS:
+        if loc.lower() in title.lower():
+            return loc
+    return None
+
+
 def parse_front_matter(text: str) -> tuple[list[str], str]:
     """Trennt Frontmatter (Zeilen) vom Body."""
     lines = text.split("\n")
@@ -69,6 +111,14 @@ def main() -> int:
         topic = title or f.stem
         print(f"→ {f.name}")
         img = pick_image(topic)
+
+        # Fallback: Land/Region aus dem Titel extrahieren und neu suchen
+        if not img or not img.get("url"):
+            loc = extract_location(title)
+            if loc and loc.lower() != topic.lower():
+                print(f"   … Fallback-Suche: \"{loc}\"")
+                img = pick_image(loc)
+
         if not img or not img.get("url"):
             print("   ❌ Kein Bild gefunden – übersprungen")
             fail += 1
