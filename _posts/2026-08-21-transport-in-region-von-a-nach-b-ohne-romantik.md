@@ -2,11 +2,11 @@
 layout: post
 title: "Transport in [Region]: Von A nach B – ohne Romantik"
 date: 2026-08-21
-image: https://upload.wikimedia.org/wikipedia/commons/b/bf/Meine_Amerikafahrt_zur_Ausstellung_1893_%28IA_gri_33125010389662%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1520442922418-8211a6fe605c?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8cHVibGljJTIwdHJhbnNwb3J0JTIwaW4lMjAlNUJSZWdpb24lNUQlM0ElMjBWb24lMjBBJTIwbmFjaCUyMEIlMjAlRTIlODAlOTMlMjBvaG5lJTIwUm9tYW50aWt8ZW58MHwwfHx8MTc4NzUxMTM4OXww&ixlib=rb-4.1.0
 author: lxndrJ
 ai_assisted: true
 ---
-![Transport in [Region]: Von A nach B – ohne Romantik](https://upload.wikimedia.org/wikipedia/commons/b/bf/Meine_Amerikafahrt_zur_Ausstellung_1893_%28IA_gri_33125010389662%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Transport in [Region]: Von A nach B – ohne Romantik
+![Transport in [Region]: Von A nach B – ohne Romantik](https://images.unsplash.com/photo-1520442922418-8211a6fe605c?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8cHVibGljJTIwdHJhbnNwb3J0JTIwaW4lMjAlNUJSZWdpb24lNUQlM0ElMjBWb24lMjBBJTIwbmFjaCUyMEIlMjAlRTIlODAlOTMlMjBvaG5lJTIwUm9tYW50aWt8ZW58MHwwfHx8MTc4NzUxMTM4OXww&ixlib=rb-4.1.0)# Transport in [Region]: Von A nach B – ohne Romantik
 
 Okay, ich muss dir ehrlich sagen: Ich sitze hier ohne die konkrete Region vor mir. Dein Recherche-Brief ist angekommen, aber du hast mir noch nicht verraten, *wohin* es gehen soll. Delhi nach Agra? Lima nach Cusco? Hanoi nach Da Nang? Das ändert alles – Kosten, Dauer, wie wahrscheinlich es ist, dass du pünktlich ankommst.
 

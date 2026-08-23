@@ -2,9 +2,9 @@
 layout: post
 title: "Landwirtschaftliche Regionen in Niger"
 date: 2026-07-18
-image: https://upload.wikimedia.org/wikipedia/commons/4/49/OJ_C_208_of_2016_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1669749713424-e7a0dbf605e6?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TGFuZHdpcnRzY2hhZnRsaWNoZSUyMFJlZ2lvbmVuJTIwaW4lMjBOaWdlcnxlbnwwfDB8fHwxNzg3NTExMzU2fDA&ixlib=rb-4.1.0
 ---
-![Landwirtschaftliche Regionen in Niger](https://upload.wikimedia.org/wikipedia/commons/4/49/OJ_C_208_of_2016_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Grüne Oasen in der Sahara: Landwirtschaft in Niger
+![Landwirtschaftliche Regionen in Niger](https://images.unsplash.com/photo-1669749713424-e7a0dbf605e6?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TGFuZHdpcnRzY2hhZnRsaWNoZSUyMFJlZ2lvbmVuJTIwaW4lMjBOaWdlcnxlbnwwfDB8fHwxNzg3NTExMzU2fDA&ixlib=rb-4.1.0)# Grüne Oasen in der Sahara: Landwirtschaft in Niger
 
 Wenn man an Niger denkt, stellen sich viele Menschen endlose Sandwüsten vor – und ja, die Sahara prägt das Land zweifellos. Doch wer genauer hinschaut, entdeckt etwas Faszinierendes: In diesem westafrikanischen Land entstehen inmitten der rauen Natur grüne Inseln der Hoffnung, wo Generationen von Bauern das Unmögliche möglich gemacht haben.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Zeitgeschichte in Niger"
 date: 2026-03-22
-image: https://upload.wikimedia.org/wikipedia/commons/5/53/Die_Geschichte_der_griechischen_Philosophie_zur_%C3%9Cbersicht%2C_repetition_u._Orientierung_bei_einigen_Studien_entworfen_%28IA_diegeschichteder00stru%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1781263378197-9ea12f94b827?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8WmVpdGdlc2NoaWNodGUlMjBpbiUyME5pZ2VyfGVufDB8MHx8fDE3ODc1MTEyNjh8MA&ixlib=rb-4.1.0
 ---
-![Zeitgeschichte in Niger](https://upload.wikimedia.org/wikipedia/commons/5/53/Die_Geschichte_der_griechischen_Philosophie_zur_%C3%9Cbersicht%2C_repetition_u._Orientierung_bei_einigen_Studien_entworfen_%28IA_diegeschichteder00stru%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Niger: Zwischen Wüstensand und Weltgeschichte
+![Zeitgeschichte in Niger](https://images.unsplash.com/photo-1781263378197-9ea12f94b827?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8WmVpdGdlc2NoaWNodGUlMjBpbiUyME5pZ2VyfGVufDB8MHx8fDE3ODc1MTEyNjh8MA&ixlib=rb-4.1.0)# Niger: Zwischen Wüstensand und Weltgeschichte
 
 Es gibt Orte auf dieser Welt, an denen Geschichte nicht in Museen eingesperrt ist, sondern in der Luft liegt – zwischen den Lehmmauern alter Paläste, in den Geschichten der Menschen, die täglich ihre Wege gehen. Niger ist so ein Ort. Und wenn man verstehen möchte, wer dieses Land ist, muss man nach Niamey kommen und zuhören.
 

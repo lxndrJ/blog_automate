@@ -2,9 +2,9 @@
 layout: post
 title: "Märchen und Sagen in Saint-Martin"
 date: 2026-06-09
-image: https://upload.wikimedia.org/wikipedia/commons/b/bb/Archiv_f%C3%BCr_das_Studium_der_neueren_Sprachen_und_Literaturen_%28IA_archivfrdasstu105brauuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1551017911-7096a69c6d47?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TSVDMyVBNHJjaGVuJTIwdW5kJTIwU2FnZW4lMjBpbiUyMFNhaW50LU1hcnRpbnxlbnwwfDB8fHwxNzg3NTExMzE1fDA&ixlib=rb-4.1.0
 ---
-![Märchen und Sagen in Saint-Martin](https://upload.wikimedia.org/wikipedia/commons/b/bb/Archiv_f%C3%BCr_das_Studium_der_neueren_Sprachen_und_Literaturen_%28IA_archivfrdasstu105brauuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Märchen und Sagen von Saint-Martin: Wo Geschichte und Legende tanzen
+![Märchen und Sagen in Saint-Martin](https://images.unsplash.com/photo-1551017911-7096a69c6d47?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TSVDMyVBNHJjaGVuJTIwdW5kJTIwU2FnZW4lMjBpbiUyMFNhaW50LU1hcnRpbnxlbnwwfDB8fHwxNzg3NTExMzE1fDA&ixlib=rb-4.1.0)# Märchen und Sagen von Saint-Martin: Wo Geschichte und Legende tanzen
 
 Saint-Martin ist mehr als nur eine karibische Insel mit traumhaften Stränden und bunten Häusern. Es ist ein Ort, wo sich Geschichte, Kultur und Magie auf eine ganz besondere Weise verflechten – besonders in den Geschichten, die von Generation zu Generation weitergegeben werden.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "Klimazonen in Angola"
 date: 2026-05-12
-image: https://upload.wikimedia.org/wikipedia/commons/3/3c/Handbuch_der_Klimatologie_%28IA_b21907316_0002%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1520709087497-0749666fe1d2?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8S2xpbWF6b25lbiUyMGluJTIwQW5nb2xhfGVufDB8MHx8fDE3ODc0MzM1Mjh8MA&ixlib=rb-4.1.0
 ---
-![Klimazonen in Angola](https://upload.wikimedia.org/wikipedia/commons/3/3c/Handbuch_der_Klimatologie_%28IA_b21907316_0002%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Angola: Zwischen Wüstenhitze und tropischen Wäldern
+![Klimazonen in Angola](https://images.unsplash.com/photo-1520709087497-0749666fe1d2?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8S2xpbWF6b25lbiUyMGluJTIwQW5nb2xhfGVufDB8MHx8fDE3ODc0MzM1Mjh8MA&ixlib=rb-4.1.0)# Angola: Zwischen Wüstenhitze und tropischen Wäldern
 
 Angola ist ein Land der Kontraste – und das beginnt bereits mit seinen Klimazonen. Während ich die erste Nacht in Luanda verbringe und die salzige Atlantikbrise einatme, wird mir bewusst: Dieses südwestafrikanische Land hat weit mehr zu bieten als nur eine Klimazone. Es ist ein faszinierendes Mosaik aus unterschiedlichsten Landschaften und Wetterbedingungen.
 

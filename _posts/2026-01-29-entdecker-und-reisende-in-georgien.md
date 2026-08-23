@@ -2,9 +2,9 @@
 layout: post
 title: "Entdecker und Reisende in Georgien"
 date: 2026-01-29
-image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Bulletin_de_l%27Acad%C3%A9mie_imp%C3%A9riale_des_sciences_de_St.-P%C3%A9tersbourg._Tome_16%2C_1871_%28IA_bulletindelacadm16impe%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1688896258951-7dfd2b3d041b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RW50ZGVja2VyJTIwdW5kJTIwUmVpc2VuZGUlMjBpbiUyMEdlb3JnaWVufGVufDB8MHx8fDE3ODc1MTEyMzh8MA&ixlib=rb-4.1.0
 ---
-![Entdecker und Reisende in Georgien](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bulletin_de_l%27Acad%C3%A9mie_imp%C3%A9riale_des_sciences_de_St.-P%C3%A9tersbourg._Tome_16%2C_1871_%28IA_bulletindelacadm16impe%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Georgien: Eine Reise durch Zeit und Geschichten
+![Entdecker und Reisende in Georgien](https://images.unsplash.com/photo-1688896258951-7dfd2b3d041b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RW50ZGVja2VyJTIwdW5kJTIwUmVpc2VuZGUlMjBpbiUyMEdlb3JnaWVufGVufDB8MHx8fDE3ODc1MTEyMzh8MA&ixlib=rb-4.1.0)# Georgien: Eine Reise durch Zeit und Geschichten
 
 *Wo Legenden auf Landstraßen wandeln und Berge Geschichten flüstern*
 

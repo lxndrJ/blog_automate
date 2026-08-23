@@ -2,9 +2,9 @@
 layout: post
 title: "Historische Rezepte in Puerto Rico"
 date: 2026-05-13
-image: https://upload.wikimedia.org/wikipedia/commons/3/33/OJ_C_316_of_2023_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://images.unsplash.com/photo-1734883930471-e89f08052cc2?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SGlzdG9yaXNjaGUlMjBSZXplcHRlJTIwaW4lMjBQdWVydG8lMjBSaWNvfGVufDB8MHx8fDE3ODc0MzM1MzJ8MA&ixlib=rb-4.1.0
 ---
-![Historische Rezepte in Puerto Rico](https://upload.wikimedia.org/wikipedia/commons/3/33/OJ_C_316_of_2023_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Seele Puerto Ricos auf dem Teller: Eine kulinarische Zeitreise durch San Juan
+![Historische Rezepte in Puerto Rico](https://images.unsplash.com/photo-1734883930471-e89f08052cc2?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SGlzdG9yaXNjaGUlMjBSZXplcHRlJTIwaW4lMjBQdWVydG8lMjBSaWNvfGVufDB8MHx8fDE3ODc0MzM1MzJ8MA&ixlib=rb-4.1.0)# Die Seele Puerto Ricos auf dem Teller: Eine kulinarische Zeitreise durch San Juan
 
 Es gibt Orte auf der Welt, an denen man Geschichte nicht nur sieht oder hört – man schmeckt sie. Puerto Rico ist so ein Ort. Und wenn es einen Platz gibt, wo die kulinarische Vergangenheit dieser wundervollen Insel lebendig wird, dann ist es San Juan, die lebendige Hauptstadt mit ihren kopfsteingepflasterten Gassen und farbenfrohen Kolonialbauten.
 
