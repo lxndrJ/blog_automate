@@ -1,9 +1,21 @@
 # publisher.py – Markdown + ehrliches Frontmatter schreiben
 import os
 import re
+import sys
 from datetime import datetime
 
 from config import POSTS_DIR
+
+
+def _find_image(topic: str) -> dict | None:
+    """Automatische Bildsuche (Wikimedia/Unsplash) – nie fatal, nur Fallback."""
+    try:
+        from image import pick_image
+        r = pick_image(topic)
+        return r if r.get("url") else None
+    except Exception as e:
+        print(f"      (Bildsuche fehlgeschlagen: {e})", file=sys.stderr)
+        return None
 
 
 def _safe_filename(title: str) -> str:
@@ -16,6 +28,14 @@ def save(title: str, content: str, image_url: str | None, sources: list[str]) ->
     os.makedirs(POSTS_DIR, exist_ok=True)
     date_str = datetime.now().strftime("%Y-%m-%d")
     filename = f"{POSTS_DIR}/{date_str}-{_safe_filename(title)}.md"
+
+    # Bild: übergebenes zuerst, sonst automatisch suchen (alle Posts sollen ein Bild haben)
+    if not image_url:
+        print("      → Bild automatisch gesucht …")
+        img = _find_image(title)
+        if img:
+            image_url = img["url"]
+            print(f"      → Bild: {img['source']} ({img['license']})")
 
     fm = [
         "---",

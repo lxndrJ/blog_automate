@@ -27,24 +27,26 @@ try:
 except ImportError:
     pass
 
-UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+UA = "blog.pandango.de/1.0 (https://blog.pandango.de; info@pandango.de)"
 
 CACHE_DIR = Path(__file__).resolve().parent / "image_cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 UNSPLASH_TIMEOUT = 10
-REQUEST_DELAY = 500    # ms-Wartezeit zwischen API-Calls (Rate-Limit-Schutz)
+REQUEST_DELAY = 2000   # ms-Wartezeit zwischen API-Calls (Wikimedia/Unsplash Rate-Limit-Schutz)
 
 
 def http(url: str, timeout: int = 20) -> dict:
     """HTTP-GET einer (bereits vollständigen) JSON-API-URL mit Retry + Backoff.
 
-    Die URL wird hier NICHT gequotet – Query-Parameter müssen vorher
-    sauber mit urlencode() gebildet sein.
+    Beachtet Wikimedia-Rate-Limits (2026):
+    - Konformer User-Agent -> 200 req/min (nicht 10)
+    - Retry-After Header bei 429
+    - Max 3 parallele Requests (wir nutzen nur 1)
     """
-    delay = 0.0
-    for _ in range(4):
+    delay = 0.5  # Start mit 0.5s
+    for attempt in range(5):
         try:
             req = urllib.request.Request(
                 url, headers={"User-Agent": UA, "Accept": "application/json"}
@@ -52,20 +54,35 @@ def http(url: str, timeout: int = 20) -> dict:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 if resp.status == 200:
                     return json.loads(resp.read())
-                if resp.status == 429:
-                    time.sleep(min(delay + REQUEST_DELAY / 1000.0, 5))
-                    delay *= 2
-                    continue
             return {}
         except urllib.error.HTTPError as e:
-            print(f"    HTTPError {e.code}", file=sys.stderr)
-            time.sleep(min(delay + REQUEST_DELAY / 1000.0, 5))
-            delay *= 2
+            # Retry-After Header beachten (Wikimedia-Standard)
+            retry_after = e.headers.get("Retry-After")
+            if retry_after:
+                try:
+                    wait = float(retry_after)
+                except ValueError:
+                    wait = delay
+            else:
+                wait = delay
+            
+            if e.code == 429:
+                print(f"    429 Too Many Requests (warte {wait:.1f}s) ...", file=sys.stderr)
+            elif e.code == 403:
+                print(f"    403 Forbidden (warte {wait:.1f}s) ...", file=sys.stderr)
+            else:
+                print(f"    HTTP {e.code} (warte {wait:.1f}s) ...", file=sys.stderr)
+            
+            time.sleep(wait)
+            delay = min(delay * 2, 10)  # Exponential backoff, max 10s
             continue
-        except Exception:
-            time.sleep(min(delay + REQUEST_DELAY / 1000.0, 5))
-            delay *= 2
+        except Exception as ex:
+            print(f"    Fehler: {ex} (warte {delay:.1f}s) ...", file=sys.stderr)
+            time.sleep(delay)
+            delay = min(delay * 2, 10)
             continue
+    
+    print(f"    ✗ Alle 5 Versuche fehlgeschlagen", file=sys.stderr)
     return {}
 
 
@@ -172,7 +189,7 @@ def commons_pick(topic: str) -> Optional[dict]:
 def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict]:
     """Unsplash: API-Ranking nach Relevanz, Metadaten als Caption.
 
-    Liefert {"url", "license", "caption"} mit lokalem Cache-Pfad, oder None.
+    Liefert {"url", "license", "caption"} mit der Remote-Bild-URL, oder None.
     """
     if not UNSPLASH_KEY:
         return None
@@ -189,14 +206,11 @@ def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict
         img_url = urls.get("raw") or urls.get("regular")
         if not img_url:
             continue
-        cached = _download(img_url, 30)
-        if not cached:
-            continue
         # Metadaten: bevorzugt Beschreibung, sonst Alt-Text
         meta = r.get("description") or r.get("alt_description") or ""
         caption = f"{meta} – Unsplash" if meta else f"{query} – Unsplash"
         return {
-            "url": str(cached),
+            "url": img_url,
             "source": "unsplash",
             "license": "Unsplash License (frei verwendbar)",
             "caption": caption,
@@ -207,7 +221,8 @@ def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict
 def pick_image(topic: str, orientation: str = "landscape") -> dict:
     """Bilder-Service: 1. Wikimedia Commons (reale Fotos, CC), 2. Unsplash.
 
-    Rückgabe: {"url", "source", "license", "caption"} – url ist None, wenn nichts ging.
+    Rückgabe: {"url", "source", "license", "caption"} – url ist die Remote-Bild-URL
+    (direkt in Posts nutzbar), None wenn nichts gefunden wurde.
     """
     wm = commons_pick(topic)
     if wm and wm.get("url"):
