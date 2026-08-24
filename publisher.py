@@ -4,11 +4,33 @@ import re
 import sys
 from datetime import datetime
 
+try:
+    from zoneinfo import ZoneInfo
+    BERLIN_TZ = ZoneInfo("Europe/Berlin")
+except Exception:  # pragma: no cover - Fallback ohne zoneinfo
+    from datetime import timezone, timedelta
+    BERLIN_TZ = timezone(timedelta(hours=2), name="+0200")
+
 from config import POSTS_DIR
 
 
+def _now_berlin() -> datetime:
+    """Aktuelle Zeit in der Zone Europe/Berlin (inkl. Sommerzeit)."""
+    return datetime.now(BERLIN_TZ)
+
+
+def post_timestamp() -> str:
+    """Publikationszeitstempel: exakter Erzeugungszeitpunkt in Berlin-Zone.
+
+    Jeder Post erhält den tatsächlichen Erzeugungszeitpunkt – das garantiert
+    eindeutige Timestamps auch bei mehreren Posts am selben Tag und einen
+    sauber sortierbaren RSS-Feed.
+    """
+    return _now_berlin().strftime("%Y-%m-%d %H:%M:%S %z")
+
+
 def _find_image(topic: str) -> dict | None:
-    """Automatische Bildsuche (Wikimedia/Unsplash) – nie fatal, nur Fallback."""
+    """Automatische Bildsuche (Unsplash/Wikimedia) – nie fatal, nur Fallback."""
     try:
         from image import pick_image
         r = pick_image(topic)
@@ -25,11 +47,14 @@ def _safe_filename(title: str) -> str:
 
 
 def save(title: str, content: str, image_url: str | None, sources: list[str]) -> str:
+    """Schreibt einen Blog-Post mit korrektem Frontmatter nach POSTS_DIR."""
     os.makedirs(POSTS_DIR, exist_ok=True)
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    now = _now_berlin()
+    date_str = now.strftime("%Y-%m-%d")
+    date_full = post_timestamp()
     filename = f"{POSTS_DIR}/{date_str}-{_safe_filename(title)}.md"
 
-    # Bild: übergebenes zuerst, sonst automatisch suchen (alle Posts sollen ein Bild haben)
+    # Bild: übergebenes zuerst, sonst automatisch suchen
     if not image_url:
         print("      → Bild automatisch gesucht …")
         img = _find_image(title)
@@ -37,11 +62,12 @@ def save(title: str, content: str, image_url: str | None, sources: list[str]) ->
             image_url = img["url"]
             print(f"      → Bild: {img['source']} ({img['license']})")
 
+    # Frontmatter
     fm = [
         "---",
         "layout: post",
         f'title: "{title}"',
-        f"date: {date_str}",
+        f'date: {date_full}',
         "author: lxndrJ",
         "ai_assisted: true",
     ]
@@ -52,8 +78,12 @@ def save(title: str, content: str, image_url: str | None, sources: list[str]) ->
         fm.extend(f"  - {s}" for s in sources)
     fm.append("---")
 
-    body = "\n".join(["", f"![{title}]({image_url})"] if image_url else [""])
-    body += "\n" + content.strip() + "\n"
+    # Body
+    parts = []
+    if image_url:
+        parts.append(f"![{title}]({image_url})")
+    parts.append(content.strip())
+    body = "\n\n".join(parts) + "\n"
 
     # Quellen-Sektion sicherstellen (Editor soll sie anlegen; Fallback)
     if sources and "## Quellen" not in content:

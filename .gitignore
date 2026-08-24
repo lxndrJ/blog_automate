@@ -7,6 +7,18 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.egg-info/
 
 # Bild-Cache (lokal, wird bei Bedarf neu heruntergeladen)
 image_cache/
+
+# Alte v1-Logs
+blog_log.txt
+
+# OS-Kram
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

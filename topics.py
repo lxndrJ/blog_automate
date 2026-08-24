@@ -138,3 +138,11 @@ def record(topic: str, base: str, filename: str, sources: list[str]) -> None:
 
 def used_topics() -> list[str]:
     return [h.get("base", h.get("topic", "")) for h in load_history()]
+
+
+def update_file(new_file: str) -> None:
+    """Aktualisiert den Dateipfad des letzten Historie-Eintrags (z. B. nach Archivierung)."""
+    history = load_history()
+    if history:
+        history[-1]["file"] = new_file
+        save_history(history)

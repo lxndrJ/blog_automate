@@ -1,16 +1,23 @@
 from datetime import datetime
 import os
 
+try:
+    from zoneinfo import ZoneInfo
+    BERLIN_TZ = ZoneInfo("Europe/Berlin")
+except Exception:  # pragma: no cover - Fallback ohne zoneinfo
+    from datetime import timezone, timedelta
+    BERLIN_TZ = timezone(timedelta(hours=2), name="+0200")
+
+
 def save_markdown(title, content, image_url=None, categories=None):
     # Ensure _posts directory exists
     os.makedirs('_posts', exist_ok=True)
 
-    # Format date and filename for Jekyll
-    date_obj = datetime.now()
+    # Format date and filename for Jekyll (Zone Europe/Berlin inkl. Sommerzeit)
+    date_obj = datetime.now(BERLIN_TZ)
     date_str = date_obj.strftime("%Y-%m-%d")
-    # Include time in ISO 8601 format for proper RSS feed generation
-    # Format: YYYY-MM-DD HH:MM:SS +TZINFO
-    date_str_with_time = date_obj.strftime("%Y-%m-%d %H:%M:%S %z")
+    # Publikationszeitstempel: fix 08:00 Berlin (eindeutig pro Tag, sauberer RSS)
+    date_str_with_time = date_obj.replace(hour=8, minute=0, second=0, microsecond=0).strftime("%Y-%m-%d %H:%M:%S %z")
     safe_title = title.replace(" ", "-").replace("**", "").lower()
     filename = f"_posts/{date_str}-{safe_title}.md"
 

@@ -1,8 +1,8 @@
-name: Generate Blog Post (daily)
+name: Generate Blog Post
 
 on:
   schedule:
-    # 6:00 UTC = 8:00 MESZ (Morgens vor Sync)
+    # 6:00 UTC = 8:00 MESZ / 9:00 MEZ
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
@@ -15,10 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
+    env:
+      BLOG_SITE_REPO: ${{ github.workspace }}/site
+      BLOG_BOT_NAME: "lxndrJ[bot]"
+      BLOG_BOT_EMAIL: "actions@github.com"
+
     steps:
-      - name: Checkout repository
+      - name: Checkout pipeline repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout site repository (blog.pandango.de)
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: site
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -30,123 +45,49 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-        continue-on-error: false
 
-      - name: Run blog post generator
-        id: generate
+      - name: Generate post → publish to site → archive locally
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TOPIC: ${{ github.event.inputs.topic }}
         run: |
-          echo "Starting blog post generation..."
-          
+          # Der Orchestrator:
+          #  1) erzeugt den Post (eindeutiger Timestamp mit Berlin-Zone)
+          #  2) kopiert ihn ins Site-Repo, committet & pusht nach blog.pandango.de
+          #  3) verschiebt ihn im Pipeline-Repo nach archive/ (keine doppelte Pflege)
           if [ -n "$TOPIC" ]; then
-            echo "Generating post for topic: $TOPIC"
-            python orchestrator.py --topic "$TOPIC"
-            RESULT=$?
+            python orchestrator.py --topic "$TOPIC" --site-repo "$BLOG_SITE_REPO"
           else
-            echo "Generating post with default topic selection"
-            python orchestrator.py
-            RESULT=$?
-          fi
-          
-          if [ $RESULT -eq 0 ]; then
-            echo "status=success" >> $GITHUB_OUTPUT
-            echo "✅ Blog post generated successfully"
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-            echo "❌ Blog post generation failed with exit code: $RESULT"
-            exit $RESULT
+            python orchestrator.py --site-repo "$BLOG_SITE_REPO"
           fi
 
-      - name: Check generated files
-        if: success()
-        run: |
-          echo "=== Generated Posts ==="
-          if [ -d "_posts" ]; then
-            ls -lah _posts/ | tail -10
-            echo ""
-            echo "Total posts: $(find _posts -name "*.md" -o -name "*.markdown" | wc -l)"
-          else
-            echo "❌ _posts directory not found!"
-            exit 1
-          fi
-          
-          echo ""
-          echo "=== Checking history.json ==="
-          if [ -f "history.json" ]; then
-            wc -l history.json
-          fi
-
-      - name: Commit and Push (Direct Mode)
-        if: ${{ vars.PR_FLOW != 'true' && success() }}
+      - name: Push pipeline repo (Archiv + Log)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name  "lxndrJ[bot]"
-          git config user.email "actions@github.com"
-          
-          git add _posts run_log.jsonl history.json
-          
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add -A _posts archive run_log.jsonl history.json
           if git diff --cached --quiet; then
-            echo "ℹ️ No changes to commit (post may already exist or was skipped)"
+            echo "ℹ️ Pipeline-Repo ohne Änderungen"
           else
-            git commit -m "Blog-Post: $(date +%F)"
-            if git push; then
-              echo "✅ Changes pushed successfully"
-            else
-              echo "❌ Push failed"
-              exit 1
-            fi
-          fi
-
-      - name: Create PR (Review Mode)
-        if: ${{ vars.PR_FLOW == 'true' && success() }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          BR="post-$(date +%Y%m%d-%H%M%S)"
-          
-          git checkout -b "$BR"
-          git config user.name  "lxndrJ[bot]"
-          git config user.email "actions@github.com"
-          
-          git add _posts run_log.jsonl history.json
-          
-          if git diff --cached --quiet; then
-            echo "ℹ️ No changes detected - skipping PR creation"
-          else
-            git commit -m "Blog-Post: $(date +%F)"
-            git push --set-upstream origin "$BR"
-            
-            gh pr create \
-              --title "Neuer Blog-Post zum Review ($(date +%F))" \
-              --body "Automatisch generiert.
-              
-              - [ ] Fakten überprüft
-              - [ ] Quellen validiert
-              - [ ] Formatierung OK
-              
-              Bitte überprüfen und dann mergen."
-              
-            echo "✅ PR created successfully"
+            git commit -m "Archive + Log: $(date +%F) (veröffentlicht auf blog.pandango.de)"
+            git push origin main
+            echo "✅ Pipeline-Repo aktualisiert (Post archiviert)"
           fi
 
       - name: Workflow Summary
         if: always()
         run: |
-          echo "## Blog Post Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Blog Post Generation" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Key | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|-----|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Status | ${{ steps.generate.outputs.status || 'pending' }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Timestamp | $(date) |" >> $GITHUB_STEP_SUMMARY
-          echo "| Mode | ${{ vars.PR_FLOW == 'true' && 'Review' || 'Direct Commit' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Flow | Generieren → Site-Repo pushen → Pipeline-Repo archivieren |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -d "_posts" ]; then
-            POST_COUNT=$(find _posts -type f \( -name "*.md" -o -name "*.markdown" \) | wc -l)
-            echo "| Total Posts | $POST_COUNT |" >> $GITHUB_STEP_SUMMARY
+          if [ -d "archive" ]; then
+            echo "| Archived posts | $(find archive -name '*.md' | wc -l) |" >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Notify on failure
@@ -155,5 +96,4 @@ jobs:
           echo "## ❌ Blog Post Generation FAILED" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
-          echo "The orchestrator.py script may have encountered an error." >> $GITHUB_STEP_SUMMARY
           exit 1
