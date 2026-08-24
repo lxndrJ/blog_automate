@@ -8,6 +8,9 @@ def save_markdown(title, content, image_url=None, categories=None):
     # Format date and filename for Jekyll
     date_obj = datetime.now()
     date_str = date_obj.strftime("%Y-%m-%d")
+    # Include time in ISO 8601 format for proper RSS feed generation
+    # Format: YYYY-MM-DD HH:MM:SS +TZINFO
+    date_str_with_time = date_obj.strftime("%Y-%m-%d %H:%M:%S %z")
     safe_title = title.replace(" ", "-").replace("**", "").lower()
     filename = f"_posts/{date_str}-{safe_title}.md"
 
@@ -15,7 +18,8 @@ def save_markdown(title, content, image_url=None, categories=None):
     front_matter = "---\n"
     front_matter += "layout: post\n"
     front_matter += f"title: \"{title}\"\n"
-    front_matter += f"date: {date_str}\n"
+    # Use date WITH time for proper RSS feed generation
+    front_matter += f"date: {date_str_with_time}\n"
     if categories:
         front_matter += f"categories: {categories}\n"
     if image_url:
@@ -30,4 +34,3 @@ def save_markdown(title, content, image_url=None, categories=None):
         f.write(content)
 
     return filename
-
