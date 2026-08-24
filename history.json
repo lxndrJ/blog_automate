@@ -39,5 +39,12 @@
     "base": "Was {stadt} nachts wirklich ist",
     "file": "_posts/2026-08-23-tallinn-nachts-eine-stadt-zwischen-dunkelheit-und-alltag.md",
     "n_sources": 10
+  },
+  {
+    "date": "2026-08-24T06:04:29",
+    "topic": "Ein Tag im Leben: Markttag in Kosice",
+    "base": "Ein Tag im Leben: Markttag in {stadt}",
+    "file": "_posts/2026-08-24-ein-samstagmorgen-auf-dem-dominikner-platz-in-koice.md",
+    "n_sources": 10
   }
 ]
