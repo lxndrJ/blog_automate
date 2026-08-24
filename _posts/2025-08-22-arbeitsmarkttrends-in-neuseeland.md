@@ -8,6 +8,8 @@ image: https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=M3wxMDM
 
 
 
+
+<!-- Photo by Hunters Race on Unsplash -->
 ![Arbeitsmarkttrends in Neuseeland](https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8am9ic3xlbnwwfDB8fHwxNzg3NTMwMTM0fDA&ixlib=rb-4.1.0)
 
 # Wellington: Eine innovative Hauptstadt zwischen Tradition und digitaler Transformation
@@ -58,6 +60,7 @@ Die Arbeitslandschaft in Wellington zeigt klare Trends:
 
 *Entdecke die Möglichkeiten dieser inspirierenden Stadt!*
 
+<!-- Photo by Markus Spiske on Unsplash -->
 ![Die Pulsader der neuseeländischen Arbeitswelt](https://images.unsplash.com/photo-1745249224513-9f0c03a0fa50?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8UHVsc2FkZXIlMjBuZXVzZWVsJUMzJUE0bmRpc2NoZW4lMjBBcmJlaXRzd2VsdHxlbnwwfDB8fHwxNzg3NTMwMTM1fDA&ixlib=rb-4.1.0)
 
 ---
