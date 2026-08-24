@@ -2,7 +2,7 @@ name: Generate Blog Post (daily)
 
 on:
   schedule:
-    #  um 08:00 Europe/Berlin
+    # 6:00 UTC = 8:00 MESZ (Morgens vor Sync)
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
@@ -13,48 +13,147 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v6
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: 'pip'
 
-      - name: Install
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        continue-on-error: false
 
-      - name: Run pipeline
+      - name: Run blog post generator
+        id: generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TOPIC: ${{ github.event.inputs.topic }}
         run: |
+          echo "Starting blog post generation..."
+          
           if [ -n "$TOPIC" ]; then
+            echo "Generating post for topic: $TOPIC"
             python orchestrator.py --topic "$TOPIC"
+            RESULT=$?
           else
+            echo "Generating post with default topic selection"
             python orchestrator.py
+            RESULT=$?
+          fi
+          
+          if [ $RESULT -eq 0 ]; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "✅ Blog post generated successfully"
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+            echo "❌ Blog post generation failed with exit code: $RESULT"
+            exit $RESULT
           fi
 
-      - name: Commit + Push (Direkt-Modus)
-        if: ${{ vars.PR_FLOW != 'true' }}
+      - name: Check generated files
+        if: success()
+        run: |
+          echo "=== Generated Posts ==="
+          if [ -d "_posts" ]; then
+            ls -lah _posts/ | tail -10
+            echo ""
+            echo "Total posts: $(find _posts -name "*.md" -o -name "*.markdown" | wc -l)"
+          else
+            echo "❌ _posts directory not found!"
+            exit 1
+          fi
+          
+          echo ""
+          echo "=== Checking history.json ==="
+          if [ -f "history.json" ]; then
+            wc -l history.json
+          fi
+
+      - name: Commit and Push (Direct Mode)
+        if: ${{ vars.PR_FLOW != 'true' && success() }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "lxndrJ[bot]"
           git config user.email "actions@github.com"
+          
           git add _posts run_log.jsonl history.json
-          git diff --cached --quiet || git commit -m "Blog-Post: $(date +%F)"
-          git push
+          
+          if git diff --cached --quiet; then
+            echo "ℹ️ No changes to commit (post may already exist or was skipped)"
+          else
+            git commit -m "Blog-Post: $(date +%F)"
+            if git push; then
+              echo "✅ Changes pushed successfully"
+            else
+              echo "❌ Push failed"
+              exit 1
+            fi
+          fi
 
-      - name: PR erzeugen (Review-Modus)
-        if: ${{ vars.PR_FLOW == 'true' }}
+      - name: Create PR (Review Mode)
+        if: ${{ vars.PR_FLOW == 'true' && success() }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          BR="post-$(date +%Y%m%d-%H%M)"
+          BR="post-$(date +%Y%m%d-%H%M%S)"
+          
           git checkout -b "$BR"
           git config user.name  "lxndrJ[bot]"
           git config user.email "actions@github.com"
+          
           git add _posts run_log.jsonl history.json
-          git commit -m "Blog-Post: $(date +%F)"
-          git push --set-upstream origin "$BR"
-          gh pr create --title "Neuer Blog-Post zum Review" --body "Automatisch generiert. Bitte Fakten & Quellen prüfen, dann mergen."
+          
+          if git diff --cached --quiet; then
+            echo "ℹ️ No changes detected - skipping PR creation"
+          else
+            git commit -m "Blog-Post: $(date +%F)"
+            git push --set-upstream origin "$BR"
+            
+            gh pr create \
+              --title "Neuer Blog-Post zum Review ($(date +%F))" \
+              --body "Automatisch generiert.
+              
+              - [ ] Fakten überprüft
+              - [ ] Quellen validiert
+              - [ ] Formatierung OK
+              
+              Bitte überprüfen und dann mergen."
+              
+            echo "✅ PR created successfully"
+          fi
+
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## Blog Post Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Key | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ${{ steps.generate.outputs.status || 'pending' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Timestamp | $(date) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | ${{ vars.PR_FLOW == 'true' && 'Review' || 'Direct Commit' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -d "_posts" ]; then
+            POST_COUNT=$(find _posts -type f \( -name "*.md" -o -name "*.markdown" \) | wc -l)
+            echo "| Total Posts | $POST_COUNT |" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Blog Post Generation FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+          echo "The orchestrator.py script may have encountered an error." >> $GITHUB_STEP_SUMMARY
+          exit 1

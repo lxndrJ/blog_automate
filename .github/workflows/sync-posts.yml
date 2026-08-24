@@ -1,23 +1,25 @@
----
 name: Sync Posts to Blog Repository
 
 on:
   schedule:
+    # Läuft täglich um 6:15 UTC = 8:15 MESZ (nach generate-blog-post)
     - cron: '15 6 * * *'
   workflow_dispatch: # Allows manual triggering for testing
 
 jobs:
   sync-posts:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout source repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           path: source
 
       - name: Checkout target repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           repository: lxndrJ/blog.pandango.de
           token: ${{ secrets.BLOG_SYNC_TOKEN }}
@@ -31,43 +33,60 @@ jobs:
           mkdir -p target/_posts
 
           # Show current state
-          echo "Source _posts contents:"
-          ls -la source/_posts/ || \
-            echo "Source _posts directory is empty or doesn't exist"
+          echo "=== Source _posts contents ==="
+          ls -lah source/_posts/ 2>/dev/null | head -20 || echo "Source _posts directory is empty or doesn't exist"
+          
+          echo ""
+          echo "=== Target _posts contents before sync ==="
+          ls -lah target/_posts/ 2>/dev/null | head -20 || echo "Target _posts directory is empty or doesn't exist"
 
-          echo "Target _posts contents before sync:"
-          ls -la target/_posts/ || \
-            echo "Target _posts directory is empty or doesn't exist"
+          # Count files before
+          source_count=$(find source/_posts -type f \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | wc -l)
+          target_count_before=$(find target/_posts -type f \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | wc -l)
+          
+          echo ""
+          echo "Files before sync: source=$source_count, target=$target_count_before"
 
           # Use rsync for efficient synchronization
           # (handles additions, modifications, and deletions)
           rsync -av --delete \
             --include="*.md" --include="*.markdown" --exclude="*" \
-            source/_posts/ target/_posts/
+            source/_posts/ target/_posts/ || echo "rsync completed with status: $?"
 
-          echo "Synchronization completed. Target _posts contents after sync:"
-          ls -la target/_posts/ || echo "Target _posts directory is now empty"
+          # Count files after
+          target_count_after=$(find target/_posts -type f \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | wc -l)
+          
+          echo ""
+          echo "=== After sync ==="
+          echo "Files after sync: target=$target_count_after"
+          ls -lah target/_posts/ 2>/dev/null | head -20 || echo "Target _posts directory is now empty"
 
       - name: Validate synchronization
         run: |
-          echo "Validating synchronization results..."
+          echo "=== Validating synchronization results ==="
 
           # Count files in both directories
-          source_count=$(find source/_posts -name "*.md" -o -name "*.markdown" \
-            2>/dev/null | wc -l)
-          target_count=$(find target/_posts -name "*.md" -o -name "*.markdown" \
-            2>/dev/null | wc -l)
+          source_count=$(find source/_posts -type f \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | wc -l)
+          target_count=$(find target/_posts -type f \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | wc -l)
 
           echo "Source _posts file count: $source_count"
           echo "Target _posts file count: $target_count"
 
           if [ "$source_count" -eq "$target_count" ]; then
             echo "✅ File counts match - synchronization successful"
+            exit 0
           else
-            echo "⚠️ File counts don't match - please review"
+            echo "❌ File counts don't match!"
+            echo "Source files:"
+            find source/_posts -type f -name "*.md" 2>/dev/null | sort
+            echo ""
+            echo "Target files:"
+            find target/_posts -type f -name "*.md" 2>/dev/null | sort
+            exit 1
           fi
 
       - name: Commit and push changes to target repository
+        if: always()
         run: |
           cd target
           git config --local user.email "action@github.com"
@@ -78,11 +97,25 @@ jobs:
 
           # Check if there are any changes to commit
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "✅ No changes to commit - all files already in sync"
           else
-            echo "Changes detected, committing..."
+            echo "📝 Changes detected, committing..."
             git status
-            git commit -m "Sync _posts from blog_automate - $(date +%Y-%m-%d)"
-            git push
-            echo "Changes successfully pushed to blog.pandango.de repository"
+            git commit -m "Sync _posts from blog_automate - $(date +%Y-%m-%d\ %H:%M:%S)"
+            
+            if git push; then
+              echo "✅ Changes successfully pushed to blog.pandango.de repository"
+            else
+              echo "❌ Failed to push changes"
+              exit 1
+            fi
           fi
+
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## Sync Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Source repo: blog_automate" >> $GITHUB_STEP_SUMMARY
+          echo "- Target repo: blog.pandango.de" >> $GITHUB_STEP_SUMMARY
+          echo "- Sync folder: _posts/" >> $GITHUB_STEP_SUMMARY
+          echo "- Timestamp: $(date)" >> $GITHUB_STEP_SUMMARY
