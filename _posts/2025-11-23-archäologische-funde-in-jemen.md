@@ -2,9 +2,10 @@
 layout: post
 title: "Archäologische Funde in Jemen"
 date: 2025-11-23
-image: https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_the_Yemen_Arab_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Archäologische Funde in Jemen](https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_the_Yemen_Arab_Republic.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Verborgene Schätze: Archäologische Entdeckungen im Herzen des Jemen
+image: https://upload.wikimedia.org/wikipedia/commons/0/0f/Anti-war_demonstration_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Archäologische Funde in Jemen](https://upload.wikimedia.org/wikipedia/commons/0/0f/Anti-war_demonstration_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Verborgene Schätze: Archäologische Entdeckungen im Herzen des Jemen
 
 ## Eine Zeitreise durch Sana'a und seine verborgene Vergangenheit
 

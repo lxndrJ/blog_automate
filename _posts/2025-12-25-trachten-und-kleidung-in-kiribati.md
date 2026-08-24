@@ -3,8 +3,9 @@ layout: post
 title: "Trachten und Kleidung in Kiribati"
 date: 2025-12-25
 image: https://upload.wikimedia.org/wikipedia/commons/c/c0/Coconut_fiber_armor._From_the_Republic_of_Kiribati%2C_Micronesia._10th_century_CE._National_Museum_of_Scotland%2C_Edinburgh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Trachten und Kleidung in Kiribati](https://upload.wikimedia.org/wikipedia/commons/c/c0/Coconut_fiber_armor._From_the_Republic_of_Kiribati%2C_Micronesia._10th_century_CE._National_Museum_of_Scotland%2C_Edinburgh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Gewänder der Pazifikinsel: Die textile Seele von Kiribati
+---![Trachten und Kleidung in Kiribati](https://upload.wikimedia.org/wikipedia/commons/c/c0/Coconut_fiber_armor._From_the_Republic_of_Kiribati%2C_Micronesia._10th_century_CE._National_Museum_of_Scotland%2C_Edinburgh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Gewänder der Pazifikinsel: Die textile Seele von Kiribati
 
 ## Zwischen Tradition und Moderne - Eine Reise durch die Kleidungskultur von South Tarawa
 

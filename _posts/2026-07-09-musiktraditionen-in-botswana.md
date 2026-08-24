@@ -2,10 +2,11 @@
 layout: post
 title: "Musiktraditionen in Botswana"
 date: 2026-07-09
-image: https://images.unsplash.com/photo-1634024319221-4275c7b76313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa3RyYWRpdGlvbmVuJTIwQm90c3dhbmF8ZW58MHwwfHx8MTc4MzU3OTAxNXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/b3/Hipop%C3%B3tamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Musiktraditionen in Botswana](https://images.unsplash.com/photo-1634024319221-4275c7b76313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa3RyYWRpdGlvbmVuJTIwQm90c3dhbmF8ZW58MHwwfHx8MTc4MzU3OTAxNXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Musiktraditionen in Botswana](https://upload.wikimedia.org/wikipedia/commons/b/b3/Hipop%C3%B3tamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Rhythmen Botswanas: Eine Reise durch die Musikseele des Landes
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Seen und Flüsse in Sint Maarten"
 date: 2025-12-29
-image: https://images.unsplash.com/photo-1709966426625-1bf605168d0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBTaW50JTIwTWFhcnRlbnxlbnwwfDB8fHwxNzY2OTgxMDk1fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/5/53/2020-01-18_MIMER_-_IMO_9002647.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Seen und Flüsse in Sint Maarten](https://images.unsplash.com/photo-1709966426625-1bf605168d0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBTaW50JTIwTWFhcnRlbnxlbnwwfDB8fHwxNzY2OTgxMDk1fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Seen und Flüsse in Sint Maarten](https://upload.wikimedia.org/wikipedia/commons/5/53/2020-01-18_MIMER_-_IMO_9002647.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wasserwelten von Sint Maarten: Eine Insel zwischen Flüssen und Träumen
 

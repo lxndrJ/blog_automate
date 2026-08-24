@@ -2,9 +2,10 @@
 layout: post
 title: "Wellness und Erholung in Französisch-Polynesien"
 date: 2026-07-29
-image: https://upload.wikimedia.org/wikipedia/commons/f/f9/Berlin_Franz%C3%B6sisch_Buchholz_Dorfkirche.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Wellness und Erholung in Französisch-Polynesien](https://upload.wikimedia.org/wikipedia/commons/f/f9/Berlin_Franz%C3%B6sisch_Buchholz_Dorfkirche.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Stille finden im Paradies: Wellness in Französisch-Polynesien
+image: https://upload.wikimedia.org/wikipedia/commons/f/fb/039_Sunset_at_Tikehau_%28French_Polynesia%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Wellness und Erholung in Französisch-Polynesien](https://upload.wikimedia.org/wikipedia/commons/f/fb/039_Sunset_at_Tikehau_%28French_Polynesia%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Stille finden im Paradies: Wellness in Französisch-Polynesien
 
 Türkisblaues Wasser, weiße Sandstrände und die Rufe tropischer Vögel – Französisch-Polynesien ist bereits ein Ort der Erholung. Doch wer wirklich abschalten möchte, entdeckt hier ein Wellness-Angebot, das weit über die üblichen Spa-Anwendungen hinausgeht.
 

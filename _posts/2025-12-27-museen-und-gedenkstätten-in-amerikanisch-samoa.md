@@ -2,10 +2,11 @@
 layout: post
 title: "Museen und Gedenkstätten in Amerikanisch-Samoa"
 date: 2025-12-27
-image: https://images.unsplash.com/photo-1708580889350-7abad48d4c2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNlZW4lMjB1bmQlMjBHZWRlbmtzdCVDMyVBNHR0ZW4lMjBBbWVyaWthbmlzY2gtU2Ftb2F8ZW58MHwwfHx8MTc2NjgwNzM2N3ww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/a9/Beach_on_Upolu_Island%2C_Samoa%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Museen und Gedenkstätten in Amerikanisch-Samoa](https://images.unsplash.com/photo-1708580889350-7abad48d4c2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNlZW4lMjB1bmQlMjBHZWRlbmtzdCVDMyVBNHR0ZW4lMjBBbWVyaWthbmlzY2gtU2Ftb2F8ZW58MHwwfHx8MTc2NjgwNzM2N3ww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Museen und Gedenkstätten in Amerikanisch-Samoa](https://upload.wikimedia.org/wikipedia/commons/a/a9/Beach_on_Upolu_Island%2C_Samoa%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Spuren der Vergangenheit: Museen und Gedenkstätten in Amerikanisch-Samoa
 

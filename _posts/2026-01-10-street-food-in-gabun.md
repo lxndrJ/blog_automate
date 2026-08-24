@@ -2,10 +2,11 @@
 layout: post
 title: "Street Food in Gabun"
 date: 2026-01-10
-image: https://images.unsplash.com/photo-1674669520816-c3c5615dfe51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdHJlZXQlMjBGb29kJTIwR2FidW58ZW58MHwwfHx8MTc2ODAxNzA3MHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulletin_r%C3%A9f%C3%A9rendum_Gabon_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Street Food in Gabun](https://images.unsplash.com/photo-1674669520816-c3c5615dfe51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdHJlZXQlMjBGb29kJTIwR2FidW58ZW58MHwwfHx8MTc2ODAxNzA3MHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Street Food in Gabun](https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulletin_r%C3%A9f%C3%A9rendum_Gabon_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Streetfood in Gabun: Eine kulinarische Entdeckungsreise durch Libreville
 

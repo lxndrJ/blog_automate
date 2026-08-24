@@ -2,10 +2,11 @@
 layout: post
 title: "Arbeitsmarkttrends in Griechenland"
 date: 2026-04-03
-image: https://images.unsplash.com/photo-1626654377469-222fc4115ab7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmJlaXRzbWFya3R0cmVuZHMlMjBHcmllY2hlbmxhbmR8ZW58MHwwfHx8MTc3NTE5MjI1NHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Arbeitsmarkttrends in Griechenland](https://images.unsplash.com/photo-1626654377469-222fc4115ab7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmJlaXRzbWFya3R0cmVuZHMlMjBHcmllY2hlbmxhbmR8ZW58MHwwfHx8MTc3NTE5MjI1NHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Arbeitsmarkttrends in Griechenland](https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Griechenland neu gedacht: Wie sich der Arbeitsmarkt in Athen wandelt
 

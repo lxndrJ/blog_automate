@@ -2,10 +2,11 @@
 layout: post
 title: "Religiöse Rituale in Algerien"
 date: 2026-03-16
-image: https://images.unsplash.com/photo-1473090731544-e0402eb455de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZWxpZ2klQzMlQjZzZSUyMFJpdHVhbGUlMjBBbGdlcmllbnxlbnwwfDB8fHwxNzczNjM3NjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Religiöse Rituale in Algerien](https://images.unsplash.com/photo-1473090731544-e0402eb455de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZWxpZ2klQzMlQjZzZSUyMFJpdHVhbGUlMjBBbGdlcmllbnxlbnwwfDB8fHwxNzczNjM3NjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Religiöse Rituale in Algerien](https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Seele Algeriens: Religiöse Rituale zwischen Tradition und Moderne
 

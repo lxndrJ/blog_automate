@@ -2,9 +2,10 @@
 layout: post
 title: "Frauen in der Geschichte in Algerien"
 date: 2025-10-23
-image: https://images.unsplash.com/photo-1631995872935-d964797502e0?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RnJhdWVuJTIwaW4lMjBkZXIlMjBHZXNjaGljaHRlJTIwaW4lMjBBbGdlcmllbnxlbnwwfDB8fHwxNzg3NTExMTk3fDA&ixlib=rb-4.1.0
----
-![Frauen in der Geschichte in Algerien](https://images.unsplash.com/photo-1631995872935-d964797502e0?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RnJhdWVuJTIwaW4lMjBkZXIlMjBHZXNjaGljaHRlJTIwaW4lMjBBbGdlcmllbnxlbnwwfDB8fHwxNzg3NTExMTk3fDA&ixlib=rb-4.1.0)# Frauen in Algerien: Unerzählte Geschichten zwischen Tradition und Aufbruch
+image: https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Frauen in der Geschichte in Algerien](https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Frauen in Algerien: Unerzählte Geschichten zwischen Tradition und Aufbruch
 
 Die Straßen von Algiers erzählen Geschichten von Stärke und Widerstandskraft. Während die weißen Häuser der Kasbah in der Sonne glitzern, schweben die Erinnerungen an Generationen von Frauen durch die engen Gassen.
 

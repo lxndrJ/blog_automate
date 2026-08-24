@@ -2,9 +2,10 @@
 layout: post
 title: "Musiker und Komponisten in Mayotte"
 date: 2026-08-17
-image: https://upload.wikimedia.org/wikipedia/commons/6/62/Malandzamiayatsini_-_%C3%AEles_choazil_%28Mayotte%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Musiker und Komponisten in Mayotte](https://upload.wikimedia.org/wikipedia/commons/6/62/Malandzamiayatsini_-_%C3%AEles_choazil_%28Mayotte%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Klänge von Mayotte: Musik zwischen Tradition und Moderne
+image: https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Mayotte_with_no_text.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Musiker und Komponisten in Mayotte](https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Mayotte_with_no_text.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die Klänge von Mayotte: Musik zwischen Tradition und Moderne
 
 Mayotte ist ein Ort, an dem Afrika, Arabien und Frankreich in den Straßen tanzen. Wenn man durch die lebendigen Gassen von Mamoudzou spaziert, wird man schnell merken, dass diese kleine Insel im Indischen Ozean eine unglaublich reiche musikalische Seele hat – eine, die oft übersehen wird, aber absolut verdient, entdeckt zu werden.
 

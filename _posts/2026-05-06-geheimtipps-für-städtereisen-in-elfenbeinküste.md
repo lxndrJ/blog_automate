@@ -2,10 +2,11 @@
 layout: post
 title: "Geheimtipps für Städtereisen in Elfenbeinküste"
 date: 2026-05-06
-image: https://images.unsplash.com/photo-1656334897274-bc260dc58552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjBFbGZlbmJlaW5rJUMzJUJDc3RlfGVufDB8MHx8fDE3NzgwNDY0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Aerial_view_of_Fresco%2C_Ivory_Coast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Geheimtipps für Städtereisen in Elfenbeinküste](https://images.unsplash.com/photo-1656334897274-bc260dc58552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjBFbGZlbmJlaW5rJUMzJUJDc3RlfGVufDB8MHx8fDE3NzgwNDY0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Geheimtipps für Städtereisen in Elfenbeinküste](https://upload.wikimedia.org/wikipedia/commons/6/6c/Aerial_view_of_Fresco%2C_Ivory_Coast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Abseits der ausgetretenen Pfade: Geheimtipps für die Elfenbeinküste
 

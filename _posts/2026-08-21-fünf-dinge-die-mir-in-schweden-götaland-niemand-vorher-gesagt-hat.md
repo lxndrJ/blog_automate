@@ -2,7 +2,7 @@
 layout: post
 title: "Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat"
 date: 2026-08-21
-image: https://upload.wikimedia.org/wikipedia/commons/d/db/Das_heidnische_Zeitalter_in_Schweden_-_eine_archaeologisch-historische_Studie_%28IA_dasheidnischezei00hild%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://upload.wikimedia.org/wikipedia/commons/5/52/Brakelund_Burial_Ground_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 sources:
@@ -16,8 +16,9 @@ sources:
   - https://interessante-fakten.de/1304/Schwedische-Verhaltensregeln.html
   - https://www.volvocars-partner.ch/blog/2020/03/03/diese-5-verhaltensregeln-schaetzen-die-schwedinnen-und-schweden-besonders/
   - https://www.volvocars-news.ch/scandic-life/diese-5-verhaltensregeln-schaetzen-die-schwedinnen-und-schweden-besonders/
----
-![Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat](https://upload.wikimedia.org/wikipedia/commons/d/db/Das_heidnische_Zeitalter_in_Schweden_-_eine_archaeologisch-historische_Studie_%28IA_dasheidnischezei00hild%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat
+---![Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat](https://upload.wikimedia.org/wikipedia/commons/5/52/Brakelund_Burial_Ground_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Fünf Dinge, die mir in Schweden (Götaland) niemand vorher gesagt hat
 
 Ich bin gerade aus Schweden zurückgekommen, genauer gesagt aus Götaland im südlichen Teil. Und ich muss sagen: Das Land ist nicht so, wie ich es mir vorgestellt habe. Nicht wegen der Landschaft oder der Häuser – die sind genau wie in den Bildern. Sondern weil die Menschen dort nach Regeln funktionieren, über die einfach niemand spricht.
 

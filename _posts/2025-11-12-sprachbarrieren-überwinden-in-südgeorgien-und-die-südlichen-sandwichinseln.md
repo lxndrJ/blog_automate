@@ -2,10 +2,11 @@
 layout: post
 title: "Sprachbarrieren überwinden in Südgeorgien und die Südlichen Sandwichinseln"
 date: 2025-11-12
-image: https://images.unsplash.com/photo-1588859959601-12d5ecb1b354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBTJUMzJUJDZGdlb3JnaWVuJTIwdW5kJTIwZGllJTIwUyVDMyVCQ2RsaWNoZW4lMjBTYW5kd2ljaGluc2VsbnxlbnwwfDB8fHwxNzYyOTE4NzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/ae/20110421_Tbilisi_Georgia_Panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Sprachbarrieren überwinden in Südgeorgien und die Südlichen Sandwichinseln](https://images.unsplash.com/photo-1588859959601-12d5ecb1b354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBTJUMzJUJDZGdlb3JnaWVuJTIwdW5kJTIwZGllJTIwUyVDMyVCQ2RsaWNoZW4lMjBTYW5kd2ljaGluc2VsbnxlbnwwfDB8fHwxNzYyOTE4NzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Sprachbarrieren überwinden in Südgeorgien und die Südlichen Sandwichinseln](https://upload.wikimedia.org/wikipedia/commons/a/ae/20110421_Tbilisi_Georgia_Panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Sprachlos in Südgeorgien: Eine Reise zwischen Gletschern und Kommunikationswundern
 

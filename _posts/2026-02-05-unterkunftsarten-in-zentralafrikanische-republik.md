@@ -2,9 +2,10 @@
 layout: post
 title: "Unterkunftsarten in Zentralafrikanische Republik"
 date: 2026-02-05
-image: https://upload.wikimedia.org/wikipedia/commons/a/a3/Kulturabkommen_Zentralafrikanische_Republik_1991.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Unterkunftsarten in Zentralafrikanische Republik](https://upload.wikimedia.org/wikipedia/commons/a/a3/Kulturabkommen_Zentralafrikanische_Republik_1991.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Übernachten in der Herzkammer Afrikas: Unterkünfte in der Zentralafrikanischen Republik
+image: https://upload.wikimedia.org/wikipedia/commons/4/47/Central_African_Republic-CIA_WFB_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Unterkunftsarten in Zentralafrikanische Republik](https://upload.wikimedia.org/wikipedia/commons/4/47/Central_African_Republic-CIA_WFB_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Übernachten in der Herzkammer Afrikas: Unterkünfte in der Zentralafrikanischen Republik
 
 Die Zentralafrikanische Republik - ein Name, der Abenteurer und Weltentdecker gleichermaßen verzaubert. Zwischen wilden Landschaften und einer komplexen Geschichte versteckt sich Bangui, eine Stadt voller Überraschungen und unerwarteter Herbergen.
 

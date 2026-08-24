@@ -2,10 +2,11 @@
 layout: post
 title: "Künstler und Kreative in Åland"
 date: 2025-09-10
-image: https://images.unsplash.com/photo-1629207041597-fd125925e98c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjAlQzMlODVsYW5kfGVufDB8MHx8fDE3NTc0NzQ0MDd8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/2/24/Aaland_Archipelago%2C_Finland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Künstler und Kreative in Åland](https://images.unsplash.com/photo-1629207041597-fd125925e98c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjAlQzMlODVsYW5kfGVufDB8MHx8fDE3NTc0NzQ0MDd8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Künstler und Kreative in Åland](https://upload.wikimedia.org/wikipedia/commons/2/24/Aaland_Archipelago%2C_Finland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Åland: Eine Inselwelt der Kreativität
 

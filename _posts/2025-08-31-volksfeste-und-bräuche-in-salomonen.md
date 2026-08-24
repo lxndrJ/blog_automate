@@ -2,10 +2,13 @@
 layout: post
 title: "Volksfeste und Bräuche in Salomonen"
 date: 2025-08-31
-image: https://images.unsplash.com/photo-1632034169669-735fdcab19ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWb2xrc2Zlc3RlJTIwdW5kJTIwQnIlQzMlQTR1Y2hlJTIwU2Fsb21vbmVufGVufDB8MHx8fDE3NTY2MTEwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1717185891319-6bf096fba62f?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Y3VzdG9tcyUyMGZlc3RpdmFsfGVufDB8MHx8fDE3ODc1MzAxODF8MA&ixlib=rb-4.1.0
 ---
 
-![Volksfeste und Bräuche in Salomonen](https://images.unsplash.com/photo-1632034169669-735fdcab19ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWb2xrc2Zlc3RlJTIwdW5kJTIwQnIlQzMlQTR1Y2hlJTIwU2Fsb21vbmVufGVufDB8MHx8fDE3NTY2MTEwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Volksfeste und Bräuche in Salomonen](https://images.unsplash.com/photo-1717185891319-6bf096fba62f?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Y3VzdG9tcyUyMGZlc3RpdmFsfGVufDB8MHx8fDE3ODc1MzAxODF8MA&ixlib=rb-4.1.0)
 
 # Festliche Vielfalt: Die Volksfeste der Salomonen
 
@@ -34,3 +37,5 @@ Trotz zunehmender Globalisierung bewahren die Salomonen ihre einzigartigen Tradi
 Wer authentische Festkultur erleben möchte, sollte unbedingt die lokalen Dorfgemeinschaften besuchen. Hier wird Tradition noch authentisch gelebt.
 
 *Eine Reise zu den Salomonen ist wie eine Zeitreise - farbenfroh, überraschend und zutiefst menschlich.*
+
+

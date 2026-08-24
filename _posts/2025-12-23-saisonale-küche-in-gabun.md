@@ -3,8 +3,9 @@ layout: post
 title: "Saisonale Küche in Gabun"
 date: 2025-12-23
 image: https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulletin_r%C3%A9f%C3%A9rendum_Gabon_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Saisonale Küche in Gabun](https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulletin_r%C3%A9f%C3%A9rendum_Gabon_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Gabuns kulinarische Reise: Eine Entdeckung saisonaler Genüsse
+---![Saisonale Küche in Gabun](https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulletin_r%C3%A9f%C3%A9rendum_Gabon_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Gabuns kulinarische Reise: Eine Entdeckung saisonaler Genüsse
 
 Die Küche Gabuns ist wie ein verborgenes Juwel im Herzen Zentralafrikas - ein kulinarisches Abenteuer, das die Sinne verzaubert und die Seele der tropischen Landschaft atmet. Von Libreville aus erstreckt sich eine Geschmackslandschaft, die so vielfältig ist wie die üppigen Regenwälder des Landes.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag"
 date: 2026-08-23
-image: https://images.unsplash.com/photo-1760344477109-872dcde91b49?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VGFsbGlubiUyMG5pZ2h0bGlmZSUzQSUyMEVpbmUlMjBTdGFkdCUyMHp3aXNjaGVuJTIwRHVua2VsaGVpdCUyMHVuZCUyMEFsbHRhZ3xlbnwwfDB8fHwxNzg3NDc5MjcwfDA&ixlib=rb-4.1.0
+image: https://upload.wikimedia.org/wikipedia/commons/1/12/Aeropuerto_Internacional_de_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 sources:
@@ -16,8 +16,9 @@ sources:
   - https://visitestonia.com/de/aktivitaeten/estlands-wei%C3%9Fe-nachte
   - https://steffistraumzeit.de/fast-24-stunden-in-tallinn-tipps/
   - https://www.laenderdaten.info/Europa/Estland/sonnenuntergang.php
----
-![Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag](https://images.unsplash.com/photo-1760344477109-872dcde91b49?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VGFsbGlubiUyMG5pZ2h0bGlmZSUzQSUyMEVpbmUlMjBTdGFkdCUyMHp3aXNjaGVuJTIwRHVua2VsaGVpdCUyMHVuZCUyMEFsbHRhZ3xlbnwwfDB8fHwxNzg3NDc5MjcwfDA&ixlib=rb-4.1.0)# Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag
+---![Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag](https://upload.wikimedia.org/wikipedia/commons/1/12/Aeropuerto_Internacional_de_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Tallinn nachts: Eine Stadt zwischen Dunkelheit und Alltag
 
 Als ich nachts durch Tallinn lief, fiel mir zuerst auf, was ich nicht sah: Spätis. Die Lichter von 24-Stunden-Kiosken, die man aus deutschen Städten kennt, gibt es hier nicht. Um 22 Uhr ist Schluss – ab dann ist der Alkoholverkauf aus Geschäften verboten. Seit 2007 gilt das Gesetz, und es prägt den Rhythmus der Stadt deutlich mehr, als man vom Touristenviertel aus vermuten würde.
 
@@ -50,6 +51,8 @@ Tallinn hat längst kein Nachtleben nur für Touristen mehr. Ehemalige Industrie
 Das Filmfestival PÖFF, „Filmfestival der dunklen Nächte", findet jeden November statt. Das Programm umfasst über 500 Filme in 850 Vorführungen. Der Name ist Programm: Die extremale Dunkelheit des Nordens wird hier nicht beklagt, sondern programmiert. Nachts ins Kino gehen ist dann nicht Ausnahme, sondern Normalfall.
 
 Ehrlich gesagt finde ich diese Ehrlichkeit überraschend. Tallinn macht aus der Dunkelheit kein Geheimnis, sondern arrangiert sich praktisch damit. Die Stadt nachts ist nicht romantisiert – sie ist strukturiert, und für ihre Bewohner völlig normal. Das unterscheidet sie deutlich von vielen anderen europäischen Hauptstädten, die ihre Nacht inszenieren.
+
+![Lasnamäe: Das Arbeiterviertel nach Einbruch der Dunkelheit](https://upload.wikimedia.org/wikipedia/commons/2/21/Construction_in_Lasnam%C3%A4e_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ## Quellen
 

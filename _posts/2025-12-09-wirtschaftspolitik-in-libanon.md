@@ -2,10 +2,11 @@
 layout: post
 title: "Wirtschaftspolitik in Libanon"
 date: 2025-12-09
-image: https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXJ0c2NoYWZ0c3BvbGl0aWslMjBMaWJhbm9ufGVufDB8MHx8fDE3NjUyNTE4Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Wirtschaftspolitik in Libanon](https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXJ0c2NoYWZ0c3BvbGl0aWslMjBMaWJhbm9ufGVufDB8MHx8fDE3NjUyNTE4Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Wirtschaftspolitik in Libanon](https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Libanon zwischen Tradition und wirtschaftlicher Transformation
 

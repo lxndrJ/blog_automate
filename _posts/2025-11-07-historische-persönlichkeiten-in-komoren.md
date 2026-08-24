@@ -2,10 +2,11 @@
 layout: post
 title: "Historische Persönlichkeiten in Komoren"
 date: 2025-11-07
-image: https://images.unsplash.com/photo-1592174302296-fd8f3d7bf1b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFBlcnMlQzMlQjZubGljaGtlaXRlbiUyMEtvbW9yZW58ZW58MHwwfHx8MTc2MjQ4NjY0MXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/16/Archipel_des_Comores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Historische Persönlichkeiten in Komoren](https://images.unsplash.com/photo-1592174302296-fd8f3d7bf1b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFBlcnMlQzMlQjZubGljaGtlaXRlbiUyMEtvbW9yZW58ZW58MHwwfHx8MTc2MjQ4NjY0MXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Historische Persönlichkeiten in Komoren](https://upload.wikimedia.org/wikipedia/commons/1/16/Archipel_des_Comores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Verborgene Geschichten der Komoren: Zeitreise durch Persönlichkeiten und Schicksale
 
@@ -40,3 +41,5 @@ In Moronis engen Gassen scheinen die Geschichten dieser Persönlichkeiten noch l
 Diese Reise durch die historischen Persönlichkeiten der Komoren zeigt: Jede Nation hat ihre Helden, ihre Kämpfer, ihre Visionäre. Und manchmal findet man sie dort, wo man sie am wenigsten erwartet.
 
 *Eine Reise wert - die Komoren, ein Archipel voller unerwarteter Geschichten.*
+
+![Moroni: Mehr als nur eine Hauptstadt](https://upload.wikimedia.org/wikipedia/commons/5/50/Giovanni_Battista_Moroni_-_The_Tailor_%281565-1570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

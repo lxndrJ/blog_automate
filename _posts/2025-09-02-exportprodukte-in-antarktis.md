@@ -2,10 +2,13 @@
 layout: post
 title: "Exportprodukte in Antarktis"
 date: 2025-09-02
-image: https://images.unsplash.com/photo-1623602235002-8d15f7ed2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFeHBvcnRwcm9kdWt0ZSUyMEFudGFya3Rpc3xlbnwwfDB8fHwxNzU2NzgzOTcyfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/9/97/1_Almirante_Brown_-_Antarktische_Halbinsel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Exportprodukte in Antarktis](https://images.unsplash.com/photo-1623602235002-8d15f7ed2496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFeHBvcnRwcm9kdWt0ZSUyMEFudGFya3Rpc3xlbnwwfDB8fHwxNzU2NzgzOTcyfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Exportprodukte in Antarktis](https://upload.wikimedia.org/wikipedia/commons/9/97/1_Almirante_Brown_-_Antarktische_Halbinsel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Eiskalte Exporte: Die unerwartete Wirtschaft der Antarktis
 
@@ -52,3 +55,5 @@ Die Antarktis zeigt uns, dass Wirtschaft mehr ist als Massenproduktion. Hier geh
 Wer hätte gedacht, dass dieser eisige Kontinent so viel mehr zu bieten hat als Schnee und Pinguine?
 
 *Eine Reise wert - nicht nur für Wissenschaftler.*
+
+

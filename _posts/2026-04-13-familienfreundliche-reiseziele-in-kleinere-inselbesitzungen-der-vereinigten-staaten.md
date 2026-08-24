@@ -2,9 +2,10 @@
 layout: post
 title: "Familienfreundliche Reiseziele in Kleinere Inselbesitzungen der Vereinigten Staaten"
 date: 2026-04-13
-image: https://images.unsplash.com/photo-1613864554530-980ce6b783bb?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8S2xlaW5lcmUlMjBJbnNlbGJlc2l0enVuZ2VufGVufDB8MHx8fDE3ODc0Nzc3NDR8MA&ixlib=rb-4.1.0
----
-![Familienfreundliche Reiseziele in Kleinere Inselbesitzungen der Vereinigten Staaten](https://images.unsplash.com/photo-1613864554530-980ce6b783bb?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8S2xlaW5lcmUlMjBJbnNlbGJlc2l0enVuZ2VufGVufDB8MHx8fDE3ODc0Nzc3NDR8MA&ixlib=rb-4.1.0)# Inselparadiese mit Sternenbanner: Familiengeheimtipps der USA
+image: https://upload.wikimedia.org/wikipedia/commons/e/e6/Florenz._2%2C_Bargello_Domopera_Akademie_Kleinere_Sammlungen_1903_%28150670589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Familienfreundliche Reiseziele in Kleinere Inselbesitzungen der Vereinigten Staaten](https://upload.wikimedia.org/wikipedia/commons/e/e6/Florenz._2%2C_Bargello_Domopera_Akademie_Kleinere_Sammlungen_1903_%28150670589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Inselparadiese mit Sternenbanner: Familiengeheimtipps der USA
 
 Wenn du an amerikanische Inseln denkst, fallen dir wahrscheinlich zuerst Hawaii und die US Virgin Islands ein. Aber wusstest du, dass es noch viel mehr versteckte Kleinode gibt, die perfekt für Familienurlaube geeignet sind? Lass mich dir eine Reise zu den weniger bekannten Inselschätzen zeigen – und wie Washington DC das perfekte kulturelle Zwischenstopp-Abenteuer bietet.
 

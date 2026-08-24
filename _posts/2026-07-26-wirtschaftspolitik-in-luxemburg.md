@@ -2,10 +2,11 @@
 layout: post
 title: "Wirtschaftspolitik in Luxemburg"
 date: 2026-07-26
-image: https://images.unsplash.com/photo-1635267561661-cad1cbc91af8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXJ0c2NoYWZ0c3BvbGl0aWslMjBMdXhlbWJ1cmd8ZW58MHwwfHx8MTc4NTA0NDk0M3ww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/ee/Birgit_Mahnkopf_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Wirtschaftspolitik in Luxemburg](https://images.unsplash.com/photo-1635267561661-cad1cbc91af8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXJ0c2NoYWZ0c3BvbGl0aWslMjBMdXhlbWJ1cmd8ZW58MHwwfHx8MTc4NTA0NDk0M3ww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Wirtschaftspolitik in Luxemburg](https://upload.wikimedia.org/wikipedia/commons/e/ee/Birgit_Mahnkopf_-_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Luxemburg: Europas kleine Wirtschaftswundermaschine
 

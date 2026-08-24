@@ -2,14 +2,15 @@
 layout: post
 title: "Nationalparks in Mauritius"
 date: 2025-10-22
-image: https://images.unsplash.com/photo-1583149770760-b167556a3aa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXRpb25hbHBhcmtzJTIwTWF1cml0aXVzfGVufDB8MHx8fDE3NjExMDQyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/5/52/BlackRiverGorges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Nationalparks in Mauritius](https://images.unsplash.com/photo-1583149770760-b167556a3aa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXRpb25hbHBhcmtzJTIwTWF1cml0aXVzfGVufDB8MHx8fDE3NjExMDQyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Nationalparks in Mauritius](https://upload.wikimedia.org/wikipedia/commons/5/52/BlackRiverGorges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Naturparadiese zwischen Ozean und Urwald: Die Nationalparks von Mauritius
 
-![Mauritius Landschaft](landschaft_mauritius.jpg)
+
 
 Wer träumt nicht von einer Insel, auf der Natur und Kultur sich magisch verschmelzen? Mauritius ist genau so ein Ort, wo grüne Berge auf kristallblaue Meere treffen und Nationalparks wahre Geschichten des Planeten erzählen.
 

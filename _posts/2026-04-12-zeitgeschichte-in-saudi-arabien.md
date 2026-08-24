@@ -2,9 +2,10 @@
 layout: post
 title: "Zeitgeschichte in Saudi-Arabien"
 date: 2026-04-12
-image: https://upload.wikimedia.org/wikipedia/commons/9/99/Emblem_of_Saudi_Arabia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Zeitgeschichte in Saudi-Arabien](https://upload.wikimedia.org/wikipedia/commons/9/99/Emblem_of_Saudi_Arabia.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Von Kamelen und Wolkenkratzern: Riyadhs Reise in die Moderne
+image: https://upload.wikimedia.org/wikipedia/commons/0/0b/Saudi_Hawks90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Zeitgeschichte in Saudi-Arabien](https://upload.wikimedia.org/wikipedia/commons/0/0b/Saudi_Hawks90.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Von Kamelen und Wolkenkratzern: Riyadhs Reise in die Moderne
 
 Wenn ich an Saudi-Arabien denke, fallen mir oft die ersten Bilder ein: endlose Wüstensand, traditionelle Gewänder, die Heiligen Stätten des Islam. Doch wer heute nach Riyadh reist, erlebt eine Stadt, die wie kaum eine andere den rasanten Wandel der letzten Jahrzehnte verkörpert. Diese Geschichte der Verwandlung fasziniert mich immer wieder aufs Neue.
 

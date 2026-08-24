@@ -2,9 +2,10 @@
 layout: post
 title: "Industrialisierung in Estland"
 date: 2026-08-16
-image: https://images.unsplash.com/photo-1571757592400-e609b7272e7f?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SW5kdXN0cmlhbGlzaWVydW5nJTIwaW4lMjBFc3RsYW5kfGVufDB8MHx8fDE3ODc1MTEzNzl8MA&ixlib=rb-4.1.0
----
-![Industrialisierung in Estland](https://images.unsplash.com/photo-1571757592400-e609b7272e7f?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SW5kdXN0cmlhbGlzaWVydW5nJTIwaW4lMjBFc3RsYW5kfGVufDB8MHx8fDE3ODc1MTEzNzl8MA&ixlib=rb-4.1.0)# Von der Hansestadt zur digitalen Nation: Estlands industrielle Transformation
+image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Industrialisierung in Estland](https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Von der Hansestadt zur digitalen Nation: Estlands industrielle Transformation
 
 Tallinn ist eine Stadt der Gegensätze – mittelalterliche Kopfsteinpflaster treffen auf moderne Glasfassaden, und alte Handwerkszünfte existierten lange Zeit neben sowjetischen Fabriken. Die Geschichte der Industrialisierung Estlands ist nicht einfach eine Geschichte von Dampfmaschinen und Fabriksirenen, sondern eine faszinierende Reise durch politische Umbrüche, kulturelle Widerstandskraft und technologische Sprünge.
 
@@ -41,6 +42,8 @@ Diese Transformation ist bewundernswert, weil sie zeigt: Industrialisierung ist 
 Die Industrialisierungsgeschichte Estlands ist im Grunde die Geschichte einer kleinen Nation, die sich immer wieder neu erfunden hat. Von der Hansestadt über Zarenreich, sowjetische Fabrik bis zur digitalen Republik – Tallinn und Estland zeigen, dass Wandel möglich ist, wenn man bereit ist, alt zu lassen und neu zu denken.
 
 Wenn du Tallinn besuchst, lohnt sich ein Blick über die glänzende moderne Oberfläche hinaus. Die Pflastersteine erzählen von Händlern, die Museen bewahren Erinnerungen an Arbeiter, und die Digitalisierung ist das neueste Kapitel einer langen, bewegten Geschichte.
+
+![Die frühen Jahre: Als Tallinn noch zur Hanse gehörte](https://upload.wikimedia.org/wikipedia/commons/1/12/Aeropuerto_Internacional_de_Tallinn%2C_Estonia%2C_2012-08-05%2C_DD_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

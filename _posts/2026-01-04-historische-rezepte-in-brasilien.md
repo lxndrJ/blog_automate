@@ -2,9 +2,10 @@
 layout: post
 title: "Historische Rezepte in Brasilien"
 date: 2026-01-04
-image: https://images.unsplash.com/photo-1781041004326-708f2f3cf62b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SGlzdG9yaXNjaGUlMjBSZXplcHRlJTIwaW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc4NzQzMzQxNHww&ixlib=rb-4.1.0
----
-![Historische Rezepte in Brasilien](https://images.unsplash.com/photo-1781041004326-708f2f3cf62b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SGlzdG9yaXNjaGUlMjBSZXplcHRlJTIwaW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc4NzQzMzQxNHww&ixlib=rb-4.1.0)# Geschmacksreisen durch die Zeit: Historische Rezepte Brasiliens
+image: https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Historische Rezepte in Brasilien](https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Geschmacksreisen durch die Zeit: Historische Rezepte Brasiliens
 
 Stell dir vor, du reist zurück in die Küche des kolonialen Brasiliens - ein Ort voller Aromen, Geschichten und kulinarischer Überraschungen. Brasília, die moderne Hauptstadt, mag heute ein architektonisches Wunderwerk sein, aber die kulinarischen Wurzeln des Landes reichen viel tiefer.
 

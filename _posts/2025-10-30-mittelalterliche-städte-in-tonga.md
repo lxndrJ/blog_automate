@@ -2,10 +2,11 @@
 layout: post
 title: "Mittelalterliche Städte in Tonga"
 date: 2025-10-30
-image: https://images.unsplash.com/photo-1745184153359-90d23d2f7aef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaXR0ZWxhbHRlcmxpY2hlJTIwU3QlQzMlQTRkdGUlMjBUb25nYXxlbnwwfDB8fHwxNzYxNzk1NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/d8/Anchorage_%5E8%2C_Kapa%2C_Vava%27u%2C_Kingdom_of_Tonga_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Mittelalterliche Städte in Tonga](https://images.unsplash.com/photo-1745184153359-90d23d2f7aef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaXR0ZWxhbHRlcmxpY2hlJTIwU3QlQzMlQTRkdGUlMjBUb25nYXxlbnwwfDB8fHwxNzYxNzk1NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Mittelalterliche Städte in Tonga](https://upload.wikimedia.org/wikipedia/commons/d/d8/Anchorage_%5E8%2C_Kapa%2C_Vava%27u%2C_Kingdom_of_Tonga_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Zeitreise durch Nuku'alofa: Ein Blick in die mittelalterliche Stadtgeschichte Tongas
 

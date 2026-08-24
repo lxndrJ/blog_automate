@@ -2,10 +2,13 @@
 layout: post
 title: "Sprachbarrieren überwinden in Thailand"
 date: 2025-08-22
-image: https://images.unsplash.com/photo-1731865745283-115d25ec30f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBUaGFpbGFuZHxlbnwwfDB8fHwxNzU1ODY4NTc0fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1556741533-f6acd6474059?ixid=M3wxMDM5NDc3fDF8MXxzZWFyY2h8MXx8YmFyfGVufDB8MHx8fDE3ODc1MzAxNDR8MA&ixlib=rb-4.1.0
 ---
 
-![Sprachbarrieren überwinden in Thailand](https://images.unsplash.com/photo-1731865745283-115d25ec30f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTcHJhY2hiYXJyaWVyZW4lMjAlQzMlQkNiZXJ3aW5kZW4lMjBUaGFpbGFuZHxlbnwwfDB8fHwxNzU1ODY4NTc0fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Sprachbarrieren überwinden in Thailand](https://images.unsplash.com/photo-1556741533-f6acd6474059?ixid=M3wxMDM5NDc3fDF8MXxzZWFyY2h8MXx8YmFyfGVufDB8MHx8fDE3ODc1MzAxNDR8MA&ixlib=rb-4.1.0)
 
 # Bangkok: Wenn Sprache mehr ist als nur Worte
 
@@ -44,3 +47,5 @@ Manchmal entstehen die schönsten Reisemomente genau in diesen verwirrenden Mome
 Bangkok lehrt uns: Kommunikation ist eine Kunst, keine Wissenschaft.
 
 *Reisen bedeutet, Grenzen zu überwinden - nicht nur geografische, sondern auch sprachliche.*
+
+![Die Sprache der Gesten](https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8bGFuZ3VhZ2V8ZW58MHwwfHx8MTc4NzUzMDE0NXww&ixlib=rb-4.1.0)

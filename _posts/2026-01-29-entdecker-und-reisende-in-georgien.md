@@ -2,9 +2,10 @@
 layout: post
 title: "Entdecker und Reisende in Georgien"
 date: 2026-01-29
-image: https://images.unsplash.com/photo-1688896258951-7dfd2b3d041b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RW50ZGVja2VyJTIwdW5kJTIwUmVpc2VuZGUlMjBpbiUyMEdlb3JnaWVufGVufDB8MHx8fDE3ODc1MTEyMzh8MA&ixlib=rb-4.1.0
----
-![Entdecker und Reisende in Georgien](https://images.unsplash.com/photo-1688896258951-7dfd2b3d041b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RW50ZGVja2VyJTIwdW5kJTIwUmVpc2VuZGUlMjBpbiUyMEdlb3JnaWVufGVufDB8MHx8fDE3ODc1MTEyMzh8MA&ixlib=rb-4.1.0)# Georgien: Eine Reise durch Zeit und Geschichten
+image: https://upload.wikimedia.org/wikipedia/commons/a/ae/20110421_Tbilisi_Georgia_Panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Entdecker und Reisende in Georgien](https://upload.wikimedia.org/wikipedia/commons/a/ae/20110421_Tbilisi_Georgia_Panoramic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Georgien: Eine Reise durch Zeit und Geschichten
 
 *Wo Legenden auf Landstraßen wandeln und Berge Geschichten flüstern*
 

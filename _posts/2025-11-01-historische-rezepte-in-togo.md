@@ -2,10 +2,11 @@
 layout: post
 title: "Historische Rezepte in Togo"
 date: 2025-11-01
-image: https://images.unsplash.com/photo-1609184166171-57ab570b5f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFJlemVwdGUlMjBUb2dvfGVufDB8MHx8fDE3NjE5NjgyNDV8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Historische Rezepte in Togo](https://images.unsplash.com/photo-1609184166171-57ab570b5f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIaXN0b3Jpc2NoZSUyMFJlemVwdGUlMjBUb2dvfGVufDB8MHx8fDE3NjE5NjgyNDV8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Historische Rezepte in Togo](https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Geschmackvolle Zeitreise: Kulinarische Schätze aus Togo
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Musiker und Komponisten in Libyen"
 date: 2025-09-13
-image: https://images.unsplash.com/photo-1582960587554-31340c8de57c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBMaWJ5ZW58ZW58MHwwfHx8MTc1NzczMzI1NXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/06/Libya_4432_Ghadames_Luca_Galuzzi_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Musiker und Komponisten in Libyen](https://images.unsplash.com/photo-1582960587554-31340c8de57c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBMaWJ5ZW58ZW58MHwwfHx8MTc1NzczMzI1NXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Musiker und Komponisten in Libyen](https://upload.wikimedia.org/wikipedia/commons/0/06/Libya_4432_Ghadames_Luca_Galuzzi_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Klänge der Wüste: Libyens musikalische Seele
 

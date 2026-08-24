@@ -2,10 +2,11 @@
 layout: post
 title: "Industrialisierung in Österreich"
 date: 2025-12-06
-image: https://images.unsplash.com/photo-1668332370140-5ebd9281f2a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjAlQzMlOTZzdGVycmVpY2h8ZW58MHwwfHx8MTc2NDk5MjIwNXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/f/f6/Sgraffito_primary_School_Stetten%2C_Lower_Austria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Industrialisierung in Österreich](https://images.unsplash.com/photo-1668332370140-5ebd9281f2a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjAlQzMlOTZzdGVycmVpY2h8ZW58MHwwfHx8MTc2NDk5MjIwNXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Industrialisierung in Österreich](https://upload.wikimedia.org/wikipedia/commons/f/f6/Sgraffito_primary_School_Stetten%2C_Lower_Austria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die industrielle Transformation Österreichs: Eine Reise durch Zeit und Raum
 

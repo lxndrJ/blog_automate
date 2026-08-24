@@ -2,10 +2,11 @@
 layout: post
 title: "Sternenhimmel und Astronomie in Seychellen"
 date: 2025-11-08
-image: https://images.unsplash.com/photo-1557428041-c7d82f0b3f3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdGVybmVuaGltbWVsJTIwdW5kJTIwQXN0cm9ub21pZSUyMFNleWNoZWxsZW58ZW58MHwwfHx8MTc2MjU3MjU3MXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/b7/Anse_Takamaka-Mah%C3%A9-Seychelles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Sternenhimmel und Astronomie in Seychellen](https://images.unsplash.com/photo-1557428041-c7d82f0b3f3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdGVybmVuaGltbWVsJTIwdW5kJTIwQXN0cm9ub21pZSUyMFNleWNoZWxsZW58ZW58MHwwfHx8MTc2MjU3MjU3MXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Sternenhimmel und Astronomie in Seychellen](https://upload.wikimedia.org/wikipedia/commons/b/b7/Anse_Takamaka-Mah%C3%A9-Seychelles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Sternenmagie über den Seychellen: Eine nächtliche Reise ins Universum
 

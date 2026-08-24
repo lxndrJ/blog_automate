@@ -2,11 +2,12 @@
 layout: post
 title: "Familienfreundliche Reiseziele in Tokelau"
 date: 2025-08-21
-image: https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Pacific_Islands_Forum.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://upload.wikimedia.org/wikipedia/commons/f/fe/Cricket%2C_Tokelau_Islands%2C_1966_%2817501454372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 ---
-![Familienfreundliche Reiseziele in Tokelau](https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Pacific_Islands_Forum.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+![Familienfreundliche Reiseziele in Tokelau](https://upload.wikimedia.org/wikipedia/commons/f/fe/Cricket%2C_Tokelau_Islands%2C_1966_%2817501454372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
 # Fakaofo: Ein Geheimtipp für Familien auf Entdeckungsreise
 
 ## Tropisches Paradies abseits der Touristenpfade

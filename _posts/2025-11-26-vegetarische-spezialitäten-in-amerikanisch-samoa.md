@@ -2,10 +2,11 @@
 layout: post
 title: "Vegetarische Spezialitäten in Amerikanisch-Samoa"
 date: 2025-11-26
-image: https://images.unsplash.com/photo-1627231911774-db3309a0ad40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWZWdldGFyaXNjaGUlMjBTcGV6aWFsaXQlQzMlQTR0ZW4lMjBBbWVyaWthbmlzY2gtU2Ftb2F8ZW58MHwwfHx8MTc2NDEyODUwOXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/a9/Beach_on_Upolu_Island%2C_Samoa%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Vegetarische Spezialitäten in Amerikanisch-Samoa](https://images.unsplash.com/photo-1627231911774-db3309a0ad40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWZWdldGFyaXNjaGUlMjBTcGV6aWFsaXQlQzMlQTR0ZW4lMjBBbWVyaWthbmlzY2gtU2Ftb2F8ZW58MHwwfHx8MTc2NDEyODUwOXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Vegetarische Spezialitäten in Amerikanisch-Samoa](https://upload.wikimedia.org/wikipedia/commons/a/a9/Beach_on_Upolu_Island%2C_Samoa%2C_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Vegetarische Genüsse im Herzen Amerikanisch-Samoas
 

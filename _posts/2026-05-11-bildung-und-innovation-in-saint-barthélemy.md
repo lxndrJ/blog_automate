@@ -2,9 +2,10 @@
 layout: post
 title: "Bildung und Innovation in Saint-Barthélemy"
 date: 2026-05-11
-image: https://upload.wikimedia.org/wikipedia/commons/d/d1/OJ_C_258E_of_2013_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Bildung und Innovation in Saint-Barthélemy](https://upload.wikimedia.org/wikipedia/commons/d/d1/OJ_C_258E_of_2013_-_DE_German.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Kleine Insel, große Ideen: Wie Saint-Barthélemy Bildung und Innovation neu denkt
+image: https://upload.wikimedia.org/wikipedia/commons/8/87/2020-01-24_01_STAR_FLYER_-_IMO_8915433.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Bildung und Innovation in Saint-Barthélemy](https://upload.wikimedia.org/wikipedia/commons/8/87/2020-01-24_01_STAR_FLYER_-_IMO_8915433.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Kleine Insel, große Ideen: Wie Saint-Barthélemy Bildung und Innovation neu denkt
 
 Saint-Barthélemy – eine Insel, die vielen Menschen hauptsächlich als Luxusreiseziel bekannt ist. Doch wer genauer hinschaut, entdeckt hier etwas Faszinierendes: einen Ort, wo Bildung und Innovation ganz neu zusammenwachsen.
 
@@ -29,6 +30,8 @@ Lokale Initiativen fördern Startup-Kulturen und Unternehmertum unter jungen Men
 Saint-Barthélemy zeigt, dass Innovation nicht an die Größe einer Wirtschaft gebunden ist. Eine Insel mit weniger als 10.000 Einwohnern kann zum Vorreiter werden, wenn sie ihre Bildungssysteme öffnet und ihre Kultur als Stärke nutzt statt als Hindernis.
 
 Hier wird deutlich: Echte Innovation entsteht, wenn Menschen ihre Wurzeln kennen, ihre Umgebung verstehen und den Mut haben, sie zu gestalten.
+
+![Wirtschaft im Wandel](https://upload.wikimedia.org/wikipedia/commons/f/fe/Bonn%2C_Post-Tower_--_2017_--_2128_%28bw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

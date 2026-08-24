@@ -3,8 +3,9 @@ layout: post
 title: "Religiöse Rituale in Jemen"
 date: 2026-06-29
 image: https://upload.wikimedia.org/wikipedia/commons/a/aa/Checkpoint_and_soldiers_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Religiöse Rituale in Jemen](https://upload.wikimedia.org/wikipedia/commons/a/aa/Checkpoint_and_soldiers_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Seele des Jemen: Religiöse Rituale in Sana'a
+---![Religiöse Rituale in Jemen](https://upload.wikimedia.org/wikipedia/commons/a/aa/Checkpoint_and_soldiers_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die Seele des Jemen: Religiöse Rituale in Sana'a
 
 Der Jemen ist ein Land, in dem die Zeit anders fließt. Wenn man durch die Gassen der Altstadt von Sana'a spaziert, wird man unmittelbar von einer spirituellen Energie erfasst, die in jeder Ecke, jedem Ruf vom Minarett und jedem rituellen Moment spürbar ist. Religiöse Praktiken sind hier nicht nur persönliche Angelegenheiten – sie sind das Herzblut der Kultur.
 

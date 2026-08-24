@@ -3,8 +3,9 @@ layout: post
 title: "Süßspeisen und Backtraditionen in Norfolkinsel"
 date: 2026-07-27
 image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Süßspeisen und Backtraditionen in Norfolkinsel](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die süßen Geheimnisse der Norfolkinsel: Wo Tradition auf Inselzauber trifft
+---![Süßspeisen und Backtraditionen in Norfolkinsel](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die süßen Geheimnisse der Norfolkinsel: Wo Tradition auf Inselzauber trifft
 
 Die Norfolkinsel ist ein Ort, an dem die Zeit anders verläuft. Zwischen den majestätischen Norfolk-Kiefern und dem kristallklaren Pazifikwasser hat sich eine Backkultur bewahrt, die so einzigartig ist wie die Insel selbst. Wer hierher kommt, entdeckt nicht nur atemberaubende Landschaften, sondern auch Süßspeisen, die Geschichten erzählen.
 

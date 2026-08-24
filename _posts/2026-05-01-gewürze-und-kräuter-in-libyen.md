@@ -2,10 +2,11 @@
 layout: post
 title: "Gewürze und Kräuter in Libyen"
 date: 2026-05-01
-image: https://images.unsplash.com/photo-1580590562911-89d31480d993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXclQzMlQkNyemUlMjB1bmQlMjBLciVDMyVBNHV0ZXIlMjBMaWJ5ZW58ZW58MHwwfHx8MTc3NzYxNTA2OXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/b6/LIBYA-Tripoli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Gewürze und Kräuter in Libyen](https://images.unsplash.com/photo-1580590562911-89d31480d993?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXclQzMlQkNyemUlMjB1bmQlMjBLciVDMyVBNHV0ZXIlMjBMaWJ5ZW58ZW58MHwwfHx8MTc3NzYxNTA2OXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Gewürze und Kräuter in Libyen](https://upload.wikimedia.org/wikipedia/commons/b/b6/LIBYA-Tripoli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die geheimen Schätze libysch-nordafrikanischer Gewürze
 

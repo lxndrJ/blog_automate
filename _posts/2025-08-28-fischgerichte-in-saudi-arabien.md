@@ -2,10 +2,13 @@
 layout: post
 title: "Fischgerichte in Saudi-Arabien"
 date: 2025-08-28
-image: https://images.unsplash.com/photo-1566598529669-7472a037a70f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGaXNjaGdlcmljaHRlJTIwU2F1ZGktQXJhYmllbnxlbnwwfDB8fHwxNzU2MzUxNzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8U2F1ZGklMjBmaXNoJTIwZGlzaGVzfGVufDB8MHx8fDE3ODc1MzAxNzJ8MA&ixlib=rb-4.1.0
 ---
 
-![Fischgerichte in Saudi-Arabien](https://images.unsplash.com/photo-1566598529669-7472a037a70f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGaXNjaGdlcmljaHRlJTIwU2F1ZGktQXJhYmllbnxlbnwwfDB8fHwxNzU2MzUxNzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Fischgerichte in Saudi-Arabien](https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8U2F1ZGklMjBmaXNoJTIwZGlzaGVzfGVufDB8MHx8fDE3ODc1MzAxNzJ8MA&ixlib=rb-4.1.0)
 
 # Fischgerichte in Saudi-Arabien: Eine kulinarische Entdeckungsreise
 
@@ -46,3 +49,5 @@ Heute findet man in Riyadh gehobene Restaurants, die traditionelle Fischgerichte
 Eine kulinarische Entdeckung wartet darauf, von neugierigen Reisenden und Feinschmeckern erkundet zu werden. Saudi-Arabiens Fischgerichte sind mehr als nur Nahrung - sie sind Ausdruck einer reichen, vielfältigen Kultur.
 
 *Guten Appetit und auf eine geschmackvolle Reise!*
+
+![Die verborgene Küchen-Schatzkammer](https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Zm9vZHxlbnwwfDB8fHwxNzg3NTMwMTczfDA&ixlib=rb-4.1.0)

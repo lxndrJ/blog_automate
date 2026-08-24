@@ -2,10 +2,11 @@
 layout: post
 title: "Geologische Besonderheiten in Niue"
 date: 2025-10-03
-image: https://images.unsplash.com/photo-1726115471777-e5cfbdfe9efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwTml1ZXxlbnwwfDB8fHwxNzU5NDYxNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/17/Niue_Constitution_Day_-_50th_Anniversary%2C_Niue%2C_19_October_2024-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Geologische Besonderheiten in Niue](https://images.unsplash.com/photo-1726115471777-e5cfbdfe9efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZW9sb2dpc2NoZSUyMEJlc29uZGVyaGVpdGVuJTIwTml1ZXxlbnwwfDB8fHwxNzU5NDYxNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Geologische Besonderheiten in Niue](https://upload.wikimedia.org/wikipedia/commons/1/17/Niue_Constitution_Day_-_50th_Anniversary%2C_Niue%2C_19_October_2024-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die verborgene Geologie von Niue: Eine Reise durch Korallen und Kalkstein
 

@@ -2,9 +2,10 @@
 layout: post
 title: "Wellness und Erholung in Wallis und Futuna"
 date: 2026-01-12
-image: https://upload.wikimedia.org/wikipedia/commons/8/8e/Ch%C3%A2teau_de_Val%C3%A8re_et_Haut_de_Cry_-_juillet_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Wellness und Erholung in Wallis und Futuna](https://upload.wikimedia.org/wikipedia/commons/8/8e/Ch%C3%A2teau_de_Val%C3%A8re_et_Haut_de_Cry_-_juillet_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wellness und Entschleunigung auf Wallis und Futuna: Eine Reise ins Paradies
+image: https://upload.wikimedia.org/wikipedia/commons/c/c8/Carcasse_de_voiture_abandonn%C3%A9e_%C3%A0_Futuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Wellness und Erholung in Wallis und Futuna](https://upload.wikimedia.org/wikipedia/commons/c/c8/Carcasse_de_voiture_abandonn%C3%A9e_%C3%A0_Futuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Wellness und Entschleunigung auf Wallis und Futuna: Eine Reise ins Paradies
 
 Die Südsee hat unzählige Gesichter, doch kaum eine Region verspricht so pure Ruhe wie das kleine französische Überseegebiet Wallis und Futuna. Zwischen endlosen Korallenriffen und sanften Hügellandschaften versteckt sich eine Welt, die Entschleunigung neu definiert.
 

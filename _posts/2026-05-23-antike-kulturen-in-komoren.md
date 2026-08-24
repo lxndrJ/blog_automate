@@ -2,10 +2,11 @@
 layout: post
 title: "Antike Kulturen in Komoren"
 date: 2026-05-23
-image: https://images.unsplash.com/photo-1602147259257-f15bf74711ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBbnRpa2UlMjBLdWx0dXJlbiUyMEtvbW9yZW58ZW58MHwwfHx8MTc3OTUxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/16/Archipel_des_Comores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Antike Kulturen in Komoren](https://images.unsplash.com/photo-1602147259257-f15bf74711ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBbnRpa2UlMjBLdWx0dXJlbiUyMEtvbW9yZW58ZW58MHwwfHx8MTc3OTUxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Antike Kulturen in Komoren](https://upload.wikimedia.org/wikipedia/commons/1/16/Archipel_des_Comores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Auf den Spuren der Antike: Komoren und ihre faszinierende Geschichte
 
@@ -40,3 +41,5 @@ Die antiken Kulturen der Komoren sind kein abgeschlossenes Kapitel. Sie sind leb
 Wenn ihr das nächste Mal von den Komoren hört, denkt nicht nur an weiße Strände und tropisches Klima. Denkt an eine Kultur, die Jahrtausende überdauert hat, an Handelsrouten, die Kontinente verbanden, und an Menschen, die ihre Identität bewusst aus verschiedenen Einflüssen gewebt haben.
 
 Das ist die wahre Schönheit dieser Inseln – eine Geschichte, die immer noch geschrieben wird.
+
+![Moroni: Mehr als nur eine Hauptstadt](https://upload.wikimedia.org/wikipedia/commons/5/50/Giovanni_Battista_Moroni_-_The_Tailor_%281565-1570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

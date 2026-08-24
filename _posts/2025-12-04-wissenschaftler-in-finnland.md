@@ -2,10 +2,11 @@
 layout: post
 title: "Wissenschaftler in Finnland"
 date: 2025-12-04
-image: https://images.unsplash.com/photo-1692723756896-c0451ac027af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBGaW5ubGFuZHxlbnwwfDB8fHwxNzY0ODE5OTcwfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Toby_Jug_Nebula_as_seen_with_ESO%27s_Very_Large_Telescope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Wissenschaftler in Finnland](https://images.unsplash.com/photo-1692723756896-c0451ac027af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBGaW5ubGFuZHxlbnwwfDB8fHwxNzY0ODE5OTcwfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Wissenschaftler in Finnland](https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Toby_Jug_Nebula_as_seen_with_ESO%27s_Very_Large_Telescope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Finnlands Köpfe: Wenn Wissenschaft auf Nordlichter trifft
 

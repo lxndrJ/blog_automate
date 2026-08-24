@@ -2,9 +2,10 @@
 layout: post
 title: "Wälder und Forstwirtschaft in Benin"
 date: 2026-07-17
-image: https://images.unsplash.com/photo-1583775363006-3804e2131a2d?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VyVDMyVBNGxkZXIlMjB1bmQlMjBGb3JzdHdpcnRzY2hhZnQlMjBpbiUyMEJlbmlufGVufDB8MHx8fDE3ODc1MTEzNTN8MA&ixlib=rb-4.1.0
----
-![Wälder und Forstwirtschaft in Benin](https://images.unsplash.com/photo-1583775363006-3804e2131a2d?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VyVDMyVBNGxkZXIlMjB1bmQlMjBGb3JzdHdpcnRzY2hhZnQlMjBpbiUyMEJlbmlufGVufDB8MHx8fDE3ODc1MTEzNTN8MA&ixlib=rb-4.1.0)# Die grünen Lungen Benins: Zwischen Tradition und Waldschutz
+image: https://upload.wikimedia.org/wikipedia/commons/4/4d/Benin_Ireland_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Wälder und Forstwirtschaft in Benin](https://upload.wikimedia.org/wikipedia/commons/4/4d/Benin_Ireland_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die grünen Lungen Benins: Zwischen Tradition und Waldschutz
 
 Die Wälder Benins sind wie ein gut gehütetes Geheimnis – nicht ganz so berühmt wie die Regenwälder Südamerikas, doch mindestens genauso faszinierend und voller Leben. Während Porto-Novo, die charmante Hauptstadt an der Lagune, mit ihrer kolonialen Architektur und bunten Märkten lockt, erstrecken sich wenige Kilometer entfernt die grünen Reiche aus, die das Land prägen.
 

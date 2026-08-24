@@ -2,10 +2,11 @@
 layout: post
 title: "Forschungseinrichtungen in Marshallinseln"
 date: 2026-04-17
-image: https://images.unsplash.com/photo-1584704876450-0eb3fd5a2f65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGb3JzY2h1bmdzZWlucmljaHR1bmdlbiUyME1hcnNoYWxsaW5zZWxufGVufDB8MHx8fDE3NzY0MDMxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/04/City_Hall%2C_Marshall%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Forschungseinrichtungen in Marshallinseln](https://images.unsplash.com/photo-1584704876450-0eb3fd5a2f65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGb3JzY2h1bmdzZWlucmljaHR1bmdlbiUyME1hcnNoYWxsaW5zZWxufGVufDB8MHx8fDE3NzY0MDMxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Forschungseinrichtungen in Marshallinseln](https://upload.wikimedia.org/wikipedia/commons/0/04/City_Hall%2C_Marshall%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wissenschaft auf dem Pazifik: Wie die Marshallinseln Forschung neu erfinden
 

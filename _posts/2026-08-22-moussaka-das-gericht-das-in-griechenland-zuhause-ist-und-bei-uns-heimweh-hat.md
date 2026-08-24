@@ -16,8 +16,9 @@ sources:
   - https://www.omas-haushaltstipps.com/was-ist-moussaka-aussehen-herkunft-und-geschmack-erklaert-161576.html
   - https://emmikochteinfach.de/moussaka-rezept/
   - https://www.familienkost.de/rezept_einfaches_moussaka.html
----
-![Moussaka: Das Gericht, das in Griechenland zuhause ist – und bei uns Heimweh hat](https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Moussaka: Das Gericht, das in Griechenland zuhause ist – und bei uns Heimweh hat
+---![Moussaka: Das Gericht, das in Griechenland zuhause ist – und bei uns Heimweh hat](https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Moussaka: Das Gericht, das in Griechenland zuhause ist – und bei uns Heimweh hat
 
 Vor ein paar Jahren saß ich in einer kleinen Taverne auf Kreta und bestellte Moussaka, weil ich dachte, es sei eine sichere Wahl. Was auf dem Teller kam, war ein perfekt geschichteter, warmer Auflauf – Auberginen, Hackfleisch mit Zimtaroma, dazu eine cremige Schicht obendrauf. Das Interessante war nicht der Geschmack, sondern die Reaktion der Kellnerin: Sie deutete auf das Gericht wie auf ein altes Familienerbstück. Und tatsächlich ist Moussaka in Griechenland genau das – ein Nationalgericht, bei Familienfeiern so selbstverständlich wie bei uns der Schmorbraten.
 

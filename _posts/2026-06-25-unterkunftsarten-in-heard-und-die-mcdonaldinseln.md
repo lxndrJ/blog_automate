@@ -2,10 +2,11 @@
 layout: post
 title: "Unterkunftsarten in Heard und die McDonaldinseln"
 date: 2026-06-25
-image: https://images.unsplash.com/photo-1619881589670-43629f0e90f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcmt1bmZ0c2FydGVuJTIwSGVhcmQlMjB1bmQlMjBkaWUlMjBNY0RvbmFsZGluc2VsbnxlbnwwfDB8fHwxNzgyMzY5NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/b7/AmberHeardTIFFSept10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Unterkunftsarten in Heard und die McDonaldinseln](https://images.unsplash.com/photo-1619881589670-43629f0e90f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcmt1bmZ0c2FydGVuJTIwSGVhcmQlMjB1bmQlMjBkaWUlMjBNY0RvbmFsZGluc2VsbnxlbnwwfDB8fHwxNzgyMzY5NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Unterkunftsarten in Heard und die McDonaldinseln](https://upload.wikimedia.org/wikipedia/commons/b/b7/AmberHeardTIFFSept10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Unterkunftsabenteuer auf Heard und den McDonaldinseln: Wo man wirklich übernachtet
 

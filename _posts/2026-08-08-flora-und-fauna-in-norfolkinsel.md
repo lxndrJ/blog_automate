@@ -3,8 +3,9 @@ layout: post
 title: "Flora und Fauna in Norfolkinsel"
 date: 2026-08-08
 image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Flora und Fauna in Norfolkinsel](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Norfolkinsel: Wo die Natur ihre eigenen Regeln schreibt
+---![Flora und Fauna in Norfolkinsel](https://upload.wikimedia.org/wikipedia/commons/f/f1/Bounty_Folk_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Norfolkinsel: Wo die Natur ihre eigenen Regeln schreibt
 
 Stellt euch vor: eine Insel, so klein, dass man sie an einem Tag durchqueren kann, und doch so einzigartig in ihrer Vielfalt, dass sie wie ein separates Ökosystem wirkt. Das ist Norfolkinsel – ein Naturwunder im Südpazifik, das ich euch heute näher bringen möchte.
 

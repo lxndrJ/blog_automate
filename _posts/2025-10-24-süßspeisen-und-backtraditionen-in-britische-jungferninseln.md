@@ -2,10 +2,11 @@
 layout: post
 title: "Süßspeisen und Backtraditionen in Britische Jungferninseln"
 date: 2025-10-24
-image: https://images.unsplash.com/photo-1760815513240-22be5458e197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTJUMzJUJDJUMzJTlGc3BlaXNlbiUyMHVuZCUyMEJhY2t0cmFkaXRpb25lbiUyMEJyaXRpc2NoZSUyMEp1bmdmZXJuaW5zZWxufGVufDB8MHx8fDE3NjEyNzY0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Süßspeisen und Backtraditionen in Britische Jungferninseln](https://images.unsplash.com/photo-1760815513240-22be5458e197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTJUMzJUJDJUMzJTlGc3BlaXNlbiUyMHVuZCUyMEJhY2t0cmFkaXRpb25lbiUyMEJyaXRpc2NoZSUyMEp1bmdmZXJuaW5zZWxufGVufDB8MHx8fDE3NjEyNzY0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Süßspeisen und Backtraditionen in Britische Jungferninseln](https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Karibische Verführung: Süße Geheimnisse der Britischen Jungferninseln
 

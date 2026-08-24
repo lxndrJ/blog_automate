@@ -2,10 +2,12 @@
 layout: post
 title: "Visionäre und Erfinder in Island"
 date: 2025-09-05
-image: https://images.unsplash.com/photo-1667568988311-ba6cdb337edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWaXNpb24lQzMlQTRyZSUyMHVuZCUyMEVyZmluZGVyJTIwSXNsYW5kfGVufDB8MHx8fDE3NTcwNDI2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1659641606400-be54c762195b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VmlzaW9uJUMzJUE0cmUlMjBFcmZpbmRlciUyMElzbGFuZHxlbnwwfDB8fHwxNzg3NTMwMTk2fDA&ixlib=rb-4.1.0
 ---
 
-![Visionäre und Erfinder in Island](https://images.unsplash.com/photo-1667568988311-ba6cdb337edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxWaXNpb24lQzMlQTRyZSUyMHVuZCUyMEVyZmluZGVyJTIwSXNsYW5kfGVufDB8MHx8fDE3NTcwNDI2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+![Visionäre und Erfinder in Island](https://images.unsplash.com/photo-1659641606400-be54c762195b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VmlzaW9uJUMzJUE0cmUlMjBFcmZpbmRlciUyMElzbGFuZHxlbnwwfDB8fHwxNzg3NTMwMTk2fDA&ixlib=rb-4.1.0)
 
 # Visionäre Geister Islands: Wo Träume auf Lava gedeihen
 
@@ -41,3 +43,5 @@ Ob Umwelttechnologien, digitale Kunst oder soziale Innovationen - Island zeigt: 
 Die Insel lehrt uns: Echte Innovation braucht keine perfekte Infrastruktur, sondern Menschen, die bereit sind, anders zu denken.
 
 *Ein Gruß von den Rändern der Welt, wo Träume größer sind als Gletscher und mutiger als Vulkanausbrüche.*
+
+

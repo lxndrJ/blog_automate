@@ -2,11 +2,12 @@
 layout: post
 title: "Geologische Besonderheiten in Weissrussland"
 date: 2025-08-21
-image: https://upload.wikimedia.org/wikipedia/commons/0/0f/All_administrative_divisions_of_Belarus_%282009%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+image: https://upload.wikimedia.org/wikipedia/commons/7/72/1712._Russie_noire%2C_Russie_blanche_ou_polonoise%2C_Volhinie%2C_Podolie.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 author: lxndrJ
 ai_assisted: true
 ---
-![Geologische Besonderheiten in Weissrussland](https://upload.wikimedia.org/wikipedia/commons/0/0f/All_administrative_divisions_of_Belarus_%282009%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+![Geologische Besonderheiten in Weissrussland](https://upload.wikimedia.org/wikipedia/commons/7/72/1712._Russie_noire%2C_Russie_blanche_ou_polonoise%2C_Volhinie%2C_Podolie.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
 # Minsk: Eine geologische Zeitreise im Herzen Weißrusslands
 
 ## Die verborgene Erdgeschichte einer faszinierenden Hauptstadt

@@ -2,10 +2,11 @@
 layout: post
 title: "Hochzeitsbräuche in Mauritius"
 date: 2026-01-22
-image: https://images.unsplash.com/photo-1513415277900-a62401e19be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIb2NoemVpdHNiciVDMyVBNHVjaGUlMjBNYXVyaXRpdXN8ZW58MHwwfHx8MTc2OTA1NDYyOXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/06/A_Mauritius_home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Hochzeitsbräuche in Mauritius](https://images.unsplash.com/photo-1513415277900-a62401e19be4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIb2NoemVpdHNiciVDMyVBNHVjaGUlMjBNYXVyaXRpdXN8ZW58MHwwfHx8MTc2OTA1NDYyOXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Hochzeitsbräuche in Mauritius](https://upload.wikimedia.org/wikipedia/commons/0/06/A_Mauritius_home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Liebeszauber auf Mauritius: Wenn Traditionen Herzen verzaubern
 

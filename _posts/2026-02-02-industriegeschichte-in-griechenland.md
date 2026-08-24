@@ -2,10 +2,11 @@
 layout: post
 title: "Industriegeschichte in Griechenland"
 date: 2026-02-02
-image: https://images.unsplash.com/photo-1642008078843-989cc47f21f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwR3JpZWNoZW5sYW5kfGVufDB8MHx8fDE3NzAwMDc4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Industriegeschichte in Griechenland](https://images.unsplash.com/photo-1642008078843-989cc47f21f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwR3JpZWNoZW5sYW5kfGVufDB8MHx8fDE3NzAwMDc4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Industriegeschichte in Griechenland](https://upload.wikimedia.org/wikipedia/commons/1/1d/07-17-2012_-_Emborio_-_Emporio_-_Santorini_-_Greece_-_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die industrielle Odyssee: Griechenlands verborgene Innovationskraft
 

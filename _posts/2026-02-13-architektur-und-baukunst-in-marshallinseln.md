@@ -2,10 +2,11 @@
 layout: post
 title: "Architektur und Baukunst in Marshallinseln"
 date: 2026-02-13
-image: https://images.unsplash.com/photo-1609993489279-20fc03b16038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoaXRla3R1ciUyMHVuZCUyMEJhdWt1bnN0JTIwTWFyc2hhbGxpbnNlbG58ZW58MHwwfHx8MTc3MDk1ODAxNXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/04/City_Hall%2C_Marshall%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Architektur und Baukunst in Marshallinseln](https://images.unsplash.com/photo-1609993489279-20fc03b16038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBcmNoaXRla3R1ciUyMHVuZCUyMEJhdWt1bnN0JTIwTWFyc2hhbGxpbnNlbG58ZW58MHwwfHx8MTc3MDk1ODAxNXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Architektur und Baukunst in Marshallinseln](https://upload.wikimedia.org/wikipedia/commons/0/04/City_Hall%2C_Marshall%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Architektur der Weite: Die verborgene Baukunst der Marshallinseln
 

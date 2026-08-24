@@ -3,8 +3,9 @@ layout: post
 title: "Musiker und Komponisten in Libanon"
 date: 2026-08-04
 image: https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Musiker und Komponisten in Libanon](https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Seele des Libanon: Musiker und Komponisten, die Geschichte schreiben
+---![Musiker und Komponisten in Libanon](https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die Seele des Libanon: Musiker und Komponisten, die Geschichte schreiben
 
 Der Libanon ist ein Land, das seine Seele durch Musik ausdrückt. Wenn man Beirut besucht, hört man es überall – in den Straßencafés, in den Konzertsälen und vor allem in den Herzen seiner Menschen. Die Musik hier ist nicht einfach nur Unterhaltung; sie ist ein Akt des Widerstands, der Hoffnung und der kulturellen Identität.
 

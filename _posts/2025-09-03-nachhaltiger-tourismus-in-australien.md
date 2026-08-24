@@ -2,10 +2,12 @@
 layout: post
 title: "Nachhaltiger Tourismus in Australien"
 date: 2025-09-03
-image: https://images.unsplash.com/photo-1589685523979-6544ec36b055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZXIlMjBUb3VyaXNtdXMlMjBBdXN0cmFsaWVufGVufDB8MHx8fDE3NTY4Njk1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8c3VzdGFpbmFibGV8ZW58MHwwfHx8MTc4NzUzMDE5MHww&ixlib=rb-4.1.0
 ---
 
-![Nachhaltiger Tourismus in Australien](https://images.unsplash.com/photo-1589685523979-6544ec36b055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYWNoaGFsdGlnZXIlMjBUb3VyaXNtdXMlMjBBdXN0cmFsaWVufGVufDB8MHx8fDE3NTY4Njk1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+![Nachhaltiger Tourismus in Australien](https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8c3VzdGFpbmFibGV8ZW58MHwwfHx8MTc4NzUzMDE5MHww&ixlib=rb-4.1.0)
 
 # Grüne Wege durch Down Under: Nachhaltiges Reisen in Australien
 
@@ -40,6 +42,8 @@ Nachhaltigkeit bedeutet hier nicht Verzicht, sondern eine tiefere Verbindung. Je
 Australien lädt uns ein, Tourismus neu zu denken: Als Erlebenis, das Natur, Kultur und persönliche Entwicklung vereint.
 
 *Eine Reise, die Spuren hinterlässt - aber keine Wunden.*
+
+![Eine Reise zwischen Verantwortung und Abenteuer](https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8bGFuZ3VhZ2V8ZW58MHwwfHx8MTc4NzUzMDE0NXww&ixlib=rb-4.1.0)
 
 ---
 

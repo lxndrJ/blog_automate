@@ -191,9 +191,11 @@ def commons_pick(topic: str) -> Optional[dict]:
 
 
 def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict]:
-    """Unsplash: API-Ranking nach Relevanz, Metadaten als Caption.
+    """Unsplash API mit Production-Tier Features (Download-Tracking + Attribution).
 
-    Liefert {"url", "license", "caption"} mit der Remote-Bild-URL, oder None.
+    Liefert {"url", "license", "caption", "photographer", "attribution",
+    "download_url"} mit der Remote-Bild-URL, oder None.
+    download_url wird später aufgerufen, wenn das Bild im Blog veröffentlicht wird.
     """
     if not UNSPLASH_KEY:
         return None
@@ -210,14 +212,23 @@ def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict
         img_url = urls.get("raw") or urls.get("regular")
         if not img_url:
             continue
+        # Fotografen-Name + Download-Tracking-URL (für Production-Tier)
+        user = r.get("user") or {}
+        photographer = user.get("name", "Unknown")
+        links = r.get("links") or {}
+        download_url = links.get("download_location")
         # Metadaten: bevorzugt Beschreibung, sonst Alt-Text
         meta = r.get("description") or r.get("alt_description") or ""
         caption = f"{meta} – Unsplash" if meta else f"{query} – Unsplash"
+        attribution = f"Photo by {photographer} on Unsplash"
         return {
             "url": img_url,
             "source": "unsplash",
             "license": "Unsplash License (frei verwendbar)",
             "caption": caption,
+            "photographer": photographer,
+            "attribution": attribution,
+            "download_url": download_url,
         }
     return None
 

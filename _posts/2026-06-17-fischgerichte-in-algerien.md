@@ -3,8 +3,9 @@ layout: post
 title: "Fischgerichte in Algerien"
 date: 2026-06-17
 image: https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Fischgerichte in Algerien](https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wenn das Mittelmeer auf den Teller kommt: Fischgerichte in Algerien
+---![Fischgerichte in Algerien](https://upload.wikimedia.org/wikipedia/commons/4/45/ALGERIEN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Wenn das Mittelmeer auf den Teller kommt: Fischgerichte in Algerien
 
 Das Mittelmeer ist nicht nur eine geografische Grenze – es ist eine Inspirationsquelle. Und nirgends wird das deutlicher als in Algiers, wo die Wellen gegen die Casbah schlagen und die Fischgerichte eine Geschichte erzählen, die Generationen von Köchen weitergegeben haben.
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Revolutionen in Frankreich"
 date: 2026-08-06
-image: https://images.unsplash.com/photo-1594763927519-8140fb9c7319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBGcmFua3JlaWNofGVufDB8MHx8fDE3ODU5OTQ2MzF8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/d9/11-french_revolution_1789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Revolutionen in Frankreich](https://images.unsplash.com/photo-1594763927519-8140fb9c7319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBGcmFua3JlaWNofGVufDB8MHx8fDE3ODU5OTQ2MzF8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Revolutionen in Frankreich](https://upload.wikimedia.org/wikipedia/commons/d/d9/11-french_revolution_1789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Straßen von Paris: Wo Geschichte zum Leben erwacht
 

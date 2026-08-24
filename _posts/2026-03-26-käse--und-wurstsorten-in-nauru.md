@@ -2,10 +2,11 @@
 layout: post
 title: "Käse- und Wurstsorten in Nauru"
 date: 2026-03-26
-image: https://images.unsplash.com/photo-1723473620176-8d26dc6314cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUE0c2UtJTIwdW5kJTIwV3Vyc3Rzb3J0ZW4lMjBOYXVydXxlbnwwfDB8fHwxNzc0NTAxMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/9/9b/Coral_reef_on_Nauru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Käse- und Wurstsorten in Nauru](https://images.unsplash.com/photo-1723473620176-8d26dc6314cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUE0c2UtJTIwdW5kJTIwV3Vyc3Rzb3J0ZW4lMjBOYXVydXxlbnwwfDB8fHwxNzc0NTAxMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Käse- und Wurstsorten in Nauru](https://upload.wikimedia.org/wikipedia/commons/9/9b/Coral_reef_on_Nauru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Käse und Wurst auf Nauru: Kulinarische Schätze einer Inselrepublik
 

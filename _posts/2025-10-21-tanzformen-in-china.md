@@ -2,10 +2,11 @@
 layout: post
 title: "Tanzformen in China"
 date: 2025-10-21
-image: https://images.unsplash.com/photo-1705312173488-cf1f98f2eb16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUYW56Zm9ybWVuJTIwQ2hpbmF8ZW58MHwwfHx8MTc2MTAxNzU4MXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/b8/Baixi_Village_01_2014-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Tanzformen in China](https://images.unsplash.com/photo-1705312173488-cf1f98f2eb16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUYW56Zm9ybWVuJTIwQ2hpbmF8ZW58MHwwfHx8MTc2MTAxNzU4MXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Tanzformen in China](https://upload.wikimedia.org/wikipedia/commons/b/b8/Baixi_Village_01_2014-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Tanzende Geschichten: Eine Reise durch Chinas Tanzwelt
 
@@ -32,3 +33,5 @@ Chinesisches Ballett hat seine eigene Seele: Es kombiniert westliche Technik mit
 Ob in den engen Gassen von Beijing oder auf modernen Konzertbühnen - der chinesische Tanz bleibt ein lebendiges Kunstwerk. Er überwindet Sprachgrenzen und erzählt Geschichten, die tiefer gehen als Worte.
 
 *Ein Tanz ist mehr als Bewegung - er ist eine Sprache des Herzens.*
+
+![Traditionelle Wurzeln](https://upload.wikimedia.org/wikipedia/commons/7/71/D%C3%BClmen%2C_Dreifaltigkeitskirmes_--_2018_--_0036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

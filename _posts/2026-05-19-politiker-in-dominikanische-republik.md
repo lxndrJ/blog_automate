@@ -2,10 +2,11 @@
 layout: post
 title: "Politiker in Dominikanische Republik"
 date: 2026-05-19
-image: https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBEb21pbmlrYW5pc2NoZSUyMFJlcHVibGlrfGVufDB8MHx8fDE3NzkxNzI2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/6/6d/Eladio_Perez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Politiker in Dominikanische Republik](https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBEb21pbmlrYW5pc2NoZSUyMFJlcHVibGlrfGVufDB8MHx8fDE3NzkxNzI2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Politiker in Dominikanische Republik](https://upload.wikimedia.org/wikipedia/commons/6/6d/Eladio_Perez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wenn Leidenschaft Politik wird: Dominikanische Politiker im Rampenlicht
 

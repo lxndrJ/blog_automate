@@ -2,10 +2,11 @@
 layout: post
 title: "Zukunftstechnologien in Togo"
 date: 2026-01-07
-image: https://images.unsplash.com/photo-1675234764056-928ce23180da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxadWt1bmZ0c3RlY2hub2xvZ2llbiUyMFRvZ298ZW58MHwwfHx8MTc2Nzc1ODI1Mnww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Zukunftstechnologien in Togo](https://images.unsplash.com/photo-1675234764056-928ce23180da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxadWt1bmZ0c3RlY2hub2xvZ2llbiUyMFRvZ298ZW58MHwwfHx8MTc2Nzc1ODI1Mnww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Zukunftstechnologien in Togo](https://upload.wikimedia.org/wikipedia/commons/b/bc/1913_3pfg_Togo_used_Mi7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Togo zwischen Tradition und digitaler Transformation
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Philosophen in Slowakei"
 date: 2026-04-25
-image: https://images.unsplash.com/photo-1679516116167-56b2c1fc783d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQaGlsb3NvcGhlbiUyMFNsb3dha2VpfGVufDB8MHx8fDE3NzcwOTM0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/7/72/000_Sllovakia_harta.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Philosophen in Slowakei](https://images.unsplash.com/photo-1679516116167-56b2c1fc783d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQaGlsb3NvcGhlbiUyMFNsb3dha2VpfGVufDB8MHx8fDE3NzcwOTM0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Philosophen in Slowakei](https://upload.wikimedia.org/wikipedia/commons/7/72/000_Sllovakia_harta.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Denker der Donau: Philosophie in der Slowakei
 

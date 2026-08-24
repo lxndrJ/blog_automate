@@ -2,10 +2,11 @@
 layout: post
 title: "Museen und Gedenkstätten in Estland"
 date: 2026-04-29
-image: https://images.unsplash.com/photo-1702855830475-cb485b71cae0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNlZW4lMjB1bmQlMjBHZWRlbmtzdCVDMyVBNHR0ZW4lMjBFc3RsYW5kfGVufDB8MHx8fDE3Nzc0NDE0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Museen und Gedenkstätten in Estland](https://images.unsplash.com/photo-1702855830475-cb485b71cae0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNlZW4lMjB1bmQlMjBHZWRlbmtzdCVDMyVBNHR0ZW4lMjBFc3RsYW5kfGVufDB8MHx8fDE3Nzc0NDE0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Museen und Gedenkstätten in Estland](https://upload.wikimedia.org/wikipedia/commons/f/f1/Calle_Viru%2C_Tallin%2C_Estonia%2C_2012-08-05%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Tallinn: Wo Geschichte lebendig wird
 

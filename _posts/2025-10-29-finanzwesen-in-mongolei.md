@@ -2,10 +2,11 @@
 layout: post
 title: "Finanzwesen in Mongolei"
 date: 2025-10-29
-image: https://images.unsplash.com/photo-1588489334537-1a0b679bfad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGaW5hbnp3ZXNlbiUyME1vbmdvbGVpfGVufDB8MHx8fDE3NjE3MDkzMTR8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Finanzwesen in Mongolei](https://images.unsplash.com/photo-1588489334537-1a0b679bfad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGaW5hbnp3ZXNlbiUyME1vbmdvbGVpfGVufDB8MHx8fDE3NjE3MDkzMTR8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Finanzwesen in Mongolei](https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Finanzpuls der Steppe: Mongolei zwischen Tradition und Moderne
 

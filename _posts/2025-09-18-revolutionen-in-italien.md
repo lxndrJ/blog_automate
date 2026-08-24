@@ -2,10 +2,11 @@
 layout: post
 title: "Revolutionen in Italien"
 date: 2025-09-18
-image: https://images.unsplash.com/photo-1731594700674-92f656ed9572?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBJdGFsaWVufGVufDB8MHx8fDE3NTgxNjU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/ec/1848_Events_Collage_V_1.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Revolutionen in Italien](https://images.unsplash.com/photo-1731594700674-92f656ed9572?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxSZXZvbHV0aW9uZW4lMjBJdGFsaWVufGVufDB8MHx8fDE3NTgxNjU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Revolutionen in Italien](https://upload.wikimedia.org/wikipedia/commons/e/ec/1848_Events_Collage_V_1.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Revolutionen in Italien: Wenn Geschichte die Straßen von Rom verzaubert
 

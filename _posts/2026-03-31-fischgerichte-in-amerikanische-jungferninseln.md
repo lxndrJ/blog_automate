@@ -2,9 +2,10 @@
 layout: post
 title: "Fischgerichte in Amerikanische Jungferninseln"
 date: 2026-03-31
-image: https://upload.wikimedia.org/wikipedia/commons/3/33/Dog_island-just_off_St._John.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Fischgerichte in Amerikanische Jungferninseln](https://upload.wikimedia.org/wikipedia/commons/3/33/Dog_island-just_off_St._John.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Fischgenuss auf den Amerikanischen Jungferninseln: Wo das Meer auf den Teller kommt
+image: https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Fischgerichte in Amerikanische Jungferninseln](https://upload.wikimedia.org/wikipedia/commons/a/ac/British_Virgin_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Fischgenuss auf den Amerikanischen Jungferninseln: Wo das Meer auf den Teller kommt
 
 Die Amerikanischen Jungferninseln sind ein Traum aus türkisblauem Wasser, weißen Stränden und – das wird oft übersehen – einer der faszinierendsten Küchen der Karibik. Besonders die Fischgerichte hier erzählen die Geschichte eines Ortes, wo afrikanische, europäische und karibische Einflüsse in einer einzigen Mahlzeit verschmelzen.
 
@@ -33,6 +34,8 @@ Die umgebenden Gewässer sind reich an Fischbeständen. Das macht die Fischgeric
 ## Ein Tipp für Besucher
 
 Besucht die lokalen Märkte in Charlotte Amalie früh morgens. Hier seht ihr den Fang des Tages, könnt mit Fischern plaudern und versteht, warum die Inselbewohner ihre Fischgerichte mit solcher Leidenschaft zubereiten. Manche Restaurants kaufen direkt hier ein – das ist echte Farm-to-Table-Philosophie, nur eben Fish-to-Table.
+
+![Charlotte Amalie: Kulinarisches Herz der Inseln](https://upload.wikimedia.org/wikipedia/commons/0/0f/A_Tuareg_in_northern_Mali_prepares_a_fire_for_making_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

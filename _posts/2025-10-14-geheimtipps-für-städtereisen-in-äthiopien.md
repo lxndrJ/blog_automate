@@ -2,10 +2,11 @@
 layout: post
 title: "Geheimtipps für Städtereisen in Äthiopien"
 date: 2025-10-14
-image: https://images.unsplash.com/photo-1641295437952-092f7e8b65ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjAlQzMlODR0aGlvcGllbnxlbnwwfDB8fHwxNzYwNDEyNDQzfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/8/84/A_Step_Forward%2C_Ethiopia_%2813599989815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Geheimtipps für Städtereisen in Äthiopien](https://images.unsplash.com/photo-1641295437952-092f7e8b65ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZWhlaW10aXBwcyUyMGYlQzMlQkNyJTIwU3QlQzMlQTRkdGVyZWlzZW4lMjAlQzMlODR0aGlvcGllbnxlbnwwfDB8fHwxNzYwNDEyNDQzfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Geheimtipps für Städtereisen in Äthiopien](https://upload.wikimedia.org/wikipedia/commons/8/84/A_Step_Forward%2C_Ethiopia_%2813599989815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Äthiopien entdecken: Verborgene Schätze einer faszinierenden Hauptstadt
 

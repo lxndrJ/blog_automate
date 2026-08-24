@@ -2,10 +2,11 @@
 layout: post
 title: "Flora und Fauna in Dominica"
 date: 2026-05-07
-image: https://images.unsplash.com/photo-1674231048902-a6b67847db9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwRG9taW5pY2F8ZW58MHwwfHx8MTc3ODEzMzA1N3ww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/e6/1884_2half_red-brown_Dominica_unused_Yv20_SG15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Flora und Fauna in Dominica](https://images.unsplash.com/photo-1674231048902-a6b67847db9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwRG9taW5pY2F8ZW58MHwwfHx8MTc3ODEzMzA1N3ww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Flora und Fauna in Dominica](https://upload.wikimedia.org/wikipedia/commons/e/e6/1884_2half_red-brown_Dominica_unused_Yv20_SG15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Dominica: Wo die Natur noch wild und ungezähmt ist
 

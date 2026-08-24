@@ -2,10 +2,11 @@
 layout: post
 title: "Wissenschaftler in Ghana"
 date: 2025-09-19
-image: https://images.unsplash.com/photo-1660742507665-4e6edfabeace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBHaGFuYXxlbnwwfDB8fHwxNzU4MjUyNDExfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/de/Anton-Wilhelm-Amo-6402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Wissenschaftler in Ghana](https://images.unsplash.com/photo-1660742507665-4e6edfabeace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXaXNzZW5zY2hhZnRsZXIlMjBHaGFuYXxlbnwwfDB8fHwxNzU4MjUyNDExfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Wissenschaftler in Ghana](https://upload.wikimedia.org/wikipedia/commons/d/de/Anton-Wilhelm-Amo-6402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wissenschaftler in Ghana: Pioniere zwischen Tradition und Innovation
 

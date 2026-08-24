@@ -2,10 +2,13 @@
 layout: post
 title: "Unternehmer in Suriname"
 date: 2025-08-27
-image: https://images.unsplash.com/photo-1718134840922-53c040c33552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyMFN1cmluYW1lfGVufDB8MHx8fDE3NTYyNjUzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1773249815795-99431b00b1c7?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VW50ZXJuZWhtZXIlMjBTdXJpbmFtZXxlbnwwfDB8fHwxNzg3NTMwMTY5fDA&ixlib=rb-4.1.0
 ---
 
-![Unternehmer in Suriname](https://images.unsplash.com/photo-1718134840922-53c040c33552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyMFN1cmluYW1lfGVufDB8MHx8fDE3NTYyNjUzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Unternehmer in Suriname](https://images.unsplash.com/photo-1773249815795-99431b00b1c7?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8VW50ZXJuZWhtZXIlMjBTdXJpbmFtZXxlbnwwfDB8fHwxNzg3NTMwMTY5fDA&ixlib=rb-4.1.0)
 
 # Unternehmergeist in Suriname: Zwischen Tradition und Innovation
 
@@ -36,3 +39,5 @@ Die Hauptstadt ist mehr als nur ein administratives Zentrum - sie ist das Herz d
 Surinamische Unternehmer beweisen täglich: Erfolg hat viele Gesichter. Sie kombinieren lokales Wissen mit globaler Perspektive und zeigen damit eine beeindruckende unternehmerische Resilienz.
 
 *Eine Reise durch die Geschäftswelt Surinames ist wie eine Entdeckungsreise: voller Überraschungen, Dynamik und unerwarteter Möglichkeiten.*
+
+![Die Seele des surinamischen Unternehmertums](https://images.unsplash.com/photo-1631367095683-d311812cce5e?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8U2VlbGUlMjBzdXJpbmFtaXNjaGVuJTIwVW50ZXJuZWhtZXJ0dW1zfGVufDB8MHx8fDE3ODc1MzAxNzB8MA&ixlib=rb-4.1.0)

@@ -2,10 +2,11 @@
 layout: post
 title: "Saisonale Küche in Brunei"
 date: 2025-11-28
-image: https://images.unsplash.com/photo-1709808971478-b0e6935e94ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTYWlzb25hbGUlMjBLJUMzJUJDY2hlJTIwQnJ1bmVpfGVufDB8MHx8fDE3NjQzMDExMzV8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/a4/80-G-331265_Brunei%2C_Borneo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Saisonale Küche in Brunei](https://images.unsplash.com/photo-1709808971478-b0e6935e94ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTYWlzb25hbGUlMjBLJUMzJUJDY2hlJTIwQnJ1bmVpfGVufDB8MHx8fDE3NjQzMDExMzV8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Saisonale Küche in Brunei](https://upload.wikimedia.org/wikipedia/commons/a/a4/80-G-331265_Brunei%2C_Borneo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Geschmacksreise durch Brunei: Eine kulinarische Entdeckungsreise zwischen Tradition und Saison
 

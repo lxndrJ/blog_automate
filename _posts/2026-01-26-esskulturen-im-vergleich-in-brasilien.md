@@ -2,9 +2,10 @@
 layout: post
 title: "Esskulturen im Vergleich in Brasilien"
 date: 2026-01-26
-image: https://images.unsplash.com/photo-1781041004838-0cb4c592b1ad?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RXNza3VsdHVyZW4lMjBpbSUyMFZlcmdsZWljaCUyMGluJTIwQnJhc2lsaWVufGVufDB8MHx8fDE3ODc0MzM0MzF8MA&ixlib=rb-4.1.0
----
-![Esskulturen im Vergleich in Brasilien](https://images.unsplash.com/photo-1781041004838-0cb4c592b1ad?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8RXNza3VsdHVyZW4lMjBpbSUyMFZlcmdsZWljaCUyMGluJTIwQnJhc2lsaWVufGVufDB8MHx8fDE3ODc0MzM0MzF8MA&ixlib=rb-4.1.0)# Geschmacksreisen: Brasiliens kulinarische Identität zwischen Tradition und Moderne
+image: https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Esskulturen im Vergleich in Brasilien](https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Geschmacksreisen: Brasiliens kulinarische Identität zwischen Tradition und Moderne
 
 ## Eine kulinarische Entdeckungsreise von Brasília bis in die Kochtöpfe der Nation
 

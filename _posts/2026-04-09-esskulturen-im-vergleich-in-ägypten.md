@@ -2,10 +2,11 @@
 layout: post
 title: "Esskulturen im Vergleich in Ägypten"
 date: 2026-04-09
-image: https://images.unsplash.com/photo-1722585236081-41b087316505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFc3NrdWx0dXJlbiUyMGltJTIwVmVyZ2xlaWNoJTIwJUMzJTg0Z3lwdGVufGVufDB8MHx8fDE3NzU3MTA5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Esskulturen im Vergleich in Ägypten](https://images.unsplash.com/photo-1722585236081-41b087316505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFc3NrdWx0dXJlbiUyMGltJTIwVmVyZ2xlaWNoJTIwJUMzJTg0Z3lwdGVufGVufDB8MHx8fDE3NzU3MTA5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Esskulturen im Vergleich in Ägypten](https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die kulinarische Seele von Ägypten: Zwischen Tradition und Moderne in Kairo
 

@@ -2,10 +2,13 @@
 layout: post
 title: "Wälder und Forstwirtschaft in Osttimor"
 date: 2025-08-22
-image: https://images.unsplash.com/photo-1720086301592-c26d22710ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXJUMzJUE0bGRlciUyMHVuZCUyMEZvcnN0d2lydHNjaGFmdCUyME9zdHRpbW9yfGVufDB8MHx8fDE3NTU4Njg0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1616683955867-4049d9b78977?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Zm9yZXN0cnklMjBlY29ub215fGVufDB8MHx8fDE3ODc1MzAxNDd8MA&ixlib=rb-4.1.0
 ---
 
-![Wälder und Forstwirtschaft in Osttimor](https://images.unsplash.com/photo-1720086301592-c26d22710ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXJUMzJUE0bGRlciUyMHVuZCUyMEZvcnN0d2lydHNjaGFmdCUyME9zdHRpbW9yfGVufDB8MHx8fDE3NTU4Njg0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Wälder und Forstwirtschaft in Osttimor](https://images.unsplash.com/photo-1616683955867-4049d9b78977?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Zm9yZXN0cnklMjBlY29ub215fGVufDB8MHx8fDE3ODc1MzAxNDd8MA&ixlib=rb-4.1.0)
 
 # Dili: Eine grüne Perspektive zwischen Tradition und Waldschutz
 

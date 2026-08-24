@@ -2,10 +2,11 @@
 layout: post
 title: "Geschichte der Religionen in Brasilien"
 date: 2026-04-20
-image: https://images.unsplash.com/photo-1583181438604-5ccea64bf2cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMEJyYXNpbGllbnxlbnwwfDB8fHwxNzc2NjYzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Geschichte der Religionen in Brasilien](https://images.unsplash.com/photo-1583181438604-5ccea64bf2cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMEJyYXNpbGllbnxlbnwwfDB8fHwxNzc2NjYzMDE2fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Geschichte der Religionen in Brasilien](https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Glaube im Wandel: Die faszinierende Religionsgeschichte Brasiliens
 

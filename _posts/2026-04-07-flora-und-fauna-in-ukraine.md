@@ -2,10 +2,11 @@
 layout: post
 title: "Flora und Fauna in Ukraine"
 date: 2026-04-07
-image: https://images.unsplash.com/photo-1682063659507-fd75b710e81b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwVWtyYWluZXxlbnwwfDB8fHwxNzc1NTM4MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/b/bf/D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Golden_Retriever_--_2022_--_5945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Flora und Fauna in Ukraine](https://images.unsplash.com/photo-1682063659507-fd75b710e81b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGbG9yYSUyMHVuZCUyMEZhdW5hJTIwVWtyYWluZXxlbnwwfDB8fHwxNzc1NTM4MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Flora und Fauna in Ukraine](https://upload.wikimedia.org/wikipedia/commons/b/bf/D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Golden_Retriever_--_2022_--_5945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Ukraines wilde Schönheit: Flora und Fauna zwischen Stadt und Steppe
 

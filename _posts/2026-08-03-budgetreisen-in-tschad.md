@@ -3,8 +3,9 @@ layout: post
 title: "Budgetreisen in Tschad"
 date: 2026-08-03
 image: https://upload.wikimedia.org/wikipedia/commons/3/3a/Festival_dary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Budgetreisen in Tschad](https://upload.wikimedia.org/wikipedia/commons/3/3a/Festival_dary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Mit kleinem Budget groß raus: Budgetreisen im Tschad
+---![Budgetreisen in Tschad](https://upload.wikimedia.org/wikipedia/commons/3/3a/Festival_dary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Mit kleinem Budget groß raus: Budgetreisen im Tschad
 
 Der Tschad ist einer der am wenigsten bereisten Länder Afrikas – und genau das macht ihn so faszinierend. Wenn du auf der Suche nach authentischen Erfahrungen bist, ohne dein Ersparte aufzugeben, dann bist du hier genau richtig. Lass mich dir zeigen, wie Budgetreisen im Tschad funktionieren.
 

@@ -2,10 +2,13 @@
 layout: post
 title: "Künstler und Kreative in Norwegen"
 date: 2025-08-29
-image: https://images.unsplash.com/photo-1697308364285-994346ce5e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjBOb3J3ZWdlbnxlbnwwfDB8fHwxNzU2NDM4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1544085311-11a028465b03?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SyVDMyVCQ25zdGxlciUyMEtyZWF0aXZlJTIwTm9yd2VnZW58ZW58MHwwfHx8MTc4NzUzMDE3NXww&ixlib=rb-4.1.0
 ---
 
-![Künstler und Kreative in Norwegen](https://images.unsplash.com/photo-1697308364285-994346ce5e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLJUMzJUJDbnN0bGVyJTIwdW5kJTIwS3JlYXRpdmUlMjBOb3J3ZWdlbnxlbnwwfDB8fHwxNzU2NDM4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Künstler und Kreative in Norwegen](https://images.unsplash.com/photo-1544085311-11a028465b03?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8SyVDMyVCQ25zdGxlciUyMEtyZWF0aXZlJTIwTm9yd2VnZW58ZW58MHwwfHx8MTc4NzUzMDE3NXww&ixlib=rb-4.1.0)
 
 # Norwegen: Eine Inspirationsquelle für Kreative und Künstler
 
@@ -36,3 +39,5 @@ Was macht norwegische Künstler so besonders? Vielleicht ist es die Fähigkeit, 
 Norwegen ist mehr als nur ein Land - es ist eine Inspirationsquelle. Ob in Oslo oder in den abgelegenen Fjordregionen, hier findet jeder Kreative seinen ganz persönlichen Ausdruck.
 
 *Die Reise der Kunst ist grenzenlos, und Norwegen ist ihr wunderbarer Ausgangspunkt.*
+
+![Die Sprache der Kunst und Natur](https://images.unsplash.com/photo-1673515334893-2c20c91d0e93?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8bGFuZ3VhZ2UlMjBuYXR1cmV8ZW58MHwwfHx8MTc4NzUzMDE3Nnww&ixlib=rb-4.1.0)

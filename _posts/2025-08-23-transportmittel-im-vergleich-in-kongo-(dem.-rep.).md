@@ -2,10 +2,13 @@
 layout: post
 title: "Transportmittel im Vergleich in Kongo (Dem. Rep.)"
 date: 2025-08-23
-image: https://images.unsplash.com/photo-1745240940352-480ed7c6bbbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFuc3BvcnRtaXR0ZWwlMjBpbSUyMFZlcmdsZWljaCUyMEtvbmdvJTIwJTI4RGVtLiUyMFJlcC4lMjl8ZW58MHwwfHx8MTc1NTkyNjQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Transportmittel im Vergleich in Kongo (Dem. Rep.)](https://images.unsplash.com/photo-1745240940352-480ed7c6bbbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxUcmFuc3BvcnRtaXR0ZWwlMjBpbSUyMFZlcmdsZWljaCUyMEtvbmdvJTIwJTI4RGVtLiUyMFJlcC4lMjl8ZW58MHwwfHx8MTc1NTkyNjQ4M3ww&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Transportmittel im Vergleich in Kongo (Dem. Rep.)](https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Kinshasa: Eine Reise durch die Mobilität einer pulsierenden Metropole
 
@@ -47,3 +50,5 @@ Kinshasa lehrt uns, dass Mobilität mehr ist als eine technische Notwendigkeit. 
 - Beste Reisezeit: Trockensaison (Juni-September)
 - Wichtigste Verkehrsmittel: Matatus, Motorroller
 - Sprachen: Französisch, Lingala
+
+![Wenn Bewegung mehr als nur Fortbewegung ist](https://images.unsplash.com/photo-1669728282566-8e3fd873688a?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8QmV3ZWd1bmclMjBtZWhyJTIwRm9ydGJld2VndW5nfGVufDB8MHx8fDE3ODc1MzAxNTh8MA&ixlib=rb-4.1.0)

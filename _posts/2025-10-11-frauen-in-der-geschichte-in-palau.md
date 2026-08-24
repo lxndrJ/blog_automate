@@ -2,10 +2,11 @@
 layout: post
 title: "Frauen in der Geschichte in Palau"
 date: 2025-10-11
-image: https://images.unsplash.com/photo-1598376270322-584b88b3f738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBQYWxhdXxlbnwwfDB8fHwxNzYwMTUyNzgyfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/af/Palau%2C_panorama_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Frauen in der Geschichte in Palau](https://images.unsplash.com/photo-1598376270322-584b88b3f738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBQYWxhdXxlbnwwfDB8fHwxNzYwMTUyNzgyfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Frauen in der Geschichte in Palau](https://upload.wikimedia.org/wikipedia/commons/a/af/Palau%2C_panorama_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Starke Frauen von Palau: Trägerinnen einer uralten Kultur
 
@@ -36,3 +37,5 @@ Palau verkörpert eine faszinierende Balance zwischen Tradition und Fortschritt.
 Die Geschichte der Frauen in Palau ist mehr als nur eine Chronologie von Ereignissen. Sie ist eine lebendige Erzählung von Widerstandsfähigkeit, Würde und ungebrochener Kraft.
 
 *Reisen bedeutet, Geschichten zu verstehen - und in Palau sind es besonders kraftvolle.*
+
+![Eine Kultur im Wandel](https://upload.wikimedia.org/wikipedia/commons/7/7d/Sydney_%28AU%29%2C_Darling_Harbour_--_2019_--_3193-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

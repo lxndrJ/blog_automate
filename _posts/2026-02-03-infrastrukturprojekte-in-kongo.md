@@ -2,10 +2,11 @@
 layout: post
 title: "Infrastrukturprojekte in Kongo"
 date: 2026-02-03
-image: https://images.unsplash.com/photo-1687880465237-463957e948c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmZyYXN0cnVrdHVycHJvamVrdGUlMjBLb25nb3xlbnwwfDB8fHwxNzcwMDkyOTU2fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Infrastrukturprojekte in Kongo](https://images.unsplash.com/photo-1687880465237-463957e948c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmZyYXN0cnVrdHVycHJvamVrdGUlMjBLb25nb3xlbnwwfDB8fHwxNzcwMDkyOTU2fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Infrastrukturprojekte in Kongo](https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wege aus der Herausforderung: Infrastrukturprojekte im Herzen Afrikas
 

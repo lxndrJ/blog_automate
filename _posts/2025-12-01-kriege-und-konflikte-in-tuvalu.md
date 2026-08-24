@@ -2,10 +2,11 @@
 layout: post
 title: "Kriege und Konflikte in Tuvalu"
 date: 2025-12-01
-image: https://images.unsplash.com/photo-1733714088980-eefda17a7d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBUdXZhbHV8ZW58MHwwfHx8MTc2NDU2MTk3Nnww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/8/87/Cover_Gilbert_Ellice_Islands_1949_UPU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kriege und Konflikte in Tuvalu](https://images.unsplash.com/photo-1733714088980-eefda17a7d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBUdXZhbHV8ZW58MHwwfHx8MTc2NDU2MTk3Nnww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Kriege und Konflikte in Tuvalu](https://upload.wikimedia.org/wikipedia/commons/8/87/Cover_Gilbert_Ellice_Islands_1949_UPU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Tuvalu: Eine Inselwelt zwischen Frieden und globalen Herausforderungen
 

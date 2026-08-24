@@ -2,10 +2,11 @@
 layout: post
 title: "Unterkunftsarten in Sudan"
 date: 2025-12-18
-image: https://images.unsplash.com/photo-1705676112042-4fb11cade8d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcmt1bmZ0c2FydGVuJTIwU3VkYW58ZW58MHwwfHx8MTc2NjAyOTc3OXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Kimotong%2C_Sud%C3%A1n_del_Sur%2C_2024-01-23%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Unterkunftsarten in Sudan](https://images.unsplash.com/photo-1705676112042-4fb11cade8d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcmt1bmZ0c2FydGVuJTIwU3VkYW58ZW58MHwwfHx8MTc2NjAyOTc3OXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Unterkunftsarten in Sudan](https://upload.wikimedia.org/wikipedia/commons/e/e1/Kimotong%2C_Sud%C3%A1n_del_Sur%2C_2024-01-23%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Übernachten im Sudan: Zwischen Tradition und Moderne
 

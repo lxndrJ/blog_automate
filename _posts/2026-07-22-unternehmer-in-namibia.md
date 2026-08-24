@@ -2,10 +2,11 @@
 layout: post
 title: "Unternehmer in Namibia"
 date: 2026-07-22
-image: https://images.unsplash.com/photo-1688999989632-4aff12c12c42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyME5hbWliaWF8ZW58MHwwfHx8MTc4NDY5ODY2NXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/5/5a/Matthias_Wittenburg_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Unternehmer in Namibia](https://images.unsplash.com/photo-1688999989632-4aff12c12c42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lciUyME5hbWliaWF8ZW58MHwwfHx8MTc4NDY5ODY2NXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Unternehmer in Namibia](https://upload.wikimedia.org/wikipedia/commons/5/5a/Matthias_Wittenburg_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Unternehmertum in Namibia: Zwischen Wüstensand und Zukunftsvision
 

@@ -2,10 +2,11 @@
 layout: post
 title: "Seen und Flüsse in Guinea"
 date: 2026-03-28
-image: https://images.unsplash.com/photo-1653277276716-276f1bcb7c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBHdWluZWF8ZW58MHwwfHx8MTc3NDY3MzE3OXww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/5/50/Paint_Dish%2C_Papua_New_Guinea%2C_Br%C3%BCcke_Museum_Berlin%2C_65022%2C_view_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Seen und Flüsse in Guinea](https://images.unsplash.com/photo-1653277276716-276f1bcb7c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTZWVuJTIwdW5kJTIwRmwlQzMlQkNzc2UlMjBHdWluZWF8ZW58MHwwfHx8MTc3NDY3MzE3OXww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Seen und Flüsse in Guinea](https://upload.wikimedia.org/wikipedia/commons/5/50/Paint_Dish%2C_Papua_New_Guinea%2C_Br%C3%BCcke_Museum_Berlin%2C_65022%2C_view_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Guineas flüssige Schätze: Zwischen Wasser, Kultur und Abenteuer
 
@@ -32,3 +33,5 @@ Für die Menschen Guineas ist das Wasser weit mehr als ein geografisches Merkmal
 Die Gewässer Guineas sind ein Einladung – zum Paddeln, zum Beobachten, zum Verstehen. Sie verbinden Menschen, Kulturen und Landschaften auf eine Weise, die man nur selbst erleben kann. Wer sich Zeit nimmt, die Flüsse und Seen dieses faszinierenden Landes zu erkunden, wird verstehen, warum Wasser hier mehr ist als nur H₂O.
 
 Guinea wartet darauf, von dir entdeckt zu werden – vom Fluss aus.
+
+![Der Niger – Der große Erzähler](https://upload.wikimedia.org/wikipedia/commons/c/c3/Bessen_van_een_Ophiopogon_planiscapus_%27Niger%27._28-02-2023._%28d.j.b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

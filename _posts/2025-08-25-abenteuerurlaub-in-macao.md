@@ -2,10 +2,13 @@
 layout: post
 title: "Abenteuerurlaub in Macao"
 date: 2025-08-25
-image: https://images.unsplash.com/photo-1695432356745-03357f9320b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBYmVudGV1ZXJ1cmxhdWIlMjBNYWNhb3xlbnwwfDB8fHwxNzU2MDkzMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1708580175277-6c171e822f94?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TWFjYW98ZW58MHwwfHx8MTc4NzUzMDE2M3ww&ixlib=rb-4.1.0
 ---
 
-![Abenteuerurlaub in Macao](https://images.unsplash.com/photo-1695432356745-03357f9320b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxBYmVudGV1ZXJ1cmxhdWIlMjBNYWNhb3xlbnwwfDB8fHwxNzU2MDkzMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Abenteuerurlaub in Macao](https://images.unsplash.com/photo-1708580175277-6c171e822f94?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8TWFjYW98ZW58MHwwfHx8MTc4NzUzMDE2M3ww&ixlib=rb-4.1.0)
 
 # Abenteuer in Macao: Wo Tradition auf Moderne trifft
 
@@ -41,6 +44,8 @@ Nach dem Nervenkitzel empfehle ich einen Spaziergang durch die Altstadt. Die Rui
 ### Kulinarische Abenteuer
 
 Vergiss die Casinos - das wahre Abenteuer liegt in den Straßenküchen. Probiere Bacalhau, portugiesische Fischgerichte, und traditionelle chinesische Spezialitäten, die deine Geschmacksnerven auf eine Weltreise schicken.
+
+![Die unerwartete Abenteuermetropole](https://images.unsplash.com/photo-1656116432323-3ae6ec12541b?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8dW5lcndhcnRldGUlMjBBYmVudGV1ZXJtZXRyb3BvbGV8ZW58MHwwfHx8MTc4NzUzMDE2NHww&ixlib=rb-4.1.0)
 
 ---
 

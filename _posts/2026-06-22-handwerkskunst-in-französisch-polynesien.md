@@ -2,9 +2,10 @@
 layout: post
 title: "Handwerkskunst in Französisch-Polynesien"
 date: 2026-06-22
-image: https://upload.wikimedia.org/wikipedia/commons/f/f9/Berlin_Franz%C3%B6sisch_Buchholz_Dorfkirche.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Handwerkskunst in Französisch-Polynesien](https://upload.wikimedia.org/wikipedia/commons/f/f9/Berlin_Franz%C3%B6sisch_Buchholz_Dorfkirche.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Handwerk mit Herzschlag: Die lebendige Kunstkultur Französisch-Polynesiens
+image: https://upload.wikimedia.org/wikipedia/commons/f/fb/039_Sunset_at_Tikehau_%28French_Polynesia%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Handwerkskunst in Französisch-Polynesien](https://upload.wikimedia.org/wikipedia/commons/f/fb/039_Sunset_at_Tikehau_%28French_Polynesia%29_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Handwerk mit Herzschlag: Die lebendige Kunstkultur Französisch-Polynesiens
 
 Es gibt Orte auf dieser Welt, an denen man spürt, dass jedes Kunstwerk eine Geschichte erzählt. Französisch-Polynesien ist so ein Ort. Hier, wo türkisfarbenes Wasser auf üppige grüne Inseln trifft, lebt eine Handwerkstradition, die Generationen verbindet und die Seele einer ganzen Kultur widerspiegelt.
 

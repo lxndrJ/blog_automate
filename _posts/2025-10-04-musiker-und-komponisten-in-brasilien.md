@@ -2,10 +2,11 @@
 layout: post
 title: "Musiker und Komponisten in Brasilien"
 date: 2025-10-04
-image: https://images.unsplash.com/photo-1675855545269-ac1eb48a4aba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc1OTU0Nzg0M3ww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Musiker und Komponisten in Brasilien](https://images.unsplash.com/photo-1675855545269-ac1eb48a4aba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNdXNpa2VyJTIwdW5kJTIwS29tcG9uaXN0ZW4lMjBCcmFzaWxpZW58ZW58MHwwfHx8MTc1OTU0Nzg0M3ww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Musiker und Komponisten in Brasilien](https://upload.wikimedia.org/wikipedia/commons/e/ea/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Gruppenfoto_Brasilien_850_0016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Klänge Brasiliens: Eine musikalische Reise durch Rhythmus und Seele
 

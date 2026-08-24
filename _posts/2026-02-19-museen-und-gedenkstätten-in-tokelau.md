@@ -2,9 +2,10 @@
 layout: post
 title: "Museen und Gedenkstätten in Tokelau"
 date: 2026-02-19
-image: https://upload.wikimedia.org/wikipedia/commons/0/01/Constitution_of_Tokelau_%28Tokelauan_language%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Museen und Gedenkstätten in Tokelau](https://upload.wikimedia.org/wikipedia/commons/0/01/Constitution_of_Tokelau_%28Tokelauan_language%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Spurensuche in Tokelau: Eine Reise durch Geschichte und Kultur
+image: https://upload.wikimedia.org/wikipedia/commons/f/fe/Cricket%2C_Tokelau_Islands%2C_1966_%2817501454372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Museen und Gedenkstätten in Tokelau](https://upload.wikimedia.org/wikipedia/commons/f/fe/Cricket%2C_Tokelau_Islands%2C_1966_%2817501454372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Spurensuche in Tokelau: Eine Reise durch Geschichte und Kultur
 
 *Fernab der bekannten Touristenpfade liegt eine Welt, die Geschichten erzählt - Tokelau, ein Inselparadies mit einer facettenreichen Vergangenheit.*
 

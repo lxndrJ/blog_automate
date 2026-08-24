@@ -2,10 +2,11 @@
 layout: post
 title: "Kulinarische Reiserouten in Aruba"
 date: 2025-12-30
-image: https://images.unsplash.com/photo-1683782440921-823862401342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NjcwNjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/a5/Aruba_World_Wind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kulinarische Reiserouten in Aruba](https://images.unsplash.com/photo-1683782440921-823862401342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NjcwNjY5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Kulinarische Reiserouten in Aruba](https://upload.wikimedia.org/wikipedia/commons/a/a5/Aruba_World_Wind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Geschmacksreise durch Aruba: Kulinarische Entdeckungen zwischen Karibik und Tradition
 
@@ -40,6 +41,8 @@ Typische Gerichte wie **Keshi Yena** - ein mit Fleisch und Käse gefüllter Käs
 ## Nachhaltiges Genießen
 
 Achte auf lokale Anbieter und traditionelle Restaurants. So untererstützt du die einheimische Wirtschaft und tauchst tiefer in die Kultur ein.
+
+![Oranjestad: Das kulinarische Herz der Insel](https://upload.wikimedia.org/wikipedia/commons/d/d0/ARUBA-oranjestad-hafen-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

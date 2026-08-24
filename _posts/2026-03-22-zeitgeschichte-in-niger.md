@@ -2,9 +2,10 @@
 layout: post
 title: "Zeitgeschichte in Niger"
 date: 2026-03-22
-image: https://images.unsplash.com/photo-1781263378197-9ea12f94b827?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8WmVpdGdlc2NoaWNodGUlMjBpbiUyME5pZ2VyfGVufDB8MHx8fDE3ODc1MTEyNjh8MA&ixlib=rb-4.1.0
----
-![Zeitgeschichte in Niger](https://images.unsplash.com/photo-1781263378197-9ea12f94b827?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8WmVpdGdlc2NoaWNodGUlMjBpbiUyME5pZ2VyfGVufDB8MHx8fDE3ODc1MTEyNjh8MA&ixlib=rb-4.1.0)# Niger: Zwischen Wüstensand und Weltgeschichte
+image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Bessen_van_een_Ophiopogon_planiscapus_%27Niger%27._28-02-2023._%28d.j.b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Zeitgeschichte in Niger](https://upload.wikimedia.org/wikipedia/commons/c/c3/Bessen_van_een_Ophiopogon_planiscapus_%27Niger%27._28-02-2023._%28d.j.b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Niger: Zwischen Wüstensand und Weltgeschichte
 
 Es gibt Orte auf dieser Welt, an denen Geschichte nicht in Museen eingesperrt ist, sondern in der Luft liegt – zwischen den Lehmmauern alter Paläste, in den Geschichten der Menschen, die täglich ihre Wege gehen. Niger ist so ein Ort. Und wenn man verstehen möchte, wer dieses Land ist, muss man nach Niamey kommen und zuhören.
 

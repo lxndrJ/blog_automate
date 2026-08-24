@@ -2,10 +2,11 @@
 layout: post
 title: "Frauen in der Geschichte in Slowakei"
 date: 2026-04-06
-image: https://images.unsplash.com/photo-1679516116167-56b2c1fc783d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBTbG93YWtlaXxlbnwwfDB8fHwxNzc1NDUyNDcwfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/7/72/000_Sllovakia_harta.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Frauen in der Geschichte in Slowakei](https://images.unsplash.com/photo-1679516116167-56b2c1fc783d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBTbG93YWtlaXxlbnwwfDB8fHwxNzc1NDUyNDcwfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Frauen in der Geschichte in Slowakei](https://upload.wikimedia.org/wikipedia/commons/7/72/000_Sllovakia_harta.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Frauen der Slowakei: Geschichten, die die Welt verändert haben
 

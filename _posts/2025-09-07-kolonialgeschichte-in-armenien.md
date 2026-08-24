@@ -2,10 +2,12 @@
 layout: post
 title: "Kolonialgeschichte in Armenien"
 date: 2025-09-07
-image: https://images.unsplash.com/photo-1624430217253-271fe2722584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLb2xvbmlhbGdlc2NoaWNodGUlMjBBcm1lbmllbnxlbnwwfDB8fHwxNzU3MjE1NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/6/67/1920_Republic_of_Armenia_Armenia_Ararat_stamp_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kolonialgeschichte in Armenien](https://images.unsplash.com/photo-1624430217253-271fe2722584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLb2xvbmlhbGdlc2NoaWNodGUlMjBBcm1lbmllbnxlbnwwfDB8fHwxNzU3MjE1NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+![Kolonialgeschichte in Armenien](https://upload.wikimedia.org/wikipedia/commons/6/67/1920_Republic_of_Armenia_Armenia_Ararat_stamp_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Yerevan: Eine Stadt zwischen kolonialen Schatten und kultureller Resilienz
 

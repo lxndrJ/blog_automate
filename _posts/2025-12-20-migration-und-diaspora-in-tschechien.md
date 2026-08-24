@@ -2,10 +2,11 @@
 layout: post
 title: "Migration und Diaspora in Tschechien"
 date: 2025-12-20
-image: https://images.unsplash.com/photo-1592409787252-c38ad526bd29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaWdyYXRpb24lMjB1bmQlMjBEaWFzcG9yYSUyMFRzY2hlY2hpZW58ZW58MHwwfHx8MTc2NjIwMjE1MHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Border_Austria-Czech_Republic_%28Schrattenberg_-_Valtice%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Migration und Diaspora in Tschechien](https://images.unsplash.com/photo-1592409787252-c38ad526bd29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxNaWdyYXRpb24lMjB1bmQlMjBEaWFzcG9yYSUyMFRzY2hlY2hpZW58ZW58MHwwfHx8MTc2NjIwMjE1MHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Migration und Diaspora in Tschechien](https://upload.wikimedia.org/wikipedia/commons/c/c3/Border_Austria-Czech_Republic_%28Schrattenberg_-_Valtice%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wurzeln, Wege und Wandlungen: Die tschechische Diaspora zwischen Gestern und Heute
 
@@ -57,3 +58,5 @@ Migration ist keine Einbahnstraße. Jede Generation schreibt ihre eigene Geschic
 Wer Interesse an tieferen Einblicken hat, dem empfehle ich Werke von Milan Kundera oder Dokumentationen über tschechische Auswanderung.
 
 **Nachwort:** Migration ist mehr als ein Ortswechsel. Es ist eine zutiefst menschliche Erfahrung von Hoffnung, Mut und Neuanfang.
+
+![Die Reise beginnt](https://upload.wikimedia.org/wikipedia/commons/e/e3/Hittin%27_The_Trail_For_Hallelujah_Land_Title_Card.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

@@ -2,10 +2,11 @@
 layout: post
 title: "Kriege und Konflikte in Kap Verde"
 date: 2025-09-23
-image: https://images.unsplash.com/photo-1692728606110-963cb83e03c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBLYXAlMjBWZXJkZXxlbnwwfDB8fHwxNzU4NTk3ODI5fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/06/Cape_Verde_Fogo_Ch%C3%A3_das_Caldeiras_school.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kriege und Konflikte in Kap Verde](https://images.unsplash.com/photo-1692728606110-963cb83e03c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLcmllZ2UlMjB1bmQlMjBLb25mbGlrdGUlMjBLYXAlMjBWZXJkZXxlbnwwfDB8fHwxNzU4NTk3ODI5fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Kriege und Konflikte in Kap Verde](https://upload.wikimedia.org/wikipedia/commons/0/06/Cape_Verde_Fogo_Ch%C3%A3_das_Caldeiras_school.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Kap Verde: Eine Inselgeschichte zwischen Frieden und Konflikt
 

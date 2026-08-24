@@ -2,10 +2,11 @@
 layout: post
 title: "Klimazonen in Niue"
 date: 2026-07-24
-image: https://images.unsplash.com/photo-1631130707565-0a8f628f6cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwTml1ZXxlbnwwfDB8fHwxNzg0ODcxNTE4fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/1/17/Niue_Constitution_Day_-_50th_Anniversary%2C_Niue%2C_19_October_2024-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Klimazonen in Niue](https://images.unsplash.com/photo-1631130707565-0a8f628f6cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwTml1ZXxlbnwwfDB8fHwxNzg0ODcxNTE4fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Klimazonen in Niue](https://upload.wikimedia.org/wikipedia/commons/1/17/Niue_Constitution_Day_-_50th_Anniversary%2C_Niue%2C_19_October_2024-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Niue: Wo die Tropen ihre zarteste Seite zeigen
 
@@ -38,6 +39,8 @@ Die Niueaner haben ihre Kultur um das Klima herum aufgebaut. Traditionelle Feste
 Das Klima von Niue ist nicht nur eine meteorologische Statistik. Es ist der Puls der Insel, der Grund, warum die Natur hier so üppig und die Menschen so gelassen sind. Es erklärt, warum Niue trotz seiner extremen Abgelegenheit ein Ort ist, an dem Menschen nicht nur überleben, sondern aufblühen.
 
 Wenn ihr jemals die Chance habt, Niue zu besuchen, nehmt sie an. Erlebt selbst, wie es sich anfühlt, wenn Klima und Kultur eins werden – in einer Harmonie, die man nur auf dieser besonderen Insel finden kann.
+
+![Die Natur schlägt zurück](https://upload.wikimedia.org/wikipedia/commons/8/85/Die_Natur_schl%C3%A4gt_zur%C3%BCck_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

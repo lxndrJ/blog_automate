@@ -2,10 +2,13 @@
 layout: post
 title: "Entdecker und Reisende in Vietnam"
 date: 2025-09-06
-image: https://images.unsplash.com/photo-1710702418104-6bf5419ab03d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFbnRkZWNrZXIlMjB1bmQlMjBSZWlzZW5kZSUyMFZpZXRuYW18ZW58MHwwfHx8MTc1NzEyODc3Mnww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/8/8b/Moers_St._Josef%2C_der_Heilige_Josef_mit_dem_Jesuskind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Entdecker und Reisende in Vietnam](https://images.unsplash.com/photo-1710702418104-6bf5419ab03d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxFbnRkZWNrZXIlMjB1bmQlMjBSZWlzZW5kZSUyMFZpZXRuYW18ZW58MHwwfHx8MTc1NzEyODc3Mnww&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Entdecker und Reisende in Vietnam](https://upload.wikimedia.org/wikipedia/commons/8/8b/Moers_St._Josef%2C_der_Heilige_Josef_mit_dem_Jesuskind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Auf den Spuren der Entdecker: Vietnam - Eine Reise zwischen Tradition und Moderne
 
@@ -34,3 +37,5 @@ Heute sind es Reisende und Fotografen, die das Land mit neuen Augen erkunden. Si
 Vietnam lädt uns ein, Grenzen zu überwinden - nicht nur geografische, sondern auch kulturelle. Jeder Reisende wird hier zum Geschichtenerzähler, jede Begegnung zu einem Fenster in eine andere Welt.
 
 *Eine Reise ist mehr als nur Bewegung - sie ist Transformation.*
+
+

@@ -2,10 +2,11 @@
 layout: post
 title: "Politiker in Finnland"
 date: 2026-08-02
-image: https://images.unsplash.com/photo-1600713814370-60e0cf7ca32e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBGaW5ubGFuZHxlbnwwfDB8fHwxNzg1NjQ5NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/c/c6/Bundesarchiv_B_145_Bild-F007686-0007%2C_Beethovenhaus_Bonn%2C_Politiker_aus_Finnland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Politiker in Finnland](https://images.unsplash.com/photo-1600713814370-60e0cf7ca32e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBGaW5ubGFuZHxlbnwwfDB8fHwxNzg1NjQ5NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Politiker in Finnland](https://upload.wikimedia.org/wikipedia/commons/c/c6/Bundesarchiv_B_145_Bild-F007686-0007%2C_Beethovenhaus_Bonn%2C_Politiker_aus_Finnland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Finnlands Politikerinnen und Politiker: Führungspersönlichkeiten mit Herz und Vision
 
@@ -36,6 +37,8 @@ Was die finnische Politiklandschaft faszinierend macht, ist der Balanceakt zwisc
 Finnlands Politikerinnen und Politiker stehen heute vor neuen Herausforderungen: Klimawandel, europäische Sicherheit, digitale Transformation. Aber wenn es um eines geht, das macht Hoffnung – es ist die Art, wie hier Verantwortung gelebt wird. Mit einer Mischung aus nordischer Bodenständigkeit, intellektuellem Anspruch und dem Willen, es besser zu machen.
 
 Das ist das Finnland, das ich bewundere: ein Land, in dem Politik nicht Theater ist, sondern Handwerk. Ein Land, in dem Führungspersönlichkeiten daran gemessen werden, was sie für ihre Menschen erreichen – nicht, wie gut sie reden können.
+
+![Kultur der Zusammenarbeit](https://upload.wikimedia.org/wikipedia/commons/2/2f/Bundesarchiv_Bild_183-52828-0006%2C_Berlin%2C_Ausstellungen_im_%22Haus_der_Polnischen_Kultur%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

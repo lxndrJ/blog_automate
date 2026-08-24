@@ -2,10 +2,11 @@
 layout: post
 title: "Sternenhimmel und Astronomie in Jemen"
 date: 2025-10-01
-image: https://images.unsplash.com/photo-1586168753096-6abb405d1f36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdGVybmVuaGltbWVsJTIwdW5kJTIwQXN0cm9ub21pZSUyMEplbWVufGVufDB8MHx8fDE3NTkyODk4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/0/0f/Anti-war_demonstration_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Sternenhimmel und Astronomie in Jemen](https://images.unsplash.com/photo-1586168753096-6abb405d1f36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTdGVybmVuaGltbWVsJTIwdW5kJTIwQXN0cm9ub21pZSUyMEplbWVufGVufDB8MHx8fDE3NTkyODk4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Sternenhimmel und Astronomie in Jemen](https://upload.wikimedia.org/wikipedia/commons/0/0f/Anti-war_demonstration_in_People%27s_Democratic_Republic_of_Yemen%2C_1986.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Sternenmagie über den Dächern von Sana'a
 

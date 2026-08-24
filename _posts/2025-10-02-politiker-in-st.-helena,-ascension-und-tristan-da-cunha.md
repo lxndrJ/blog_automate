@@ -2,10 +2,11 @@
 layout: post
 title: "Politiker in St. Helena, Ascension und Tristan da Cunha"
 date: 2025-10-02
-image: https://images.unsplash.com/photo-1607356127659-eae10bb72be3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBTdC4lMjBIZWxlbmElMkMlMjBBc2NlbnNpb24lMjB1bmQlMjBUcmlzdGFuJTIwZGElMjBDdW5oYXxlbnwwfDB8fHwxNzU5Mzc1MzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/e3/Foreign_Secretary_Yvette_Cooper_Hosts_Leaders_and_Ministers_of_Overseas_Territories_at_the_Joint_Ministerial_Council_2025_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Politiker in St. Helena, Ascension und Tristan da Cunha](https://images.unsplash.com/photo-1607356127659-eae10bb72be3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxQb2xpdGlrZXIlMjBTdC4lMjBIZWxlbmElMkMlMjBBc2NlbnNpb24lMjB1bmQlMjBUcmlzdGFuJTIwZGElMjBDdW5oYXxlbnwwfDB8fHwxNzU5Mzc1MzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Politiker in St. Helena, Ascension und Tristan da Cunha](https://upload.wikimedia.org/wikipedia/commons/e/e3/Foreign_Secretary_Yvette_Cooper_Hosts_Leaders_and_Ministers_of_Overseas_Territories_at_the_Joint_Ministerial_Council_2025_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Inseldemokratie zwischen Atlantik und Politik
 

@@ -2,10 +2,13 @@
 layout: post
 title: "Frauen in der Geschichte in Fidschi"
 date: 2025-08-23
-image: https://images.unsplash.com/photo-1642600885935-b394c9f8f774?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBGaWRzY2hpfGVufDB8MHx8fDE3NTU5NjIyNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8aGlzdG9yeXxlbnwwfDB8fHwxNzg3NTMwMTUwfDA&ixlib=rb-4.1.0
 ---
 
-![Frauen in der Geschichte in Fidschi](https://images.unsplash.com/photo-1642600885935-b394c9f8f774?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGcmF1ZW4lMjBpbiUyMGRlciUyMEdlc2NoaWNodGUlMjBGaWRzY2hpfGVufDB8MHx8fDE3NTU5NjIyNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Frauen in der Geschichte in Fidschi](https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8aGlzdG9yeXxlbnwwfDB8fHwxNzg3NTMwMTUwfDA&ixlib=rb-4.1.0)
 
 # Frauen in Fidschi: Verborgene Geschichten einer Inselwelt
 
@@ -44,3 +47,5 @@ Von den bunten Märkten Suvas bis in die entlegensten Dörfer der Inselgruppe sc
 Die Reise geht weiter - mit Würde, Stolz und unbändigem Spirit.
 
 *Dieser Beitrag ist eine Hommage an die kraftvollen Frauen Fidschis, deren Geschichten noch zu oft ungehört bleiben.*
+
+![Traditionelle Rollen und kulturelle Identität](https://images.unsplash.com/photo-1585302397841-b42e837d0d81?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8Y3VsdHVyZSUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODc1MzAxNTB8MA&ixlib=rb-4.1.0)

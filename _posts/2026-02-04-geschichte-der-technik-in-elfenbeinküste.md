@@ -2,9 +2,10 @@
 layout: post
 title: "Geschichte der Technik in Elfenbeinküste"
 date: 2026-02-04
-image: https://upload.wikimedia.org/wikipedia/commons/4/46/Afrikanische_plastik_%28IA_gri_33125009558665%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Geschichte der Technik in Elfenbeinküste](https://upload.wikimedia.org/wikipedia/commons/4/46/Afrikanische_plastik_%28IA_gri_33125009558665%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Technologische Spurensuche in der Elfenbeinküste: Eine Reise durch Innovation und Tradition
+image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Aerial_view_of_Fresco%2C_Ivory_Coast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Geschichte der Technik in Elfenbeinküste](https://upload.wikimedia.org/wikipedia/commons/6/6c/Aerial_view_of_Fresco%2C_Ivory_Coast.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Technologische Spurensuche in der Elfenbeinküste: Eine Reise durch Innovation und Tradition
 
 Die Elfenbeinküste - ein Land, das weit mehr ist als nur eine landschaftliche Postkarte. Zwischen modernsten Technologiehubs und uralten Traditionen entfaltet sich hier eine faszinierende Geschichte technologischer Entwicklung.
 

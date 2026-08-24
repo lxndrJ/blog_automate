@@ -2,10 +2,11 @@
 layout: post
 title: "Geschichte der Religionen in Libanon"
 date: 2026-03-19
-image: https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMExpYmFub258ZW58MHwwfHx8MTc3Mzg5NTY4OHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Geschichte der Religionen in Libanon](https://images.unsplash.com/photo-1651509245340-c54f74782154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxHZXNjaGljaHRlJTIwZGVyJTIwUmVsaWdpb25lbiUyMExpYmFub258ZW58MHwwfHx8MTc3Mzg5NTY4OHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Geschichte der Religionen in Libanon](https://upload.wikimedia.org/wikipedia/commons/4/4b/August_Petermann%2C_Libanon%2C_Kartenentwurf%2C_Forschungsbibliothek_Gotha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die Seele Libanons: Wie Religionen eine Nation prägten
 

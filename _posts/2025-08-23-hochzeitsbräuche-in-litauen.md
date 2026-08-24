@@ -2,10 +2,13 @@
 layout: post
 title: "Hochzeitsbräuche in Litauen"
 date: 2025-08-23
-image: https://images.unsplash.com/photo-1638287407843-987cba998bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIb2NoemVpdHNiciVDMyVBNHVjaGUlMjBMaXRhdWVufGVufDB8MHx8fDE3NTU5NTI3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1587271636175-90d58cdad458?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8d2VkZGluZyUyMGN1c3RvbXN8ZW58MHwwfHx8MTc4NzUzMDE1M3ww&ixlib=rb-4.1.0
 ---
 
-![Hochzeitsbräuche in Litauen](https://images.unsplash.com/photo-1638287407843-987cba998bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxIb2NoemVpdHNiciVDMyVBNHVjaGUlMjBMaXRhdWVufGVufDB8MHx8fDE3NTU5NTI3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+
+![Hochzeitsbräuche in Litauen](https://images.unsplash.com/photo-1587271636175-90d58cdad458?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8d2VkZGluZyUyMGN1c3RvbXN8ZW58MHwwfHx8MTc4NzUzMDE1M3ww&ixlib=rb-4.1.0)
 
 # Litauische Hochzeitstraditionen: Zwischen Tradition und Moderne
 
@@ -42,3 +45,5 @@ Die Hochzeitsfeier ist ein Fest für alle Sinne: Lokale Spezialitäten wie šalt
 Litauische Hochzeitsbräuche sind mehr als nur Zeremonien - sie sind lebendige Geschichtenerzähler, die Generationen verbinden und die reiche Kulturlandschaft des Landes zelebrieren.
 
 *Eine Reise wert: Die Hochzeitstraditionen Litauens - authentisch, emotional und voller Poesie.*
+
+![Eine Reise durch alte Rituale in Vilnius und darüber hinaus](https://images.unsplash.com/photo-1567113463224-37cf03ba4577?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8cml0dWFsc3xlbnwwfDB8fHwxNzg3NTMwMTUzfDA&ixlib=rb-4.1.0)

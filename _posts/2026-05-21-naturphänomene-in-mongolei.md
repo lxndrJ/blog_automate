@@ -2,10 +2,11 @@
 layout: post
 title: "Naturphänomene in Mongolei"
 date: 2026-05-21
-image: https://images.unsplash.com/photo-1665589892113-536089be8d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXR1cnBoJUMzJUE0bm9tZW5lJTIwTW9uZ29sZWl8ZW58MHwwfHx8MTc3OTM0NTU2NHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Naturphänomene in Mongolei](https://images.unsplash.com/photo-1665589892113-536089be8d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxOYXR1cnBoJUMzJUE0bm9tZW5lJTIwTW9uZ29sZWl8ZW58MHwwfHx8MTc3OTM0NTU2NHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Naturphänomene in Mongolei](https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die magischen Naturphänomene der Mongolei – Wo die Erde noch wild ist
 

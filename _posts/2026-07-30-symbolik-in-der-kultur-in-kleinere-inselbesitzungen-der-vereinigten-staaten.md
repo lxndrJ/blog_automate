@@ -2,10 +2,11 @@
 layout: post
 title: "Symbolik in der Kultur in Kleinere Inselbesitzungen der Vereinigten Staaten"
 date: 2026-07-30
-image: https://images.unsplash.com/photo-1631367095628-94a81f3d4658?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTeW1ib2xpayUyMGluJTIwZGVyJTIwS3VsdHVyJTIwS2xlaW5lcmUlMjBJbnNlbGJlc2l0enVuZ2VuJTIwZGVyJTIwVmVyZWluaWd0ZW4lMjBTdGFhdGVufGVufDB8MHx8fDE3ODUzODkzNTB8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/e/e6/Florenz._2%2C_Bargello_Domopera_Akademie_Kleinere_Sammlungen_1903_%28150670589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Symbolik in der Kultur in Kleinere Inselbesitzungen der Vereinigten Staaten](https://images.unsplash.com/photo-1631367095628-94a81f3d4658?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxTeW1ib2xpayUyMGluJTIwZGVyJTIwS3VsdHVyJTIwS2xlaW5lcmUlMjBJbnNlbGJlc2l0enVuZ2VuJTIwZGVyJTIwVmVyZWluaWd0ZW4lMjBTdGFhdGVufGVufDB8MHx8fDE3ODUzODkzNTB8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Symbolik in der Kultur in Kleinere Inselbesitzungen der Vereinigten Staaten](https://upload.wikimedia.org/wikipedia/commons/e/e6/Florenz._2%2C_Bargello_Domopera_Akademie_Kleinere_Sammlungen_1903_%28150670589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die verborgenen Symbole: Kulturelle Schätze der US-Inselterritorien
 
@@ -36,3 +37,5 @@ Wenn wir von amerikanischer Kultur sprechen, sollten wir diese Stimmen lauter ma
 Vielleicht ist es an der Zeit, dass Washington DC nicht nur als politisches Zentrum, sondern auch als Ort dient, von dem aus diese kulturellen Reichtümer sichtbar gemacht werden. Denn Symbolik funktioniert nur, wenn sie gesehen wird.
 
 Die nächste Gelegenheit, diese Kulturen zu erleben, könnte näher sein, als man denkt. Ein Festival, ein Konzert, ein Gespräch mit jemandem, der von einer dieser Inseln kommt – das sind die Momente, in denen Symbole lebendig werden.
+
+![Die Brücke zwischen Insel und Festland](https://upload.wikimedia.org/wikipedia/commons/8/8d/Blick_von_der_Gurlitt-Br%C3%BCcke.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)

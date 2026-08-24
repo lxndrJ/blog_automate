@@ -2,10 +2,11 @@
 layout: post
 title: "Unternehmenskultur in Kasachstan"
 date: 2026-03-18
-image: https://images.unsplash.com/photo-1759167631378-0545007f9799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lbnNrdWx0dXIlMjBLYXNhY2hzdGFufGVufDB8MHx8fDE3NzM4MDkzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/8/8f/Administrative_subdivisions_of_the_Republic_of_Kazakhsatn.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Unternehmenskultur in Kasachstan](https://images.unsplash.com/photo-1759167631378-0545007f9799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxVbnRlcm5laG1lbnNrdWx0dXIlMjBLYXNhY2hzdGFufGVufDB8MHx8fDE3NzM4MDkzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Unternehmenskultur in Kasachstan](https://upload.wikimedia.org/wikipedia/commons/8/8f/Administrative_subdivisions_of_the_Republic_of_Kazakhsatn.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wo Tradition auf Zukunft trifft: Unternehmenskultur in Kasachstan
 

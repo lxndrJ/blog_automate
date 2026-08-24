@@ -2,10 +2,11 @@
 layout: post
 title: "Industrialisierung in Mosambik"
 date: 2025-09-17
-image: https://images.unsplash.com/photo-1680200023508-5289ae3de157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjBNb3NhbWJpa3xlbnwwfDB8fHwxNzU4MDc5MjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/5/5c/Administrative_divisions_of_Mozambique_English.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Industrialisierung in Mosambik](https://images.unsplash.com/photo-1680200023508-5289ae3de157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWFsaXNpZXJ1bmclMjBNb3NhbWJpa3xlbnwwfDB8fHwxNzU4MDc5MjQ4fDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Industrialisierung in Mosambik](https://upload.wikimedia.org/wikipedia/commons/5/5c/Administrative_divisions_of_Mozambique_English.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Die industrielle Metamorphose Mosambiks: Zwischen Tradition und Fortschritt
 

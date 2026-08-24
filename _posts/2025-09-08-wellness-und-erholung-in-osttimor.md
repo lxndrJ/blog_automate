@@ -2,10 +2,11 @@
 layout: post
 title: "Wellness und Erholung in Osttimor"
 date: 2025-09-08
-image: https://images.unsplash.com/photo-1604250015955-42fc0bd204f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXZWxsbmVzcyUyMHVuZCUyMEVyaG9sdW5nJTIwT3N0dGltb3J8ZW58MHwwfHx8MTc1NzMwMjM2Nnww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/df/Knaresborough_Leisure_and_Wellness_Centre_-_geograph.org.uk_-_7910103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Wellness und Erholung in Osttimor](https://images.unsplash.com/photo-1604250015955-42fc0bd204f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxXZWxsbmVzcyUyMHVuZCUyMEVyaG9sdW5nJTIwT3N0dGltb3J8ZW58MHwwfHx8MTc1NzMwMjM2Nnww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Wellness und Erholung in Osttimor](https://upload.wikimedia.org/wikipedia/commons/d/df/Knaresborough_Leisure_and_Wellness_Centre_-_geograph.org.uk_-_7910103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Wellness und Erholung in Osttimor: Eine Reise zur Seelenmitte
 
@@ -47,3 +48,5 @@ Osttimor zeigt: Echte Erholung bedeutet Einklang mit der Umgebung. Jede Wellness
 Osttimor ist mehr als ein Reiseziel. Es ist eine Einladung, innezuhalten, zu atmen und die Seele baumeln zu lassen.
 
 *Tauche ein in die Wellness-Welt Osttimors - deine Reise beginnt hier.*
+
+![Die Kunst der Entspannung zwischen Tradition und Meer](https://images.unsplash.com/photo-1609832834412-6738bafdc302?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8dHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4NzUzMDE4Mnww&ixlib=rb-4.1.0)

@@ -2,10 +2,12 @@
 layout: post
 title: "Feiertage und ihre Ursprünge in St. Vincent und die Grenadinen"
 date: 2025-09-01
-image: https://images.unsplash.com/photo-1579691225887-ca9ba7caf736?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGZWllcnRhZ2UlMjB1bmQlMjBpaHJlJTIwVXJzcHIlQzMlQkNuZ2UlMjBTdC4lMjBWaW5jZW50JTIwdW5kJTIwZGllJTIwR3JlbmFkaW5lbnxlbnwwfDB8fHwxNzU2Njk4MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8ZmVzdGl2YWxzfGVufDB8MHx8fDE3ODc1MzAxODR8MA&ixlib=rb-4.1.0
 ---
 
-![Feiertage und ihre Ursprünge in St. Vincent und die Grenadinen](https://images.unsplash.com/photo-1579691225887-ca9ba7caf736?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxGZWllcnRhZ2UlMjB1bmQlMjBpaHJlJTIwVXJzcHIlQzMlQkNuZ2UlMjBTdC4lMjBWaW5jZW50JTIwdW5kJTIwZGllJTIwR3JlbmFkaW5lbnxlbnwwfDB8fHwxNzU2Njk4MzMwfDA&ixlib=rb-4.1.0&q=80&w=1080)
+
+
+![Feiertage und ihre Ursprünge in St. Vincent und die Grenadinen](https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8ZmVzdGl2YWxzfGVufDB8MHx8fDE3ODc1MzAxODR8MA&ixlib=rb-4.1.0)
 
 # Feiertage in St. Vincent und die Grenadinen: Eine Reise durch Traditionen und Geschichte
 
@@ -50,3 +52,5 @@ Feiertage in St. Vincent sind eine Zeitreise. Sie erzählen von Widerstand, Hoff
 Ob du nun Reisender, Kulturenthusiast oder einfach nur neugierig bist - diese Insel hat Geschichten, die dich verzaubern werden.
 
 *Willkommen in einer Welt voller Rhythmus, Farbe und unendlicher Geschichten.*
+
+![Lokale Feste: Das Herz der Gemeinschaft](https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixid=M3wxMDM5NDc3fDB8MXxzZWFyY2h8MXx8ZmVzdGl2YWx8ZW58MHwwfHx8MTc4NzUzMDE4NXww&ixlib=rb-4.1.0)

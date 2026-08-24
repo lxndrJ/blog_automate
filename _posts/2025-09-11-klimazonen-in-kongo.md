@@ -2,10 +2,11 @@
 layout: post
 title: "Klimazonen in Kongo"
 date: 2025-09-11
-image: https://images.unsplash.com/photo-1678084407222-1d14111a613f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwS29uZ298ZW58MHwwfHx8MTc1NzU2MTE3MHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Klimazonen in Kongo](https://images.unsplash.com/photo-1678084407222-1d14111a613f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLbGltYXpvbmVuJTIwS29uZ298ZW58MHwwfHx8MTc1NzU2MTE3MHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Klimazonen in Kongo](https://upload.wikimedia.org/wikipedia/commons/d/d2/Cyril_Kongo_%282014%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Kongo: Eine Reise durch Klimazonen und Naturwunder
 

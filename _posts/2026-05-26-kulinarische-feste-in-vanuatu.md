@@ -2,10 +2,11 @@
 layout: post
 title: "Kulinarische Feste in Vanuatu"
 date: 2026-05-26
-image: https://images.unsplash.com/photo-1552643450-44f3e5c7d875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBGZXN0ZSUyMFZhbnVhdHV8ZW58MHwwfHx8MTc3OTc3NzMwOHww&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/6/6e/Instrument_in_Church_in_Pango%2CVanuatu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kulinarische Feste in Vanuatu](https://images.unsplash.com/photo-1552643450-44f3e5c7d875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBGZXN0ZSUyMFZhbnVhdHV8ZW58MHwwfHx8MTc3OTc3NzMwOHww&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Kulinarische Feste in Vanuatu](https://upload.wikimedia.org/wikipedia/commons/6/6e/Instrument_in_Church_in_Pango%2CVanuatu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Geschmäcker der Südsee: Kulinarische Feste in Vanuatu
 

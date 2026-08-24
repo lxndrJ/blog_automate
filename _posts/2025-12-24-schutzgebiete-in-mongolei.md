@@ -2,9 +2,10 @@
 layout: post
 title: "Schutzgebiete in Mongolei"
 date: 2025-12-24
-image: https://upload.wikimedia.org/wikipedia/commons/2/22/Berliner_Jahrbuch_f%C3%BCr_Handel_und_Industrie_%28IA_berlinerjahrbuch11912korpuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Schutzgebiete in Mongolei](https://upload.wikimedia.org/wikipedia/commons/2/22/Berliner_Jahrbuch_f%C3%BCr_Handel_und_Industrie_%28IA_berlinerjahrbuch11912korpuoft%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Wilde Weiten: Schutzgebiete der Mongolei - Eine Reise zwischen Tradition und Naturerhalt
+image: https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Schutzgebiete in Mongolei](https://upload.wikimedia.org/wikipedia/commons/c/ce/Bultfonteinite_-_Linxi%2C_Chifeng_City%2C_Inner_Mongolia%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Wilde Weiten: Schutzgebiete der Mongolei - Eine Reise zwischen Tradition und Naturerhalt
 
 Die Mongolei - ein Land, das wie ein riesiger, atemberaubender Naturpark wirkt. Weite Steppen, zerklüftete Gebirge und unberührte Landschaften prägen dieses faszinierende Territorium, das weit mehr ist als nur eine Kulisse für Abenteuerfilme.
 

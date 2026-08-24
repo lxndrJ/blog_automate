@@ -2,10 +2,11 @@
 layout: post
 title: "Kulinarische Reiserouten in Aruba"
 date: 2026-05-18
-image: https://images.unsplash.com/photo-1647907818543-a47006c82328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NzkwODY1Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/a/a5/Aruba_World_Wind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Kulinarische Reiserouten in Aruba](https://images.unsplash.com/photo-1647907818543-a47006c82328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxLdWxpbmFyaXNjaGUlMjBSZWlzZXJvdXRlbiUyMEFydWJhfGVufDB8MHx8fDE3NzkwODY1Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Kulinarische Reiserouten in Aruba](https://upload.wikimedia.org/wikipedia/commons/a/a5/Aruba_World_Wind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Geschmackserlebnis statt Strandklischee: Kulinarische Abenteuer auf Aruba
 
@@ -64,6 +65,8 @@ Wenn du mit Einheimischen isst – und das solltest du unbedingt – werden sie 
 Aruba ist klein genug, um alles zu erkunden, aber groß genug, dass dich jedes Restaurant überraschen kann. Die wahre Magie liegt nicht in einem Stern-Restaurant, sondern in der Authentizität einer Großmutter, die ihre Rezepte weitergibt, oder einem Koch, der weiß, dass sein Ruf auf dem Geschmack seines Essens basiert.
 
 Pack deinen Hunger mit ein und lass dich von Oranjestad und der Insel kulinarisch verführen. Dein Bauch wird dir danken – und dein Herz auch.
+
+![Oranjestad: Das kulinarische Herz der Insel](https://upload.wikimedia.org/wikipedia/commons/d/d0/ARUBA-oranjestad-hafen-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 ---
 

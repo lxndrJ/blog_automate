@@ -2,9 +2,10 @@
 layout: post
 title: "Transportmittel im Vergleich in Schweiz"
 date: 2026-06-06
-image: https://upload.wikimedia.org/wikipedia/commons/5/5e/Allgemeine_botanische_Zeitschrift_f%C3%BCr_Systematik%2C_Floristik%2C_Pflanzengeographie_etc_%28IA_allgemeinebotani02kneu%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
----
-![Transportmittel im Vergleich in Schweiz](https://upload.wikimedia.org/wikipedia/commons/5/5e/Allgemeine_botanische_Zeitschrift_f%C3%BCr_Systematik%2C_Floristik%2C_Pflanzengeographie_etc_%28IA_allgemeinebotani02kneu%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)# Die Kunst der Fortbewegung in der Schweiz – Ein Reiseführer durch Züge, Busse und mehr
+image: https://upload.wikimedia.org/wikipedia/commons/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+---![Transportmittel im Vergleich in Schweiz](https://upload.wikimedia.org/wikipedia/commons/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+
+# Die Kunst der Fortbewegung in der Schweiz – Ein Reiseführer durch Züge, Busse und mehr
 
 Die Schweiz ist eines jener Länder, in denen die Reise selbst zum Abenteuer wird. Egal ob du durch die Alpen schwebst oder gemütlich entlang der Aare spazierst – die Wahl deines Transportmittels prägt dein ganzes Erlebnis. Lass mich dir einen Überblick geben, wie du dieses wunderbare Land am besten erkunden kannst.
 

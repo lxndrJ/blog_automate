@@ -2,10 +2,11 @@
 layout: post
 title: "Industriegeschichte in Malawi"
 date: 2026-05-27
-image: https://images.unsplash.com/photo-1777310569880-e20082e2c8ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwTWFsYXdpfGVufDB8MHx8fDE3Nzk4NjQ3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080
+image: https://upload.wikimedia.org/wikipedia/commons/2/21/Baobab%2C_Malawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 ---
 
-![Industriegeschichte in Malawi](https://images.unsplash.com/photo-1777310569880-e20082e2c8ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTQ0MzZ8MHwxfHNlYXJjaHwxfHxJbmR1c3RyaWVnZXNjaGljaHRlJTIwTWFsYXdpfGVufDB8MHx8fDE3Nzk4NjQ3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080)
+
+![Industriegeschichte in Malawi](https://upload.wikimedia.org/wikipedia/commons/2/21/Baobab%2C_Malawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Von Tabak bis zur digitalen Zukunft: Malawis faszinierender Weg in die Moderne
 
