@@ -74,5 +74,12 @@
     "base": "Sprachlich: Wie heißt dieses eine Wort in {stadt} wirklich?",
     "file": "archive/2026-08-25-das-wort-cacco-warum-eine-römische-kirche-nach-einem-affen-heißt.md",
     "n_sources": 10
+  },
+  {
+    "date": "2026-08-25T17:58:18",
+    "topic": "Warum wir über Tansania fast nur die falschen Dinge wissen",
+    "base": "Warum wir über {land} fast nur die falschen Dinge wissen",
+    "file": "archive/2026-08-25-warum-wir-über-tansania-fast-nur-die-falschen-dinge-wissen.md",
+    "n_sources": 10
   }
 ]
