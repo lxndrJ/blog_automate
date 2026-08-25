@@ -93,7 +93,10 @@ def _publish_to_site(filename: str, title: str) -> str:
     _git(site_repo, "config", "user.email", BOT_EMAIL)
     _git(site_repo, "pull", "--rebase", "--autostash")
     _git(site_repo, "add", "_posts")
-    if _git(site_repo, "diff", "--cached", "--quiet").returncode != 0:
+    # git diff --cached --quiet: Exit 0 = keine Änderungen, Exit 1 = Änderungen vorhanden
+    # → beides ist ein normaler Zustand, nicht ein Fehler
+    diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=site_repo, capture_output=True, text=True)
+    if diff.returncode != 0:
         _git(site_repo, "commit", "-m", f"Blog-Post: {title}")
         _git(site_repo, "push", "origin", "HEAD")
         print("      ✔ In blog.pandango.de gepusht")
@@ -105,7 +108,8 @@ def _publish_to_site(filename: str, title: str) -> str:
     _git(".", "config", "user.name", BOT_NAME)
     _git(".", "config", "user.email", BOT_EMAIL)
     _git(".", "add", "-A", "_posts", "archive")
-    if _git(".", "diff", "--cached", "--quiet").returncode != 0:
+    diff2 = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=".", capture_output=True, text=True)
+    if diff2.returncode != 0:
         _git(".", "commit", "-m", f"Archive: {post_name} (veröffentlicht auf blog.pandango.de)")
     print(f"      ✔ Im Pipeline-Repo archiviert: {archived}")
     return archived
