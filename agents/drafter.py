@@ -5,7 +5,7 @@ import random
 import anthropic
 import os
 
-from config import DRAFTER_MODEL, DRAFTER_SYSTEM, DRAFTER_BRIEF, TEMPERATURE, MAX_TOKENS, LENGTH_HINT
+from config import DRAFTER_MODEL, DRAFTER_SYSTEM, DRAFTER_BRIEF, MAX_TOKENS, LENGTH_HINT
 
 
 def run(topic: str, context: str, research: str, sources: list[str],
@@ -36,7 +36,6 @@ def run(topic: str, context: str, research: str, sources: list[str],
     response = client.messages.create(
         model=DRAFTER_MODEL,
         max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
         system=DRAFTER_SYSTEM,
         messages=[{"role": "user", "content": brief}],
     )
