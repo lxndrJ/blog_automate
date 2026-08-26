@@ -67,7 +67,7 @@ jobs:
         run: |
           git config user.name  "$BLOG_BOT_NAME"
           git config user.email "$BLOG_BOT_EMAIL"
-          git add -A _posts archive run_log.jsonl history.json
+          git add -A _posts archive run_log.jsonl history.json titles.json
           if git diff --cached --quiet; then
             echo "ℹ️ Pipeline-Repo ohne Änderungen"
           else

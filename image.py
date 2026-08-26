@@ -181,11 +181,14 @@ def commons_pick(topic: str) -> Optional[dict]:
         width = int((ext.get("Width") or {}).get("value", 0) or 0)
         if width and width < 400:
             continue
+        # Artist aus den Metadaten (für korrekte Attribution)
+        artist = (ext.get("Artist") or {}).get("value", "").strip()
         return {
             "url": url,
             "source": "wikimedia",
             "license": f"Wikimedia Commons ({lic})",
             "caption": f"{topic} – Wikimedia Commons ({lic})",
+            "artist": artist,
         }
     return None
 

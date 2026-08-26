@@ -40,6 +40,14 @@ def _find_image(topic: str) -> dict | None:
         return None
 
 
+def _yaml_escape(s: str) -> str:
+    """Sichere YAML-String-Escaping für Front-Matter."""
+    s = s.replace('"', '\\"')
+    s = s.replace('\n', ' ')
+    s = s.replace('\r', '')
+    return s
+
+
 def _safe_filename(title: str) -> str:
     t = title.lower().replace("&", "und")
     t = re.sub(r"[^a-z0-9äöüß \-]+", "", t)
@@ -85,7 +93,11 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
         elif image_meta.get("photographer"):
             image_credit = f"Photo by {image_meta['photographer']}"
         elif image_meta.get("source") == "wikimedia":
-            image_credit = f"Bild: {image_meta.get('license', 'Wikimedia Commons')}"
+            artist = image_meta.get("artist", "").strip()
+            if artist:
+                image_credit = f"Bild: {artist} (Wikimedia Commons, {image_meta.get('license', '')})"
+            else:
+                image_credit = f"Bild: {image_meta.get('license', 'Wikimedia Commons')}"
         elif image_meta.get("license"):
             image_credit = f"Bild: {image_meta['license']}"
 
@@ -93,7 +105,7 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     fm = [
         "---",
         "layout: post",
-        f'title: "{title}"',
+        f'title: "{_yaml_escape(title)}"',
         f'date: {date_full}',
         f'permalink: {permalink}',
         "author: lxndrJ",
@@ -102,7 +114,7 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     if image_url:
         fm.append(f"image: {image_url}")
     if image_credit:
-        fm.append(f'image_credit: "{image_credit}"')
+        fm.append(f'image_credit: "{_yaml_escape(image_credit)}"')
     if sources:
         fm.append("sources:")
         fm.extend(f"  - {s}" for s in sources)

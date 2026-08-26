@@ -5,7 +5,7 @@ import re
 import anthropic
 import os
 
-from config import EDITOR_MODEL, EDITOR_SYSTEM, EDITOR_BRIEF, MAX_TOKENS
+from config import EDITOR_MODEL, EDITOR_SYSTEM, EDITOR_BRIEF, MAX_TOKENS, TEMPERATURE
 
 
 def run(draft: str, research: str, sources: list[str]) -> tuple[str, list[str]]:
@@ -24,6 +24,7 @@ def run(draft: str, research: str, sources: list[str]) -> tuple[str, list[str]]:
     response = client.messages.create(
         model=EDITOR_MODEL,
         max_tokens=MAX_TOKENS,
+        temperature=TEMPERATURE,
         system=EDITOR_SYSTEM,
         messages=[{"role": "user", "content": brief}],
     )

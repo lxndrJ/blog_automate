@@ -108,7 +108,7 @@ def _publish_to_site(filename: str, title: str) -> str:
     archived = arch.archive_post(filename)
     _git(".", "config", "user.name", BOT_NAME)
     _git(".", "config", "user.email", BOT_EMAIL)
-    _git(".", "add", "-A", "_posts", "archive")
+    _git(".", "add", "-A", "_posts", "archive", "titles.json")
     diff2 = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=".", capture_output=True, text=True)
     if diff2.returncode != 0:
         _git(".", "commit", "-m", f"Archive: {post_name} (veröffentlicht auf blog.pandango.de)")

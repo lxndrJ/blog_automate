@@ -57,9 +57,11 @@ def load() -> list[dict]:
 
 
 def save(entries: list[dict]) -> None:
-    """Schreibt das Titel-Log."""
-    with open(TITLES_FILE, "w", encoding="utf-8") as f:
+    """Atomar speichern (temp file + os.replace)."""
+    tmp_path = str(TITLES_FILE) + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, TITLES_FILE)
 
 
 def register(title: str, date: str, filename: str) -> None:

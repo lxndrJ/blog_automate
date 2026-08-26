@@ -5,7 +5,7 @@ import os
 
 import anthropic
 
-from config import RESEARCH_MODEL, RESEARCH_SYSTEM, RESEARCH_BRIEF, MAX_TOKENS
+from config import RESEARCH_MODEL, RESEARCH_SYSTEM, RESEARCH_BRIEF, MAX_TOKENS, TEMPERATURE
 
 
 def run(topic: str, context: str) -> dict:
@@ -16,6 +16,7 @@ def run(topic: str, context: str) -> dict:
     response = client.messages.create(
         model=RESEARCH_MODEL,
         max_tokens=MAX_TOKENS,
+        temperature=TEMPERATURE,
         system=RESEARCH_SYSTEM,
         messages=[{"role": "user", "content": brief}],
         tools=[{

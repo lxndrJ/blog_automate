@@ -15,6 +15,9 @@ image_cache/
 # Alte v1-Logs
 blog_log.txt
 
+# Datenbank-Dateien
+*.db
+
 # OS-Kram
 .DS_Store
 Thumbs.db
