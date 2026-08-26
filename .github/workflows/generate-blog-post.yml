@@ -72,6 +72,7 @@ jobs:
             echo "ℹ️ Pipeline-Repo ohne Änderungen"
           else
             git commit -m "Archive + Log: $(date +%F) (veröffentlicht auf blog.pandango.de)"
+            git pull --rebase origin main
             git push origin main
             echo "✅ Pipeline-Repo aktualisiert (Post archiviert)"
           fi
