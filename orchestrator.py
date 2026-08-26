@@ -19,6 +19,7 @@ os.environ.setdefault("ANTHROPIC_API_KEY", os.getenv("ANTHROPIC_API_KEY", ""))
 
 import topics
 import publisher
+import titles
 from agents import researcher, drafter, editor
 
 BOT_NAME  = os.getenv("BLOG_BOT_NAME",  "lxndrJ[bot]")
@@ -135,6 +136,8 @@ def main() -> int:
                     help="Pfad zum Site-Repo (blog.pandango.de). Post wird direkt dort "
                          "gepusht und danach im Pipeline-Repo archiviert. "
                          "Alternativ: Env BLOG_SITE_REPO.")
+    ap.add_argument("--force", action="store_true",
+                    help="Titel-Duplikate ignorieren und trotzdem speichern")
     args = ap.parse_args()
 
     if args.site_repo:
@@ -170,9 +173,10 @@ def main() -> int:
             print(" -", s)
         return 0
 
-    # 2) Entwurf
+    # 2) Entwurf (mit letzten 50 Titeln als Kontext → vermeidet Duplikate)
     print("[2/3] Entwurf läuft …")
-    draft = drafter.run(topic, context, res["research"], res["sources"])
+    recent_titles = titles.all_titles()[-50:]
+    draft = drafter.run(topic, context, res["research"], res["sources"], recent_titles)
     print(f"      → {len(draft.split())} Wörter\n")
 
     # 3) Lektorat
@@ -185,12 +189,36 @@ def main() -> int:
     title = _title_from(final) or topic
     print(f"\n## Titel: {title}\n")
 
+    # ── Titel-Duplikat-Check (HARTE Blockade) ──
+    if titles.is_duplicate(title):
+        if args.force:
+            print(f"⚠ TITEL-SCHLAG (forced): '{title}' wurde bereits verwendet, aber --force gesetzt.")
+        else:
+            print(f"\n❌ ABGEBROCHEN: '{title}' wurde bereits verwendet!")
+            similar = titles.find_similar(title, threshold=50)
+            for s in similar[:5]:
+                print(f"    {s['similarity']}% – {s['title']} ({s.get('date', '?')})")
+            print("\n→ Bitte neuen Titel verwenden oder --force übergeben.")
+            return 1
+    else:
+        # Warnung bei sehr ähnlichen Titeln (kein harter Block)
+        similar = titles.find_similar(title, threshold=80)
+        if similar:
+            print(f"⚠ Ähnliche Titel gefunden:")
+            for s in similar[:3]:
+                print(f"    {s['similarity']}% – {s['title']} ({s.get('date', '?')})")
+        print(f"  ✔ Titel ist neu ({titles.count() + 1}. Titel gesamt)")
+
     if args.keep:
         print(final)
         return 0
 
     filename = publisher.save(title, final, args.image, res["sources"])
     print(f"✔ Gespeichert: {filename}")
+
+    # Titel im Log registrieren
+    from datetime import datetime
+    titles.register(title, datetime.now().strftime("%Y-%m-%d"), filename)
 
     topics.record(topic, base, filename, res["sources"])
     log_run({
