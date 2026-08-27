@@ -30,14 +30,44 @@ def post_timestamp() -> str:
 
 
 def _find_image(topic: str) -> dict | None:
-    """Automatische Bildsuche (Unsplash/Wikimedia) – nie fatal, nur Fallback."""
+    """Automatische Bildsuche (Unsplash/Wikimedia) – nie fatal, nur Fallback.
+    
+    Extrahiert Schlüsselwörter aus dem Titel und versucht mehrere Suchbegriffe,
+    da die Unsplash-API mit kurzen englischen Keywords besser funktioniert.
+    """
     try:
-        from image import pick_image
-        r = pick_image(topic)
-        return r if r.get("url") else None
+        from image import unsplash_search, commons_pick
+    
+        # Titel in Suchbegriffe zerlegen (erste 3-5 signifikante Wörter)
+        # Deutsche Artikelwörter + Füllwörter entfernen
+        stop_words = {'der', 'die', 'das', 'ein', 'eine', 'einen', 'und', 'oder',
+                     'in', 'an', 'auf', 'für', 'mit', 'von', 'zu', 'bei',
+                     'warum', 'wie', 'was', 'wenn', 'dass', 'als', 'auch',
+                     'nicht', 'nie', 'mehr', 'sehr', 'fast', 'wirklich',
+                     'uns', 'unsere', 'meine', 'ich', 'mir', 'mich'}
+        words = re.findall(r'[a-zA-ZäöüÄÖÜß]{4,}', topic.lower())
+        keywords = [w for w in words if w not in stop_words][:5]
+        
+        # Verschiedene Suchstrategien
+        queries = []
+        if keywords:
+            queries.append(' '.join(keywords[:3]))  # Kurz: 3 Wörter
+            queries.append(' '.join(keywords[:2]))  # Kürzer: 2 Wörter
+        queries.append(topic[:40])  # Fallback: Titel-Anfang
+        
+        for q in queries:
+            r = unsplash_search(q)
+            if r and r.get("url"):
+                return r
+        
+        # Wikimedia-Fallback
+        for q in queries:
+            r = commons_pick(q)
+            if r and r.get("url"):
+                return r
     except Exception as e:
         print(f"      (Bildsuche fehlgeschlagen: {e})", file=sys.stderr)
-        return None
+    return None
 
 
 def _yaml_escape(s: str) -> str:
@@ -105,6 +135,7 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     fm = [
         "---",
         "layout: post",
+        "categories: [Reise]",
         f'title: "{_yaml_escape(title)}"',
         f'date: {date_full}',
         f'permalink: {permalink}',
@@ -126,6 +157,21 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     # Quellen-Sektion sicherstellen (Editor soll sie anlegen; Fallback)
     if sources and "## Quellen" not in content:
         body += "\n## Quellen\n\n" + "\n".join(f"- <{s}>" for s in sources) + "\n"
+    else:
+        # Bestehende Quellen: Plain-Text-URLs → Markdown-Links konvertieren
+        body = re.sub(
+            r'^(\s*-\s+)(.+?)[,\s]+(https?://\S+)\s*$',
+            r'\1[\2](\3)',
+            body,
+            flags=re.MULTILINE
+        )
+        # Multi-Line: '- Text\n  https://url' → '- [Text](https://url)'
+        body = re.sub(
+            r'^- (.+?)\n  (https?://\S+)\s*$',
+            r'- [\1](\2)',
+            body,
+            flags=re.MULTILINE
+        )
 
     # Transparenz-Hinweis ans Ende, falls nicht vorhanden
     if "KI" not in body[-200:]:

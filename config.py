@@ -81,6 +81,10 @@ Belegte Recherche (NUR Fakten daraus verwenden):
 Verwendete Quellen (am Ende des Textes als "Quellen"-Liste verlinken):
 {sources}
 
+WICHTIG – Quellen-Format: Jede Quelle muss als Markdown-Link formatiert sein:
+- [Quellenname: „Titel des Artikels"](https://vollstaendige-url.hier)
+NIEMALS Plain-Text-URLs schreiben – immer [Text](URL) Syntax.
+
 Zusätzlicher Kontext: {context}
 {length_hint}
 """
@@ -100,7 +104,9 @@ Quellen. Prüfe:
 4. STIMME: Fehlt jede persönliche Einschätzung? → 1–2 Sätze ergänzen, \
    uneingeschminkt.
 5. QUELLEN: Am Ende muss eine "## Quellen" -Sektion mit den verwendeten \
-   URLs stehen.
+   URLs stehen. JEDER Eintrag muss als Markdown-Link formatiert sein: \
+   - [Quellenname: „Titel"](https://url.hier) \
+   Plain-Text-URLs (ohne [ ]( ) ) sind VERBOTEN – umformatieren.
 6. META-RÜCKFRAGEN: Enthält der Entwurf Fragen an den Leser, Bitten um \
    Details oder Arbeitspläne ("Welche Route?", "Gib mir die zwei Orte", \
    "Der Plan")? → Streichen und stattdessen einen konkreten, belegten \
