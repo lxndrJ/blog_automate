@@ -78,8 +78,14 @@ Regeln:
 - Keine Fragen an den Leser
 - Keine Floskeln ("entdecke", "erlebe", "tauche ein")
 
+ZUSÄTZLICH: Erstelle eine ENGLISCHE Suchquery (2–6 Wörter) für eine Stockfoto-Suche (Unsplash/Pexels),
+die zum Thema passt. Die Query soll:
+- Natürliches, spezifisches Englisch sein (keine Übersetzung, sondern eine nativ klingende Suchphrase)
+- Konkrete Nomen/Adjektive enthalten (z. B. "thessaloniki morning market" statt "market")
+- Für Unsplash/Pexels optimiert sein (dort werden englische Tags/Beschreibungen indexiert)
+
 Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
-{{"topic": "<Titel-Vorschlag>", "context": "<Winkel-Hinweis für den Writer>"}}
+{{"topic": "<deutscher Titel-Vorschlag>", "context": "<Winkel-Hinweis für den Writer>", "image_query": "<english stock photo search query>"}}
 """
 
     try:
@@ -100,6 +106,7 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
         data = json.loads(raw)
         topic = data.get("topic", "").strip()
         context = data.get("context", "").strip()
+        image_query = data.get("image_query", "").strip()
 
         if not topic:
             raise ValueError("Leerer Topic-Vorschlag")
@@ -107,6 +114,7 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
         return {
             "topic": topic,
             "context": context,
+            "image_query": image_query,  # Englische Suchquery für Unsplash/Pexels
             "base": f"[AI] {category}: {topic}",  # für Dedup-Historie
         }
 

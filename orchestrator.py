@@ -120,7 +120,7 @@ def _publish_to_site(filename: str, title: str) -> str:
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def _generate_single(topic: str, context: str, category: str, image: str | None,
-                     args) -> int:
+                     args, image_query: str = "") -> int:
     """Generiert EINEN Post durch die komplette Pipeline.
 
     Returns:
@@ -129,6 +129,8 @@ def _generate_single(topic: str, context: str, category: str, image: str | None,
     print(f"\n{'='*60}")
     print(f"  Kategorie: {category}")
     print(f"  Thema:     {topic}")
+    if image_query:
+        print(f"  Bild-Query: {image_query}")
     print(f"{'='*60}\n")
 
     # 1) Recherche
@@ -183,7 +185,8 @@ def _generate_single(topic: str, context: str, category: str, image: str | None,
         print(final)
         return 0
 
-    filename = publisher.save(title, final, image, res["sources"], category=category)
+    filename = publisher.save(title, final, image, res["sources"], category=category,
+                             image_query=image_query)
     print(f"✔ Gespeichert: {filename}")
 
     # Titel im Log registrieren
@@ -253,7 +256,9 @@ def main() -> int:
             topic = item["topic"]
             context = item["context"]
             category = item["category"]
-            rc = _generate_single(topic, context, category, args.image, args)
+            img_q = item.get("image_query", "")
+            rc = _generate_single(topic, context, category, args.image, args,
+                                 image_query=img_q)
             if rc != 0:
                 failures += 1
                 print(f"\n⚠ Post [{category}] fehlgeschlagen (rc={rc}), nächster wird versucht.\n")
@@ -290,17 +295,19 @@ def main() -> int:
     # 0) Thema wählen
     if args.topic:
         topic, context = args.topic, args.context
+        img_q = ""
     else:
         # AI-Themengenerator (neu) mit Fallback auf Templates
         recent = titles.all_titles()[-50:]
         picked = topic_generator.generate(category, recent)
         topic, context = picked["topic"], picked["context"]
+        img_q = picked.get("image_query", "")
         if args.context:
             context += " " + args.context
 
     print(f"## Thema: {topic}\n")
 
-    rc = _generate_single(topic, context, category, args.image, args)
+    rc = _generate_single(topic, context, category, args.image, args, image_query=img_q)
 
     if rc == 0 and not args.site_repo:
         print("\nNächster Schritt: `--site-repo` übergeben (Workflow macht das automatisch) "

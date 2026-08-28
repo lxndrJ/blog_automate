@@ -29,66 +29,70 @@ def post_timestamp() -> str:
     return _now_berlin().strftime("%Y-%m-%d %H:%M:%S %z")
 
 
-def _find_image(topic: str, category: str = "") -> dict | None:
-    """Automatische Bildsuche (Unsplash/Wikimedia) – nie fatal, nur Fallback.
+def _find_image(topic: str, category: str = "", image_query: str = "") -> dict | None:
+    """Automatische Bildsuche (Unsplash → Pexels → Wikimedia) – nie fatal, nur Fallback.
     
-    Nutzt kategorie-spezifische Suchstrategien:
-    - Work-Life Balance: allgemeine, ästhetische Bilder (Natur, Ruhe, Lifestyle)
-    - Kochen/Essen: Richtung Rezepte (Zutaten, Zubereitung, fertiges Gericht)
-    - Reise (Default): Titel-basierte Suche wie bisher
+    Strategie:
+    1. image_query (Englisch, vom Topic-Generator) als PRIMÄRE Suchbegriff
+    2. Kategorie-spezifische Fallback-Queries
+    3. Wikimedia Commons als letzter Rückfall
     """
     try:
         from image import unsplash_search, pexels_search, commons_pick
-    
-        # ── Kategorie-spezifische Suchstrategien ──
+        
+        # ── Primäre Query: englische image_query vom Topic-Generator ──
+        queries = []
+        if image_query:
+            queries.append(image_query)  # Beste Query zuerst
+        
+        # ── Kategorie-spezifische Fallback-Queries ──
         cat_lower = category.lower().replace(" ", "")
         
         if "worklife" in cat_lower or "work-life" in category.lower():
-            # Allgemeine, ästhetische Bilder statt spezifischer Titel-Suche
-            queries = [
+            queries.extend([
                 "work life balance nature",
                 "relaxation lifestyle calm",
                 "wellness peaceful morning",
-                "nature walking peaceful",
-                "cozy home lifestyle",
-            ]
+            ])
         elif "kochen" in cat_lower or "essen" in cat_lower:
-            # Richtung Rezepte: Zutaten, Zubereitung, fertiges Gericht
-            queries = [
+            queries.extend([
                 "recipe homemade food",
                 "cooking ingredients kitchen",
                 "homemade dish preparation",
-                "baking fresh bread",
-                "healthy meal plate",
-            ]
+            ])
         else:
-            # Reise / Default: Titel-basierte Suche
+            # Reise / Default: zusätzliche Keywords aus dem Titel
             stop_words = {'der', 'die', 'das', 'ein', 'eine', 'einen', 'und', 'oder',
                          'in', 'an', 'auf', 'für', 'mit', 'von', 'zu', 'bei',
                          'warum', 'wie', 'was', 'wenn', 'dass', 'als', 'auch',
                          'nicht', 'nie', 'mehr', 'sehr', 'fast', 'wirklich',
                          'uns', 'unsere', 'meine', 'ich', 'mir', 'mich'}
             words = re.findall(r'[a-zA-ZäöüÄÖÜß]{4,}', topic.lower())
-            keywords = [w for w in words if w not in stop_words][:5]
-            
-            queries = []
+            keywords = [w for w in words if w not in stop_words][:4]
             if keywords:
                 queries.append(' '.join(keywords[:3]))
-                queries.append(' '.join(keywords[:2]))
-            queries.append(topic[:40])
         
+        # Dedup + Max 5 Queries
+        seen = set()
+        unique_queries = []
+        for q in queries:
+            q = q.strip()
+            if q and q.lower() not in seen:
+                seen.add(q.lower())
+                unique_queries.append(q)
+        queries = unique_queries[:5]
+        
+        # ── Kette: Unsplash → Pexels → Wikimedia ──
         for q in queries:
             r = unsplash_search(q)
             if r and r.get("url"):
                 return r
         
-        # Pexels-Zwischenschritt
         for q in queries:
             r = pexels_search(q)
             if r and r.get("url"):
                 return r
         
-        # Wikimedia-Fallback
         for q in queries:
             r = commons_pick(q)
             if r and r.get("url"):
@@ -113,17 +117,19 @@ def _safe_filename(title: str) -> str:
 
 
 def save(title: str, content: str, image_url: str | None, sources: list[str],
-         image_meta: dict | None = None, category: str = "Reise") -> str:
+         image_meta: dict | None = None, category: str = "Reise",
+         image_query: str = "") -> str:
     """Schreibt einen Blog-Post mit korrektem Frontmatter nach POSTS_DIR.
 
     Args:
-        title:     Post-Titel
-        content:   Markdown-Body
-        image_url: Direkte Bild-URL (Optional, wird sonst automatisch gesucht)
-        sources:   Liste der Quellen-URLs
-        image_meta: Metadaten-Dict von image.pick_image() mit 'source',
-                    'photographer', 'attribution', 'license' etc.
-        category:  Jekyll-Kategorie (z. B. "Reise", "Kochen/Essen", "Work-Life Balance")
+        title:       Post-Titel
+        content:     Markdown-Body
+        image_url:   Direkte Bild-URL (Optional, wird sonst automatisch gesucht)
+        sources:     Liste der Quellen-URLs
+        image_meta:  Metadaten-Dict von image.pick_image() mit 'source',
+                     'photographer', 'attribution', 'license' etc.
+        category:    Jekyll-Kategorie (z. B. "Reise", "Kochen/Essen", "Work-Life Balance")
+        image_query: Englische Suchquery für die Bildsuche (vom Topic-Generator)
     """
     os.makedirs(POSTS_DIR, exist_ok=True)
     now = _now_berlin()
@@ -135,7 +141,9 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     # Bild: übergebenes zuerst, sonst automatisch suchen
     if not image_url:
         print("      → Bild automatisch gesucht …")
-        img = _find_image(title, category=category)
+        if image_query:
+            print(f"         Query: {image_query}")
+        img = _find_image(title, category=category, image_query=image_query)
         if img:
             image_url = img["url"]
             image_meta = img
