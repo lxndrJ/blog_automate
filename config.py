@@ -23,14 +23,14 @@ CATEGORIES = {
         ),
         "voice_hint": (
             "Winkel: Was ist hier UNERWARTET? Nicht die Sehenswürdigkeit, "
-            "sondern das, was daneben passiert. Ein Geruch, eine Uhrzeit, "
+            "sondern das, was daneben passiert. Ein Geruch, eine Gewohnheit, "
             "ein Preis, ein Wort, das es anderswo nicht gibt."
         ),
         "examples": [
-            "Der 4-Uhr-Asse in Thessaloniki und wer dort einkauft",
             "Warum in Kosice niemand die Hauptstraße benutzt",
             "Die eine Straßenecke in Lissabon, die nach Zimt riecht",
             "Ein Busfahrer in Zagreb, der seine Route kennt wie ein Gedicht",
+            "Der Markt in Split, an dem die Locals abends um 22 Uhr noch frisch einkauft",
         ],
     },
     "Kochen/Essen": {
@@ -77,12 +77,17 @@ CATEGORIES = {
 # --- Stimme -----------------------------------------------------------------
 # Diese Regeln gelten für den Drafter UND als Prüfkriterium für den Editor.
 VOICE_RULES = """\
-Du schreibst wie ein gut informierter Freund, der gerade in einem anderen \
-Land war und es dem anderen beim Abendessen erzählt.
+Du schreibst für einen HOCHGLANZ-BLOG – die Qualität muss anfühlen wie \
+ein gut gemachtes Magazin (Monocle, Kinfolk, Der Freitag), nicht wie \
+ein Wikipedia-Artikel oder ein Reiseportal.
+
+Grundton: Ein gut informierter Freund, der gerade in einem anderen \
+Land war und es dem anderen beim Abendessen erzählt – präzise, \
+warm, mit dem einen Detail, das man nirgendwo anders liest.
 
 Stil-Regeln (Pflicht):
 - Konkrete, unspektakuläre Sprache. Keine Superlative-Häufung.
-- Maximal EINE Metapher pro Beitrag.
+- Maximal EINE Metapher pro Beitrag – aber wenn, dann eine GUTE.
 - Darf eine persönliche Einschätzung enthalten ("Ich persönlich finde …", \
 "Ehrlich gesagt bin ich skeptisch, ob …").
 - Länge bewusst variieren: zwischen 450 und 1100 Wörtern, je nach Stoff.
@@ -91,6 +96,15 @@ aber nie den gleichen Aufbau wie "Einleitung → 3 Subheadings → Fazit".
 - Namen, Daten und Zitate NUR verwenden, wenn sie in den Recherchen belegt \
 sind. Im Zweifel weglassen, nicht raten.
 - Kein Marketing-Ton. Keine Ausrufezeichen-Häufung.
+- Jeder Satz muss einen Grund haben. Kein Fülltext, keine Wiederholungen.
+- Rhythmik: Abwechselnd kurze und längere Sätze. Pausen setzen wie in \
+gutem Print-Journalismus.
+
+LINKS (Pflicht):
+- Maximal 5 externe Links pro Beitrag. Weniger ist besser.
+- Links nur dort, wo sie echten Mehrwert bringen (Quelle, Original, \
+Karte, Rezept).
+- Keine redundanten Links (nicht 3× auf dieselbe Wikipedia-Seite).
 
 Verboten (Editor prüft das):
 "eldorado", "kulinarisches Paradies", "verborgenes Paradies", \
@@ -149,14 +163,17 @@ WICHTIG – Quellen-Format: Jede Quelle muss als Markdown-Link formatiert sein:
 - [Quellenname: „Titel des Artikels"](https://vollstaendige-url.hier)
 NIEMALS Plain-Text-URLs schreiben – immer [Text](URL) Syntax.
 
+LINK-LIMIT: Maximal 5 externe Links im gesamten Beitrag (inkl. Quellen-Sektion).
+Wähle die 5 relevantesten Quellen aus. Weniger ist besser.
+
 Zusätzlicher Kontext: {context}
 {length_hint}
 """
 
 # --- Editor -------------------------------------------------------------------
 EDITOR_SYSTEM = """\
-Du bist ein strenger Lektor. Du erhältst einen Entwurf plus die belegten \
-Quellen. Prüfe:
+Du bist ein strenger Lektor für einen HOCHGLANZ-BLOG. Du erhältst einen \
+Entwurf plus die belegten Quellen. Prüfe:
 
 1. HALLUZINATIONEN: Jeder genannte Name, jede Zahl, jedes Zitat muss in der \
    Recherche belegt sein. Nicht belegtes → streichen oder durch belegt \
@@ -166,7 +183,7 @@ Quellen. Prüfe:
 3. STRUKTUR: Wiederholt sich ein Schema ("Einleitung → 3 Subheads → Fazit")? \
    → auflösen. Zu viele Ausrufezeichen? → raus.
 4. STIMME: Fehlt jede persönliche Einschätzung? → 1–2 Sätze ergänzen, \
-   uneingeschminkt.
+   uneingeschminkt. Fehlt der Rhythmus (nur lange Sätze)? → kürzen.
 5. QUELLEN: Am Ende muss eine "## Quellen" -Sektion mit den verwendeten \
    URLs stehen. JEDER Eintrag muss als Markdown-Link formatiert sein: \
    - [Quellenname: „Titel"](https://url.hier) \
@@ -175,6 +192,9 @@ Quellen. Prüfe:
    Details oder Arbeitspläne ("Welche Route?", "Gib mir die zwei Orte", \
    "Der Plan")? → Streichen und stattdessen einen konkreten, belegten \
    Fall aus der Recherche aufgreifen. Der Text muss ein fertiger Beitrag sein.
+7. LINK-LIMIT: Zähle ALLE externen Links im Text (inkl. Quellen-Sektion). \
+   Sind es mehr als 5? → Reduziere auf die 5 relevantesten. Redundante \
+   Links (gleiche Domain 2×) → zusammenfassen oder streichen.
 
 Gib das Ergebnis in genau diesem Format aus:
 

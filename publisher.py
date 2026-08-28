@@ -116,6 +116,56 @@ def _safe_filename(title: str) -> str:
     return re.sub(r"[\s]+", "-", t).strip("-")[:80]
 
 
+def _enforce_link_limit(body: str, max_links: int = 5) -> str:
+    """Reduziert externe Links im Body auf max_links.
+
+    Strategie:
+    - Zählt alle externen Links (Markdown [text](url) mit http/https URL)
+    - Behält die ERSTEN max_links Vorkommen (die relevantesten stehen meist oben)
+    - Entfernt überschüssige Links: im Quellen-Bereich → Zeile streichen,
+      im Fließtext → Link-Auszeichnung entfernen (Text bleibt, URL weg)
+    """
+    # Alle externen Markdown-Links finden (mit Position)
+    link_pattern = re.compile(r'\[([^\]]+)\]\((https?://[^)]+)\)')
+    all_links = list(link_pattern.finditer(body))
+    
+    if len(all_links) <= max_links:
+        return body
+    
+    print(f"      → Link-Limit: {len(all_links)} Links gefunden, reduziere auf {max_links}")
+    
+    # Links die behalten werden (die ersten max_links)
+    keep_spans = set()
+    for m in all_links[:max_links]:
+        keep_spans.add((m.start(), m.end()))
+    
+    # Überschüssige Links entfernen
+    result = []
+    last_end = 0
+    for i, m in enumerate(all_links):
+        if (m.start(), m.end()) in keep_spans:
+            result.append(body[last_end:m.end()])
+            last_end = m.end()
+        else:
+            # Text vor diesem Link übernehmen
+            result.append(body[last_end:m.start()])
+            # Link-Text ohne URL behalten (im Fließtext) oder Zeile streichen (Quellen)
+            link_text = m.group(1).strip()
+            # Prüfen ob es eine Quellen-Zeile ist (Liste mit - oder *)
+            line_start = body.rfind('\n', 0, m.start()) + 1
+            line_content = body[line_start:m.start()].strip()
+            if line_content.startswith('-') or line_content.startswith('*'):
+                # Quellen-Eintrag → komplette Zeile streichen
+                pass  # nichts hinzufügen, letzte Zeile wird übersprungen
+            else:
+                # Fließtext → nur den Text behalten, Link-Auszeichnung entfernen
+                result.append(link_text)
+            last_end = m.end()
+    
+    result.append(body[last_end:])
+    return ''.join(result)
+
+
 def save(title: str, content: str, image_url: str | None, sources: list[str],
          image_meta: dict | None = None, category: str = "Reise",
          image_query: str = "") -> str:
@@ -211,11 +261,21 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
             flags=re.MULTILINE
         )
 
-    # Transparenz-Hinweis ans Ende, falls nicht vorhanden
-    if "KI" not in body[-200:]:
+    # ── Link-Limit: max 5 externe Links im Body (inkl. Quellen) ──
+    body = _enforce_link_limit(body, max_links=5)
+
+    # Transparenz-Hinweis + Link-Disclaimer ans Ende
+    if "KI" not in body[-300:]:
         body += (
             "\n---\n\n*Dieser Beitrag wurde KI-gestützt geschrieben "
             "und von lxndrJ kuratiert, geprüft und veröffentlicht.*\n"
+        )
+    if "Haftung" not in body[-300:]:
+        body += (
+            "\n*Haftungsausschluss: Wir übernehmen keine Haftung für den "
+            "Inhalt externer Links. Alle Links führen zu Seiten Dritter; "
+            "deren Verfügbarkeit und Richtigkeit können sich ohne "
+            "Vorankündigung ändern.*\n"
         )
 
     with open(filename, "w", encoding="utf-8") as f:
