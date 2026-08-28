@@ -35,20 +35,22 @@ CATEGORIES = {
     },
     "Kochen/Essen": {
         "description": (
-            "Kochen, Essen, Lebensmittel, Küchen, Rezepte, Zutatengeschichten. "
-            "Nicht 'So kochst du …', sondern: eine Zutat, ein Gericht, "
-            "ein regionaler Kontrast, eine Zubereitungsmethode, ein Markt."
+            "Rezepte, Zubereitung, Zutaten, Kochen, Essen. "
+            "Konkrete Gerichte mit Zutatenliste und Zubereitungsschritten. "
+            "Eher: ein Rezept, eine Zutat im Detail, eine Zubereitungsmethode, "
+            "ein Gericht, das man nachkochen kann."
         ),
         "voice_hint": (
-            "Winkel: Was macht dieses Gericht/eine Zutat REGIONAL? "
-            "Warum gibt es es hier und nicht dort? Wie schmeckt es "
-            "UNTERSCHIEDLICH je nach Dorf? Keine Step-by-Step-Rezepte."
+            "Winkel: Ein konkretes REZEPT oder eine Zutat im Detail. "
+            "Zutatenliste, Zubereitungsschritte, Tipps, Varianten. "
+            "Wie schmeckt es? Wie bereitet man es zu? Was macht es besonders? "
+            "Nicht nur erzählen – dem Leser zeigen, WIE es geht."
         ),
         "examples": [
-            "Karepy: Das estnische Kartoffelgericht, das in Deutschland niemand kennt",
-            "Warum die Linsen in dieser Region anders schmecken als in der nächsten",
-            "Der eine Käse, den man nur in diesem einen Tal bekommt",
-            "Wie in Marseille der Bouillabaisse-Mythos den Alltag dominiert",
+            "Karepy: Das estnische Kartoffelgericht – Zutaten, Zubereitung, Varianten",
+            "Warum die Linsen in dieser Region anders schmecken – und wie man sie am besten kocht",
+            "Der eine Käse aus diesem Tal: wie man ihn schmilzt, brät, serviert",
+            "Bouillabaisse zu Hause: das Rezept, das in Marseille jeder kennt",
         ],
     },
     "Work-Life Balance": {
