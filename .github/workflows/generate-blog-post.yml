@@ -57,6 +57,8 @@ jobs:
       - name: Generate posts → publish to site → archive locally
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           MODE: ${{ github.event.inputs.mode || 'daily' }}
           TOPIC: ${{ github.event.inputs.topic }}
           CATEGORY: ${{ github.event.inputs.category || 'Reise' }}
