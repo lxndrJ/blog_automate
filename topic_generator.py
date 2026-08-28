@@ -48,7 +48,8 @@ def generate(category: str, recent_titles: list[str] | None = None,
         cross_block = (
             f"\n\nWICHTIG: Der heutige Reise-Post behandelt: \"{cross_ref}\". "
             f"Verknüpfe dein Thema mit diesem Ort/Thema, wo es natürlich passt "
-            f"(z. B. ein Gericht aus dieser Region, ein lokales Ritual, eine Zutat)."
+            f"(z. B. ein Gericht aus dieser Region, ein lokales Ritual, eine Zutat)"
+            f"ohne zu groß auf die Details des Reise-Posts einzugehen wie zB die Uhrzeit etc.."
         )
 
     # Beispiel-Angel (keine Pflicht, nur Inspiration)
