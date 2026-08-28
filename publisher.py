@@ -29,31 +29,53 @@ def post_timestamp() -> str:
     return _now_berlin().strftime("%Y-%m-%d %H:%M:%S %z")
 
 
-def _find_image(topic: str) -> dict | None:
+def _find_image(topic: str, category: str = "") -> dict | None:
     """Automatische Bildsuche (Unsplash/Wikimedia) – nie fatal, nur Fallback.
     
-    Extrahiert Schlüsselwörter aus dem Titel und versucht mehrere Suchbegriffe,
-    da die Unsplash-API mit kurzen englischen Keywords besser funktioniert.
+    Nutzt kategorie-spezifische Suchstrategien:
+    - Work-Life Balance: allgemeine, ästhetische Bilder (Natur, Ruhe, Lifestyle)
+    - Kochen/Essen: Richtung Rezepte (Zutaten, Zubereitung, fertiges Gericht)
+    - Reise (Default): Titel-basierte Suche wie bisher
     """
     try:
         from image import unsplash_search, commons_pick
     
-        # Titel in Suchbegriffe zerlegen (erste 3-5 signifikante Wörter)
-        # Deutsche Artikelwörter + Füllwörter entfernen
-        stop_words = {'der', 'die', 'das', 'ein', 'eine', 'einen', 'und', 'oder',
-                     'in', 'an', 'auf', 'für', 'mit', 'von', 'zu', 'bei',
-                     'warum', 'wie', 'was', 'wenn', 'dass', 'als', 'auch',
-                     'nicht', 'nie', 'mehr', 'sehr', 'fast', 'wirklich',
-                     'uns', 'unsere', 'meine', 'ich', 'mir', 'mich'}
-        words = re.findall(r'[a-zA-ZäöüÄÖÜß]{4,}', topic.lower())
-        keywords = [w for w in words if w not in stop_words][:5]
+        # ── Kategorie-spezifische Suchstrategien ──
+        cat_lower = category.lower().replace(" ", "")
         
-        # Verschiedene Suchstrategien
-        queries = []
-        if keywords:
-            queries.append(' '.join(keywords[:3]))  # Kurz: 3 Wörter
-            queries.append(' '.join(keywords[:2]))  # Kürzer: 2 Wörter
-        queries.append(topic[:40])  # Fallback: Titel-Anfang
+        if "worklife" in cat_lower or "work-life" in category.lower():
+            # Allgemeine, ästhetische Bilder statt spezifischer Titel-Suche
+            queries = [
+                "work life balance nature",
+                "relaxation lifestyle calm",
+                "wellness peaceful morning",
+                "nature walking peaceful",
+                "cozy home lifestyle",
+            ]
+        elif "kochen" in cat_lower or "essen" in cat_lower:
+            # Richtung Rezepte: Zutaten, Zubereitung, fertiges Gericht
+            queries = [
+                "recipe homemade food",
+                "cooking ingredients kitchen",
+                "homemade dish preparation",
+                "baking fresh bread",
+                "healthy meal plate",
+            ]
+        else:
+            # Reise / Default: Titel-basierte Suche
+            stop_words = {'der', 'die', 'das', 'ein', 'eine', 'einen', 'und', 'oder',
+                         'in', 'an', 'auf', 'für', 'mit', 'von', 'zu', 'bei',
+                         'warum', 'wie', 'was', 'wenn', 'dass', 'als', 'auch',
+                         'nicht', 'nie', 'mehr', 'sehr', 'fast', 'wirklich',
+                         'uns', 'unsere', 'meine', 'ich', 'mir', 'mich'}
+            words = re.findall(r'[a-zA-ZäöüÄÖÜß]{4,}', topic.lower())
+            keywords = [w for w in words if w not in stop_words][:5]
+            
+            queries = []
+            if keywords:
+                queries.append(' '.join(keywords[:3]))
+                queries.append(' '.join(keywords[:2]))
+            queries.append(topic[:40])
         
         for q in queries:
             r = unsplash_search(q)
@@ -107,7 +129,7 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     # Bild: übergebenes zuerst, sonst automatisch suchen
     if not image_url:
         print("      → Bild automatisch gesucht …")
-        img = _find_image(title)
+        img = _find_image(title, category=category)
         if img:
             image_url = img["url"]
             image_meta = img
