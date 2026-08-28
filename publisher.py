@@ -38,7 +38,7 @@ def _find_image(topic: str, category: str = "") -> dict | None:
     - Reise (Default): Titel-basierte Suche wie bisher
     """
     try:
-        from image import unsplash_search, commons_pick
+        from image import unsplash_search, pexels_search, commons_pick
     
         # ── Kategorie-spezifische Suchstrategien ──
         cat_lower = category.lower().replace(" ", "")
@@ -79,6 +79,12 @@ def _find_image(topic: str, category: str = "") -> dict | None:
         
         for q in queries:
             r = unsplash_search(q)
+            if r and r.get("url"):
+                return r
+        
+        # Pexels-Zwischenschritt
+        for q in queries:
+            r = pexels_search(q)
             if r and r.get("url"):
                 return r
         

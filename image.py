@@ -33,7 +33,9 @@ CACHE_DIR = Path(__file__).resolve().parent / "image_cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 UNSPLASH_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
 UNSPLASH_TIMEOUT = 10
+PEXELS_TIMEOUT = 10
 REQUEST_DELAY = 2000   # ms-Wartezeit zwischen API-Calls (Wikimedia/Unsplash Rate-Limit-Schutz)
 
 
@@ -236,17 +238,75 @@ def unsplash_search(query: str, orientation: str = "landscape") -> Optional[dict
     return None
 
 
+def pexels_search(query: str, orientation: str = "landscape") -> Optional[dict]:
+    """Pexels API: Hochwertige Stockfotos mit Attribution.
+
+    Liefert {"url", "license", "caption", "photographer", "attribution"} oder None.
+    """
+    if not PEXELS_KEY:
+        return None
+    params = urllib.parse.urlencode({
+        "query": query,
+        "per_page": 5,
+        "orientation": orientation,
+    })
+    try:
+        req = urllib.request.Request(
+            f"https://api.pexels.com/v1/search?{params}",
+            headers={
+                "Authorization": PEXELS_KEY,
+                "User-Agent": UA,
+                "Accept": "application/json",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=PEXELS_TIMEOUT) as resp:
+            if resp.status != 200:
+                return None
+            d = json.loads(resp.read())
+    except Exception as ex:
+        print(f"    Pexels-Fehler: {ex}", file=sys.stderr)
+        return None
+
+    photos = d.get("photos") or []
+    for p in photos:
+        src = p.get("src") or {}
+        img_url = src.get("large") or src.get("large2x")
+        if not img_url:
+            continue
+        photographer = p.get("photographer", "Unknown")
+        alt = p.get("alt") or ""
+        caption = f"{alt} – Pexels" if alt else f"{query} – Pexels"
+        attribution = f"Photo by {photographer} on Pexels"
+        return {
+            "url": img_url,
+            "source": "pexels",
+            "license": "Pexels License (frei verwendbar)",
+            "caption": caption,
+            "photographer": photographer,
+            "attribution": attribution,
+        }
+    return None
+
+
 def pick_image(topic: str, orientation: str = "landscape") -> dict:
-    """Bilder-Service: 1. Unsplash (Hochglanz-Fotos, CDN), 2. Wikimedia Commons (CC).
+    """Bilder-Service: 1. Unsplash, 2. Pexels, 3. Wikimedia Commons (CC).
 
     Rückgabe: {"url", "source", "license", "caption"} – url ist die Remote-Bild-URL
     (direkt in Posts nutzbar), None wenn nichts gefunden wurde.
     """
     en_query = _en_query(topic)
+
+    # 1. Unsplash (bevorzugt)
     us = unsplash_search(en_query, orientation)
     if us and us.get("url"):
         return us
 
+    # 2. Pexels
+    px = pexels_search(en_query, orientation)
+    if px and px.get("url"):
+        return px
+
+    # 3. Wikimedia Commons (Final-Fallback)
     wm = commons_pick(topic)
     if wm and wm.get("url"):
         return wm
@@ -256,11 +316,13 @@ def pick_image(topic: str, orientation: str = "landscape") -> dict:
 
 if __name__ == "__main__":
     print("UNSPLASH_ACCESS_KEY:", UNSPLASH_KEY or "(nicht gesetzt)")
+    print("PEXELS_API_KEY:    ", PEXELS_KEY or "(nicht gesetzt)")
     for topic in ["Markttag in Thessaloniki", "Was Valletta nachts wirklich ist", "Cacco Rom"]:
         print(f"\n[{topic}]")
         r = pick_image(topic)
         if r["url"]:
             print(f"  ✅ {r['source']} | {r['license']}")
+            print(f"     photographer: {r.get('photographer', r.get('artist', '?'))}")
             print(f"     {r['url'][:100]}…")
         else:
             print("  ❌ Kein Bild")
