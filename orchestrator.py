@@ -20,6 +20,7 @@ os.environ.setdefault("ANTHROPIC_API_KEY", os.getenv("ANTHROPIC_API_KEY", ""))
 import topics
 import publisher
 import titles
+import topic_generator
 from agents import researcher, drafter, editor
 
 BOT_NAME  = os.getenv("BLOG_BOT_NAME",  "lxndrJ[bot]")
@@ -118,47 +119,17 @@ def _publish_to_site(filename: str, title: str) -> str:
 
 # ── Main ───────────────────────────────────────────────────────────────────
 
-def main() -> int:
-    ap = argparse.ArgumentParser(
-        description="Blog-Beitrag generieren (Recherche → Entwurf → Lektorat)"
-    )
-    ap.add_argument("--dry-run", action="store_true",
-                    help="Nur Thema + Recherche, kein Text, kein Push")
-    ap.add_argument("--topic",
-                    help="Freies Thema (überspringt Kuratierte Auswahl)")
-    ap.add_argument("--context", default="",
-                    help="Zusätzlicher Kontext zum Thema")
-    ap.add_argument("--image",
-                    help="Optionale Bild-URL")
-    ap.add_argument("--keep", action="store_true",
-                    help="Nicht in _posts/ schreiben, nur anzeigen")
-    ap.add_argument("--site-repo", default="",
-                    help="Pfad zum Site-Repo (blog.pandango.de). Post wird direkt dort "
-                         "gepusht und danach im Pipeline-Repo archiviert. "
-                         "Alternativ: Env BLOG_SITE_REPO.")
-    ap.add_argument("--force", action="store_true",
-                    help="Titel-Duplikate ignorieren und trotzdem speichern")
-    args = ap.parse_args()
+def _generate_single(topic: str, context: str, category: str, image: str | None,
+                     args) -> int:
+    """Generiert EINEN Post durch die komplette Pipeline.
 
-    if args.site_repo:
-        os.environ["BLOG_SITE_REPO"] = args.site_repo
-
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.", file=sys.stderr)
-        return 2
-
-    # 0) Thema wählen
-    if args.topic:
-        topic, context = args.topic, args.context
-        base = args.topic
-    else:
-        picked = topics.pick_topic(topics.used_topics())
-        topic, context = picked["topic"], picked["context"]
-        base = picked["base"]
-        if args.context:
-            context += " " + args.context
-
-    print(f"## Thema: {topic}\n")
+    Returns:
+        0 auf Erfolg, 1 bei Titel-Kollision (abgebrochen), 2 bei Fehler.
+    """
+    print(f"\n{'='*60}")
+    print(f"  Kategorie: {category}")
+    print(f"  Thema:     {topic}")
+    print(f"{'='*60}\n")
 
     # 1) Recherche
     print("[1/3] Recherche läuft …")
@@ -201,7 +172,6 @@ def main() -> int:
             print("\n→ Bitte neuen Titel verwenden oder --force übergeben.")
             return 1
     else:
-        # Warnung bei sehr ähnlichen Titeln (kein harter Block)
         similar = titles.find_similar(title, threshold=80)
         if similar:
             print(f"⚠ Ähnliche Titel gefunden:")
@@ -213,16 +183,17 @@ def main() -> int:
         print(final)
         return 0
 
-    filename = publisher.save(title, final, args.image, res["sources"])
+    filename = publisher.save(title, final, image, res["sources"], category=category)
     print(f"✔ Gespeichert: {filename}")
 
     # Titel im Log registrieren
     from datetime import datetime
     titles.register(title, datetime.now().strftime("%Y-%m-%d"), filename)
 
-    topics.record(topic, base, filename, res["sources"])
+    topics.record(topic, f"[{category}] {topic}", filename, res["sources"])
     log_run({
         "topic": topic,
+        "category": category,
         "title": title,
         "file": filename,
         "sources": res["sources"],
@@ -234,11 +205,108 @@ def main() -> int:
     if args.site_repo:
         dest = _publish_to_site(filename, title)
         topics.update_file(dest)
-        return 0
 
-    print("\nNächster Schritt: `--site-repo` übergeben (Workflow macht das automatisch) "
-          "oder manuell ins Site-Repo kopieren.")
     return 0
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        description="Blog-Beitrag generieren (Recherche → Entwurf → Lektorat)"
+    )
+    ap.add_argument("--dry-run", action="store_true",
+                    help="Nur Thema + Recherche, kein Text, kein Push")
+    ap.add_argument("--daily", action="store_true",
+                    help="Täglicher Modus: 3 Posts (Reise, Kochen/Essen, Work-Life Balance)")
+    ap.add_argument("--topic",
+                    help="Freies Thema (überspringt Kuratierte Auswahl)")
+    ap.add_argument("--category", default="Reise",
+                    help="Kategorie für den Post (Default: Reise)")
+    ap.add_argument("--context", default="",
+                    help="Zusätzlicher Kontext zum Thema")
+    ap.add_argument("--image",
+                    help="Optionale Bild-URL")
+    ap.add_argument("--keep", action="store_true",
+                    help="Nicht in _posts/ schreiben, nur anzeigen")
+    ap.add_argument("--site-repo", default="",
+                    help="Pfad zum Site-Repo (blog.pandango.de). Post wird direkt dort "
+                         "gepusht und danach im Pipeline-Repo archiviert. "
+                         "Alternativ: Env BLOG_SITE_REPO.")
+    ap.add_argument("--force", action="store_true",
+                    help="Titel-Duplikate ignorieren und trotzdem speichern")
+    args = ap.parse_args()
+
+    if args.site_repo:
+        os.environ["BLOG_SITE_REPO"] = args.site_repo
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.", file=sys.stderr)
+        return 2
+
+    # ── DAILY MODUS: 3 Posts (Reise, Kochen/Essen, Work-Life Balance) ──
+    if args.daily:
+        print("📅 DAILY MODUS – 3 Posts werden generiert\n")
+        recent = titles.all_titles()[-50:]
+        day_set = topic_generator.generate_daily_set(recent)
+
+        failures = 0
+        for item in day_set:
+            topic = item["topic"]
+            context = item["context"]
+            category = item["category"]
+            rc = _generate_single(topic, context, category, args.image, args)
+            if rc != 0:
+                failures += 1
+                print(f"\n⚠ Post [{category}] fehlgeschlagen (rc={rc}), nächster wird versucht.\n")
+
+        # Nach allen Posts: Site-Repo push + Pipeline-Repo archivieren
+        if args.site_repo and failures < 3:
+            print("\n📦 Site-Repo push …")
+            # _publish_to_site wird in _generate_single aufgerufen,
+            # aber wir sichern hier nochmal alle Änderungen
+            site_repo = os.environ.get("BLOG_SITE_REPO", "")
+            if site_repo and os.path.isdir(os.path.join(site_repo, ".git")):
+                _git(site_repo, "config", "user.name", BOT_NAME)
+                _git(site_repo, "config", "user.email", BOT_EMAIL)
+                _git(site_repo, "add", "_posts")
+                diff = subprocess.run(
+                    ["git", "diff", "--cached", "--quiet"],
+                    cwd=site_repo, capture_output=True, text=True
+                )
+                if diff.returncode != 0:
+                    _git(site_repo, "commit", "-m", f"Blog: 3 Posts $(date +%F)")
+                    _git(site_repo, "push", "origin", "HEAD")
+                    print("      ✔ Site-Repo gepusht")
+                else:
+                    print("      → Site-Repo ohne neue Änderungen")
+
+        print(f"\n{'='*60}")
+        print(f"  FERTIG: {3 - failures}/3 Posts erfolgreich")
+        print(f"{'='*60}")
+        return 0 if failures == 0 else 1
+
+    # ── SINGLE-POST MODUS (bestehendes Verhalten) ──
+    category = args.category
+
+    # 0) Thema wählen
+    if args.topic:
+        topic, context = args.topic, args.context
+    else:
+        # AI-Themengenerator (neu) mit Fallback auf Templates
+        recent = titles.all_titles()[-50:]
+        picked = topic_generator.generate(category, recent)
+        topic, context = picked["topic"], picked["context"]
+        if args.context:
+            context += " " + args.context
+
+    print(f"## Thema: {topic}\n")
+
+    rc = _generate_single(topic, context, category, args.image, args)
+
+    if rc == 0 and not args.site_repo:
+        print("\nNächster Schritt: `--site-repo` übergeben (Workflow macht das automatisch) "
+              "oder manuell ins Site-Repo kopieren.")
+
+    return rc
 
 
 if __name__ == "__main__":

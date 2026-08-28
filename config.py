@@ -6,9 +6,71 @@ import os
 RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-haiku-4-5")
 DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-haiku-4-5")
 EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-haiku-4-5")
+TOPIC_MODEL    = os.getenv("BLOG_TOPIC_MODEL",    "claude-haiku-4-5")
 
 TEMPERATURE    = float(os.getenv("BLOG_TEMPERATURE", "0.85"))
 MAX_TOKENS     = int(os.getenv("BLOG_MAX_TOKENS", "4096"))
+
+# --- Kategorien ---------------------------------------------------------------
+# Drei feste Kategorien, die täglich abgedeckt werden.
+# Jede mit eigener Beschreibung, Voice-Hint und Beispielen (nur Inspiration).
+CATEGORIES = {
+    "Reise": {
+        "description": (
+            "Reisen, Orte, Routen, Kulturen, Begegnungen. "
+            "Nicht Reiseführer-Ton – eher: ein konkretes Erlebnis, ein Ort, "
+            "eine Begegnung, ein Kontrast zu dem, was man erwartet."
+        ),
+        "voice_hint": (
+            "Winkel: Was ist hier UNERWARTET? Nicht die Sehenswürdigkeit, "
+            "sondern das, was daneben passiert. Ein Geruch, eine Uhrzeit, "
+            "ein Preis, ein Wort, das es anderswo nicht gibt."
+        ),
+        "examples": [
+            "Der 4-Uhr-Asse in Thessaloniki und wer dort einkauft",
+            "Warum in Kosice niemand die Hauptstraße benutzt",
+            "Die eine Straßenecke in Lissabon, die nach Zimt riecht",
+            "Ein Busfahrer in Zagreb, der seine Route kennt wie ein Gedicht",
+        ],
+    },
+    "Kochen/Essen": {
+        "description": (
+            "Kochen, Essen, Lebensmittel, Küchen, Rezepte, Zutatengeschichten. "
+            "Nicht 'So kochst du …', sondern: eine Zutat, ein Gericht, "
+            "ein regionaler Kontrast, eine Zubereitungsmethode, ein Markt."
+        ),
+        "voice_hint": (
+            "Winkel: Was macht dieses Gericht/eine Zutat REGIONAL? "
+            "Warum gibt es es hier und nicht dort? Wie schmeckt es "
+            "UNTERSCHIEDLICH je nach Dorf? Keine Step-by-Step-Rezepte."
+        ),
+        "examples": [
+            "Karepy: Das estnische Kartoffelgericht, das in Deutschland niemand kennt",
+            "Warum die Linsen in dieser Region anders schmecken als in der nächsten",
+            "Der eine Käse, den man nur in diesem einen Tal bekommt",
+            "Wie in Marseille der Bouillabaisse-Mythos den Alltag dominiert",
+        ],
+    },
+    "Work-Life Balance": {
+        "description": (
+            "Arbeitskultur, Produktivität, Pausen, Homeoffice, Grenzen, "
+            "Zeitmanagement, mentale Gesundheit im Beruf. "
+            "Nicht Self-Help – eher: eine konkrete Beobachtung, ein "
+            "kultureller Kontrast, ein System, das anders funktioniert."
+        ),
+        "voice_hint": (
+            "Winkel: Was macht ein anderes Land/eine andere Kultur RICHTIG "
+            "anders im Arbeitsalltag? Keine Tipps-Liste. Eher: ein konkretes "
+            "System, eine Regel, ein Ritual, das man bei uns nicht hat."
+        ),
+        "examples": [
+            "Die 14-Uhr-Pause in Italien und warum sie produktiver macht als Koffein",
+            "Warum in Finnland niemand nach Feierabend mailt – und was stattdessen passiert",
+            "Der 'Feierabend-Bier'-Kult in Tschechien als Arbeitskultur-Instrument",
+            "Wie in Japan das 'Kaizen' im Büro wirklich aussieht (nicht wie im Wikipedia-Artikel)",
+        ],
+    },
+}
 
 # --- Stimme -----------------------------------------------------------------
 # Diese Regeln gelten für den Drafter UND als Prüfkriterium für den Editor.

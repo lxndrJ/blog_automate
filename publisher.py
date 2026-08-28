@@ -85,7 +85,7 @@ def _safe_filename(title: str) -> str:
 
 
 def save(title: str, content: str, image_url: str | None, sources: list[str],
-         image_meta: dict | None = None) -> str:
+         image_meta: dict | None = None, category: str = "Reise") -> str:
     """Schreibt einen Blog-Post mit korrektem Frontmatter nach POSTS_DIR.
 
     Args:
@@ -95,6 +95,7 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
         sources:   Liste der Quellen-URLs
         image_meta: Metadaten-Dict von image.pick_image() mit 'source',
                     'photographer', 'attribution', 'license' etc.
+        category:  Jekyll-Kategorie (z. B. "Reise", "Kochen/Essen", "Work-Life Balance")
     """
     os.makedirs(POSTS_DIR, exist_ok=True)
     now = _now_berlin()
@@ -135,7 +136,8 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
     fm = [
         "---",
         "layout: post",
-        "categories: [Reise]",
+        f"categories: [{category}]",
+
         f'title: "{_yaml_escape(title)}"',
         f'date: {date_full}',
         f'permalink: {permalink}',

@@ -1,4 +1,4 @@
-name: Generate Blog Post
+name: Generate Blog Posts (Daily ×3)
 
 on:
   schedule:
@@ -6,9 +6,17 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
-      topic:
-        description: "Freies Thema (optional)"
+      mode:
+        description: "Modus: daily (3 Posts) oder single (1 Post)"
         required: false
+        default: "daily"
+      topic:
+        description: "Freies Thema (nur für single-Modus)"
+        required: false
+      category:
+        description: "Kategorie (nur für single-Modus)"
+        required: false
+        default: "Reise"
 
 jobs:
   generate:
@@ -46,19 +54,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate post → publish to site → archive locally
+      - name: Generate posts → publish to site → archive locally
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODE: ${{ github.event.inputs.mode || 'daily' }}
           TOPIC: ${{ github.event.inputs.topic }}
+          CATEGORY: ${{ github.event.inputs.category || 'Reise' }}
         run: |
-          # Der Orchestrator:
-          #  1) erzeugt den Post (eindeutiger Timestamp mit Berlin-Zone)
-          #  2) kopiert ihn ins Site-Repo, committet & pusht nach blog.pandango.de
-          #  3) verschiebt ihn im Pipeline-Repo nach archive/ (keine doppelte Pflege)
-          if [ -n "$TOPIC" ]; then
-            python orchestrator.py --topic "$TOPIC" --site-repo "$BLOG_SITE_REPO"
+          if [ "$MODE" = "daily" ] || [ -z "$TOPIC" ]; then
+            # DAILY MODUS: 3 Posts (Reise, Kochen/Essen, Work-Life Balance)
+            python orchestrator.py --daily --site-repo "$BLOG_SITE_REPO"
           else
-            python orchestrator.py --site-repo "$BLOG_SITE_REPO"
+            # SINGLE MODUS: 1 Post mit freiem Thema
+            python orchestrator.py --topic "$TOPIC" --category "$CATEGORY" --site-repo "$BLOG_SITE_REPO"
           fi
 
       - name: Push pipeline repo (Archiv + Log)
@@ -71,24 +79,38 @@ jobs:
           if git diff --cached --quiet; then
             echo "ℹ️ Pipeline-Repo ohne Änderungen"
           else
-            git commit -m "Archive + Log: $(date +%F) (veröffentlicht auf blog.pandango.de)"
+            git commit -m "Archive + Log: $(date +%F) (3 Posts veröffentlicht auf blog.pandango.de)"
             git pull --rebase origin main
             git push origin main
-            echo "✅ Pipeline-Repo aktualisiert (Post archiviert)"
+            echo "✅ Pipeline-Repo aktualisiert (Posts archiviert)"
           fi
 
       - name: Workflow Summary
         if: always()
         run: |
-          echo "## Blog Post Generation" >> $GITHUB_STEP_SUMMARY
+          echo "## Blog Post Generation (Daily ×3)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Key | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|-----|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Timestamp | $(date) |" >> $GITHUB_STEP_SUMMARY
-          echo "| Flow | Generieren → Site-Repo pushen → Pipeline-Repo archivieren |" >> $GITHUB_STEP_SUMMARY
+          echo "| Kategorien | Reise · Kochen/Essen · Work-Life Balance |" >> $GITHUB_STEP_SUMMARY
+          echo "| Flow | AI-Themengenerator → Recherche → Entwurf → Lektorat → Publish |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ -d "archive" ]; then
             echo "| Archived posts | $(find archive -name '*.md' | wc -l) |" >> $GITHUB_STEP_SUMMARY
+          fi
+          # Letzte 3 Einträge aus run_log
+          if [ -f "run_log.jsonl" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Letzte Läufe" >> $GITHUB_STEP_SUMMARY
+            tail -3 run_log.jsonl | python3 -c "
+          import sys, json
+          for line in sys.stdin:
+              try:
+                  d = json.loads(line)
+                  print(f\"- **{d.get('category','?')}**: {d.get('title','?')} ({d.get('words',0)} Wörter)\")
+              except: pass
+          " >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Notify on failure
