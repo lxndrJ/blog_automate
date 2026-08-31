@@ -1,0 +1,112 @@
+name: Weekly Plan (Sonntag)
+
+on:
+  schedule:
+    # Sonntag 04:00 UTC = 06:00 CEST / 05:00 CET
+    - cron: "0 4 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry Run (nur anzeigen, nicht speichern)"
+        required: false
+        default: "false"
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      BLOG_SITE_REPO: ${{ github.workspace }}/site
+      BLOG_BOT_NAME: "lxndrJ[bot]"
+      BLOG_BOT_EMAIL: "actions@github.com"
+
+    steps:
+      - name: Checkout pipeline repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout site repository (blog.pandango.de)
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: site
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate weekly plan
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python weekly_planner.py --dry-run --site-repo "$BLOG_SITE_REPO"
+          else
+            python weekly_planner.py --site-repo "$BLOG_SITE_REPO"
+          fi
+
+      - name: Push weekly plan to pipeline repo
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add weekly_plan.json
+          if git diff --cached --quiet; then
+            echo "ℹ️ weekly_plan.json ohne Änderungen"
+          else
+            git commit -m "Wochenplan: $(python3 -c "import json; print(json.load(open('weekly_plan.json'))['week'])")"
+            git pull --rebase origin main
+            git push origin main
+            echo "✅ Wochenplan gepusht"
+          fi
+
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## 📅 Weekly Plan" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f "weekly_plan.json" ]; then
+            python3 -c "
+          import json
+          plan = json.load(open('weekly_plan.json'))
+          print(f\"**Woche:** {plan['week']}\")
+          print(f\"**Generiert:** {plan['generated_at']}\")
+          print()
+          for s in plan['slots']:
+              print(f\"| {s['weekday']} | {s['category']} | {s['topic']} |\")
+          " | head -1 >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "| Tag | Kategorie | Thema |" >> $GITHUB_STEP_SUMMARY
+            echo "|-----|-----------|-------|" >> $GITHUB_STEP_SUMMARY
+            python3 -c "
+          import json
+          plan = json.load(open('weekly_plan.json'))
+          for s in plan['slots']:
+              print(f\"| {s['weekday']} | {s['category']} | {s['topic']} |\")
+          " >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ weekly_plan.json nicht gefunden" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Weekly Plan FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+          exit 1

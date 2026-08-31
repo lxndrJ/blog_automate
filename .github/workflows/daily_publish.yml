@@ -1,0 +1,155 @@
+name: Daily Publish (Mo–So)
+
+on:
+  schedule:
+    # Täglich 05:00 UTC = 07:00 CEST / 06:00 CET
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Tag 1-7 (leer = heute)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Dry Run (nur Slot anzeigen)"
+        required: false
+        default: "false"
+      force:
+        description: "Auch wenn Slot bereits published ist"
+        required: false
+        default: "false"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      BLOG_SITE_REPO: ${{ github.workspace }}/site
+      BLOG_BOT_NAME: "lxndrJ[bot]"
+      BLOG_BOT_EMAIL: "actions@github.com"
+
+    steps:
+      - name: Checkout pipeline repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout site repository (blog.pandango.de)
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: site
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Check weekly plan exists
+        id: check_plan
+        run: |
+          if [ ! -f "weekly_plan.json" ]; then
+            echo "❌ weekly_plan.json nicht gefunden – kein Plan für diese Woche."
+            echo "has_plan=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "has_plan=true" >> $GITHUB_OUTPUT
+
+      - name: Publish daily slot
+        if: steps.check_plan.outputs.has_plan == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          DAY: ${{ github.event.inputs.day }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          FORCE: ${{ github.event.inputs.force || 'false' }}
+        run: |
+          ARGS=""
+          if [ -n "$DAY" ]; then
+            ARGS="$ARGS --day $DAY"
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "$FORCE" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          ARGS="$ARGS --site-repo $BLOG_SITE_REPO"
+
+          echo "▶ python daily_publisher.py $ARGS"
+          python daily_publisher.py $ARGS
+
+      - name: Push site repo (if published)
+        if: steps.check_plan.outputs.has_plan == 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.BLOG_SYNC_TOKEN }}
+        run: |
+          cd site
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add _posts
+          if git diff --cached --quiet; then
+            echo "ℹ️ Site-Repo ohne neue Änderungen"
+          else
+            git commit -m "Blog: $(date +%F) (Wochenplan-Slot)"
+            git pull --rebase origin main
+            git push origin main
+            echo "✅ Post auf blog.pandango.de veröffentlicht"
+          fi
+
+      - name: Push pipeline repo (archive + log)
+        if: steps.check_plan.outputs.has_plan == 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add -A weekly_plan.json _posts archive run_log.jsonl history.json titles.json
+          if git diff --cached --quiet; then
+            echo "ℹ️ Pipeline-Repo ohne Änderungen"
+          else
+            git commit -m "Daily publish: $(date +%F) (Slot veröffentlicht)"
+            git pull --rebase origin main
+            git push origin main
+            echo "✅ Pipeline-Repo aktualisiert"
+          fi
+
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## 📰 Daily Publish" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f "weekly_plan.json" ]; then
+            python3 -c "
+          import json
+          from datetime import datetime
+          plan = json.load(open('weekly_plan.json'))
+          day = datetime.now().isoweekday()
+          for s in plan['slots']:
+              if s['day'] == day:
+                  status = '✅ published' if s.get('published') else '⏳ pending'
+                  print(f\"**{s['weekday']}** [{s['category']}]: {s['topic']} ({status})\")
+                  break
+          " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "Plan vorhanden, aber Slot nicht gefunden" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Kein Wochenplan vorhanden" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Daily Publish FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+          exit 1

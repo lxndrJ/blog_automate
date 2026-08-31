@@ -216,3 +216,61 @@ BELEGTE RECHERCHE UND QUELLEN:
 # --- Ausgabepfad ---------------------------------------------------------------
 POSTS_DIR = os.getenv("BLOG_POSTS_DIR", "_posts")
 HISTORY_FILE = "history.json"
+
+# --- Weekly Planner -----------------------------------------------------------
+WEEKLY_PLAN_FILE = os.getenv("WEEKLY_PLAN_FILE", "weekly_plan.json")
+
+WEEKLY_PLAN_SYSTEM = """\
+Du bist der Redaktionsleiter eines deutschsprachigen Reise- und Kulturblogs (blog.pandango.de).
+Deine Aufgabe: einen Wochenplan mit 7 konkreten, unverwechselbaren Blogthemen erstellen.
+
+Qualitätsmaßstab: Monocle, Kinfolk, Der Freitag. Kein Travel-Blog, kein Portal, kein Ratgeber.
+
+Regeln:
+- Jedes Thema braucht einen KONKRETEN Anker: eine Straßenecke, eine Uhrzeit, einen Beruf,
+  ein Gericht, ein Wort, ein Geruch, ein Klang. Nicht "Kultur von X", sondern "der eine
+  Stand am Markt, an dem …".
+- KEIN generisches "Land X" oder "Kultur von Y". Immer auf Straßenebene zoomen.
+- Die 7 Themen decken verschiedene Regionen und Kontinente ab – nicht 5× Osteuropa.
+- Alle 3 Kategorien kommen vor: mindestens 2× Reise, 2× Kochen/Essen, 2× Work-Life Balance.
+- Der Hook (erster Satz) ist ein Sinneseindruck: Geruch, Geräusch, Geschmack, Textur, Licht.
+  Kein "In diesem Artikel…", kein "Wusstest du, dass…".
+- Das Zielgefühl (feeling) beschreibt, was der LESESP nach dem Lesen SPÜREN soll.
+  Nicht "informiert", sondern ein konkretes Gefühl oder Bild.
+- Vermeide alles, was in den letzten 14 Posts bereits vorkam (Thema, Ort, Gericht, Winkel).
+- Kein Marketing-Ton. Kein "Entdecke", "Erlebe", "Tauche ein", "Tauche ab".
+- Jeder Topic-Vorschlag muss so spezifisch sein, dass man ihn NICHT mit einem anderen
+  Blogpost verwechseln könnte.
+"""
+
+WEEKLY_PLAN_BRIEF = """\
+Erstelle einen Wochenplan für die Woche {week_label}.
+
+Bereits veröffentlicht (letzte 14 Tage – NICHT wiederholen, keine Variation):
+{recent_posts}
+
+Saison: {season}
+Datum: {today}
+
+Kategorien (mindestens 2× pro Kategorie über 7 Tage):
+- Reise: Orte, Routen, Kulturen, Begegnungen. Winkel: das Unerwartete, das Daneben, das Konkrete.
+- Kochen/Essen: Ein Gericht, eine Zutat, eine Zubereitung. Winkel: das Rezept, die Hand, der Topf.
+- Work-Life Balance: Arbeitskultur, Pausen, Rhythmus. Winkel: ein konkretes System, eine Regel, ein Ritual.
+
+Gib NUR dieses JSON-Array aus (kein Markdown, kein Code-Block, keine Erklärungen):
+[
+  {{
+    "day": 1,
+    "weekday": "Montag",
+    "category": "<Kategorie>",
+    "topic": "<konkretes Thema, 5-15 Wörter, mit Ort/Detail/Person>",
+    "angle": "<2-3 Sätze: Welchen WINKEL nimmt der Writer? Was macht es genau diese Woche relevant?>",
+    "hook": "<Der erste Satz des Posts. Ein Sinneseindruck. Genau 1 Satz.>",
+    "forbidden": ["<Klischee 1>", "<Klischee 2>"],
+    "feeling": "<Was der Leser nach dem Lesen SPÜREN soll. 1 Satz, konkret.>",
+    "image_query": "<englische Stockfoto-Suchquery, 2-6 Wörter, nativ klingend, für Unsplash/Pexels>"
+  }}
+]
+
+7 Einträge, day 1 (Montag) bis day 7 (Sonntag).
+"""
