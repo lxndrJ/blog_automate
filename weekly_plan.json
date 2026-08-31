@@ -15,7 +15,9 @@
         "Jeanne d'Arc Kult"
       ],
       "feeling": "Die Erkenntnis, dass man an Orten vorbeigeht, ohne sie zu sehen.",
-      "image_query": "golden statue Paris rain weathered"
+      "image_query": "golden statue Paris rain weathered",
+      "published": true,
+      "published_at": "2026-08-31T13:43:55"
     },
     {
       "day": 2,
