@@ -1,0 +1,111 @@
+{
+  "week": "2026-W36",
+  "generated_at": "2026-08-31T13:39:40",
+  "slots": [
+    {
+      "day": 1,
+      "weekday": "Montag",
+      "category": "Reise",
+      "topic": "Die Ecke Rue de Rivoli/Place des Pyramides: Wo Touristen blind vorbeigehen",
+      "angle": "Nicht der Louvre, nicht Notre-Dame. Ein winziger Platz in Paris, an dem seit 1804 eine vergoldete Statue steht, die kein Reiseführer erklärt. Die Fotografie selbst wird zum Thema: warum nehmen wir diesen Ort nie auf?",
+      "hook": "Das Gold der Jeanne-d'Arc-Statue schält sich unter dem August-Regen ab wie alte Tapete, und hundert Meter entfernt klicken tausend Handys die falsche Ecke.",
+      "forbidden": [
+        "Paris versteckte Orte",
+        "Geheimtipps Louvre",
+        "Jeanne d'Arc Kult"
+      ],
+      "feeling": "Die Erkenntnis, dass man an Orten vorbeigeht, ohne sie zu sehen.",
+      "image_query": "golden statue Paris rain weathered"
+    },
+    {
+      "day": 2,
+      "weekday": "Dienstag",
+      "category": "Kochen/Essen",
+      "topic": "Bunun millet: Das Getreide, das nur eine Köchin in der Region kennt",
+      "angle": "In Taiwan, in den Nantou-Bergen, mahlt eine 68-jährige Frau namens Ciwas seit 40 Jahren hirseartiges Getreide (bunun millet) mit der Hand. Nicht für ein Restaurant – für ihre eigene Familie und drei Nachbarn. Der Text folgt nicht dem Gericht, sondern der Mühle selbst.",
+      "hook": "Das Mahlen klingt wie ein brechendes Ast-Muster: unregelmäßig, atmend, nicht maschinell.",
+      "forbidden": [
+        "traditionelle Techniken Taiwan",
+        "indigene Küche Rezept",
+        "nachhaltiges Kochen"
+      ],
+      "feeling": "Das Gefühl, dass Wissen sterben kann, ohne dass jemand es bemerkt.",
+      "image_query": "stone mortar millet grinding hands elderly"
+    },
+    {
+      "day": 3,
+      "weekday": "Mittwoch",
+      "category": "Work-Life Balance",
+      "topic": "Die isländische 4-Tage-Woche im Supermarkt: Was die Kassiererin am Mittwoch macht",
+      "angle": "Island testet seit 2023 viererorts eine 4-Tage-Woche. Der Text begleitet nicht CEO, sondern Dagmar, 51, die an der Kasse im Bonus-Markt in Reykjavík arbeitet – und beschreibt, was die drei freien Tage real bedeuten (nicht: ideal, sondern: wie es wirklich läuft).",
+      "hook": "Mittwochs um neun Uhr morgens bekommt Dagmar eine Nachricht, dass ein Kind krank ist – und zum ersten Mal kann sie einfach gehen.",
+      "forbidden": [
+        "Island Arbeitsmodell Produktivität",
+        "Work-Life Balance Vorbild",
+        "4-Tage-Woche Effektivität"
+      ],
+      "feeling": "Die Ambivalenz: Erleichterung gemischt mit der Sorge, dass es nicht lange hält.",
+      "image_query": "Nordic supermarket cashier morning light window"
+    },
+    {
+      "day": 4,
+      "weekday": "Donnerstag",
+      "category": "Reise",
+      "topic": "Der Busbahnhof von Nadi, Fidschi um 6:30 Uhr: Wenn die Insel aufwacht",
+      "angle": "Nicht der Strand. Nicht das Resort. Ein betonerner Busbahnhof an der Küstenstraße, wo täglich um 6:30 Uhr hundert Menschen aus den Nachtbussen aussteigen – auf dem Weg zu Plantagen, Schulen, Märkten. Die Welt der Inselbewohner beginnt hier, nicht im Hotel.",
+      "hook": "Die Luft riecht nach Kokosnussöl, Diesel und feuchter Erde – und nach einem Rhythmus, den kein Tourist kennt.",
+      "forbidden": [
+        "Fidschi Inseltraum",
+        "Fidschi Authentizität Geheimtipp",
+        "locals Reiseroman"
+      ],
+      "feeling": "Das Gefühl, zufällig in den Alltag einer ganzen Insel einzutreten.",
+      "image_query": "bus station tropical dawn Fiji early morning"
+    },
+    {
+      "day": 5,
+      "weekday": "Freitag",
+      "category": "Kochen/Essen",
+      "topic": "Der Pilz in Lujiazui: Wie ein Shanghai-Köchin Herbst herausriecht",
+      "angle": "In Shanghais Finanzdistrikt Lujiazui arbeitet Lin in einem stillen Restaurant. Jeden Freitag – nur freitags – fährt sie zwei Stunden ins Umlande, um matsutake-Pilze zu sammeln. Der Text erzählt nicht vom Essen, sondern vom Riechen: wie sie weiß, dass der Pilz reif ist, bevor sie ihn sieht.",
+      "hook": "Matsutake-Pilze riechen nach Wald, nach Erde, nach einer Fruchtbarkeit, die man in Shanghai sonst nicht atmet.",
+      "forbidden": [
+        "chinesische Pilzküche Tradition",
+        "Forage Urban Chef",
+        "lokale Zutaten Shanghai"
+      ],
+      "feeling": "Das Paradoxe: Mitten in der Stadt die Wildnis wiederfinden.",
+      "image_query": "matsutake mushroom forest earth hands picking"
+    },
+    {
+      "day": 6,
+      "weekday": "Samstag",
+      "category": "Work-Life Balance",
+      "topic": "Der Freitag des brasilianischen Solos-Fahrers: Wenn die Arbeit Rhythmus hat",
+      "angle": "In Porto Alegre, Brasilien, fahren tausende Menschen 'Solo' (Mittagessen nach Hause in der Pause). Der Text porträtiert Raúl, 47, der sein Taxi freitags um 14 Uhr stehen lässt – nicht wegen eines Gesetzes, sondern weil es so gemacht wird. Die Frage: Was ist Ritual, was ist Zwang, was ist Freiheit?",
+      "hook": "Um 14 Uhr stellt Raúl das Taxameter ab und trinkt Mate mit seiner Frau, als würde die Stadt pausieren – obwohl die Stadt nicht pausiert.",
+      "forbidden": [
+        "brasilianische Arbeitsmoral",
+        "Mittagspause Kultur",
+        "Pause und Produktivität"
+      ],
+      "feeling": "Die Erkenntnis, dass Rituale Wirklichkeit schaffen, auch wenn sie nicht erzwungen werden.",
+      "image_query": "Brazilian taxi driver mate afternoon pause home"
+    },
+    {
+      "day": 7,
+      "weekday": "Sonntag",
+      "category": "Reise",
+      "topic": "Die Petronas Twin Towers von unten: Was Kuala Lumpur einer Person bedeutet",
+      "angle": "Nicht ein ikonisches Foto der Towers von oben. Ein Mann namens Amran, 34, fotografiert seit zehn Jahren nur die Petronas Towers von unten, aus verschiedenen Winkeln, immer von der gleichen Ecke aus. Der Text fragt: Was macht ein Ort aus uns, wenn wir ihn täglich anders sehen?",
+      "hook": "Die beiden Türme sind morgens blau, mittags stahlgrau, abends orange – und Amran sieht sie alle, ohne die Ecke zu verlassen.",
+      "forbidden": [
+        "Kuala Lumpur Skyline Fotografie",
+        "Petronas Towers Wahrzeichen",
+        "Orte Perspektive Künstler"
+      ],
+      "feeling": "Das tiefe Vergnügen, einen Ort so gründlich zu kennen, dass man ihn neu sieht.",
+      "image_query": "Petronas towers from below shadow light geometry"
+    }
+  ]
+}
