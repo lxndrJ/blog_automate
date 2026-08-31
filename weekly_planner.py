@@ -103,13 +103,15 @@ def generate_plan(site_repo: str = "") -> dict:
     )
 
     print("      → LLM-Call läuft …")
-    response = client.messages.create(
-        model=TOPIC_MODEL,
-        max_tokens=4096,
-        temperature=0.9,
-        system=WEEKLY_PLAN_SYSTEM,
-        messages=[{"role": "user", "content": brief}],
-    )
+            kwargs = {
+            "model": self.model,
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if system:
+            kwargs["system"] = system
+
+        response = self.client.messages.create(**kwargs)
 
     raw = "".join(b.text for b in response.content if b.type == "text").strip()
     slots = _extract_json(raw)
