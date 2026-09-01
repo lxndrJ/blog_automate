@@ -32,7 +32,9 @@
         "nachhaltiges Kochen"
       ],
       "feeling": "Das Gefühl, dass Wissen sterben kann, ohne dass jemand es bemerkt.",
-      "image_query": "stone mortar millet grinding hands elderly"
+      "image_query": "stone mortar millet grinding hands elderly",
+      "published": true,
+      "published_at": "2026-09-01T13:08:04"
     },
     {
       "day": 3,
