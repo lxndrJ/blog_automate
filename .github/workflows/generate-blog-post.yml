@@ -3,7 +3,7 @@ name: Generate Blog Posts (Daily ×3)
 on:
   schedule:
     # 6:00 UTC = 8:00 MESZ / 9:00 MEZ
-    - cron: "0 6 * * *"
+    # - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       mode:
