@@ -69,9 +69,9 @@ _MISTRAL_CLASS_MAP = {
 
 # Mistral model names -> Claude model names (for Anthropic fallback)
 _MISTRAL_TO_CLAUDE_MAP = {
-    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-4-5-haiku"),
-    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-4-5-haiku"),
-    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-4-5-haiku"),
+    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet-20250620"),
+    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-5-sonnet-20250620"),
+    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-5-sonnet-20250620"),
 }
 
 
@@ -86,7 +86,7 @@ def map_model_to_claude(model: str) -> str:
     if "claude" in m:
         return model
     # Fallback to a sensible default
-    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-4-5-haiku")
+    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet-20250620")
 
 
 
@@ -107,83 +107,89 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
     from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
-    from mistralai.client.models import WebSearchTool, MessageInputEntry, CompletionArgs
+    from mistralai.client.models import WebSearchTool
 
     client = Mistral(api_key=mistral_api_key())
 
-    # Use conversations API for web_search to enable stateful interactions
+    all_messages = []
+    if system:
+        all_messages.append({"role": "system", "content": system})
+    all_messages.extend(messages)
+
+    kwargs: dict = {}
+    if temperature is not None:
+        kwargs["temperature"] = temperature
+
     if web_search:
-        tools = [WebSearchTool()]
-        
-        # Convert messages to MessageInputEntry format for conversations API
-        # Note: Conversations API does NOT support role="system" - use instructions param instead
-        input_entries = []
-        for msg in messages:
-            # Only user and assistant roles are allowed in conversations API
-            role = msg.get("role", "user")
-            if role == "system":
-                continue  # Skip system messages, use instructions instead
-            input_entries.append(MessageInputEntry(
-                role=role,
-                content=msg.get("content", "")
-            ))
-        
-        # Build completion_args for temperature and max_tokens
-        completion_args_data = {}
-        if temperature is not None:
-            completion_args_data["temperature"] = temperature
-        if max_tokens is not None:
-            completion_args_data["max_tokens"] = max_tokens
-        
-        completion_args_param = CompletionArgs(**completion_args_data) if completion_args_data else None
-        
-        # Start a new conversation with web_search tool
-        # System prompt goes in instructions parameter, not as a message
-        conversation = client.beta.conversations.start(
-            model=model,
-            inputs=input_entries,
-            tools=tools,
-            completion_args=completion_args_param,
-            instructions=system if system else None,
-        )
-        
-        # Get the response from the conversation
-        text = (conversation.outputs[0].content or "").strip()
-        
-        # Extract sources from tool results
-        sources: list[str] = []
-        if hasattr(conversation, 'tool_results') and conversation.tool_results:
-            for tool_result in conversation.tool_results:
-                if hasattr(tool_result, 'content') and tool_result.content:
-                    for item in tool_result.content:
-                        if hasattr(item, 'url'):
-                            url = item.url
-                            if url and url not in sources:
-                                sources.append(url)
-        
-        return text, sources
+        kwargs["tools"] = [WebSearchTool()]
+
+    resp = client.chat.complete(
+        model=model,
+        messages=all_messages,
+        max_tokens=max_tokens,
+        **kwargs,
+    )
+
+    # Get the assistant message from the response
+    choice = resp.choices[0]
+    assistant_msg = choice.message
+    
+    # Handle content which can be a string or a list of content chunks
+    if assistant_msg is None:
+        text = ""
+    elif isinstance(assistant_msg.content, str):
+        text = assistant_msg.content
+    elif isinstance(assistant_msg.content, list):
+        # Content is a list of chunks, extract text from TextChunk and ReferenceChunk
+        text_parts = []
+        for chunk in assistant_msg.content:
+            if hasattr(chunk, 'text') and chunk.text:
+                text_parts.append(chunk.text)
+            elif hasattr(chunk, 'type') and chunk.type == 'reference':
+                # ReferenceChunk - skip the reference itself, just get text
+                pass
+        text = "".join(text_parts)
     else:
-        # Standard chat completion without web_search
-        all_messages = []
-        if system:
-            all_messages.append({"role": "system", "content": system})
-        all_messages.extend(messages)
-
-        kwargs: dict = {}
-        if temperature is not None:
-            kwargs["temperature"] = temperature
-
-        resp = client.chat.complete(
-            model=model,
-            messages=all_messages,
-            max_tokens=max_tokens,
-            **kwargs,
-        )
-
-        text = (resp.choices[0].message.content or "").strip()
-        sources: list[str] = []
-        
-        return text, sources
+        text = str(assistant_msg.content or "")
+    
+    text = text.strip()
+    
+    # Extract sources from references in the content
+    sources: list[str] = []
+    if assistant_msg and hasattr(assistant_msg, 'content') and isinstance(assistant_msg.content, list):
+        for chunk in assistant_msg.content:
+            if hasattr(chunk, 'type') and chunk.type == 'reference' and hasattr(chunk, 'reference_ids'):
+                # Reference chunks may contain reference IDs
+                # We need to extract URLs from the response if available
+                pass
+    
+    # Also check for tool_calls which might contain web search results
+    if assistant_msg and hasattr(assistant_msg, 'tool_calls') and assistant_msg.tool_calls:
+        for tool_call in assistant_msg.tool_calls:
+            if hasattr(tool_call, 'function') and hasattr(tool_call.function, 'arguments'):
+                # Try to extract URLs from tool call arguments
+                import json
+                try:
+                    args = json.loads(tool_call.function.arguments) if isinstance(tool_call.function.arguments, str) else tool_call.function.arguments
+                    if isinstance(args, dict):
+                        for key, value in args.items():
+                            if isinstance(value, str) and ('http://' in value or 'https://' in value):
+                                if value not in sources:
+                                    sources.append(value)
+                except (json.JSONDecodeError, AttributeError):
+                    pass
+    
+    # Extract sources from tool_results if present in response
+    if hasattr(resp, 'tool_results') and resp.tool_results:
+        for tool_result in resp.tool_results:
+            if hasattr(tool_result, 'content') and tool_result.content:
+                for item in tool_result.content:
+                    if hasattr(item, 'url'):
+                        url = item.url
+                        if url and url not in sources:
+                            sources.append(url)
+    
+    return text, sources
 
 
 def _chat_anthropic(model: str, messages: list[dict], system: str,
