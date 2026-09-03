@@ -96,8 +96,11 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
     kwargs: dict = {}
     if temperature is not None:
         kwargs["temperature"] = temperature
-    if web_search:
-        kwargs["tools"] = [{"type": "web_search", "name": "web_search", "max_results": 5}]
+    # Web-Search ist aktuell nicht mit der mistralai-Bibliothek kompatibel
+    # (Fehler: "WebSearchTool connector is not supported")
+    # Deaktiviert bis zur Klärung
+    # if web_search:
+    #     kwargs["tools"] = [{"type": "web_search", "name": "web_search", "max_results": 5}]
 
     resp = client.chat.complete(
         model=model,
