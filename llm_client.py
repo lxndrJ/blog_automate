@@ -230,8 +230,9 @@ def chat(model: str,
             if provider == "mistral":
                 return _chat_mistral(map_model_to_mistral(model), messages,
                                      system, max_tokens, temperature, web_search)
-            return _chat_anthropic(model, messages, system,
-                                   max_tokens, temperature, web_search)
+            elif provider == "anthropic":
+                return _chat_anthropic(model, messages, system,
+                                       max_tokens, temperature, web_search)
         except Exception as e:
             errors.append(f"{provider}: {e}")
             if i + 1 < len(providers):
