@@ -136,27 +136,14 @@ jobs:
       - name: Workflow Summary
         if: always()
         run: |
-          echo "## 📰 Daily Publish" >> $GITHUB_STEP_SUMMARY
+          echo "## 📷 Daily Publish" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ -f "weekly_plan.json" ]; then
-            python3 << 'PYSUMMARY'
-            import json
-            from datetime import datetime
-            plan = json.load(open('weekly_plan.json'))
-            day = datetime.now().isoweekday()
-            for s in plan['slots']:
-                if s['day'] == day:
-                    status = '✅ published' if s.get('published') else '⏳ pending'
-                    wd = s['weekday']
-                    cat = s['category']
-                    top = s['topic']
-                    print(f"**{wd}** [{cat}]: {top} ({status})")
-                    break
-            PYSUMMARY
+            echo "aW1wb3J0IGpzb24KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKcGxhbiA9IGpzb24ubG9hZChvcGVuKCd3ZWVrbHlfcGxhbi5qc29uJykpCmRheSA9IGRhdGV0aW1lLm5vdygpLmlzb3dlZWRrYXkoKQpmb3IgcyBpbiBwbGFuWydzbG90cyddOgogICAgaWYgc1snZGF5J10gPT0gZGF5OgogICAgICAgIHN0YXR1cyA9ICfinIUgcHVibGlzaGVkJyBpZiBzLmdldCgncHVibGlzaGVkJykgZWxzZSAn4o+zIHBlbmRpbmcnCiAgICAgICAgd2QgPSBzWyd3ZWVrZGF5J10KICAgICAgICBjYXQgPSBzWydjYXRlZ29yeSddCiAgICAgICAgdG9wID0gc1sndG9waWMnXQogICAgICAgIHByaW50KGYiKip7d2R9KiogW3tjYXR9XToge3RvcH0gKHtzdGF0dXN9KSIpCiAgICAgICAgYnJlYWsK" | base64 -d > /tmp/gen_summary.py
+            python3 /tmp/gen_summary.py >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "Plan vorhanden, aber Slot nicht gefunden" >> $GITHUB_STEP_SUMMARY
           else
             echo "⚠️ Kein Wochenplan vorhanden" >> $GITHUB_STEP_SUMMARY
           fi
-
       - name: Notify on failure
         if: failure()
         run: |
