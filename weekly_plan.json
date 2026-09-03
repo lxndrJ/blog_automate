@@ -66,7 +66,9 @@
         "locals Reiseroman"
       ],
       "feeling": "Das Gefühl, zufällig in den Alltag einer ganzen Insel einzutreten.",
-      "image_query": "bus station tropical dawn Fiji early morning"
+      "image_query": "bus station tropical dawn Fiji early morning",
+      "published": true,
+      "published_at": "2026-09-03T09:34:55"
     },
     {
       "day": 5,
