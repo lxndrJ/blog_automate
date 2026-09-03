@@ -9,7 +9,7 @@ und Transparenz.
 topics.py            Kuratierte Themen-Hooks + Duplikat-Prüfung (history.json)
       │
       ▼
-agents/researcher.py  Web-Search (Anthropic Tool) → belegte Fakten + Quellen
+agents/researcher.py  Web-Search (Mistral, Fallback: Anthropic) → belegte Fakten + Quellen
       │
       ▼
 agents/drafter.py     Stimm-Prompt, 450–1100 Wörter, variable Struktur
@@ -39,7 +39,8 @@ Im Pipeline-Repo liegt der Post nur noch in `archive/` als Backup/Nachweis.
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-…
+export MISTRAL_API_KEY=***        # primär
+export ANTHROPIC_API_KEY=sk-ant-…   # optional – Fallback, falls Mistral ausfällt
 
 # Nur Thema + Recherche prüfen
 python orchestrator.py --dry-run
@@ -61,7 +62,8 @@ python orchestrator.py --site-repo /pfad/zu/blog.pandango.de
 **Erforderliche Secrets:**
 | Secret | Zweck |
 |---|---|
-| `ANTHROPIC_API_KEY` | Anthropic API für die 3 Agents |
+| `MISTRAL_API_KEY` | Mistral API für die 3 Agents (primär) |
+| `ANTHROPIC_API_KEY` | Anthropic API – Fallback, wenn Mistral nicht erreichbar ist |
 | `BLOG_SYNC_TOKEN` | GitHub-Personal-Access-Token mit `contents:write` auf `blog.pandango.de` |
 
 ## Timestamps
@@ -82,13 +84,27 @@ Jeder Post erhält den **tatsächlichen Erzeugungszeitpunkt** in der Zone
 - **Quellen-Sektion** in jedem Beitrag + `sources:` im Frontmatter
 - **Transparenz**: `author: lxndrJ`, `ai_assisted: true`, Hinweis am Ende
 
+## LLM-Provider (Mistral primär, Anthropic als Fallback)
+
+Alle Agents nutzen `llm_client.py` als zentralen Zugang:
+
+1. **Mistral** – wird verwendet, wenn `MISTRAL_API_KEY` gesetzt ist
+2. **Anthropic** – Fallback, wenn Mistral ausfällt (oder wenn nur der Anthropic-Key gesetzt ist)
+
+Die Modellnamen in `config.py` können Claude-Namen enthalten – bei Mistral
+werden sie automatisch gemappt (`haiku` → `mistral-small-latest`,
+`sonnet` → `mistral-medium-latest`, `opus` → `mistral-large-latest`).
+Oder man setzt direkt einen Mistral-Namen per Env (siehe Tabelle).
+
 ## Modelle (per Env überschreibbar)
 
 | Rolle | Default | Env |
 |---|---|---|
-| Recherche | `claude-haiku-4-5` | `BLOG_RESEARCH_MODEL` |
-| Entwurf | `claude-haiku-4-5` | `BLOG_DRAFTER_MODEL` |
-| Lektor | `claude-haiku-4-5` | `BLOG_EDITOR_MODEL` |
+| Recherche | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_RESEARCH_MODEL` |
+| Entwurf | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_DRAFTER_MODEL` |
+| Lektor | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_EDITOR_MODEL` |
+
+Mapping-Defaults überschreibbar via `BLOG_MISTRAL_HAIKU` / `BLOG_MISTRAL_SONNET` / `BLOG_MISTRAL_OPUS`.
 
 ## Altes (v1, noch vorhanden)
 

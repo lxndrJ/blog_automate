@@ -2,16 +2,13 @@
 # Agent 2: Entwurf – schreibt den Blogtext auf Basis der Recherche.
 import random
 
-import anthropic
-import os
+import llm_client
 
 from config import DRAFTER_MODEL, DRAFTER_SYSTEM, DRAFTER_BRIEF, MAX_TOKENS, LENGTH_HINT
 
 
 def run(topic: str, context: str, research: str, sources: list[str],
        recent_titles: list[str] | None = None) -> str:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
     # Bewusste Variabilität: 450–1100 Wörter
     words = random.randint(450, 1100)
     length_hint = LENGTH_HINT.format(words=words)
@@ -33,12 +30,11 @@ def run(topic: str, context: str, research: str, sources: list[str],
         length_hint=length_hint,
     ) + title_hint
 
-    response = client.messages.create(
+    text, _ = llm_client.chat(
         model=DRAFTER_MODEL,
-        max_tokens=MAX_TOKENS,
         system=DRAFTER_SYSTEM,
         messages=[{"role": "user", "content": brief}],
+        max_tokens=MAX_TOKENS,
     )
 
-    text = "".join(b.text for b in response.content if b.type == "text").strip()
-    return text
+    return text.strip()

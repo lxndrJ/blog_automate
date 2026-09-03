@@ -15,8 +15,6 @@ import subprocess
 import sys
 from datetime import datetime
 
-os.environ.setdefault("ANTHROPIC_API_KEY", os.getenv("ANTHROPIC_API_KEY", ""))
-
 import topics
 import publisher
 import titles
@@ -241,8 +239,9 @@ def main() -> int:
     if args.site_repo:
         os.environ["BLOG_SITE_REPO"] = args.site_repo
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.", file=sys.stderr)
+    if not (os.environ.get("MISTRAL_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")):
+        print("FEHLER: Weder MISTRAL_API_KEY noch ANTHROPIC_API_KEY ist gesetzt.",
+              file=sys.stderr)
         return 2
 
     # ── DAILY MODUS: 3 Posts (Reise, Kochen/Essen, Work-Life Balance) ──

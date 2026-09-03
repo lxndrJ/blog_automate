@@ -11,7 +11,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-import anthropic
+import llm_client
 
 from config import (
     TOPIC_MODEL,
@@ -88,8 +88,6 @@ def _extract_json(raw: str) -> list[dict]:
 
 def generate_plan(site_repo: str = "") -> dict:
     """Ruft die LLM ab und gibt den Wochenplan als Dict zurück."""
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
     today = datetime.now()
     recent = _recent_posts(site_repo) if site_repo else []
 
@@ -103,13 +101,13 @@ def generate_plan(site_repo: str = "") -> dict:
     )
 
     print("      → LLM-Call läuft …")
-    response = client.messages.create(
+    raw, _ = llm_client.chat(
         model=TOPIC_MODEL,
         max_tokens=8000,
         system=WEEKLY_PLAN_SYSTEM,
         messages=[{"role": "user", "content": brief}],
     )
-    raw = "".join(b.text for b in response.content if b.type == "text").strip()
+    raw = raw.strip()
     slots = _extract_json(raw)
 
     # Validierung: 7 Slots, alle mit topic
@@ -145,8 +143,9 @@ def main() -> int:
                     help="Pfad zum Site-Repo (für Post-Historie)")
     args = ap.parse_args()
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.", file=sys.stderr)
+    if not (os.environ.get("MISTRAL_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")):
+        print("FEHLER: Weder MISTRAL_API_KEY noch ANTHROPIC_API_KEY ist gesetzt.",
+              file=sys.stderr)
         return 2
 
     print(f"\n📅 Wochenplan wird generiert …")

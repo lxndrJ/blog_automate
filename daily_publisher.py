@@ -67,8 +67,9 @@ def main() -> int:
                     help="Auch veröffentlichen, wenn Slot bereits als 'published' markiert ist")
     args = ap.parse_args()
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.", file=sys.stderr)
+    if not (os.environ.get("MISTRAL_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")):
+        print("FEHLER: Weder MISTRAL_API_KEY noch ANTHROPIC_API_KEY ist gesetzt.",
+              file=sys.stderr)
         return 2
 
     # Plan laden

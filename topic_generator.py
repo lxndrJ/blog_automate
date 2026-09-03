@@ -3,11 +3,9 @@
 # Fallback: Falls die API nicht erreichbar ist, greifen die alten Templates.
 
 import json
-import os
-import random
 import sys
 
-import anthropic
+import llm_client
 
 from config import TOPIC_MODEL, CATEGORIES
 
@@ -89,8 +87,7 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
 """
 
     try:
-        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-        response = client.messages.create(
+        raw, _ = llm_client.chat(
             model=TOPIC_MODEL,
             max_tokens=300,
             system="Du bist ein kreativer Themen-Editor für einen deutschsprachigen Blog. "
@@ -98,8 +95,7 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
                    "Kein Marketing-Ton. Kein Generisches.",
             messages=[{"role": "user", "content": prompt}],
         )
-
-        raw = "".join(b.text for b in response.content if b.type == "text").strip()
+        raw = raw.strip()
         # JSON extrahieren (ggf. in Code-Block)
         if raw.startswith("```"):
             raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()

@@ -3,6 +3,9 @@ import os
 
 # --- Modelle (per Env überschreibbar) -------------------------------------
 # Modellnamen können hier je Account/Katalog abweichen – per Env überschreibbar.
+# Hier stehen Claude-Namen, weil Anthropic der Fallback-Provider ist; bei
+# Mistral mappt llm_client.py automatisch (haiku → mistral-small-latest etc.).
+# Alternativ direkt einen Mistral-Namen setzen, z. B. BLOG_DRAFTER_MODEL=mistral-medium-latest.
 RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-haiku-4-5")
 DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-haiku-4-5")
 EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-haiku-4-5")

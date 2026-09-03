@@ -2,8 +2,7 @@
 # Agent 3: Lektor – Fakten-Check, Klischee-Filter, Stimm-Nachschärfung.
 import re
 
-import anthropic
-import os
+import llm_client
 
 from config import EDITOR_MODEL, EDITOR_SYSTEM, EDITOR_BRIEF, MAX_TOKENS
 
@@ -13,22 +12,19 @@ def run(draft: str, research: str, sources: list[str]) -> tuple[str, list[str]]:
 
     Bei Fehlern im Format wird der Entwurf unverändert zurückgegeben.
     """
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
     brief = EDITOR_BRIEF.format(
         draft=draft,
         research=research,
         sources="\n".join(f"- {s}" for s in sources),
     )
 
-    response = client.messages.create(
+    text, _ = llm_client.chat(
         model=EDITOR_MODEL,
-        max_tokens=MAX_TOKENS,
         system=EDITOR_SYSTEM,
         messages=[{"role": "user", "content": brief}],
+        max_tokens=MAX_TOKENS,
     )
 
-    text = "".join(b.text for b in response.content if b.type == "text")
     final, notes = _parse(text, fallback=draft)
     return final, notes
 
