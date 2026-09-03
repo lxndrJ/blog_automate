@@ -83,7 +83,9 @@
         "lokale Zutaten Shanghai"
       ],
       "feeling": "Das Paradoxe: Mitten in der Stadt die Wildnis wiederfinden.",
-      "image_query": "matsutake mushroom forest earth hands picking"
+      "image_query": "matsutake mushroom forest earth hands picking",
+      "published": true,
+      "published_at": "2026-09-03T14:06:49"
     },
     {
       "day": 6,
