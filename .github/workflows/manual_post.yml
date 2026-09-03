@@ -1,0 +1,153 @@
+name: Manual Post (Einzelner Beitrag)
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Thema des Posts (z.B. 'Die neuesten Entwicklungen in Berlin')"
+        required: true
+        type: string
+      category:
+        description: "Kategorie (Reise, Kochen/Essen, Work-Life Balance)"
+        required: false
+        default: "Reise"
+        type: choice
+        options:
+          - Reise
+          - Kochen/Essen
+          - Work-Life Balance
+      context:
+        description: "Zusätzlicher Kontext (optional)"
+        required: false
+        default: ""
+        type: string
+      dry_run:
+        description: "Nur Recherche anzeigen, keinen Post erstellen"
+        required: false
+        default: "false"
+        type: boolean
+      force:
+        description: "Titel-Duplikate ignorieren"
+        required: false
+        default: "false"
+        type: boolean
+
+jobs:
+  create_post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      BLOG_SITE_REPO: ${{ github.workspace }}/site
+      BLOG_BOT_NAME: "lxndrJ[bot]"
+      BLOG_BOT_EMAIL: "actions@github.com"
+
+    steps:
+      - name: Checkout pipeline repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout site repository (blog.pandango.de)
+        uses: actions/checkout@v4
+        with:
+          repository: lxndrJ/blog.pandango.de
+          token: ${{ secrets.BLOG_SYNC_TOKEN }}
+          path: site
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create manual post
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.topic }}" ]; then
+            ARGS="$ARGS --topic ${{ github.event.inputs.topic }}"
+          fi
+          if [ -n "${{ github.event.inputs.category }}" ]; then
+            ARGS="$ARGS --category ${{ github.event.inputs.category }}"
+          fi
+          if [ -n "${{ github.event.inputs.context }}" ]; then
+            ARGS="$ARGS --context ${{ github.event.inputs.context }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          ARGS="$ARGS --site-repo $BLOG_SITE_REPO"
+
+          echo "▶ python orchestrator.py $ARGS"
+          python orchestrator.py $ARGS
+
+      - name: Push site repo (if published)
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.BLOG_SYNC_TOKEN }}
+        run: |
+          cd site
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add _posts
+          if git diff --cached --quiet; then
+            echo "🔄 Site-Repo ohne Änderungen"
+          else
+            git commit -m "Blog: ${{ github.event.inputs.topic }} (Manuell)"
+            git pull --rebase origin main
+            git push origin main
+            echo "✅ Post auf blog.pandango.de veröffentlicht"
+          fi
+
+      - name: Push pipeline repo (archive + log)
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "$BLOG_BOT_NAME"
+          git config user.email "$BLOG_BOT_EMAIL"
+          git add -A _posts archive run_log.jsonl history.json titles.json
+          if git diff --cached --quiet; then
+            echo "🔄 Pipeline-Repo ohne Änderungen"
+          else
+            git commit -m "Manual post: ${{ github.event.inputs.topic }} (Manuell erstellt)"
+            git pull --rebase origin main
+            git push origin main
+            echo "✅ Pipeline-Repo aktualisiert"
+          fi
+
+      - name: Workflow Summary
+        if: always()
+        run: |
+          echo "## 📝 Manual Post" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Thema:** ${{ github.event.inputs.topic }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Kategorie:** ${{ github.event.inputs.category }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "**Modus:** Dry Run (nur Recherche)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Modus:** Veröffentlicht" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Manual Post FAILED" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+          exit 1
