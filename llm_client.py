@@ -62,9 +62,9 @@ def provider_status() -> str:
 
 # Claude-Klasse → passende Mistral-Klasse
 _MISTRAL_CLASS_MAP = {
-    "haiku":  os.getenv("BLOG_MISTRAL_HAIKU",  "mistral-small-latest"),
-    "sonnet": os.getenv("BLOG_MISTRAL_SONNET", "mistral-medium-latest"),
-    "opus":   os.getenv("BLOG_MISTRAL_OPUS",   "mistral-large-latest"),
+    "haiku":  os.getenv("BLOG_MISTRAL_HAIKU",  "mistral-small"),
+    "sonnet": os.getenv("BLOG_MISTRAL_SONNET", "mistral-medium"),
+    "opus":   os.getenv("BLOG_MISTRAL_OPUS",   "mistral-large"),
 }
 
 
@@ -76,7 +76,7 @@ def map_model_to_mistral(model: str) -> str:
     for key, mistral_model in _MISTRAL_CLASS_MAP.items():
         if key in m:
             return mistral_model
-    return os.getenv("BLOG_MISTRAL_DEFAULT_MODEL", "mistral-small-latest")
+    return os.getenv("BLOG_MISTRAL_DEFAULT_MODEL", "mistral-small")
 
 
 # ── Provider-Implementierungen ──────────────────────────────────────────────
@@ -85,7 +85,7 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
     from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
-    from mistralai.client.models import WebSearchTool, MessageInputEntry
+    from mistralai.client.models import WebSearchTool, MessageInputEntry, CompletionArgs
 
     client = Mistral(api_key=mistral_api_key())
 
@@ -106,12 +106,21 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                 content=msg.get("content", "")
             ))
         
+        # Build completion_args for temperature and max_tokens
+        completion_args_data = {}
+        if temperature is not None:
+            completion_args_data["temperature"] = temperature
+        if max_tokens is not None:
+            completion_args_data["max_tokens"] = max_tokens
+        
+        completion_args_param = CompletionArgs(**completion_args_data) if completion_args_data else None
+        
         # Start a new conversation with web_search tool
         conversation = client.beta.conversations.start(
             model=model,
             inputs=input_entries,
             tools=tools,
-            temperature=temperature,
+            completion_args=completion_args_param,
         )
         
         # Get the response from the conversation
