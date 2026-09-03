@@ -84,7 +84,7 @@ def map_model_to_mistral(model: str) -> str:
 def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
-    from mistralai import Mistral  # Lazy-Import: läuft auch ohne Installation
+    from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
 
     client = Mistral(api_key=mistral_api_key())
 

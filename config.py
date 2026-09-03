@@ -5,10 +5,10 @@ import os
 # Standard: Mistral Medium. llm_client.py nutzt Mistral als Primär-Provider;
 # ein direkter Mistral-Modellname wird 1:1 übernommen. Per Env überschreibbar,
 # z. B. BLOG_DRAFTER_MODEL=mistral-large-latest oder claude-sonnet-4-5 (Fallback).
-RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "mistral-medium-latest")
-DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "mistral-medium-latest")
-EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "mistral-medium-latest")
-TOPIC_MODEL    = os.getenv("BLOG_TOPIC_MODEL",    "mistral-medium-latest")
+RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "mistral-small-latest")
+DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "mistral-small-latest")
+EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "mistral-small-latest")
+TOPIC_MODEL    = os.getenv("BLOG_TOPIC_MODEL",    "mistral-small-latest")
 
 TEMPERATURE    = float(os.getenv("BLOG_TEMPERATURE", "0.85"))
 MAX_TOKENS     = int(os.getenv("BLOG_MAX_TOKENS", "4096"))
