@@ -148,7 +148,7 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
         )
         
         # Get the response from the conversation
-        text = (conversation.output_message.content or "").strip()
+        text = (conversation.outputs[0].content or "").strip()
         
         # Extract sources from tool results
         sources: list[str] = []
