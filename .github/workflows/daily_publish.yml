@@ -116,7 +116,14 @@ jobs:
         run: |
           git config user.name  "$BLOG_BOT_NAME"
           git config user.email "$BLOG_BOT_EMAIL"
-          git add -A weekly_plan.json _posts archive run_log.jsonl history.json titles.json
+          # Nur Pfade adden, die tatsächlich existieren (_posts liegt im Site-Repo)
+          PATHS=""
+          for p in weekly_plan.json archive run_log.jsonl history.json titles.json; do
+            if [ -e "$p" ]; then PATHS="$PATHS $p"; fi
+          done
+          if [ -n "$PATHS" ]; then
+            git add -A $PATHS
+          fi
           if git diff --cached --quiet; then
             echo "ℹ️ Pipeline-Repo ohne Änderungen"
           else
