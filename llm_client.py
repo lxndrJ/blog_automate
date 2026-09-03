@@ -67,6 +67,28 @@ _MISTRAL_CLASS_MAP = {
     "opus":   os.getenv("BLOG_MISTRAL_OPUS",   "mistral-large"),
 }
 
+# Mistral model names -> Claude model names (for Anthropic fallback)
+_MISTRAL_TO_CLAUDE_MAP = {
+    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet-20250620"),
+    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-sonnet-20240229"),
+    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-haiku-20240307"),
+}
+
+
+def map_model_to_claude(model: str) -> str:
+    """Mappt ein Mistral-Modell auf einen Claude-Modellnamen (fur Anthropic)."""
+    m = (model or "").lower()
+    # Direct mapping for known Mistral models
+    for mistral_name, claude_name in _MISTRAL_TO_CLAUDE_MAP.items():
+        if mistral_name in m:
+            return claude_name
+    # If it's already a Claude model, return as-is
+    if "claude" in m:
+        return model
+    # Fallback to a sensible default
+    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet-20250620")
+
+
 
 def map_model_to_mistral(model: str) -> str:
     """Mappt ein (ggf. Claude-)Modell auf einen Mistral-Modellnamen."""
@@ -231,7 +253,7 @@ def chat(model: str,
                 return _chat_mistral(map_model_to_mistral(model), messages,
                                      system, max_tokens, temperature, web_search)
             elif provider == "anthropic":
-                return _chat_anthropic(model, messages, system,
+                return _chat_anthropic(map_model_to_claude(model), messages, system,
                                        max_tokens, temperature, web_search)
         except Exception as e:
             errors.append(f"{provider}: {e}")
