@@ -139,17 +139,20 @@ jobs:
           echo "## 📰 Daily Publish" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ -f "weekly_plan.json" ]; then
-            python3 -c "
-          import json
-          from datetime import datetime
-          plan = json.load(open('weekly_plan.json'))
-          day = datetime.now().isoweekday()
-          for s in plan['slots']:
-              if s['day'] == day:
-                  status = '✅ published' if s.get('published') else '⏳ pending'
-                  print(f\"**{s['weekday']}** [{s['category']}]: {s['topic']} ({status})\")
-                  break
-          " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "Plan vorhanden, aber Slot nicht gefunden" >> $GITHUB_STEP_SUMMARY
+            python3 << 'PYSUMMARY'
+            import json
+            from datetime import datetime
+            plan = json.load(open('weekly_plan.json'))
+            day = datetime.now().isoweekday()
+            for s in plan['slots']:
+                if s['day'] == day:
+                    status = '✅ published' if s.get('published') else '⏳ pending'
+                    wd = s['weekday']
+                    cat = s['category']
+                    top = s['topic']
+                    print(f"**{wd}** [{cat}]: {top} ({status})")
+                    break
+            PYSUMMARY
           else
             echo "⚠️ Kein Wochenplan vorhanden" >> $GITHUB_STEP_SUMMARY
           fi
