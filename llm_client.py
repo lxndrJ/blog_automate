@@ -185,8 +185,9 @@ def chat(model: str,
     for i, provider in enumerate(providers):
         try:
             if provider == "mistral":
+                # Mistral unterstützt aktuell kein WebSearchTool - deaktiviere web_search
                 return _chat_mistral(map_model_to_mistral(model), messages,
-                                     system, max_tokens, temperature, web_search)
+                                     system, max_tokens, temperature, False)
             return _chat_anthropic(model, messages, system,
                                    max_tokens, temperature, web_search)
         except Exception as e:
