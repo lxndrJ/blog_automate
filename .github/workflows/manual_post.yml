@@ -75,26 +75,26 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
-          ARGS=""
+          ARGS=()
           if [ -n "${{ github.event.inputs.topic }}" ]; then
-            ARGS="$ARGS --topic "${{ github.event.inputs.topic }}""
+            ARGS+=("--topic" "${{ github.event.inputs.topic }}")
           fi
           if [ -n "${{ github.event.inputs.category }}" ]; then
-            ARGS="$ARGS --category "${{ github.event.inputs.category }}""
+            ARGS+=("--category" "${{ github.event.inputs.category }}")
           fi
           if [ -n "${{ github.event.inputs.context }}" ]; then
-            ARGS="$ARGS --context "${{ github.event.inputs.context }}""
+            ARGS+=("--context" "${{ github.event.inputs.context }}")
           fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            ARGS="$ARGS --dry-run"
+            ARGS+=("--dry-run")
           fi
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            ARGS="$ARGS --force"
+            ARGS+=("--force")
           fi
-          ARGS="$ARGS --site-repo $BLOG_SITE_REPO"
+          ARGS+=("--site-repo" "$BLOG_SITE_REPO")
 
-          echo "▶ python orchestrator.py $ARGS"
-          python orchestrator.py $ARGS
+          echo "▶ python orchestrator.py ${ARGS[*]}"
+          python orchestrator.py "${ARGS[@]}"
 
       - name: Push site repo (if published)
         if: github.event.inputs.dry_run != 'true'
