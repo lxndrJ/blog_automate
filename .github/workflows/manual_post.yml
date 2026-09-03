@@ -77,13 +77,13 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.topic }}" ]; then
-            ARGS="$ARGS --topic ${{ github.event.inputs.topic }}"
+            ARGS="$ARGS --topic "${{ github.event.inputs.topic }}""
           fi
           if [ -n "${{ github.event.inputs.category }}" ]; then
-            ARGS="$ARGS --category ${{ github.event.inputs.category }}"
+            ARGS="$ARGS --category "${{ github.event.inputs.category }}""
           fi
           if [ -n "${{ github.event.inputs.context }}" ]; then
-            ARGS="$ARGS --context ${{ github.event.inputs.context }}"
+            ARGS="$ARGS --context "${{ github.event.inputs.context }}""
           fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             ARGS="$ARGS --dry-run"
