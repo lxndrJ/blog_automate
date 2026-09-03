@@ -94,15 +94,15 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
         tools = [WebSearchTool()]
         
         # Convert messages to MessageInputEntry format for conversations API
+        # Note: Conversations API does NOT support role="system" - use instructions param instead
         input_entries = []
-        if system:
-            input_entries.append(MessageInputEntry(
-                role="system",
-                content=system
-            ))
         for msg in messages:
+            # Only user and assistant roles are allowed in conversations API
+            role = msg.get("role", "user")
+            if role == "system":
+                continue  # Skip system messages, use instructions instead
             input_entries.append(MessageInputEntry(
-                role=msg.get("role", "user"),
+                role=role,
                 content=msg.get("content", "")
             ))
         
@@ -116,11 +116,13 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
         completion_args_param = CompletionArgs(**completion_args_data) if completion_args_data else None
         
         # Start a new conversation with web_search tool
+        # System prompt goes in instructions parameter, not as a message
         conversation = client.beta.conversations.start(
             model=model,
             inputs=input_entries,
             tools=tools,
             completion_args=completion_args_param,
+            instructions=system if system else None,
         )
         
         # Get the response from the conversation
