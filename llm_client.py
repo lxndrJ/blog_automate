@@ -69,9 +69,9 @@ _MISTRAL_CLASS_MAP = {
 
 # Mistral model names -> Claude model names (for Anthropic fallback)
 _MISTRAL_TO_CLAUDE_MAP = {
-    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet-20250620"),
-    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-sonnet-20240229"),
-    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-haiku-20240307"),
+    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-4-5-haiku"),
+    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-4-5-haiku"),
+    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-4-5-haiku"),
 }
 
 
@@ -86,7 +86,7 @@ def map_model_to_claude(model: str) -> str:
     if "claude" in m:
         return model
     # Fallback to a sensible default
-    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet-20250620")
+    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-4-5-haiku")
 
 
 
@@ -98,7 +98,7 @@ def map_model_to_mistral(model: str) -> str:
     for key, mistral_model in _MISTRAL_CLASS_MAP.items():
         if key in m:
             return mistral_model
-    return os.getenv("BLOG_MISTRAL_DEFAULT_MODEL", "mistral-small")
+    return os.getenv("BLOG_MISTRAL_DEFAULT_MODEL", "mistral-large-latest")
 
 
 # ── Provider-Implementierungen ──────────────────────────────────────────────
