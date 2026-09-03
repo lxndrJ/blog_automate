@@ -85,7 +85,7 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
     from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
-    from mistralai.client.models import WebSearchTool
+    from mistralai.client.models import WebSearchTool, MessageInputEntry
 
     client = Mistral(api_key=mistral_api_key())
 
@@ -93,10 +93,23 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
     if web_search:
         tools = [WebSearchTool()]
         
+        # Convert messages to MessageInputEntry format for conversations API
+        input_entries = []
+        if system:
+            input_entries.append(MessageInputEntry(
+                role="system",
+                content=system
+            ))
+        for msg in messages:
+            input_entries.append(MessageInputEntry(
+                role=msg.get("role", "user"),
+                content=msg.get("content", "")
+            ))
+        
         # Start a new conversation with web_search tool
         conversation = client.beta.conversations.start(
             model=model,
-            messages=messages,
+            inputs=input_entries,
             tools=tools,
             temperature=temperature,
         )
