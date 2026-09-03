@@ -85,40 +85,59 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
     from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
+    from mistralai.client.models import WebSearchTool
 
     client = Mistral(api_key=mistral_api_key())
 
-    all_messages = []
-    if system:
-        all_messages.append({"role": "system", "content": system})
-    all_messages.extend(messages)
+    # Use conversations API for web_search to enable stateful interactions
+    if web_search:
+        tools = [WebSearchTool()]
+        
+        # Start a new conversation with web_search tool
+        conversation = client.beta.conversations.start(
+            model=model,
+            messages=messages,
+            tools=tools,
+            temperature=temperature,
+        )
+        
+        # Get the response from the conversation
+        text = (conversation.output_message.content or "").strip()
+        
+        # Extract sources from tool results
+        sources: list[str] = []
+        if hasattr(conversation, 'tool_results') and conversation.tool_results:
+            for tool_result in conversation.tool_results:
+                if hasattr(tool_result, 'content') and tool_result.content:
+                    for item in tool_result.content:
+                        if hasattr(item, 'url'):
+                            url = item.url
+                            if url and url not in sources:
+                                sources.append(url)
+        
+        return text, sources
+    else:
+        # Standard chat completion without web_search
+        all_messages = []
+        if system:
+            all_messages.append({"role": "system", "content": system})
+        all_messages.extend(messages)
 
-    kwargs: dict = {}
-    if temperature is not None:
-        kwargs["temperature"] = temperature
-    # Web-Search ist aktuell nicht mit der mistralai-Bibliothek kompatibel
-    # (Fehler: "WebSearchTool connector is not supported")
-    # Deaktiviert bis zur Klärung
-    # if web_search:
-    #     kwargs["tools"] = [{"type": "web_search", "name": "web_search", "max_results": 5}]
+        kwargs: dict = {}
+        if temperature is not None:
+            kwargs["temperature"] = temperature
 
-    resp = client.chat.complete(
-        model=model,
-        messages=all_messages,
-        max_tokens=max_tokens,
-        **kwargs,
-    )
+        resp = client.chat.complete(
+            model=model,
+            messages=all_messages,
+            max_tokens=max_tokens,
+            **kwargs,
+        )
 
-    text = (resp.choices[0].message.content or "").strip()
-
-    # Quellen aus den server-side Search-Ergebnissen
-    sources: list[str] = []
-    for sr in getattr(resp, "search_results", None) or []:
-        url = getattr(sr, "url", None)
-        if url and url not in sources:
-            sources.append(url)
-
-    return text, sources
+        text = (resp.choices[0].message.content or "").strip()
+        sources: list[str] = []
+        
+        return text, sources
 
 
 def _chat_anthropic(model: str, messages: list[dict], system: str,
@@ -185,9 +204,8 @@ def chat(model: str,
     for i, provider in enumerate(providers):
         try:
             if provider == "mistral":
-                # Mistral unterstützt aktuell kein WebSearchTool - deaktiviere web_search
                 return _chat_mistral(map_model_to_mistral(model), messages,
-                                     system, max_tokens, temperature, False)
+                                     system, max_tokens, temperature, web_search)
             return _chat_anthropic(model, messages, system,
                                    max_tokens, temperature, web_search)
         except Exception as e:
