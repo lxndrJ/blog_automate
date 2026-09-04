@@ -190,20 +190,25 @@ class MistralProvider(BaseProvider):
             # sonstige Agents-API-Fehler → graceful Fallback auf Standard-Chat.
             err_body = str(e)
             import sys
+            # Detaillierte Fehlerdiagnose loggen
+            detail_parts = [f"  \u26a0 Mistral Agents-API-Fehler: {type(e).__name__}"]
+            if hasattr(e, "body"):
+                detail_parts.append(f"    API-Body: {e.body}")
+            if hasattr(e, "status_code"):
+                detail_parts.append(f"    HTTP-Status: {e.status_code}")
+            detail_parts.append(f"    Detail: {err_body[:300]}")
+            
             if "WebSearchTool" in err_body or "1800" in err_body or "not supported" in err_body:
-                print(
-                    "  \u26a0 Mistral WebSearchTool nicht aktiviert \u2013 "
-                    "Fallback auf Standard-Chat (ohne Web-Suche).\n"
-                    "    Tipp: Connector im Mistral-Dashboard aktivieren, "
-                    "um Web-Suche zu nutzen.",
-                    file=sys.stderr,
+                detail_parts.append(
+                    "    \u2192 WebSearchTool-Connector ist f\u00fcr dieses Konto NICHT aktiviert.\n"
+                    "    \u2192 Aktivierung: https://console.mistral.ai \u2192 Connectors \u2192 WebSearchTool \u2192 Enable\n"
+                    "    \u2192 Fallback auf Standard-Chat (ohne Web-Suche) \u2013 Pipeline f\u00e4hrt fort."
                 )
             else:
-                print(
-                    f"  \u26a0 Mistral Agents-API-Fehler ({err_body[:120]}) \u2013 "
-                    "Fallback auf Standard-Chat.",
-                    file=sys.stderr,
+                detail_parts.append(
+                    "    \u2192 Fallback auf Standard-Chat (ohne Web-Suche) \u2013 Pipeline f\u00e4hrt fort."
                 )
+            print("\n".join(detail_parts), file=sys.stderr)
             return self._chat_standard(model, messages, system, max_tokens, temperature)
 
         finally:
