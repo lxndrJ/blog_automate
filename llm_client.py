@@ -1,78 +1,35 @@
-# llm_client.py – zentraler LLM-Zugang: Anthropic (Claude) als einziger Provider.
+# llm_client.py – zentrale, STABLE LLM-Schnittstelle (dünne Fassade).
 #
-# Alle Agents/Module rufen stattdessen `llm_client.chat(...)` auf.
+# Alle Agents/Module rufen NUR `llm_client.chat(...)` auf. Die eigentliche
+# Provider-Logik (Anthropic, Mistral, Ollama) lebt isoliert in providers/
+# und wird vom router.py gewählt – inkl. Fallback. So bricht ein defekter
+# Provider die anderen nicht.
 #
-# Provider:
-#   Anthropic (wenn ANTHROPIC_API_KEY gesetzt)
+# Routing (Env BLOG_LLM_PROVIDER):
+#   - "auto" (Default): anthropic → mistral → ollama, nächster verfügbarer wird genutzt
+#   - "anthropic" | "mistral" | "ollama": nur dieser Provider
 #
-# Modellnamen: In config.py stehen Claude-Modellnamen (z. B. "claude-haiku-4-5").
-# Sie werden 1:1 an die Anthropic-API übergeben.
-
-import os
+# Modellnamen in config.py bleiben Claude-Namen. Jeder Provider übersetzt sie
+# selbst (resolve_model) oder nutzt einen eigenen Override:
+#   BLOG_MISTRAL_MODEL, BLOG_OLLAMA_MODEL, OLLAMA_BASE_URL.
 import re
 
-# ── Key ─────────────────────────────────────────────────────────────────────
-
-def anthropic_api_key() -> str:
-    return os.getenv("ANTHROPIC_API_KEY", "").strip()
-
-
-def require_provider() -> None:
-    """Fehlermeldung, wenn kein API-Key vorhanden ist."""
-    if not anthropic_api_key():
-        raise RuntimeError(
-            "ANTHROPIC_API_KEY ist nicht gesetzt. "
-            "Setze den API-Key, um die LLM-Pipeline zu starten."
-        )
+import router
 
 
 def provider_status() -> str:
     """Kurze Beschreibung der Konfiguration (für Logs)."""
-    if anthropic_api_key():
-        return "Anthropic (Claude)"
-    return "KEIN Provider konfiguriert"
+    return router.provider_status()
 
 
-# ── Provider-Implementierung ────────────────────────────────────────────────
+def require_provider() -> None:
+    """Fehler, wenn kein Provider verfügbar ist (Backward-Compat-Helper)."""
+    if not router.available_providers():
+        raise RuntimeError(
+            "Kein LLM-Provider konfiguriert/verfügbar. Setze z. B. "
+            "ANTHROPIC_API_KEY oder starte Ollama (BLOG_LLM_PROVIDER=ollama)."
+        )
 
-def _chat_anthropic(model: str, messages: list[dict], system: str,
-                    max_tokens: int, temperature: float | None,
-                    web_search: bool) -> tuple[str, list[str]]:
-    import anthropic
-
-    client = anthropic.Anthropic(api_key=anthropic_api_key())
-
-    kwargs: dict = {}
-    if system:
-        kwargs["system"] = system
-    if temperature is not None:
-        kwargs["temperature"] = temperature
-    if web_search:
-        kwargs["tools"] = [
-            {"type": "web_search_20250305", "name": "web_search", "max_uses": 5}
-        ]
-
-    resp = client.messages.create(
-        model=model,
-        max_tokens=max_tokens,
-        messages=messages,
-        **kwargs,
-    )
-
-    text = "".join(b.text for b in resp.content if b.type == "text").strip()
-
-    sources: list[str] = []
-    for block in resp.content:
-        if getattr(block, "type", None) == "web_search_tool_result":
-            for hit in getattr(block, "content", []) or []:
-                url = getattr(hit, "url", None)
-                if url and url not in sources:
-                    sources.append(url)
-
-    return text, sources[:10]
-
-
-# ── Öffentliche API ─────────────────────────────────────────────────────────
 
 def chat(model: str,
          messages: list[dict],
@@ -80,22 +37,23 @@ def chat(model: str,
          max_tokens: int = 4096,
          temperature: float | None = None,
          web_search: bool = False) -> tuple[str, list[str]]:
-    """LLM-Call über Anthropic (Claude).
+    """LLM-Call über den (automatisch gewählten) Provider.
+
+    Signatur unverändert – Agenten merken nichts vom Provider-Wechsel.
 
     Args:
-        model:        Claude-Modellname (z. B. "claude-haiku-4-5")
+        model:        Modellname (Claude-Name; Provider übersetzt selbst)
         messages:     [{"role": "user", "content": "..."}, ...]
         system:       System-Prompt (optional)
         max_tokens:   Max. Antwort-Länge
         temperature:  Sampling-Temperatur (None = Provider-Default)
-        web_search:   Server-seitige Web-Suche aktivieren
+        web_search:   Server-seitige Web-Suche aktivieren (falls unterstützt)
 
     Returns:
-        (text, sources) – sources ist eine Liste von URLs (nur bei web_search)
+        (text, sources) – sources ist eine Liste von URLs (leer, wenn keine)
     """
-    require_provider()
-    return _chat_anthropic(model, messages, system,
-                           max_tokens, temperature, web_search)
+    return router.chat(model, messages, system,
+                       max_tokens, temperature, web_search)
 
 
 def extract_urls(text: str, limit: int = 10) -> list[str]:

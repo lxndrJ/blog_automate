@@ -2,9 +2,11 @@
 import os
 
 # --- Modelle (per Env überschreibbar) -------------------------------------
-# Standard: Claude Haiku 4.5. llm_client.py nutzt Anthropic als einzigen
-# Provider; Claude-Modellnamen werden 1:1 übernommen. Per Env überschreibbar,
-# z. B. BLOG_DRAFTER_MODEL=claude-sonnet-4-5.
+# Standard: Claude Haiku 4.5. llm_client.py ist eine dünne Fassade über
+# providers/ (anthropic, mistral, ollama) + router.py. Claude-Modellnamen
+# werden 1:1 an Anthropic übergeben; andere Provider mappen/übersetzen sie
+# selbst (BLOG_MISTRAL_MODEL, BLOG_OLLAMA_MODEL). Per Env überschreibbar,
+# z. B. BLOG_DRAFTER_MODEL=claude-sonnet-4-5. Provider wählen: BLOG_LLM_PROVIDER.
 RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-haiku-4-5")
 DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-haiku-4-5")
 EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-haiku-4-5")

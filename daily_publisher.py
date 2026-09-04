@@ -12,6 +12,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import router
+
 from config import WEEKLY_PLAN_FILE
 
 
@@ -67,8 +69,9 @@ def main() -> int:
                     help="Auch veröffentlichen, wenn Slot bereits als 'published' markiert ist")
     args = ap.parse_args()
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.",
+    if not router.available_providers():
+        print("FEHLER: Kein LLM-Provider verfügbar. Setze ANTHROPIC_API_KEY "
+              "oder MISTRAL_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
               file=sys.stderr)
         return 2
 

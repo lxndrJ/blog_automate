@@ -9,7 +9,7 @@ und Transparenz.
 topics.py            Kuratierte Themen-Hooks + Duplikat-Prüfung (history.json)
       │
       ▼
-agents/researcher.py  Web-Search (Mistral, Fallback: Anthropic) → belegte Fakten + Quellen
+agents/researcher.py  Web-Search (via LLM-Provider) → belegte Fakten + Quellen
       │
       ▼
 agents/drafter.py     Stimm-Prompt, 450–1100 Wörter, variable Struktur
@@ -39,8 +39,15 @@ Im Pipeline-Repo liegt der Post nur noch in `archive/` als Backup/Nachweis.
 
 ```bash
 pip install -r requirements.txt
-export MISTRAL_API_KEY=***        # primär
-export ANTHROPIC_API_KEY=sk-ant-…   # optional – Fallback, falls Mistral ausfällt
+
+# Provider wählen (Default: auto = anthropic → mistral → ollama, nächster verfügbarer)
+# Mindestens EINEN Provider verfügbar machen:
+export ANTHROPIC_API_KEY=sk-ant-…    # Claude (empfohlen, läuft stabil)
+# export MISTRAL_API_KEY=***         # Mistral
+# bzw. lokal: Ollama starten (kein Key nötig) + export BLOG_LLM_PROVIDER=ollama
+
+# Optional: Provider explizit fixieren
+# export BLOG_LLM_PROVIDER=anthropic   # nur Anthropic, kein Fallback
 
 # Nur Thema + Recherche prüfen
 python orchestrator.py --dry-run
@@ -62,8 +69,9 @@ python orchestrator.py --site-repo /pfad/zu/blog.pandango.de
 **Erforderliche Secrets:**
 | Secret | Zweck |
 |---|---|
-| `MISTRAL_API_KEY` | Mistral API für die 3 Agents (primär) |
-| `ANTHROPIC_API_KEY` | Anthropic API – Fallback, wenn Mistral nicht erreichbar ist |
+| `ANTHROPIC_API_KEY` | Anthropic (Claude) – stabiler Default-Provider |
+| `MISTRAL_API_KEY` | Mistral – optional, Fallback/Alternative |
+| `BLOG_LLM_PROVIDER` | optional: `auto` (Default) / `anthropic` / `mistral` / `ollama` |
 | `BLOG_SYNC_TOKEN` | GitHub-Personal-Access-Token mit `contents:write` auf `blog.pandango.de` |
 
 ## Timestamps
@@ -84,27 +92,44 @@ Jeder Post erhält den **tatsächlichen Erzeugungszeitpunkt** in der Zone
 - **Quellen-Sektion** in jedem Beitrag + `sources:` im Frontmatter
 - **Transparenz**: `author: lxndrJ`, `ai_assisted: true`, Hinweis am Ende
 
-## LLM-Provider (Mistral primär, Anthropic als Fallback)
+## LLM-Provider (Anthropic, Mistral, Ollama – isoliert)
 
-Alle Agents nutzen `llm_client.py` als zentralen Zugang:
+Alle Agents nutzen `llm_client.py` als **einzige, stabile Schnittstelle**
+(`llm_client.chat(...)`). Dahinter liegt eine Provider-Abstraktion:
 
-1. **Mistral** – wird verwendet, wenn `MISTRAL_API_KEY` gesetzt ist
-2. **Anthropic** – Fallback, wenn Mistral ausfällt (oder wenn nur der Anthropic-Key gesetzt ist)
+```
+llm_client.py            dünne Fassade (chat, extract_urls) – Agents rufen nur hier an
+   ▼
+router.py                wählt Provider (BLOG_LLM_PROVIDER) + Fallback-Logik
+   ├── providers/anthropic_provider.py   stabil, 1:1 der bewährte Claude-Pfad
+   ├── providers/mistral_provider.py     Mistral-Quirks isoliert in einer Datei
+   └── providers/ollama_provider.py      lokale Modelle (kein Key nötig)
+```
 
-Die Modellnamen in `config.py` können Claude-Namen enthalten – bei Mistral
-werden sie automatisch gemappt (`haiku` → `mistral-small-latest`,
-`sonnet` → `mistral-medium-latest`, `opus` → `mistral-large-latest`).
-Oder man setzt direkt einen Mistral-Namen per Env (siehe Tabelle).
+**Routing** (Env `BLOG_LLM_PROVIDER`):
+- `auto` (Default): `anthropic → mistral → ollama`. Der nächste **verfügbare**
+  Provider wird genutzt. Ein defekter Provider (Key fehlt, SDK fehlt, API-Fehler,
+  Server down) bricht die anderen **nicht**.
+- `anthropic` / `mistral` / `ollama`: nur dieser Provider, sonst klare Fehlermeldung.
+
+**Verfügbarkeit:** Anthropic → `ANTHROPIC_API_KEY` + SDK. Mistral → `MISTRAL_API_KEY`
++ `mistralai`. Ollama → laufender Server (`OLLAMA_BASE_URL`, Default
+`http://localhost:11434`).
+
+**Modellnamen:** In `config.py` stehen Claude-Namen. Anthropic nimmt sie 1:1.
+Mistral/Ollama übersetzen sie selbst (`resolve_model`) oder nutzen einen Override:
+`BLOG_MISTRAL_MODEL`, `BLOG_OLLAMA_MODEL`.
 
 ## Modelle (per Env überschreibbar)
 
-| Rolle | Default | Env |
+| Rolle | Default (Claude) | Env |
 |---|---|---|
-| Recherche | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_RESEARCH_MODEL` |
-| Entwurf | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_DRAFTER_MODEL` |
-| Lektor | `claude-haiku-4-5` → `mistral-small-latest` | `BLOG_EDITOR_MODEL` |
+| Recherche | `claude-haiku-4-5` | `BLOG_RESEARCH_MODEL` |
+| Entwurf | `claude-haiku-4-5` | `BLOG_DRAFTER_MODEL` |
+| Lektor | `claude-haiku-4-5` | `BLOG_EDITOR_MODEL` |
+| Themen | `claude-haiku-4-5` | `BLOG_TOPIC_MODEL` |
 
-Mapping-Defaults überschreibbar via `BLOG_MISTRAL_HAIKU` / `BLOG_MISTRAL_SONNET` / `BLOG_MISTRAL_OPUS`.
+Provider-Overrides: `BLOG_MISTRAL_MODEL`, `BLOG_OLLAMA_MODEL`, `OLLAMA_BASE_URL`.
 
 ## Altes (v1, noch vorhanden)
 

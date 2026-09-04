@@ -18,6 +18,7 @@ from datetime import datetime
 import topics
 import publisher
 import titles
+import router
 import topic_generator
 from agents import researcher, drafter, editor
 
@@ -239,8 +240,9 @@ def main() -> int:
     if args.site_repo:
         os.environ["BLOG_SITE_REPO"] = args.site_repo
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.",
+    if not router.available_providers():
+        print("FEHLER: Kein LLM-Provider verfügbar. Setze ANTHROPIC_API_KEY "
+              "oder MISTRAL_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
               file=sys.stderr)
         return 2
 

@@ -12,6 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 import llm_client
+import router
 
 from config import (
     TOPIC_MODEL,
@@ -143,8 +144,9 @@ def main() -> int:
                     help="Pfad zum Site-Repo (für Post-Historie)")
     args = ap.parse_args()
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.",
+    if not router.available_providers():
+        print("FEHLER: Kein LLM-Provider verfügbar. Setze ANTHROPIC_API_KEY "
+              "oder MISTRAL_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
               file=sys.stderr)
         return 2
 
