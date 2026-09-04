@@ -68,19 +68,18 @@ def chat(model: str,
     Gleiche Signatur wie bisherige llm_client.chat() – Agenten merken nichts.
     """
     providers, requested = _ordered_providers()
-    last_error: Exception | None = None
+    errors: list[str] = []
 
     for p in providers:
         try:
             if not p.is_available():
-                last_error = last_error or RuntimeError(
-                    f"Provider '{p.name}' nicht verfügbar (Key/SDK/Server fehlt)."
-                )
+                msg = f"Provider '{p.name}' nicht verfügbar (Key/SDK/Server fehlt)."
+                errors.append(msg)
                 if requested != "auto":
                     break
                 continue
         except Exception as e:  # is_available selbst darf nichts brechen
-            last_error = e
+            errors.append(f"Provider '{p.name}' is_available-Fehler: {e}")
             if requested != "auto":
                 break
             continue
@@ -89,7 +88,7 @@ def chat(model: str,
             return p.chat(model, messages, system,
                           max_tokens, temperature, web_search)
         except Exception as e:
-            last_error = e
+            errors.append(f"Provider '{p.name}' fehlgeschlagen: {e}")
             if requested != "auto":
                 # Explizit gewählter Provider → Fehler klar weiterreichen.
                 raise RuntimeError(
@@ -98,11 +97,11 @@ def chat(model: str,
             # auto-Modus: nächsten Provider versuchen.
             continue
 
-    if last_error is not None:
+    if errors:
         raise RuntimeError(
-            "Kein LLM-Provider hat den Call erfolgreich ausgeführt. "
-            f"Letzter Fehler: {last_error}"
-        ) from last_error
+            "Kein LLM-Provider hat den Call erfolgreich ausgeführt.\n"
+            + "\n".join(f"  - {e}" for e in errors)
+        )
 
     raise RuntimeError(
         "Kein LLM-Provider konfiguriert/verfügbar. Setze z. B. ANTHROPIC_API_KEY "

@@ -33,6 +33,20 @@ def _api_key() -> str:
     return os.getenv("MISTRAL_API_KEY", "").strip()
 
 
+def _import_mistral():
+    """Mistral-Client importieren (kompatibel zu SDK 1.x und 2.x).
+
+    - mistralai >= 2.0:  from mistralai.client import Mistral
+    - mistralai <  2.0:  from mistralai import Mistral
+    """
+    try:
+        from mistralai.client import Mistral  # SDK >= 2.0
+        return Mistral
+    except Exception:
+        from mistralai import Mistral  # SDK < 2.0
+        return Mistral
+
+
 def _extract_urls(text: str, limit: int = 10) -> list[str]:
     """URLs aus Freitext ziehen (Web-Suche-Quellen)."""
     urls: list[str] = []
@@ -50,7 +64,7 @@ class MistralProvider(BaseProvider):
         if not _api_key():
             return False
         try:
-            from mistralai.client import Mistral  # noqa: F401
+            _import_mistral()  # noqa: F841
             return True
         except Exception:
             return False
@@ -95,7 +109,7 @@ class MistralProvider(BaseProvider):
     def _chat_standard(self, model: str, messages: list[dict],
                        system: str, max_tokens: int,
                        temperature: float | None) -> tuple[str, list[str]]:
-        from mistralai.client import Mistral
+        Mistral = _import_mistral()
 
         client = Mistral(api_key=_api_key())
 
@@ -131,7 +145,7 @@ class MistralProvider(BaseProvider):
         code 1800), fällt automatisch auf Standard-Chat zurück – die
         Pipeline bleibt funktionsfähig, nur ohne frische Web-Quellen.
         """
-        from mistralai.client import Mistral
+        Mistral = _import_mistral()
 
         client = Mistral(api_key=_api_key())
         agent_id: str | None = None
