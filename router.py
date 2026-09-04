@@ -27,7 +27,7 @@ def _ordered_providers():
     requested = _requested()
     by_name = {c.name: c for c in _PRIORITY}
     if requested in by_name:
-        return [by_name[requested]], requested
+        return [by_name[requested]()], requested  # Instanz anlegen, nicht Klasse
     return [c() for c in _PRIORITY], requested
 
 
