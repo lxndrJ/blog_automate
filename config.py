@@ -2,14 +2,13 @@
 import os
 
 # --- Modelle (per Env überschreibbar) -------------------------------------
-# Standard: Mistral Large für Mistral, Claude 4.5 Haiku für Anthropic
-# llm_client.py nutzt Mistral als Primär-Provider;
-# ein direkter Mistral-Modellname wird 1:1 übernommen. Per Env überschreibbar,
-# z. B. BLOG_DRAFTER_MODEL=mistral-large oder claude-4-5-haiku (Fallback).
-RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "mistral-large-latest")
-DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "mistral-large-latest")
-EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "mistral-large-latest")
-TOPIC_MODEL    = os.getenv("BLOG_TOPIC_MODEL",    "mistral-large-latest")
+# Standard: Claude Haiku 4.5. llm_client.py nutzt Anthropic als einzigen
+# Provider; Claude-Modellnamen werden 1:1 übernommen. Per Env überschreibbar,
+# z. B. BLOG_DRAFTER_MODEL=claude-sonnet-4-5.
+RESEARCH_MODEL = os.getenv("BLOG_RESEARCH_MODEL", "claude-haiku-4-5")
+DRAFTER_MODEL  = os.getenv("BLOG_DRAFTER_MODEL",  "claude-haiku-4-5")
+EDITOR_MODEL   = os.getenv("BLOG_EDITOR_MODEL",   "claude-haiku-4-5")
+TOPIC_MODEL    = os.getenv("BLOG_TOPIC_MODEL",    "claude-haiku-4-5")
 
 TEMPERATURE    = float(os.getenv("BLOG_TEMPERATURE", "0.85"))
 MAX_TOKENS     = int(os.getenv("BLOG_MAX_TOKENS", "4096"))

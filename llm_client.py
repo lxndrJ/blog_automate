@@ -1,169 +1,39 @@
-# llm_client.py – zentraler LLM-Zugang: Mistral primär, Anthropic als Fallback.
+# llm_client.py – zentraler LLM-Zugang: Anthropic (Claude) als einziger Provider.
 #
 # Alle Agents/Module rufen stattdessen `llm_client.chat(...)` auf.
 #
-# Priorität:
-#   1. Mistral  (wenn MISTRAL_API_KEY gesetzt)
-#   2. Anthropic (wenn ANTHROPIC_API_KEY gesetzt)
+# Provider:
+#   Anthropic (wenn ANTHROPIC_API_KEY gesetzt)
 #
-# Fällt Mistral aus (Netzwerk, Rate-Limit, Auth-Fehler), wird derselbe Call
-# automatisch über Anthropic wiederholt. Ist nur ein Key gesetzt, läuft
-# einfach nur dieser Provider.
-#
-# Modell-Mapping: In config.py dürfen weiterhin Claude-Modellnamen stehen
-# (z. B. "claude-haiku-4-5") – bei Mistral werden sie automatisch auf die
-# passende Mistral-Klasse gemappt. Oder man setzt direkt einen Mistral-Namen
-# (z. B. BLOG_DRAFTER_MODEL=mistral-medium-latest).
+# Modellnamen: In config.py stehen Claude-Modellnamen (z. B. "claude-haiku-4-5").
+# Sie werden 1:1 an die Anthropic-API übergeben.
 
 import os
 import re
-import sys
 
-# ── Keys ────────────────────────────────────────────────────────────────────
-
-def mistral_api_key() -> str:
-    return os.getenv("MISTRAL_API_KEY", "").strip()
-
+# ── Key ─────────────────────────────────────────────────────────────────────
 
 def anthropic_api_key() -> str:
     return os.getenv("ANTHROPIC_API_KEY", "").strip()
 
 
-def available_providers() -> list[str]:
-    """Gibt die verfügbaren Provider in Prioritätsreihenfolge zurück."""
-    providers = []
-    if mistral_api_key():
-        providers.append("mistral")
-    if anthropic_api_key():
-        providers.append("anthropic")
-    return providers
-
-
 def require_provider() -> None:
-    """Fehlermeldung, wenn gar kein API-Key vorhanden ist."""
-    if not available_providers():
+    """Fehlermeldung, wenn kein API-Key vorhanden ist."""
+    if not anthropic_api_key():
         raise RuntimeError(
-            "Kein LLM-API-Key gesetzt. Setze mindestens MISTRAL_API_KEY "
-            "(primär) oder ANTHROPIC_API_KEY (Fallback)."
+            "ANTHROPIC_API_KEY ist nicht gesetzt. "
+            "Setze den API-Key, um die LLM-Pipeline zu starten."
         )
 
 
 def provider_status() -> str:
     """Kurze Beschreibung der Konfiguration (für Logs)."""
-    providers = available_providers()
-    if len(providers) == 2:
-        return "Mistral (Anthropic als Fallback)"
-    if providers:
-        return providers[0]
+    if anthropic_api_key():
+        return "Anthropic (Claude)"
     return "KEIN Provider konfiguriert"
 
 
-# ── Modell-Mapping ──────────────────────────────────────────────────────────
-
-# Claude-Klasse → passende Mistral-Klasse
-_MISTRAL_CLASS_MAP = {
-    "haiku":  os.getenv("BLOG_MISTRAL_HAIKU",  "mistral-small"),
-    "sonnet": os.getenv("BLOG_MISTRAL_SONNET", "mistral-medium"),
-    "opus":   os.getenv("BLOG_MISTRAL_OPUS",   "mistral-large"),
-}
-
-# Mistral model names -> Claude model names (for Anthropic fallback)
-_MISTRAL_TO_CLAUDE_MAP = {
-    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet"),
-    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-5-sonnet"),
-    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-haiku"),
-}
-
-
-def map_model_to_claude(model: str) -> str:
-    """Mappt ein Mistral-Modell auf einen Claude-Modellnamen (fur Anthropic)."""
-    m = (model or "").lower()
-    # Direct mapping for known Mistral models
-    for mistral_name, claude_name in _MISTRAL_TO_CLAUDE_MAP.items():
-        if mistral_name in m:
-            return claude_name
-    # If it's already a Claude model, return as-is
-    if "claude" in m:
-        return model
-    # Fallback to a sensible default
-    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet")
-
-
-
-def map_model_to_mistral(model: str) -> str:
-    """Mappt ein (ggf. Claude-)Modell auf einen Mistral-Modellnamen."""
-    m = (model or "").lower()
-    if "mistral" in m or "open-mistral" in m:
-        return model  # bereits ein Mistral-Modell
-    for key, mistral_model in _MISTRAL_CLASS_MAP.items():
-        if key in m:
-            return mistral_model
-    return os.getenv("BLOG_MISTRAL_DEFAULT_MODEL", "mistral-large-latest")
-
-
-# ── Provider-Implementierungen ──────────────────────────────────────────────
-
-def _chat_mistral(model: str, messages: list[dict], system: str,
-                  max_tokens: int, temperature: float | None,
-                  web_search: bool) -> tuple[str, list[str]]:
-    from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
-
-    client = Mistral(api_key=mistral_api_key())
-
-    all_messages = []
-    if system:
-        all_messages.append({"role": "system", "content": system})
-    all_messages.extend(messages)
-
-    kwargs: dict = {}
-    if temperature is not None:
-        kwargs["temperature"] = temperature
-
-    # Note: Mistral's chat API does not support WebSearchTool with most models.
-    # Web search is only available through the conversations API or with specific models.
-    # For now, we skip web search for Mistral and rely on Anthropic fallback.
-    # If web_search is requested but not supported, we just do a regular chat completion.
-    # The researcher will extract URLs from the text as a fallback.
-
-    resp = client.chat.complete(
-        model=model,
-        messages=all_messages,
-        max_tokens=max_tokens,
-        **kwargs,
-    )
-
-    # Get the assistant message from the response
-    choice = resp.choices[0]
-    assistant_msg = choice.message
-    
-    # Handle content which can be a string or a list of content chunks
-    if assistant_msg is None:
-        text = ""
-    elif isinstance(assistant_msg.content, str):
-        text = assistant_msg.content
-    elif isinstance(assistant_msg.content, list):
-        # Content is a list of chunks, extract text from TextChunk and ReferenceChunk
-        text_parts = []
-        for chunk in assistant_msg.content:
-            if hasattr(chunk, 'text') and chunk.text:
-                text_parts.append(chunk.text)
-            elif hasattr(chunk, 'type') and chunk.type == 'reference':
-                # ReferenceChunk - skip the reference itself, just get text
-                pass
-        text = "".join(text_parts)
-    else:
-        text = str(assistant_msg.content or "")
-    
-    text = text.strip()
-    
-    # Mistral chat API doesn't return tool_results for web search
-    # Extract URLs from the text as a fallback
-    sources: list[str] = []
-    if web_search:
-        sources = extract_urls(text)
-    
-    return text, sources
-
+# ── Provider-Implementierung ────────────────────────────────────────────────
 
 def _chat_anthropic(model: str, messages: list[dict], system: str,
                     max_tokens: int, temperature: float | None,
@@ -178,7 +48,9 @@ def _chat_anthropic(model: str, messages: list[dict], system: str,
     if temperature is not None:
         kwargs["temperature"] = temperature
     if web_search:
-        kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
+        kwargs["tools"] = [
+            {"type": "web_search_20250305", "name": "web_search", "max_uses": 5}
+        ]
 
     resp = client.messages.create(
         model=model,
@@ -208,10 +80,10 @@ def chat(model: str,
          max_tokens: int = 4096,
          temperature: float | None = None,
          web_search: bool = False) -> tuple[str, list[str]]:
-    """LLM-Call mit Provider-Fallback.
+    """LLM-Call über Anthropic (Claude).
 
     Args:
-        model:        Modellname (Claude- oder Mistral-Namen; wird gemappt)
+        model:        Claude-Modellname (z. B. "claude-haiku-4-5")
         messages:     [{"role": "user", "content": "..."}, ...]
         system:       System-Prompt (optional)
         max_tokens:   Max. Antwort-Länge
@@ -221,28 +93,9 @@ def chat(model: str,
     Returns:
         (text, sources) – sources ist eine Liste von URLs (nur bei web_search)
     """
-    providers = available_providers()
-    if not providers:
-        require_provider()
-
-    errors: list[str] = []
-    for i, provider in enumerate(providers):
-        try:
-            if provider == "mistral":
-                return _chat_mistral(map_model_to_mistral(model), messages,
-                                     system, max_tokens, temperature, web_search)
-            elif provider == "anthropic":
-                return _chat_anthropic(map_model_to_claude(model), messages, system,
-                                       max_tokens, temperature, web_search)
-        except Exception as e:
-            errors.append(f"{provider}: {e}")
-            if i + 1 < len(providers):
-                next_provider = providers[i + 1]
-                print(f"      ⚠ {provider} fehlgeschlagen ({e}) – "
-                      f"fallback auf {next_provider} …", file=sys.stderr)
-
-    raise RuntimeError("Alle LLM-Provider fehlgeschlagen:\n"
-                       + "\n".join(f"  - {e}" for e in errors))
+    require_provider()
+    return _chat_anthropic(model, messages, system,
+                           max_tokens, temperature, web_search)
 
 
 def extract_urls(text: str, limit: int = 10) -> list[str]:

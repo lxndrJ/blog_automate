@@ -239,8 +239,8 @@ def main() -> int:
     if args.site_repo:
         os.environ["BLOG_SITE_REPO"] = args.site_repo
 
-    if not (os.environ.get("MISTRAL_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")):
-        print("FEHLER: Weder MISTRAL_API_KEY noch ANTHROPIC_API_KEY ist gesetzt.",
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("FEHLER: ANTHROPIC_API_KEY ist nicht gesetzt.",
               file=sys.stderr)
         return 2
 
