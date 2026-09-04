@@ -1,22 +1,29 @@
 # providers/mistral_provider.py – Mistral Adapter (isoliert).
 #
-# Mistral hat eine andere API als Anthropic:
-#   - Standard-Chat:  client.chat.complete(...)
-#   - Web-Suche:      über die Agents API (client.beta.agents.create → client.agents.complete)
-#                     (läuft intern über /v1/conversations)
+# API-Endpunkte:
+#   - Standard-Chat:  POST /v1/chat/completions
+#   - Web-Suche:      POST /v1/conversations  (model + tools=[{"type":"web_search"}])
 #
 # Voraussetzungen:
 #   - MISTRAL_API_KEY gesetzt
-#   - Paket `mistralai` (>=2.0) installiert (wird lazy importiert, bricht nichts,
-#     wenn es fehlt)
+#   - `requests` installiert (steht in requirements.txt)
+#   - Kein SDK-Import nötig → kein Import-Fehler mehr möglich
 #
 # Modellwahl:
 #   - BLOG_MISTRAL_MODEL (optional) erzwingt einen konkreten Mistral-Modellnamen.
 #   - Sonst werden bekannte Claude-Namen auf sinnvolle Mistral-Modelle gemappt.
 import os
 import re
+import json
+import logging
+
+import requests
 
 from .base import BaseProvider
+
+logger = logging.getLogger(__name__)
+
+_BASE_URL = "https://api.mistral.ai/v1"
 
 # Claude-Namen → Mistral-Namen (Fallback-Mapping, falls kein Override gesetzt).
 _MODEL_MAP = {
@@ -33,18 +40,11 @@ def _api_key() -> str:
     return os.getenv("MISTRAL_API_KEY", "").strip()
 
 
-def _import_mistral():
-    """Mistral-Client importieren (kompatibel zu SDK 1.x und 2.x).
-
-    - mistralai >= 2.0:  from mistralai.client import Mistral
-    - mistralai <  2.0:  from mistralai import Mistral
-    """
-    try:
-        from mistralai.client import Mistral  # SDK >= 2.0
-        return Mistral
-    except Exception:
-        from mistralai import Mistral  # SDK < 2.0
-        return Mistral
+def _headers() -> dict:
+    return {
+        "Authorization": f"Bearer {_api_key()}",
+        "Content-Type": "application/json",
+    }
 
 
 def _extract_urls(text: str, limit: int = 10) -> list[str]:
@@ -57,17 +57,52 @@ def _extract_urls(text: str, limit: int = 10) -> list[str]:
     return urls[:limit]
 
 
+def _parse_conversation_outputs(outputs: list[dict]) -> tuple[str, list[str]]:
+    """Antwort-Text und Quellen-URLs aus den outputs eines /v1/conversations-Response parsen.
+
+    outputs enthält Einträge von Typ:
+      - "message.output"  → die eigentliche Antwort (content = str oder list)
+      - "tool.execution"  → Tool-Aufrufe (web_search-Ergebnisse)
+      - "tool_reference"  → Quellen als Teil des content-Arrays
+    """
+    text_parts: list[str] = []
+    sources: list[str] = []
+
+    for entry in outputs:
+        entry_type = entry.get("type", "")
+
+        if entry_type == "message.output":
+            content = entry.get("content", "")
+            if isinstance(content, str):
+                text_parts.append(content)
+                # URLs im Text finden
+                for url in _extract_urls(content):
+                    if url not in sources:
+                        sources.append(url)
+            elif isinstance(content, list):
+                for chunk in content:
+                    if not isinstance(chunk, dict):
+                        continue
+                    chunk_type = chunk.get("type", "")
+                    if chunk_type == "text":
+                        text_parts.append(chunk.get("text", ""))
+                        for url in _extract_urls(chunk.get("text", "")):
+                            if url not in sources:
+                                sources.append(url)
+                    elif chunk_type == "tool_reference":
+                        url = chunk.get("url", "")
+                        if url and url not in sources:
+                            sources.append(url)
+
+    text = "\n".join(text_parts).strip()
+    return text, sources[:10]
+
+
 class MistralProvider(BaseProvider):
     name = "mistral"
 
     def is_available(self) -> bool:
-        if not _api_key():
-            return False
-        try:
-            _import_mistral()  # noqa: F841
-            return True
-        except Exception:
-            return False
+        return bool(_api_key())
 
     def resolve_model(self, model: str) -> str:
         override = os.getenv("BLOG_MISTRAL_MODEL", "").strip()
@@ -88,9 +123,8 @@ class MistralProvider(BaseProvider):
              web_search: bool = False) -> tuple[str, list[str]]:
         """LLM-Call bei Mistral.
 
-        - web_search=False → Standard-Chat-Endpoint (client.chat.complete)
-        - web_search=True  → Agents API (client.beta.agents.create → client.agents.complete)
-          mit tools=[{"type": "web_search"}] – läuft über /v1/conversations.
+        - web_search=False → POST /v1/chat/completions
+        - web_search=True  → POST /v1/conversations (mit tools=[{"type":"web_search"}])
         """
         resolved_model = self.resolve_model(model)
 
@@ -109,112 +143,103 @@ class MistralProvider(BaseProvider):
     def _chat_standard(self, model: str, messages: list[dict],
                        system: str, max_tokens: int,
                        temperature: float | None) -> tuple[str, list[str]]:
-        Mistral = _import_mistral()
-
-        client = Mistral(api_key=_api_key())
-
-        # System-Prompt als erste Nachricht einfügen (Mistral-Format).
+        """POST /v1/chat/completions – klassischer Chat-Endpoint."""
         msgs = list(messages)
         if system:
             msgs.insert(0, {"role": "system", "content": system})
 
-        kwargs: dict = {"model": model, "messages": msgs, "max_tokens": max_tokens}
+        body: dict = {
+            "model": model,
+            "messages": msgs,
+            "max_tokens": max_tokens,
+        }
         if temperature is not None:
-            kwargs["temperature"] = temperature
+            body["temperature"] = temperature
 
-        resp = client.chat.complete(**kwargs)
+        resp = requests.post(
+            f"{_BASE_URL}/chat/completions",
+            headers=_headers(),
+            json=body,
+            timeout=120,
+        )
+        resp.raise_for_status()
+        data = resp.json()
 
-        text = (getattr(resp.choices[0].message, "content", "") or "").strip()
+        text = (data.get("choices", [{}])[0].get("message", {}).get("content", "") or "").strip()
         return text, []
 
     # ------------------------------------------------------------------
-    # Agents API mit Web-Suche (/v1/conversations)
+    # Web-Suche über /v1/conversations
     # ------------------------------------------------------------------
 
     def _chat_with_web_search(self, model: str, messages: list[dict],
                               system: str, max_tokens: int,
                               temperature: float | None) -> tuple[str, list[str]]:
-        """Web-Suche über die Mistral Agents API.
+        """Web-Suche über POST /v1/conversations.
 
-        Flow:
-          1. Agent mit web_search-Tool erstellen
-          2. client.agents.complete(...) aufrufen
-          3. Agent wieder löschen (Cleanup)
-
-        Falls der WebSearchTool-Connector nicht aktiviert ist (HTTP 400,
-        code 1800), fällt automatisch auf Standard-Chat zurück – die
-        Pipeline bleibt funktionsfähig, nur ohne frische Web-Quellen.
+        Kein Agent nötig – einfach model + tools + inputs senden.
+        Die API führt die Web-Suche serverseitig aus und liefert
+        die Antwort inkl. Quellen-URLs (tool_reference) zurück.
         """
-        Mistral = _import_mistral()
+        # User-Text extrahieren (letzte user-Nachricht)
+        user_text = ""
+        for msg in reversed(messages):
+            if msg.get("role") == "user":
+                content = msg.get("content", "")
+                if isinstance(content, str):
+                    user_text = content
+                elif isinstance(content, list):
+                    user_text = " ".join(
+                        c.get("text", "") for c in content if isinstance(c, dict)
+                    )
+                break
 
-        client = Mistral(api_key=_api_key())
-        agent_id: str | None = None
+        # Fallback: komplette messages als JSON
+        if not user_text:
+            user_text = json.dumps(messages, ensure_ascii=False)
 
-        try:
-            # 1) Agent mit Web-Suche-Tool anlegen
-            agent_kwargs: dict = {
-                "model": model,
-                "name": "Blog Researcher",
-                "description": "Agent for blog research with web search capability.",
-                "tools": [{"type": "web_search"}],
-            }
-            if system:
-                agent_kwargs["instructions"] = system
-            completion_args: dict = {"max_tokens": max_tokens}
-            if temperature is not None:
-                completion_args["temperature"] = temperature
-            else:
-                completion_args["temperature"] = 0.3
-            completion_args["top_p"] = 0.95
-            agent_kwargs["completion_args"] = completion_args
+        body: dict = {
+            "inputs": user_text,
+            "model": model,
+            "tools": [{"type": "web_search"}],
+            "stream": False,
+            "store": True,
+            "completion_args": {
+                "max_tokens": max_tokens,
+                "top_p": 0.95,
+            },
+        }
+        if temperature is not None:
+            body["completion_args"]["temperature"] = temperature
+        else:
+            body["completion_args"]["temperature"] = 0.3
 
-            agent = client.beta.agents.create(**agent_kwargs)
-            agent_id = agent.id
+        if system:
+            body["instructions"] = system
 
-            # 2) Completion aufrufen
-            resp = client.agents.complete(
-                agent_id=agent_id,
-                messages=messages,
+        resp = requests.post(
+            f"{_BASE_URL}/conversations",
+            headers=_headers(),
+            json=body,
+            timeout=120,
+        )
+
+        if resp.status_code != 200:
+            # Fallback auf Standard-Chat (ohne Web-Suche)
+            logger.warning(
+                "Mistral /v1/conversations failed (HTTP %d): %s",
+                resp.status_code, resp.text[:300],
             )
-
-            # 3) Antwort extrahieren
-            text = (getattr(resp.choices[0].message, "content", "") or "").strip()
-
-            # Quellen-URLs aus dem Text ziehen (Mistral zitiert URLs im Antworttext)
-            sources = _extract_urls(text)
-
-            return text, sources
-
-        except Exception as e:
-            # WebSearchTool-Connector nicht aktiviert (HTTP 400, code 1800) oder
-            # sonstige Agents-API-Fehler → graceful Fallback auf Standard-Chat.
-            err_body = str(e)
-            import sys
-            # Detaillierte Fehlerdiagnose loggen
-            detail_parts = [f"  \u26a0 Mistral Agents-API-Fehler: {type(e).__name__}"]
-            if hasattr(e, "body"):
-                detail_parts.append(f"    API-Body: {e.body}")
-            if hasattr(e, "status_code"):
-                detail_parts.append(f"    HTTP-Status: {e.status_code}")
-            detail_parts.append(f"    Detail: {err_body[:300]}")
-            
-            if "WebSearchTool" in err_body or "1800" in err_body or "not supported" in err_body:
-                detail_parts.append(
-                    "    \u2192 WebSearchTool-Connector ist f\u00fcr dieses Konto NICHT aktiviert.\n"
-                    "    \u2192 Aktivierung: https://console.mistral.ai \u2192 Connectors \u2192 WebSearchTool \u2192 Enable\n"
-                    "    \u2192 Fallback auf Standard-Chat (ohne Web-Suche) \u2013 Pipeline f\u00e4hrt fort."
-                )
-            else:
-                detail_parts.append(
-                    "    \u2192 Fallback auf Standard-Chat (ohne Web-Suche) \u2013 Pipeline f\u00e4hrt fort."
-                )
-            print("\n".join(detail_parts), file=sys.stderr)
             return self._chat_standard(model, messages, system, max_tokens, temperature)
 
-        finally:
-            # 4) Agent aufräumen (wichtig: sonst sammeln sich Agents auf dem Konto)
-            if agent_id:
-                try:
-                    client.beta.agents.delete(agent_id=agent_id)
-                except Exception:
-                    pass  # Cleanup darf nicht den Hauptpfad brechen
+        data = resp.json()
+        outputs = data.get("outputs", [])
+        text, sources = _parse_conversation_outputs(outputs)
+
+        # Falls keine structured outputs, aber usage vorhanden → evtl. im Text
+        if not text:
+            # Manchmal steckt die Antwort anders – versuchen, URLs aus dem Rohtext zu ziehen
+            raw = json.dumps(data, ensure_ascii=False)
+            sources = _extract_urls(raw)
+
+        return text, sources
