@@ -69,9 +69,9 @@ _MISTRAL_CLASS_MAP = {
 
 # Mistral model names -> Claude model names (for Anthropic fallback)
 _MISTRAL_TO_CLAUDE_MAP = {
-    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet-20250620"),
-    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-5-sonnet-20250620"),
-    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-5-sonnet-20250620"),
+    "mistral-large": os.getenv("BLOG_ANTHROPIC_LARGE", "claude-3-5-sonnet"),
+    "mistral-medium": os.getenv("BLOG_ANTHROPIC_MEDIUM", "claude-3-5-sonnet"),
+    "mistral-small": os.getenv("BLOG_ANTHROPIC_SMALL", "claude-3-haiku"),
 }
 
 
@@ -86,7 +86,7 @@ def map_model_to_claude(model: str) -> str:
     if "claude" in m:
         return model
     # Fallback to a sensible default
-    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet-20250620")
+    return os.getenv("BLOG_ANTHROPIC_DEFAULT_MODEL", "claude-3-5-sonnet")
 
 
 
@@ -107,7 +107,6 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
                   max_tokens: int, temperature: float | None,
                   web_search: bool) -> tuple[str, list[str]]:
     from mistralai.client import Mistral  # Lazy-Import: läuft auch ohne Installation
-    from mistralai.client.models import WebSearchTool
 
     client = Mistral(api_key=mistral_api_key())
 
@@ -120,8 +119,11 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
     if temperature is not None:
         kwargs["temperature"] = temperature
 
-    if web_search:
-        kwargs["tools"] = [WebSearchTool()]
+    # Note: Mistral's chat API does not support WebSearchTool with most models.
+    # Web search is only available through the conversations API or with specific models.
+    # For now, we skip web search for Mistral and rely on Anthropic fallback.
+    # If web_search is requested but not supported, we just do a regular chat completion.
+    # The researcher will extract URLs from the text as a fallback.
 
     resp = client.chat.complete(
         model=model,
@@ -154,40 +156,11 @@ def _chat_mistral(model: str, messages: list[dict], system: str,
     
     text = text.strip()
     
-    # Extract sources from references in the content
+    # Mistral chat API doesn't return tool_results for web search
+    # Extract URLs from the text as a fallback
     sources: list[str] = []
-    if assistant_msg and hasattr(assistant_msg, 'content') and isinstance(assistant_msg.content, list):
-        for chunk in assistant_msg.content:
-            if hasattr(chunk, 'type') and chunk.type == 'reference' and hasattr(chunk, 'reference_ids'):
-                # Reference chunks may contain reference IDs
-                # We need to extract URLs from the response if available
-                pass
-    
-    # Also check for tool_calls which might contain web search results
-    if assistant_msg and hasattr(assistant_msg, 'tool_calls') and assistant_msg.tool_calls:
-        for tool_call in assistant_msg.tool_calls:
-            if hasattr(tool_call, 'function') and hasattr(tool_call.function, 'arguments'):
-                # Try to extract URLs from tool call arguments
-                import json
-                try:
-                    args = json.loads(tool_call.function.arguments) if isinstance(tool_call.function.arguments, str) else tool_call.function.arguments
-                    if isinstance(args, dict):
-                        for key, value in args.items():
-                            if isinstance(value, str) and ('http://' in value or 'https://' in value):
-                                if value not in sources:
-                                    sources.append(value)
-                except (json.JSONDecodeError, AttributeError):
-                    pass
-    
-    # Extract sources from tool_results if present in response
-    if hasattr(resp, 'tool_results') and resp.tool_results:
-        for tool_result in resp.tool_results:
-            if hasattr(tool_result, 'content') and tool_result.content:
-                for item in tool_result.content:
-                    if hasattr(item, 'url'):
-                        url = item.url
-                        if url and url not in sources:
-                            sources.append(url)
+    if web_search:
+        sources = extract_urls(text)
     
     return text, sources
 
