@@ -166,6 +166,48 @@ def _enforce_link_limit(body: str, max_links: int = 5) -> str:
     return ''.join(result)
 
 
+def _extract_description(content: str, max_len: int = 160) -> str:
+    """Ersten sinnvollen Absatz als description/Teaser extrahieren.
+
+    Springt über H1-Überschrift, leere Zeilen und Markdown-Formatierung.
+    Liefert max. max_len Zeichen (am Wortende abgeschnitten).
+    """
+    lines = content.strip().splitlines()
+    # Erste Nicht-Überschrift, nicht-leere Zeile finden
+    first_text = ""
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("#") or stripped.startswith("---"):
+            continue
+        if stripped.startswith("```"):
+            continue
+        first_text = stripped
+        break
+
+    if not first_text:
+        return ""
+
+    # Markdown-Formatierung entfernen (Links, Bold, Italic)
+    import re as _re
+    clean = _re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', first_text)
+    clean = _re.sub(r'\*\*([^*]+)\*\*', r'\1', clean)
+    clean = _re.sub(r'\*([^*]+)\*', r'\1', clean)
+    clean = _re.sub(r'`([^`]+)`', r'\1', clean)
+    clean = clean.strip()
+
+    # Auf max_len kürzen (am letzten Wortende)
+    if len(clean) > max_len:
+        cut = clean[:max_len]
+        last_space = cut.rfind(' ')
+        if last_space > max_len // 2:
+            cut = cut[:last_space]
+        clean = cut.rstrip() + "…"
+
+    return clean
+
+
 def save(title: str, content: str, image_url: str | None, sources: list[str],
          image_meta: dict | None = None, category: str = "Reise",
          image_query: str = "") -> str:
@@ -218,6 +260,9 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
         elif image_meta.get("license"):
             image_credit = f"Bild: {image_meta['license']}"
 
+    # Description/Teaser für die Homepage-Liste
+    description = _extract_description(content)
+
     # Frontmatter
     fm = [
         "---",
@@ -225,11 +270,15 @@ def save(title: str, content: str, image_url: str | None, sources: list[str],
         f"categories: [{category}]",
 
         f'title: "{_yaml_escape(title)}"',
+    ]
+    if description:
+        fm.append(f'description: "{_yaml_escape(description)}"')
+    fm.extend([
         f'date: {date_full}',
         f'permalink: {permalink}',
         "author: lxndrJ",
         "ai_assisted: true",
-    ]
+    ])
     if image_url:
         fm.append(f"image: {image_url}")
     if image_credit:

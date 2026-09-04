@@ -146,7 +146,7 @@ class MistralProvider(BaseProvider):
             }
             if system:
                 agent_kwargs["instructions"] = system
-            completion_args: dict = {}
+            completion_args: dict = {"max_tokens": max_tokens}
             if temperature is not None:
                 completion_args["temperature"] = temperature
             else:
@@ -161,7 +161,6 @@ class MistralProvider(BaseProvider):
             resp = client.agents.complete(
                 agent_id=agent_id,
                 messages=messages,
-                max_tokens=max_tokens,
             )
 
             # 3) Antwort extrahieren
