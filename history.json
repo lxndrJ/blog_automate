@@ -445,5 +445,12 @@
     "base": "[Reise] KI Kollege im Büro",
     "file": "archive/2026-09-04-ki-kollege-im-büro.md",
     "n_sources": 0
+  },
+  {
+    "date": "2026-09-04T10:26:00",
+    "topic": "Chef KI-Agent",
+    "base": "[Work-Life Balance] Chef KI-Agent",
+    "file": "archive/2026-09-04-chef-ki-agent.md",
+    "n_sources": 0
   }
 ]
