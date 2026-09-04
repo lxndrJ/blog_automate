@@ -215,6 +215,6 @@ class MistralProvider(BaseProvider):
             # 4) Agent aufräumen (wichtig: sonst sammeln sich Agents auf dem Konto)
             if agent_id:
                 try:
-                    client.beta.agents.delete(agent_id)
+                    client.beta.agents.delete(agent_id=agent_id)
                 except Exception:
                     pass  # Cleanup darf nicht den Hauptpfad brechen
