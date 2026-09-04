@@ -126,6 +126,10 @@ class MistralProvider(BaseProvider):
           1. Agent mit web_search-Tool erstellen
           2. client.agents.complete(...) aufrufen
           3. Agent wieder löschen (Cleanup)
+
+        Falls der WebSearchTool-Connector nicht aktiviert ist (HTTP 400,
+        code 1800), fällt automatisch auf Standard-Chat zurück – die
+        Pipeline bleibt funktionsfähig, nur ohne frische Web-Quellen.
         """
         from mistralai.client import Mistral
 
@@ -167,6 +171,27 @@ class MistralProvider(BaseProvider):
             sources = _extract_urls(text)
 
             return text, sources
+
+        except Exception as e:
+            # WebSearchTool-Connector nicht aktiviert (HTTP 400, code 1800) oder
+            # sonstige Agents-API-Fehler → graceful Fallback auf Standard-Chat.
+            err_body = str(e)
+            import sys
+            if "WebSearchTool" in err_body or "1800" in err_body or "not supported" in err_body:
+                print(
+                    "  \u26a0 Mistral WebSearchTool nicht aktiviert \u2013 "
+                    "Fallback auf Standard-Chat (ohne Web-Suche).\n"
+                    "    Tipp: Connector im Mistral-Dashboard aktivieren, "
+                    "um Web-Suche zu nutzen.",
+                    file=sys.stderr,
+                )
+            else:
+                print(
+                    f"  \u26a0 Mistral Agents-API-Fehler ({err_body[:120]}) \u2013 "
+                    "Fallback auf Standard-Chat.",
+                    file=sys.stderr,
+                )
+            return self._chat_standard(model, messages, system, max_tokens, temperature)
 
         finally:
             # 4) Agent aufräumen (wichtig: sonst sammeln sich Agents auf dem Konto)
