@@ -1,123 +1,104 @@
 {
   "week": "2026-W36",
-  "generated_at": "2026-08-31T13:39:40",
+  "generated_at": "2026-09-06T08:12:17",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Reise",
-      "topic": "Die Ecke Rue de Rivoli/Place des Pyramides: Wo Touristen blind vorbeigehen",
-      "angle": "Nicht der Louvre, nicht Notre-Dame. Ein winziger Platz in Paris, an dem seit 1804 eine vergoldete Statue steht, die kein Reiseführer erklärt. Die Fotografie selbst wird zum Thema: warum nehmen wir diesen Ort nie auf?",
-      "hook": "Das Gold der Jeanne-d'Arc-Statue schält sich unter dem August-Regen ab wie alte Tapete, und hundert Meter entfernt klicken tausend Handys die falsche Ecke.",
+      "category": "Work-Life Balance",
+      "topic": "Der 15-Uhr-Gong in Kyoto: Wenn die Teehausglocke die Schicht beendet",
+      "angle": "Ein 400 Jahre altes Teehaus in Gion, das seit 1620 um 15 Uhr mit einer Bronzeglocke die Arbeitszeit der Geisha begrenzt – und warum diese Regel heute noch für lokale Handwerker gilt. Relevanz: Herbstanfang, wenn die Tage kürzer werden und Rhythmen neu verhandelt werden.",
+      "hook": "Das dumpfe, metallische Nachklingen der Glocke vermischt sich mit dem Geruch von geröstetem Matcha und nassem Kieselstein.",
       "forbidden": [
-        "Paris versteckte Orte",
-        "Geheimtipps Louvre",
-        "Jeanne d'Arc Kult"
+        "Zen-Klischee",
+        "traditionelle japanische Arbeitskultur"
       ],
-      "feeling": "Die Erkenntnis, dass man an Orten vorbeigeht, ohne sie zu sehen.",
-      "image_query": "golden statue Paris rain weathered",
-      "published": true,
-      "published_at": "2026-09-03T16:54:00"
+      "feeling": "Der Leser spürt, wie eine unsichtbare Hand die Zeit an seinem eigenen Handgelenk anhält.",
+      "image_query": "bronze bell kyoto teahouse autumn"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
       "category": "Kochen/Essen",
-      "topic": "Bunun millet: Das Getreide, das nur eine Köchin in der Region kennt",
-      "angle": "In Taiwan, in den Nantou-Bergen, mahlt eine 68-jährige Frau namens Ciwas seit 40 Jahren hirseartiges Getreide (bunun millet) mit der Hand. Nicht für ein Restaurant – für ihre eigene Familie und drei Nachbarn. Der Text folgt nicht dem Gericht, sondern der Mühle selbst.",
-      "hook": "Das Mahlen klingt wie ein brechendes Ast-Muster: unregelmäßig, atmend, nicht maschinell.",
+      "topic": "Die letzte Olivenölpresse in Ligurien, die noch mit Eselskraft arbeitet",
+      "angle": "In einem Dorf hinter Imperia steht die einzige noch funktionierende *frantoio a trazione asinina* – eine Ölpresse, die von zwei Eseln angetrieben wird. Der Besitzer, 82, presst nur noch für sich und drei Nachbarn. Relevanz: Olivenernte beginnt im Oktober, jetzt werden die Steine der Mühlen geschärft.",
+      "hook": "Der saure, grüne Duft zerdrückter Taggiasca-Oliven klebt an den Backen der Esel.",
       "forbidden": [
-        "traditionelle Techniken Taiwan",
-        "indigene Küche Rezept",
-        "nachhaltiges Kochen"
+        "slow food",
+        "Nostalgie"
       ],
-      "feeling": "Das Gefühl, dass Wissen sterben kann, ohne dass jemand es bemerkt.",
-      "image_query": "stone mortar millet grinding hands elderly",
-      "published": true,
-      "published_at": "2026-09-01T13:08:04"
+      "feeling": "Der Leser schmeckt das Öl, das nach Arbeit und Tierhaar riecht.",
+      "image_query": "donkey powered olive press liguria"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Work-Life Balance",
-      "topic": "Die isländische 4-Tage-Woche im Supermarkt: Was die Kassiererin am Mittwoch macht",
-      "angle": "Island testet seit 2023 viererorts eine 4-Tage-Woche. Der Text begleitet nicht CEO, sondern Dagmar, 51, die an der Kasse im Bonus-Markt in Reykjavík arbeitet – und beschreibt, was die drei freien Tage real bedeuten (nicht: ideal, sondern: wie es wirklich läuft).",
-      "hook": "Mittwochs um neun Uhr morgens bekommt Dagmar eine Nachricht, dass ein Kind krank ist – und zum ersten Mal kann sie einfach gehen.",
+      "category": "Reise",
+      "topic": "Der Briefkasten an der Ecke Calle O’Reilly und San Ignacio in Havanna, der nur für Beschwerden an den Stadtbaumeister da ist",
+      "angle": "Seit 1958 hängt dort ein roter Kasten mit der Aufschrift *Quejas al Arquitecto*. Jeden Mittwoch um 11 Uhr wird er von einer Frau mit Handschuhen geleert – auch wenn die Beschwerden längst digital gehen. Relevanz: Hurrikansaison endet, die Stadt repariert sich selbst.",
+      "hook": "Das Knarren des rostigen Scharniers vermischt sich mit dem Klirren der Münzen, die ein Straßenmusiker in seinen Hut wirft.",
       "forbidden": [
-        "Island Arbeitsmodell Produktivität",
-        "Work-Life Balance Vorbild",
-        "4-Tage-Woche Effektivität"
+        "Sozialismus-Romantik",
+        "Vintage-Kuba"
       ],
-      "feeling": "Die Ambivalenz: Erleichterung gemischt mit der Sorge, dass es nicht lange hält.",
-      "image_query": "Nordic supermarket cashier morning light window",
-      "published": true,
-      "published_at": "2026-09-02T09:24:34"
+      "feeling": "Der Leser hört das Papierrascheln, als würde er selbst einen Zettel einwerfen.",
+      "image_query": "red complaint box havana street corner"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Reise",
-      "topic": "Der Busbahnhof von Nadi, Fidschi um 6:30 Uhr: Wenn die Insel aufwacht",
-      "angle": "Nicht der Strand. Nicht das Resort. Ein betonerner Busbahnhof an der Küstenstraße, wo täglich um 6:30 Uhr hundert Menschen aus den Nachtbussen aussteigen – auf dem Weg zu Plantagen, Schulen, Märkten. Die Welt der Inselbewohner beginnt hier, nicht im Hotel.",
-      "hook": "Die Luft riecht nach Kokosnussöl, Diesel und feuchter Erde – und nach einem Rhythmus, den kein Tourist kennt.",
+      "category": "Kochen/Essen",
+      "topic": "Der Mann, der in Kapstadt jeden Donnerstag um 17 Uhr 200 Liter *Umqombothi* in einem Ölfass braut",
+      "angle": "In Khayelitsha gärt seit 30 Jahren dasselbe Sorghum-Bier in einem umfunktionierten Schiffstank – nur der Deckel ist neu. Der Brauer, ein ehemaliger Hafenarbeiter, verkostet es mit einem Strohhalm aus Bambus. Relevanz: Frühling in Südafrika, die Temperaturen steigen, das Bier gärt schneller.",
+      "hook": "Der scharfe, hefeartige Geruch steigt in die Nase, noch bevor man die Gasse mit den blauen Plastikstühlen sieht.",
       "forbidden": [
-        "Fidschi Inseltraum",
-        "Fidschi Authentizität Geheimtipp",
-        "locals Reiseroman"
+        "Township-Tourismus",
+        "exotisches Afrika"
       ],
-      "feeling": "Das Gefühl, zufällig in den Alltag einer ganzen Insel einzutreten.",
-      "image_query": "bus station tropical dawn Fiji early morning",
-      "published": true,
-      "published_at": "2026-09-03T09:34:55"
+      "feeling": "Der Leser spürt den ersten Schluck, der nach Erde und Fermentation schmeckt.",
+      "image_query": "umqombothi brewing cape town barrel"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Kochen/Essen",
-      "topic": "Der Pilz in Lujiazui: Wie ein Shanghai-Köchin Herbst herausriecht",
-      "angle": "In Shanghais Finanzdistrikt Lujiazui arbeitet Lin in einem stillen Restaurant. Jeden Freitag – nur freitags – fährt sie zwei Stunden ins Umlande, um matsutake-Pilze zu sammeln. Der Text erzählt nicht vom Essen, sondern vom Riechen: wie sie weiß, dass der Pilz reif ist, bevor sie ihn sieht.",
-      "hook": "Matsutake-Pilze riechen nach Wald, nach Erde, nach einer Fruchtbarkeit, die man in Shanghai sonst nicht atmet.",
+      "category": "Work-Life Balance",
+      "topic": "Die 47 Minuten Stille in der Mittagszeit der Druckerei in Leipzig, in der niemand spricht",
+      "angle": "Seit 1923 hält die *Leipziger Buchdruckwerkstatt* jeden Freitag von 12:47 bis 13:34 eine *Schweigeminute* – nicht aus Trauer, sondern weil die Maschinen dann gewartet werden und die Arbeiter ohnehin nichts hören würden. Relevanz: Herbstlicht fällt schräg durch die hohen Fenster, die Stille wird greifbar.",
+      "hook": "Das Surren der Offsetmaschinen verstummt mit einem letzten, zischenden Ausatmen.",
       "forbidden": [
-        "chinesische Pilzküche Tradition",
-        "Forage Urban Chef",
-        "lokale Zutaten Shanghai"
+        "Ostalgien",
+        "handwerkliche Romantik"
       ],
-      "feeling": "Das Paradoxe: Mitten in der Stadt die Wildnis wiederfinden.",
-      "image_query": "matsutake mushroom forest earth hands picking",
-      "published": true,
-      "published_at": "2026-09-03T14:06:49"
+      "feeling": "Der Leser spürt, wie sein eigener Atem lauter wird.",
+      "image_query": "leipzig printing press silent lunch"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Work-Life Balance",
-      "topic": "Der Freitag des brasilianischen Solos-Fahrers: Wenn die Arbeit Rhythmus hat",
-      "angle": "In Porto Alegre, Brasilien, fahren tausende Menschen 'Solo' (Mittagessen nach Hause in der Pause). Der Text porträtiert Raúl, 47, der sein Taxi freitags um 14 Uhr stehen lässt – nicht wegen eines Gesetzes, sondern weil es so gemacht wird. Die Frage: Was ist Ritual, was ist Zwang, was ist Freiheit?",
-      "hook": "Um 14 Uhr stellt Raúl das Taxameter ab und trinkt Mate mit seiner Frau, als würde die Stadt pausieren – obwohl die Stadt nicht pausiert.",
+      "category": "Reise",
+      "topic": "Der einzige noch aktive Leuchtturmwärter Europas, der auf den Färöern mit einer Petroleumlampe arbeitet",
+      "angle": "Auf Mykinesholmur weigert sich der 78-jährige Jóhan seit 40 Jahren, auf LED umzusteigen. Jeden Abend um 18:37 Uhr (im Herbst) zündet er die Lampe an – und löscht sie bei Sonnenaufgang mit einem nassen Lappen. Relevanz: Die Nächte werden länger, die Lampe brennt länger.",
+      "hook": "Der Geruch von verbranntem Petroleum und Salzwasser frisst sich in die Jacke.",
       "forbidden": [
-        "brasilianische Arbeitsmoral",
-        "Mittagspause Kultur",
-        "Pause und Produktivität"
+        "Einsamkeit",
+        "letzter seiner Art"
       ],
-      "feeling": "Die Erkenntnis, dass Rituale Wirklichkeit schaffen, auch wenn sie nicht erzwungen werden.",
-      "image_query": "Brazilian taxi driver mate afternoon pause home",
-      "published": true,
-      "published_at": "2026-09-05T08:54:52"
+      "feeling": "Der Leser sieht das Licht, das über dem schwarzen Wasser zittert.",
+      "image_query": "faroe islands lighthouse keeper petroleum lamp"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Reise",
-      "topic": "Die Petronas Twin Towers von unten: Was Kuala Lumpur einer Person bedeutet",
-      "angle": "Nicht ein ikonisches Foto der Towers von oben. Ein Mann namens Amran, 34, fotografiert seit zehn Jahren nur die Petronas Towers von unten, aus verschiedenen Winkeln, immer von der gleichen Ecke aus. Der Text fragt: Was macht ein Ort aus uns, wenn wir ihn täglich anders sehen?",
-      "hook": "Die beiden Türme sind morgens blau, mittags stahlgrau, abends orange – und Amran sieht sie alle, ohne die Ecke zu verlassen.",
+      "category": "Kochen/Essen",
+      "topic": "Das *Pão de Queijo*, das in Belo Horizonte nur sonntags um 7 Uhr aus dem Holzofen der Padaria do Zé kommt",
+      "angle": "Seit 1988 backt Zé jeden Sonntagmorgen 500 Käsebällchen – genau so lange, bis der Ofen aus den 1950ern heiß genug ist. Die ersten Kunden warten schon um 6:30 Uhr mit Thermoskannen voller Kaffee. Relevanz: Sonntag ist in Brasilien der Tag der *café da manhã* in der Familie.",
+      "hook": "Die knusprige Kruste bricht auf, und der dampfende Käse zieht Fäden bis zum Handgelenk.",
       "forbidden": [
-        "Kuala Lumpur Skyline Fotografie",
-        "Petronas Towers Wahrzeichen",
-        "Orte Perspektive Künstler"
+        "Brasilianische Gastfreundschaft",
+        "Streetfood-Trend"
       ],
-      "feeling": "Das tiefe Vergnügen, einen Ort so gründlich zu kennen, dass man ihn neu sieht.",
-      "image_query": "Petronas towers from below shadow light geometry"
+      "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht.",
+      "image_query": "wood fired pao de queijo belo horizonte sunday"
     }
   ]
 }
