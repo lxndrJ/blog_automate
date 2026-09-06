@@ -98,7 +98,9 @@
         "Streetfood-Trend"
       ],
       "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht.",
-      "image_query": "wood fired pao de queijo belo horizonte sunday"
+      "image_query": "wood fired pao de queijo belo horizonte sunday",
+      "published": true,
+      "published_at": "2026-09-06T09:14:47"
     }
   ]
 }
