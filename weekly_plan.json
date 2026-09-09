@@ -46,7 +46,9 @@
         "Vintage-Kuba"
       ],
       "feeling": "Der Leser hört das Papierrascheln, als würde er selbst einen Zettel einwerfen.",
-      "image_query": "red complaint box havana street corner"
+      "image_query": "red complaint box havana street corner",
+      "published": true,
+      "published_at": "2026-09-09T09:32:21"
     },
     {
       "day": 4,
