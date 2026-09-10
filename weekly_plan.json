@@ -62,7 +62,9 @@
         "exotisches Afrika"
       ],
       "feeling": "Der Leser spürt den ersten Schluck, der nach Erde und Fermentation schmeckt.",
-      "image_query": "umqombothi brewing cape town barrel"
+      "image_query": "umqombothi brewing cape town barrel",
+      "published": true,
+      "published_at": "2026-09-10T09:30:16"
     },
     {
       "day": 5,
