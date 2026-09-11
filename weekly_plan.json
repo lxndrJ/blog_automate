@@ -78,7 +78,9 @@
         "handwerkliche Romantik"
       ],
       "feeling": "Der Leser spürt, wie sein eigener Atem lauter wird.",
-      "image_query": "leipzig printing press silent lunch"
+      "image_query": "leipzig printing press silent lunch",
+      "published": true,
+      "published_at": "2026-09-11T09:27:55"
     },
     {
       "day": 6,
