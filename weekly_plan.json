@@ -94,7 +94,9 @@
         "letzter seiner Art"
       ],
       "feeling": "Der Leser sieht das Licht, das über dem schwarzen Wasser zittert.",
-      "image_query": "faroe islands lighthouse keeper petroleum lamp"
+      "image_query": "faroe islands lighthouse keeper petroleum lamp",
+      "published": true,
+      "published_at": "2026-09-12T09:09:20"
     },
     {
       "day": 7,
