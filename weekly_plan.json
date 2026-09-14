@@ -1,118 +1,104 @@
 {
-  "week": "2026-W36",
-  "generated_at": "2026-09-06T08:12:17",
+  "week": "2026-W38",
+  "generated_at": "2026-09-14T09:29:17",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Work-Life Balance",
-      "topic": "Der 15-Uhr-Gong in Kyoto: Wenn die Teehausglocke die Schicht beendet",
-      "angle": "Ein 400 Jahre altes Teehaus in Gion, das seit 1620 um 15 Uhr mit einer Bronzeglocke die Arbeitszeit der Geisha begrenzt – und warum diese Regel heute noch für lokale Handwerker gilt. Relevanz: Herbstanfang, wenn die Tage kürzer werden und Rhythmen neu verhandelt werden.",
-      "hook": "Das dumpfe, metallische Nachklingen der Glocke vermischt sich mit dem Geruch von geröstetem Matcha und nassem Kieselstein.",
+      "category": "Kochen/Essen",
+      "topic": "Die letzte Frau, die in Oaxaca *Mole Negro* mit dem Steinmörser der Urgroßmutter zubereitet",
+      "angle": "Der Fokus liegt auf dem rhythmischen Klopfen des Mörsers um 4 Uhr morgens, wenn der Duft von geröstetem Chili und Schokolade durch die Gasse zieht. Relevant, weil die Regenzeit in Oaxaca jetzt die Chili-Ernte bringt – und die Tradition droht, mit ihr zu verschwinden.",
+      "hook": "Das dumpfe *Tock-Tock* des Granitmörsers hallt durch den Hof, als der erste Hauch von verbranntem Mais und Zimt die Luft schwer macht.",
       "forbidden": [
-        "Zen-Klischee",
-        "traditionelle japanische Arbeitskultur"
+        "authentisch",
+        "traditionell"
       ],
-      "feeling": "Der Leser spürt, wie eine unsichtbare Hand die Zeit an seinem eigenen Handgelenk anhält.",
-      "image_query": "bronze bell kyoto teahouse autumn",
-      "published": true,
-      "published_at": "2026-09-07T10:03:36"
+      "feeling": "Der Leser spürt den Staub der getrockneten Chilischoten zwischen den Fingern und das langsame, fast meditative Gewicht des Mörsers in der Hand.",
+      "image_query": "Oaxaca woman grinding mole negro mortar"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Kochen/Essen",
-      "topic": "Die letzte Olivenölpresse in Ligurien, die noch mit Eselskraft arbeitet",
-      "angle": "In einem Dorf hinter Imperia steht die einzige noch funktionierende *frantoio a trazione asinina* – eine Ölpresse, die von zwei Eseln angetrieben wird. Der Besitzer, 82, presst nur noch für sich und drei Nachbarn. Relevanz: Olivenernte beginnt im Oktober, jetzt werden die Steine der Mühlen geschärft.",
-      "hook": "Der saure, grüne Duft zerdrückter Taggiasca-Oliven klebt an den Backen der Esel.",
+      "category": "Reise",
+      "topic": "Der Briefkasten an der *Rua das Portas Largas* in Lissabon, in den seit 1923 nur Handschriften geworfen werden",
+      "angle": "Ein unscheinbarer, blauer Kasten in Alfama, bewacht von einem alten Postboten, der jeden Morgen um 7:30 Uhr die Umschläge mit einem Messingstempel versieht. Diese Woche jährt sich sein 100. Dienstjahr.",
+      "hook": "Das knirschende Geräusch des rostigen Schlosses mischt sich mit dem Duft von frischem *Pão com Chouriço* aus der Bäckerei gegenüber.",
       "forbidden": [
-        "slow food",
-        "Nostalgie"
+        "geheimnisvoll",
+        "versteckt"
       ],
-      "feeling": "Der Leser schmeckt das Öl, das nach Arbeit und Tierhaar riecht.",
-      "image_query": "donkey powered olive press liguria",
-      "published": true,
-      "published_at": "2026-09-08T09:29:37"
+      "feeling": "Der Leser hört das Rascheln des Papiers, als der Brief in den Schlitz gleitet – und spürt die Gewissheit, dass er irgendwo ankommt.",
+      "image_query": "Lisbon blue postbox Alfama morning"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Reise",
-      "topic": "Der Briefkasten an der Ecke Calle O’Reilly und San Ignacio in Havanna, der nur für Beschwerden an den Stadtbaumeister da ist",
-      "angle": "Seit 1958 hängt dort ein roter Kasten mit der Aufschrift *Quejas al Arquitecto*. Jeden Mittwoch um 11 Uhr wird er von einer Frau mit Handschuhen geleert – auch wenn die Beschwerden längst digital gehen. Relevanz: Hurrikansaison endet, die Stadt repariert sich selbst.",
-      "hook": "Das Knarren des rostigen Scharniers vermischt sich mit dem Klirren der Münzen, die ein Straßenmusiker in seinen Hut wirft.",
+      "category": "Work-Life Balance",
+      "topic": "Die 13:07-Pause der U-Bahn-Fahrer in Seoul, in der sie gemeinsam *Kimchi-Jjigae* aus der Thermoskanne essen",
+      "angle": "Genau 17 Minuten, zwischen zwei Fahrten auf Linie 4, wenn die Fahrer im Abstellgleis ihre selbstmitgebrachten Metallschüsseln füllen. Ein Ritual, das seit den 80ern die Schichten strukturiert – und die Hierarchien für kurze Zeit auflöst.",
+      "hook": "Der scharfe Geruch von fermentiertem Kimchi schlägt gegen die Scheiben der Fahrerkabine, als der erste Löffel in die Schüssel klirrt.",
       "forbidden": [
-        "Sozialismus-Romantik",
-        "Vintage-Kuba"
+        "Teamwork",
+        "Gemeinschaft"
       ],
-      "feeling": "Der Leser hört das Papierrascheln, als würde er selbst einen Zettel einwerfen.",
-      "image_query": "red complaint box havana street corner",
-      "published": true,
-      "published_at": "2026-09-09T09:32:21"
+      "feeling": "Der Leser schmeckt die Schärfe des Kimchis auf der Zunge und spürt die Wärme der Thermoskanne in den Händen, während die U-Bahn im Hintergrund leise vibriert.",
+      "image_query": "Seoul subway drivers lunch break kimchi jjigae"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Kochen/Essen",
-      "topic": "Der Mann, der in Kapstadt jeden Donnerstag um 17 Uhr 200 Liter *Umqombothi* in einem Ölfass braut",
-      "angle": "In Khayelitsha gärt seit 30 Jahren dasselbe Sorghum-Bier in einem umfunktionierten Schiffstank – nur der Deckel ist neu. Der Brauer, ein ehemaliger Hafenarbeiter, verkostet es mit einem Strohhalm aus Bambus. Relevanz: Frühling in Südafrika, die Temperaturen steigen, das Bier gärt schneller.",
-      "hook": "Der scharfe, hefeartige Geruch steigt in die Nase, noch bevor man die Gasse mit den blauen Plastikstühlen sieht.",
+      "category": "Reise",
+      "topic": "Der letzte *Dabbawala* in Mumbai, der sein Mittagessen noch mit dem Fahrrad ausliefert",
+      "angle": "Während die meisten Kollegen längst Motorräder nutzen, fährt Rajiv seit 42 Jahren dieselbe Strecke durch die engen Gassen von Dadar – mit demselben rostigen Rad und demselben Alu-Kasten, in dem das *Dal Makhani* nicht ausläuft. Diese Woche ist sein letzter vor dem Ruhestand.",
+      "hook": "Das quietschende Pedal des Fahrrads und das Klappern der Metallboxen vermischen sich mit dem Geschrei der Straßenhändler, als der Duft von Kreuzkümmel und Butter in der Mittagshitze hängen bleibt.",
       "forbidden": [
-        "Township-Tourismus",
-        "exotisches Afrika"
+        "Effizienz",
+        "Logistik"
       ],
-      "feeling": "Der Leser spürt den ersten Schluck, der nach Erde und Fermentation schmeckt.",
-      "image_query": "umqombothi brewing cape town barrel",
-      "published": true,
-      "published_at": "2026-09-10T09:30:16"
+      "feeling": "Der Leser spürt den Schweiß auf der Stirn und das Gleichgewicht des Kastens auf dem Gepäckträger, als das Rad über die Schienen der Straßenbahn holpert.",
+      "image_query": "Mumbai dabbawala bicycle lunchbox"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Work-Life Balance",
-      "topic": "Die 47 Minuten Stille in der Mittagszeit der Druckerei in Leipzig, in der niemand spricht",
-      "angle": "Seit 1923 hält die *Leipziger Buchdruckwerkstatt* jeden Freitag von 12:47 bis 13:34 eine *Schweigeminute* – nicht aus Trauer, sondern weil die Maschinen dann gewartet werden und die Arbeiter ohnehin nichts hören würden. Relevanz: Herbstlicht fällt schräg durch die hohen Fenster, die Stille wird greifbar.",
-      "hook": "Das Surren der Offsetmaschinen verstummt mit einem letzten, zischenden Ausatmen.",
+      "category": "Kochen/Essen",
+      "topic": "Der *Käsekuchen* der Bäckerei *Schmid* in Zürich, der nur freitags um 16 Uhr aus dem Ofen kommt – und bis 16:15 ausverkauft ist",
+      "angle": "Seit 1958 backt die Familie Schmid jeden Freitag dieselbe Rezeptur: Quark aus dem Emmental, Eier von den Hühner der Schwester, und eine Prise Zitronenschale, die niemand sonst kennt. Die Schlange beginnt sich um 15:30 zu bilden.",
+      "hook": "Der süß-säuerliche Geruch von gebackenem Teig und karamellisierter Milch schlägt gegen die Scheibe der Ladentür, als die erste Klingel ertönt.",
       "forbidden": [
-        "Ostalgien",
-        "handwerkliche Romantik"
+        "heimisch",
+        "hausgemacht"
       ],
-      "feeling": "Der Leser spürt, wie sein eigener Atem lauter wird.",
-      "image_query": "leipzig printing press silent lunch",
-      "published": true,
-      "published_at": "2026-09-11T09:27:55"
+      "feeling": "Der Leser beißt in die noch warme Kruste und spürt, wie der Käse an den Gaumen klebt – während die nächste Schlange schon ungeduldig mit den Füßen scharrt.",
+      "image_query": "Zurich bakery cheesecake Friday afternoon"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Reise",
-      "topic": "Der einzige noch aktive Leuchtturmwärter Europas, der auf den Färöern mit einer Petroleumlampe arbeitet",
-      "angle": "Auf Mykinesholmur weigert sich der 78-jährige Jóhan seit 40 Jahren, auf LED umzusteigen. Jeden Abend um 18:37 Uhr (im Herbst) zündet er die Lampe an – und löscht sie bei Sonnenaufgang mit einem nassen Lappen. Relevanz: Die Nächte werden länger, die Lampe brennt länger.",
-      "hook": "Der Geruch von verbranntem Petroleum und Salzwasser frisst sich in die Jacke.",
+      "category": "Work-Life Balance",
+      "topic": "Die *Siesta der Fischer* in Tarifa, die um 14 Uhr beginnt – wenn die Boote leergelaufen sind und die Männer sich auf die Netze legen",
+      "angle": "Kein Wecker, kein Befehl: Wenn der letzte Thunfisch verkauft ist, legt sich die gesamte Crew der *Barca de Juan* für genau 47 Minuten auf die Holzplanken am Hafen. Die Regel gilt seit Generationen – und wird nur gebrochen, wenn der Wind dreht.",
+      "hook": "Das Knarren der Holzboote und das leise Schnarchen der Männer vermischen sich mit dem Salzgeruch der Meeresluft, als die Sonne senkrecht auf die Netze brennt.",
       "forbidden": [
-        "Einsamkeit",
-        "letzter seiner Art"
+        "entspannt",
+        "Mediterran"
       ],
-      "feeling": "Der Leser sieht das Licht, das über dem schwarzen Wasser zittert.",
-      "image_query": "faroe islands lighthouse keeper petroleum lamp",
-      "published": true,
-      "published_at": "2026-09-12T09:09:20"
+      "feeling": "Der Leser spürt das raue Holz unter dem Rücken und das Gewicht der Mittagssonne auf den Augenlidern, während das Meer im Hintergrund leise gegen die Pfähle schlägt.",
+      "image_query": "Tarifa fishermen siesta net boat"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Kochen/Essen",
-      "topic": "Das *Pão de Queijo*, das in Belo Horizonte nur sonntags um 7 Uhr aus dem Holzofen der Padaria do Zé kommt",
-      "angle": "Seit 1988 backt Zé jeden Sonntagmorgen 500 Käsebällchen – genau so lange, bis der Ofen aus den 1950ern heiß genug ist. Die ersten Kunden warten schon um 6:30 Uhr mit Thermoskannen voller Kaffee. Relevanz: Sonntag ist in Brasilien der Tag der *café da manhã* in der Familie.",
-      "hook": "Die knusprige Kruste bricht auf, und der dampfende Käse zieht Fäden bis zum Handgelenk.",
+      "category": "Reise",
+      "topic": "Der *Klang der Glocke* in der *Iglesia de San Francisco* in La Paz, die jeden Sonntag um 8 Uhr genau 33 Mal schlägt – für jeden Berg der Anden einen Ton",
+      "angle": "Seit dem Erdbeben von 1948 läutet die Glocke nicht mehr zum Gebet, sondern als Erinnerung an die 33 Berge, die die Stadt umgeben. Die Bewohner zählen die Schläge – und wissen: Wenn die 33. verhallt, beginnt der Markt auf der Plaza.",
+      "hook": "Das tiefe, metallische *Gong* der Glocke hallt durch die engen Gassen, als der erste Strahl der Morgensonne die Kuppel der Kirche streift.",
       "forbidden": [
-        "Brasilianische Gastfreundschaft",
-        "Streetfood-Trend"
+        "mystisch",
+        "spirituell"
       ],
-      "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht.",
-      "image_query": "wood fired pao de queijo belo horizonte sunday",
-      "published": true,
-      "published_at": "2026-09-06T09:14:47"
+      "feeling": "Der Leser hört das Echo der Glocke in den Bergen verhallen und spürt, wie die Stadt für einen Moment den Atem anhält.",
+      "image_query": "La Paz church bell Sunday morning Andes"
     }
   ]
 }
