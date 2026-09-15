@@ -30,7 +30,9 @@
         "versteckt"
       ],
       "feeling": "Der Leser hört das Rascheln des Papiers, als der Brief in den Schlitz gleitet – und spürt die Gewissheit, dass er irgendwo ankommt.",
-      "image_query": "Lisbon blue postbox Alfama morning"
+      "image_query": "Lisbon blue postbox Alfama morning",
+      "published": true,
+      "published_at": "2026-09-15T09:56:02"
     },
     {
       "day": 3,
