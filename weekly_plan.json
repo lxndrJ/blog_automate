@@ -46,7 +46,9 @@
         "Gemeinschaft"
       ],
       "feeling": "Der Leser schmeckt die Schärfe des Kimchis auf der Zunge und spürt die Wärme der Thermoskanne in den Händen, während die U-Bahn im Hintergrund leise vibriert.",
-      "image_query": "Seoul subway drivers lunch break kimchi jjigae"
+      "image_query": "Seoul subway drivers lunch break kimchi jjigae",
+      "published": true,
+      "published_at": "2026-09-16T09:48:20"
     },
     {
       "day": 4,
