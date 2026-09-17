@@ -62,7 +62,9 @@
         "Logistik"
       ],
       "feeling": "Der Leser spürt den Schweiß auf der Stirn und das Gleichgewicht des Kastens auf dem Gepäckträger, als das Rad über die Schienen der Straßenbahn holpert.",
-      "image_query": "Mumbai dabbawala bicycle lunchbox"
+      "image_query": "Mumbai dabbawala bicycle lunchbox",
+      "published": true,
+      "published_at": "2026-09-17T09:55:34"
     },
     {
       "day": 5,
