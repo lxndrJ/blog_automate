@@ -78,7 +78,9 @@
         "hausgemacht"
       ],
       "feeling": "Der Leser beißt in die noch warme Kruste und spürt, wie der Käse an den Gaumen klebt – während die nächste Schlange schon ungeduldig mit den Füßen scharrt.",
-      "image_query": "Zurich bakery cheesecake Friday afternoon"
+      "image_query": "Zurich bakery cheesecake Friday afternoon",
+      "published": true,
+      "published_at": "2026-09-18T09:32:31"
     },
     {
       "day": 6,
