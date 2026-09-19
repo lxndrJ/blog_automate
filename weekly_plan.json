@@ -94,7 +94,9 @@
         "Mediterran"
       ],
       "feeling": "Der Leser spürt das raue Holz unter dem Rücken und das Gewicht der Mittagssonne auf den Augenlidern, während das Meer im Hintergrund leise gegen die Pfähle schlägt.",
-      "image_query": "Tarifa fishermen siesta net boat"
+      "image_query": "Tarifa fishermen siesta net boat",
+      "published": true,
+      "published_at": "2026-09-19T09:19:24"
     },
     {
       "day": 7,
