@@ -14,7 +14,9 @@
         "Handwerk stirbt aus"
       ],
       "feeling": "Der Leser spürt das Gewicht der Lettern in seiner Hand und den metallischen Geschmack des Kaffees auf der Zunge.",
-      "image_query": "antique printing workshop coffee break"
+      "image_query": "antique printing workshop coffee break",
+      "published": true,
+      "published_at": "2026-09-21T10:34:39"
     },
     {
       "day": 2,
