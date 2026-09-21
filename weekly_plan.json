@@ -1,118 +1,104 @@
 {
-  "week": "2026-W38",
-  "generated_at": "2026-09-14T09:29:17",
+  "week": "2026-W39",
+  "generated_at": "2026-09-21T09:31:33",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Kochen/Essen",
-      "topic": "Die letzte Frau, die in Oaxaca *Mole Negro* mit dem Steinmörser der Urgroßmutter zubereitet",
-      "angle": "Der Fokus liegt auf dem rhythmischen Klopfen des Mörsers um 4 Uhr morgens, wenn der Duft von geröstetem Chili und Schokolade durch die Gasse zieht. Relevant, weil die Regenzeit in Oaxaca jetzt die Chili-Ernte bringt – und die Tradition droht, mit ihr zu verschwinden.",
-      "hook": "Das dumpfe *Tock-Tock* des Granitmörsers hallt durch den Hof, als der erste Hauch von verbranntem Mais und Zimt die Luft schwer macht.",
+      "category": "Work-Life Balance",
+      "topic": "Der 11:47-Kaffee der Setzer in der Letternwerkstatt von Antwerpen",
+      "angle": "Die tägliche Pause, in der die letzten Bleilettern der Stadt mit einem Kupferlöffel gerührt werden – ein Ritual, das seit 1903 die Schicht teilt. Diese Woche jährt sich die Schließung der letzten Konkurrenzwerkstatt zum 10. Mal.",
+      "hook": "Das Klirren des Löffels gegen den Zinnbecher hallt durch den Raum, als würde die Zeit selbst stocken.",
       "forbidden": [
-        "authentisch",
-        "traditionell"
+        "Nostalgie",
+        "Handwerk stirbt aus"
       ],
-      "feeling": "Der Leser spürt den Staub der getrockneten Chilischoten zwischen den Fingern und das langsame, fast meditative Gewicht des Mörsers in der Hand.",
-      "image_query": "Oaxaca woman grinding mole negro mortar",
-      "published": true,
-      "published_at": "2026-09-14T10:29:28"
+      "feeling": "Der Leser spürt das Gewicht der Lettern in seiner Hand und den metallischen Geschmack des Kaffees auf der Zunge.",
+      "image_query": "antique printing workshop coffee break"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Reise",
-      "topic": "Der Briefkasten an der *Rua das Portas Largas* in Lissabon, in den seit 1923 nur Handschriften geworfen werden",
-      "angle": "Ein unscheinbarer, blauer Kasten in Alfama, bewacht von einem alten Postboten, der jeden Morgen um 7:30 Uhr die Umschläge mit einem Messingstempel versieht. Diese Woche jährt sich sein 100. Dienstjahr.",
-      "hook": "Das knirschende Geräusch des rostigen Schlosses mischt sich mit dem Duft von frischem *Pão com Chouriço* aus der Bäckerei gegenüber.",
+      "category": "Kochen/Essen",
+      "topic": "Die *Sopa de Habas* der Marktfrau Doña Rosa in Toluca, die sie nur an Tagen mit R serviert",
+      "angle": "Ein Gericht, das nur an Dienstagen und Freitagen zubereitet wird – weil der Name der Woche den Buchstaben R enthält. Diese Woche fällt der erste Herbstregen auf den Marktstand.",
+      "hook": "Der Duft von frisch gekochten Saubohnen vermischt sich mit dem Geruch von nassem Holz der Marktbuden.",
       "forbidden": [
-        "geheimnisvoll",
-        "versteckt"
+        "authentisch",
+        "traditionell"
       ],
-      "feeling": "Der Leser hört das Rascheln des Papiers, als der Brief in den Schlitz gleitet – und spürt die Gewissheit, dass er irgendwo ankommt.",
-      "image_query": "Lisbon blue postbox Alfama morning",
-      "published": true,
-      "published_at": "2026-09-15T09:56:02"
+      "feeling": "Der Leser riecht den Dampf der Suppe und hört das Prasseln des Regens auf dem Blechdach.",
+      "image_query": "Mexican market stall bean soup rain"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Work-Life Balance",
-      "topic": "Die 13:07-Pause der U-Bahn-Fahrer in Seoul, in der sie gemeinsam *Kimchi-Jjigae* aus der Thermoskanne essen",
-      "angle": "Genau 17 Minuten, zwischen zwei Fahrten auf Linie 4, wenn die Fahrer im Abstellgleis ihre selbstmitgebrachten Metallschüsseln füllen. Ein Ritual, das seit den 80ern die Schichten strukturiert – und die Hierarchien für kurze Zeit auflöst.",
-      "hook": "Der scharfe Geruch von fermentiertem Kimchi schlägt gegen die Scheiben der Fahrerkabine, als der erste Löffel in die Schüssel klirrt.",
+      "category": "Reise",
+      "topic": "Der Schatten des *Baobab der Postboten* in Saint-Louis, Senegal, um 12:30 Uhr",
+      "angle": "Der Baum, unter dem seit 1892 die Briefe der Kolonialzeit sortiert wurden – heute treffen sich hier die Radkurier der Stadt. Diese Woche wird der letzte handgeschriebene Brief in den Ast gehängt.",
+      "hook": "Das Rascheln der Papierstapel im Wind klingt wie ein Flüstern aus einer anderen Zeit.",
       "forbidden": [
-        "Teamwork",
-        "Gemeinschaft"
+        "Kolonialromantik",
+        "Afrikaklischee"
       ],
-      "feeling": "Der Leser schmeckt die Schärfe des Kimchis auf der Zunge und spürt die Wärme der Thermoskanne in den Händen, während die U-Bahn im Hintergrund leise vibriert.",
-      "image_query": "Seoul subway drivers lunch break kimchi jjigae",
-      "published": true,
-      "published_at": "2026-09-16T09:48:20"
+      "feeling": "Der Leser steht im kühlen Schatten und spürt die raue Rinde des Baums unter den Fingern.",
+      "image_query": "baobab tree postman shadow Senegal"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Reise",
-      "topic": "Der letzte *Dabbawala* in Mumbai, der sein Mittagessen noch mit dem Fahrrad ausliefert",
-      "angle": "Während die meisten Kollegen längst Motorräder nutzen, fährt Rajiv seit 42 Jahren dieselbe Strecke durch die engen Gassen von Dadar – mit demselben rostigen Rad und demselben Alu-Kasten, in dem das *Dal Makhani* nicht ausläuft. Diese Woche ist sein letzter vor dem Ruhestand.",
-      "hook": "Das quietschende Pedal des Fahrrads und das Klappern der Metallboxen vermischen sich mit dem Geschrei der Straßenhändler, als der Duft von Kreuzkümmel und Butter in der Mittagshitze hängen bleibt.",
+      "category": "Work-Life Balance",
+      "topic": "Die 16:00-Uhr der Teppichweber in der Werkstatt von Kashan, wenn die Fäden gezählt werden",
+      "angle": "Jeden Donnerstag wird die Arbeit unterbrochen, um die Knoten der Woche zu zählen – eine Praxis, die seit dem 16. Jahrhundert die Löhne bestimmt. Diese Woche wird der letzte Perserteppich der Meisterin fertig.",
+      "hook": "Das Klicken der Holzspulen hört abrupt auf, als würde die Zeit selbst den Atem anhalten.",
       "forbidden": [
-        "Effizienz",
-        "Logistik"
+        "Orientalismus",
+        "Kunsthandwerk"
       ],
-      "feeling": "Der Leser spürt den Schweiß auf der Stirn und das Gleichgewicht des Kastens auf dem Gepäckträger, als das Rad über die Schienen der Straßenbahn holpert.",
-      "image_query": "Mumbai dabbawala bicycle lunchbox",
-      "published": true,
-      "published_at": "2026-09-17T09:55:34"
+      "feeling": "Der Leser sieht die bunten Fäden zwischen seinen Fingern und spürt die Stille nach dem letzten Knoten.",
+      "image_query": "Persian carpet workshop counting threads"
     },
     {
       "day": 5,
       "weekday": "Freitag",
       "category": "Kochen/Essen",
-      "topic": "Der *Käsekuchen* der Bäckerei *Schmid* in Zürich, der nur freitags um 16 Uhr aus dem Ofen kommt – und bis 16:15 ausverkauft ist",
-      "angle": "Seit 1958 backt die Familie Schmid jeden Freitag dieselbe Rezeptur: Quark aus dem Emmental, Eier von den Hühner der Schwester, und eine Prise Zitronenschale, die niemand sonst kennt. Die Schlange beginnt sich um 15:30 zu bilden.",
-      "hook": "Der süß-säuerliche Geruch von gebackenem Teig und karamellisierter Milch schlägt gegen die Scheibe der Ladentür, als die erste Klingel ertönt.",
+      "topic": "Der *Kartoffelpuffer* des Imbisses *Zur letzten Laterne* in Berlin-Kreuzberg, der nur bei Vollmond frittiert wird",
+      "angle": "Ein Rezept, das nur an 12 Tagen im Jahr serviert wird – diese Woche ist einer davon. Der Imbissbesitzer behauptet, der Mond ziehe das Fett gleichmäßiger in den Teig.",
+      "hook": "Das Zischen der Puffer im heißen Öl klingt wie ein Geheimnis, das nur die Nacht versteht.",
       "forbidden": [
-        "heimisch",
-        "hausgemacht"
+        "Berliner Szene",
+        "Hipster"
       ],
-      "feeling": "Der Leser beißt in die noch warme Kruste und spürt, wie der Käse an den Gaumen klebt – während die nächste Schlange schon ungeduldig mit den Füßen scharrt.",
-      "image_query": "Zurich bakery cheesecake Friday afternoon",
-      "published": true,
-      "published_at": "2026-09-18T09:32:31"
+      "feeling": "Der Leser schmeckt das salzige Fett auf den Lippen und sieht das gelbe Licht der Laterne über dem Stand.",
+      "image_query": "Berlin street food potato pancake night"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Work-Life Balance",
-      "topic": "Die *Siesta der Fischer* in Tarifa, die um 14 Uhr beginnt – wenn die Boote leergelaufen sind und die Männer sich auf die Netze legen",
-      "angle": "Kein Wecker, kein Befehl: Wenn der letzte Thunfisch verkauft ist, legt sich die gesamte Crew der *Barca de Juan* für genau 47 Minuten auf die Holzplanken am Hafen. Die Regel gilt seit Generationen – und wird nur gebrochen, wenn der Wind dreht.",
-      "hook": "Das Knarren der Holzboote und das leise Schnarchen der Männer vermischen sich mit dem Salzgeruch der Meeresluft, als die Sonne senkrecht auf die Netze brennt.",
+      "category": "Reise",
+      "topic": "Der *Klang der Hupe* des letzten *Trolleybusses* in Wellington, der um 23:12 Uhr die letzte Runde fährt",
+      "angle": "Der Bus, der seit 1952 die Hügel der Stadt hinauffährt – diese Woche wird seine Strecke zum letzten Mal befahren, bevor die Oberleitungen abgebaut werden.",
+      "hook": "Die Hupe ertönt wie ein Abschied, der durch die leeren Straßen hallt.",
       "forbidden": [
-        "entspannt",
-        "Mediterran"
+        "Fortschritt",
+        "Moderne"
       ],
-      "feeling": "Der Leser spürt das raue Holz unter dem Rücken und das Gewicht der Mittagssonne auf den Augenlidern, während das Meer im Hintergrund leise gegen die Pfähle schlägt.",
-      "image_query": "Tarifa fishermen siesta net boat",
-      "published": true,
-      "published_at": "2026-09-19T09:19:24"
+      "feeling": "Der Leser hört das Surren des Motors und spürt die Vibration der Sitzbank unter sich.",
+      "image_query": "Wellington trolleybus last ride night"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Reise",
-      "topic": "Der *Klang der Glocke* in der *Iglesia de San Francisco* in La Paz, die jeden Sonntag um 8 Uhr genau 33 Mal schlägt – für jeden Berg der Anden einen Ton",
-      "angle": "Seit dem Erdbeben von 1948 läutet die Glocke nicht mehr zum Gebet, sondern als Erinnerung an die 33 Berge, die die Stadt umgeben. Die Bewohner zählen die Schläge – und wissen: Wenn die 33. verhallt, beginnt der Markt auf der Plaza.",
-      "hook": "Das tiefe, metallische *Gong* der Glocke hallt durch die engen Gassen, als der erste Strahl der Morgensonne die Kuppel der Kirche streift.",
+      "category": "Kochen/Essen",
+      "topic": "Das *Brot der Stille* aus dem Kloster *Santa Maria* in Assisi, das nur sonntags um 5 Uhr gebacken wird",
+      "angle": "Ein Brotlaib, der ohne ein Wort zubereitet wird – die Nonnen kommunizieren nur durch Blicke und Handzeichen. Diese Woche wird das Rezept zum ersten Mal an eine Novizin weitergegeben.",
+      "hook": "Der Geruch von frischem Sauerteig füllt den Raum, während die Stille so dicht ist, dass man sie schneiden könnte.",
       "forbidden": [
-        "mystisch",
-        "spirituell"
+        "spirituell",
+        "heilig"
       ],
-      "feeling": "Der Leser hört das Echo der Glocke in den Bergen verhallen und spürt, wie die Stadt für einen Moment den Atem anhält.",
-      "image_query": "La Paz church bell Sunday morning Andes",
-      "published": true,
-      "published_at": "2026-09-20T09:41:33"
+      "feeling": "Der Leser beißt in die krustige Rinde und hört das Knirschen zwischen den Zähnen wie ein Gebet.",
+      "image_query": "monastery bread baking silent ritual"
     }
   ]
 }
