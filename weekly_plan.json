@@ -30,7 +30,9 @@
         "traditionell"
       ],
       "feeling": "Der Leser riecht den Dampf der Suppe und hört das Prasseln des Regens auf dem Blechdach.",
-      "image_query": "Mexican market stall bean soup rain"
+      "image_query": "Mexican market stall bean soup rain",
+      "published": true,
+      "published_at": "2026-09-22T09:46:35"
     },
     {
       "day": 3,
