@@ -62,7 +62,9 @@
         "Kunsthandwerk"
       ],
       "feeling": "Der Leser sieht die bunten Fäden zwischen seinen Fingern und spürt die Stille nach dem letzten Knoten.",
-      "image_query": "Persian carpet workshop counting threads"
+      "image_query": "Persian carpet workshop counting threads",
+      "published": true,
+      "published_at": "2026-09-24T09:48:51"
     },
     {
       "day": 5,
