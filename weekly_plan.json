@@ -78,7 +78,9 @@
         "Hipster"
       ],
       "feeling": "Der Leser schmeckt das salzige Fett auf den Lippen und sieht das gelbe Licht der Laterne über dem Stand.",
-      "image_query": "Berlin street food potato pancake night"
+      "image_query": "Berlin street food potato pancake night",
+      "published": true,
+      "published_at": "2026-09-25T10:06:02"
     },
     {
       "day": 6,
