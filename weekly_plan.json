@@ -110,7 +110,9 @@
         "heilig"
       ],
       "feeling": "Der Leser beißt in die krustige Rinde und hört das Knirschen zwischen den Zähnen wie ein Gebet.",
-      "image_query": "monastery bread baking silent ritual"
+      "image_query": "monastery bread baking silent ritual",
+      "published": true,
+      "published_at": "2026-09-27T10:27:31"
     }
   ]
 }
