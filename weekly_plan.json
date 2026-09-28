@@ -14,7 +14,9 @@
         "Uhrenmuseum"
       ],
       "feeling": "Der Leser spürt das Gewicht einer Sekunde, die länger dauert als alle anderen.",
-      "image_query": "vintage watchmaker workshop Geneva"
+      "image_query": "vintage watchmaker workshop Geneva",
+      "published": true,
+      "published_at": "2026-09-28T11:35:39"
     },
     {
       "day": 2,
