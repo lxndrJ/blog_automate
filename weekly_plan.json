@@ -30,7 +30,9 @@
         "Tempelbesuch"
       ],
       "feeling": "Der Leser sieht seinen eigenen Schatten plötzlich als Fremden.",
-      "image_query": "Kyoto lantern lighter dusk"
+      "image_query": "Kyoto lantern lighter dusk",
+      "published": true,
+      "published_at": "2026-09-29T11:14:37"
     },
     {
       "day": 3,
