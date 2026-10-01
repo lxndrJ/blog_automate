@@ -62,7 +62,9 @@
         "Día de los Muertos"
       ],
       "feeling": "Der Leser schmeckt etwas, das es in 20 Jahren nicht mehr geben wird.",
-      "image_query": "elderly woman pulque Mexico clay pot"
+      "image_query": "elderly woman pulque Mexico clay pot",
+      "published": true,
+      "published_at": "2026-10-01T11:29:01"
     },
     {
       "day": 5,
