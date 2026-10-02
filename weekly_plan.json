@@ -78,7 +78,9 @@
         "Tea Time"
       ],
       "feeling": "Der Leser hört das Echo eines Handwerks, das niemand mehr lernt.",
-      "image_query": "last umbrella maker London scissors"
+      "image_query": "last umbrella maker London scissors",
+      "published": true,
+      "published_at": "2026-10-02T10:59:15"
     },
     {
       "day": 6,
