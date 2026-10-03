@@ -94,7 +94,9 @@
         "Ponte Vecchio"
       ],
       "feeling": "Der Leser spürt, wie Ordnung etwas Heiliges wird.",
-      "image_query": "Florence bookbinder workshop autumn light"
+      "image_query": "Florence bookbinder workshop autumn light",
+      "published": true,
+      "published_at": "2026-10-03T10:18:33"
     },
     {
       "day": 7,
