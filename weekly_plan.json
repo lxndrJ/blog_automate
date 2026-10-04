@@ -110,7 +110,9 @@
         "Vieux Port"
       ],
       "feeling": "Der Leser fühlt die Wärme eines Ortes, der nur einmal die Woche wirklich lebt.",
-      "image_query": "Marseille café wood stove harbor morning"
+      "image_query": "Marseille café wood stove harbor morning",
+      "published": true,
+      "published_at": "2026-10-04T11:03:18"
     }
   ]
 }
