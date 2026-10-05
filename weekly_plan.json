@@ -1,118 +1,104 @@
 {
-  "week": "2026-W40",
-  "generated_at": "2026-09-28T10:25:33",
+  "week": "2026-W41",
+  "generated_at": "2026-10-05T11:06:20",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Kochen/Essen",
-      "topic": "Der *Tee der Uhrmacher* in Genf, gebrüht um 15:37 Uhr mit der letzten Feder der Werkstatt",
-      "angle": "Wie eine Handvoll alter Uhrmacher in Genf ihren Tee mit einer Feder aus den 1920ern umrühren – ein Ritual, das den Rhythmus der Stadt bricht. Relevant, weil der Herbst die Werkstätten in warmes Licht taucht.",
-      "hook": "Das Kratzen der Feder am Porzellan klingt wie das Ticken einer unsichtbaren Uhr.",
+      "category": "Work-Life Balance",
+      "topic": "Die 8:22-Stille der Fischer in Portofino, wenn die Netze getrocknet werden",
+      "angle": "Der Moment, in dem die Arbeit pausiert und das Meer die einzige Stimme ist. Relevant, weil der Herbst die Fischer zur Eile treibt – doch diese Minute gehört nur dem Wind.",
+      "hook": "Das Knarren der Holzstege hört auf, als der letzte Fischer sein Netz über den Pfahl wirft.",
       "forbidden": [
-        "Schweizer Schokolade",
-        "Uhrenmuseum"
+        "romantische Fischerdörfer",
+        "italienische Lebensart"
       ],
-      "feeling": "Der Leser spürt das Gewicht einer Sekunde, die länger dauert als alle anderen.",
-      "image_query": "vintage watchmaker workshop Geneva",
-      "published": true,
-      "published_at": "2026-09-28T11:35:39"
+      "feeling": "Der Leser spürt die salzige Kühle der Morgenluft auf der Haut, als stünde er selbst am Kai.",
+      "image_query": "empty wooden pier morning mist"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Reise",
-      "topic": "Der *Schatten des Laternenanzünders* in Kyoto, der um 17:42 Uhr die letzte Papierlaterne entzündet",
-      "angle": "Ein Mann, der seit 30 Jahren die Laternen der Gion anknipst – und dessen Schatten mit jedem Jahr länger wird. Der Herbstwind macht die Flamme unberechenbar.",
-      "hook": "Der Geruch von verbranntem Papier und Zedernholz hängt wie ein Vorhang in der Luft.",
+      "category": "Kochen/Essen",
+      "topic": "Der erste Bissen *Kuih Lapis* der Großtante in Malakka, gebacken nur an ungeraden Tagen",
+      "angle": "Das Rezept wird nur mündlich weitergegeben, und die Schichten des Kuchens sind so dünn wie die Geduld der Bäckerin. Diese Woche fällt der 7. Oktober auf einen Dienstag – ein seltener Tag für den Kuchen.",
+      "hook": "Der Duft von Kokosmilch und Pandanblättern schlägt wie eine Welle gegen die Küchentür.",
       "forbidden": [
-        "Kirschblüten",
-        "Tempelbesuch"
+        "exotische Desserts",
+        "asiatische Süßigkeiten"
       ],
-      "feeling": "Der Leser sieht seinen eigenen Schatten plötzlich als Fremden.",
-      "image_query": "Kyoto lantern lighter dusk",
-      "published": true,
-      "published_at": "2026-09-29T11:14:37"
+      "feeling": "Der Leser schmeckt die klebrige Süße auf der Zunge, als hätte er heimlich eine Gabel voll genommen.",
+      "image_query": "layered cake steam kitchen"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Work-Life Balance",
-      "topic": "Die *10:15-Pause* der Leuchtturmwärter in Kapstadts *Green Point Lighthouse*, wenn der Nebel die Sirenen verschluckt",
-      "angle": "Eine Stunde Stille, in der die Wärter Tee trinken und den Nebel zählen – ein System, das seit 1824 funktioniert. Der Frühling bringt unberechenbare Winde.",
-      "hook": "Das Dröhnen der Sirene verstummt, und plötzlich hört man nur noch das eigene Atmen.",
+      "category": "Reise",
+      "topic": "Der Schatten der *letzten Straßenlaterne* in Valparaíso, die um 19:17 Uhr erloschen wird",
+      "angle": "Die Laterne an der Calle Concepción flackert seit 1983 – doch diese Woche wird sie für immer ersetzt. Ein Abschied von einem Licht, das ganze Generationen von Dichtern inspiriert hat.",
+      "hook": "Das letzte Zittern des Glühfadens wirft einen tanzenden Schatten auf die bunte Hauswand.",
       "forbidden": [
-        "Safari",
-        "Tafelberg"
+        "bunte Häuser",
+        "Künstlerstadt"
       ],
-      "feeling": "Der Leser spürt die Last und die Leichtigkeit des Wartens.",
-      "image_query": "lighthouse keeper fog Cape Town",
-      "published": true,
-      "published_at": "2026-09-30T11:02:40"
+      "feeling": "Der Leser spürt die Melancholie des Abschieds, als würde er selbst den Schalter umlegen.",
+      "image_query": "flickering street lamp colorful wall"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Kochen/Essen",
-      "topic": "Die *letzte Charge* *Pulque* der Großmutter in Milagros, Mexiko, die sie nur bei abnehmendem Mond braut",
-      "angle": "Eine Frau, die den fermentierten Agavensaft mit den Händen ihrer Urgroßmutter rührt – ein Geschmack, der nur im Herbst diese Bitterkeit hat.",
-      "hook": "Der erste Schluck schmeckt nach Erde, die zum ersten Mal Regen sieht.",
+      "category": "Work-Life Balance",
+      "topic": "Die 13:00-Pause der *Kalligrafen* in Fès, wenn die Tinte getrocknet wird",
+      "angle": "In der Medersa Bou Inania legen die Schreiber ihre Feder nieder, wenn die Sonne den Hof in zwei Hälften teilt. Diese Woche fällt der Moment mit dem ersten Herbstregen zusammen – die Tinte trocknet langsamer.",
+      "hook": "Das Kratzen der Feder auf Papier verstummt, als der erste Tropfen auf das Pergament fällt.",
       "forbidden": [
-        "Tequila",
-        "Día de los Muertos"
+        "orientalische Schriftkunst",
+        "marokkanische Traditionen"
       ],
-      "feeling": "Der Leser schmeckt etwas, das es in 20 Jahren nicht mehr geben wird.",
-      "image_query": "elderly woman pulque Mexico clay pot",
-      "published": true,
-      "published_at": "2026-10-01T11:29:01"
+      "feeling": "Der Leser hört das leise Tropfen des Regens auf den Steinplatten, als stünde er im Innenhof.",
+      "image_query": "calligraphy inkwell sunlight courtyard"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Reise",
-      "topic": "Der *Klang der Schere* im *Atelier des letzten Schirmmachers* in London, der um 11 Uhr die letzte Naht schneidet",
-      "angle": "Ein Handwerk, das ausstirbt – und dessen Geräusche wie ein Morsecode der Vergangenheit klingen. Der Herbstregen prasselt gegen die Scheiben.",
-      "hook": "Das Knirschen der Schere ist das einzige Geräusch im Raum, das nicht vom Regen kommt.",
+      "category": "Kochen/Essen",
+      "topic": "Der *letzte Apfelwein* des Wirts im *Zum Storch* in Frankfurt, gezapft um 22:00 Uhr",
+      "angle": "Der Wirt zapft den letzten Schluck des Jahres an diesem Freitag, wenn die Äpfel der Saison 2026 aufgebraucht sind. Wer zu spät kommt, bekommt nur noch den Geruch der leeren Fässer.",
+      "hook": "Das Holz des Fasses ächzt, als der letzte Strahl in das Glas läuft.",
       "forbidden": [
-        "Big Ben",
-        "Tea Time"
+        "Hessische Gemütlichkeit",
+        "Apfelwein-Kultur"
       ],
-      "feeling": "Der Leser hört das Echo eines Handwerks, das niemand mehr lernt.",
-      "image_query": "last umbrella maker London scissors",
-      "published": true,
-      "published_at": "2026-10-02T10:59:15"
+      "feeling": "Der Leser spürt den sauren Nachgeschmack auf der Zunge, als hätte er den letzten Schluck getrunken.",
+      "image_query": "wooden barrel last pour apple wine"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Work-Life Balance",
-      "topic": "Die *14:03-Minute* der Buchbinder in Florenz, in der sie die Seiten des Tages zurechtrücken",
-      "angle": "Eine Pause, die keine ist: Die Buchbinder nutzen die Minute, um die Blätter zu glätten, die der Wind durcheinandergebracht hat. Der Herbst bringt trockene Luft.",
-      "hook": "Das Rascheln des Papiers klingt wie ein Flüstern, das niemand übersetzt.",
+      "category": "Reise",
+      "topic": "Der *Klang der Glocke* im *Kloster San Juan* in Cusco, die um 6:00 Uhr die ersten Pilger weckt",
+      "angle": "Die Glocke läutet nur an Samstagen – und nur, wenn der Nebel über den Anden so dicht ist, dass die Sonne die Stadt noch nicht berührt. Diese Woche ist es soweit.",
+      "hook": "Das Metall der Glocke schwingt nach, als der Nebel den Ton verschluckt.",
       "forbidden": [
-        "David-Statue",
-        "Ponte Vecchio"
+        "Inka-Kultur",
+        "mystische Anden"
       ],
-      "feeling": "Der Leser spürt, wie Ordnung etwas Heiliges wird.",
-      "image_query": "Florence bookbinder workshop autumn light",
-      "published": true,
-      "published_at": "2026-10-03T10:18:33"
+      "feeling": "Der Leser spürt die Kälte der Morgenluft in den Lungen, als stünde er selbst im Klosterhof.",
+      "image_query": "monastery bell fog morning"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Reise",
-      "topic": "Der *Geruch der ersten Ofenheizung* im *Café des Arts* in Marseille, wenn um 9 Uhr die Türen zum Hafen geöffnet werden",
-      "angle": "Ein Café, das nur sonntags den Ofen anmacht – und dessen Wärme die Fischer anlockt. Der Herbst bringt den ersten kalten Wind vom Meer.",
-      "hook": "Der Rauch der ersten Holzscheite riecht nach Salz und altem Holz.",
+      "category": "Work-Life Balance",
+      "topic": "Die 10:00-Ruhe der *Schriftsteller* in der *Bibliothek von Alexandria*, wenn die Seiten umgeschlagen werden",
+      "angle": "Jeden Sonntag um diese Uhrzeit legen die Leser ihre Bücher für genau sieben Minuten beiseite – eine Regel, die seit der Wiedereröffnung 2002 gilt. Diese Woche fällt sie mit dem ersten Herbststurm zusammen.",
+      "hook": "Das Rascheln der Seiten verstummt, als der Wind gegen die Fenster schlägt.",
       "forbidden": [
-        "Bouillabaisse",
-        "Vieux Port"
+        "antike Weisheit",
+        "Bücherparadies"
       ],
-      "feeling": "Der Leser fühlt die Wärme eines Ortes, der nur einmal die Woche wirklich lebt.",
-      "image_query": "Marseille café wood stove harbor morning",
-      "published": true,
-      "published_at": "2026-10-04T11:03:18"
+      "feeling": "Der Leser spürt die Stille zwischen den Zeilen, als hätte er selbst das Buch zugeschlagen.",
+      "image_query": "library reading room storm light"
     }
   ]
 }
