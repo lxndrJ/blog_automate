@@ -14,7 +14,9 @@
         "italienische Lebensart"
       ],
       "feeling": "Der Leser spürt die salzige Kühle der Morgenluft auf der Haut, als stünde er selbst am Kai.",
-      "image_query": "empty wooden pier morning mist"
+      "image_query": "empty wooden pier morning mist",
+      "published": true,
+      "published_at": "2026-10-05T12:10:16"
     },
     {
       "day": 2,
