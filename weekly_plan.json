@@ -30,7 +30,9 @@
         "asiatische Süßigkeiten"
       ],
       "feeling": "Der Leser schmeckt die klebrige Süße auf der Zunge, als hätte er heimlich eine Gabel voll genommen.",
-      "image_query": "layered cake steam kitchen"
+      "image_query": "layered cake steam kitchen",
+      "published": true,
+      "published_at": "2026-10-06T11:54:06"
     },
     {
       "day": 3,
