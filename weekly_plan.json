@@ -62,7 +62,9 @@
         "marokkanische Traditionen"
       ],
       "feeling": "Der Leser hört das leise Tropfen des Regens auf den Steinplatten, als stünde er im Innenhof.",
-      "image_query": "calligraphy inkwell sunlight courtyard"
+      "image_query": "calligraphy inkwell sunlight courtyard",
+      "published": true,
+      "published_at": "2026-10-08T11:53:40"
     },
     {
       "day": 5,
