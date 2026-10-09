@@ -78,7 +78,9 @@
         "Apfelwein-Kultur"
       ],
       "feeling": "Der Leser spürt den sauren Nachgeschmack auf der Zunge, als hätte er den letzten Schluck getrunken.",
-      "image_query": "wooden barrel last pour apple wine"
+      "image_query": "wooden barrel last pour apple wine",
+      "published": true,
+      "published_at": "2026-10-09T11:45:29"
     },
     {
       "day": 6,
