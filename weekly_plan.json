@@ -94,7 +94,9 @@
         "mystische Anden"
       ],
       "feeling": "Der Leser spürt die Kälte der Morgenluft in den Lungen, als stünde er selbst im Klosterhof.",
-      "image_query": "monastery bell fog morning"
+      "image_query": "monastery bell fog morning",
+      "published": true,
+      "published_at": "2026-10-10T11:03:13"
     },
     {
       "day": 7,
