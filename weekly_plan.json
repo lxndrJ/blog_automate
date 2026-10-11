@@ -110,7 +110,9 @@
         "Bücherparadies"
       ],
       "feeling": "Der Leser spürt die Stille zwischen den Zeilen, als hätte er selbst das Buch zugeschlagen.",
-      "image_query": "library reading room storm light"
+      "image_query": "library reading room storm light",
+      "published": true,
+      "published_at": "2026-10-11T11:20:16"
     }
   ]
 }
