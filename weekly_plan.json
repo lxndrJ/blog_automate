@@ -1,118 +1,104 @@
 {
-  "week": "2026-W41",
-  "generated_at": "2026-10-05T11:06:20",
+  "week": "2026-W42",
+  "generated_at": "2026-10-12T11:35:58",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
       "category": "Work-Life Balance",
-      "topic": "Die 8:22-Stille der Fischer in Portofino, wenn die Netze getrocknet werden",
-      "angle": "Der Moment, in dem die Arbeit pausiert und das Meer die einzige Stimme ist. Relevant, weil der Herbst die Fischer zur Eile treibt – doch diese Minute gehört nur dem Wind.",
-      "hook": "Das Knarren der Holzstege hört auf, als der letzte Fischer sein Netz über den Pfahl wirft.",
+      "topic": "Die 16:47-Minute der Schiffsmodellbauer in der Werft von Riga, wenn der Leim trocknet",
+      "angle": "Der Moment, in dem die Hände stillhalten müssen – eine Pause, die nicht verhandelt wird. Relevant, weil der Herbst die Werkstätten in Lettland mit Feuchtigkeit füllt, die das Holz quellen lässt.",
+      "hook": "Der scharfe Geruch von Holzleim und altem Eichenholz hängt in der Luft, als die Uhr an der Wand 16:47 anzeigt.",
       "forbidden": [
-        "romantische Fischerdörfer",
-        "italienische Lebensart"
+        "Handwerkskunst",
+        "Tradition bewahren"
       ],
-      "feeling": "Der Leser spürt die salzige Kühle der Morgenluft auf der Haut, als stünde er selbst am Kai.",
-      "image_query": "empty wooden pier morning mist",
-      "published": true,
-      "published_at": "2026-10-05T12:10:16"
+      "feeling": "Das leise Knacken des trocknenden Leims unter den Fingerspitzen, als würde die Zeit selbst atmen.",
+      "image_query": "ship model workshop Riga golden hour"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
       "category": "Kochen/Essen",
-      "topic": "Der erste Bissen *Kuih Lapis* der Großtante in Malakka, gebacken nur an ungeraden Tagen",
-      "angle": "Das Rezept wird nur mündlich weitergegeben, und die Schichten des Kuchens sind so dünn wie die Geduld der Bäckerin. Diese Woche fällt der 7. Oktober auf einen Dienstag – ein seltener Tag für den Kuchen.",
-      "hook": "Der Duft von Kokosmilch und Pandanblättern schlägt wie eine Welle gegen die Küchentür.",
+      "topic": "Der erste Löffel *Sancocho* der Marktfrau Doña Rosa in Cartagena, gekocht nur bei Regen",
+      "angle": "Ein Gericht, das nur dann zubereitet wird, wenn der Regen die Hitze der Karibik für einen Tag vertreibt – eine Regel, die niemand bricht. Diese Woche fällt der erste Herbstregen.",
+      "hook": "Der dampfende Topf zischt, als der erste Tropfen Regen auf das Blechdach der Markthalle fällt.",
       "forbidden": [
-        "exotische Desserts",
-        "asiatische Süßigkeiten"
+        "kolumbianische Küche",
+        "exotische Gewürze"
       ],
-      "feeling": "Der Leser schmeckt die klebrige Süße auf der Zunge, als hätte er heimlich eine Gabel voll genommen.",
-      "image_query": "layered cake steam kitchen",
-      "published": true,
-      "published_at": "2026-10-06T11:54:06"
+      "feeling": "Die Schwere des Löffels in der Hand, als würde man nicht nur Suppe, sondern eine ganze Geschichte schlürfen.",
+      "image_query": "rainy market Cartagena sancocho pot"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
       "category": "Reise",
-      "topic": "Der Schatten der *letzten Straßenlaterne* in Valparaíso, die um 19:17 Uhr erloschen wird",
-      "angle": "Die Laterne an der Calle Concepción flackert seit 1983 – doch diese Woche wird sie für immer ersetzt. Ein Abschied von einem Licht, das ganze Generationen von Dichtern inspiriert hat.",
-      "hook": "Das letzte Zittern des Glühfadens wirft einen tanzenden Schatten auf die bunte Hauswand.",
+      "topic": "Der Schatten der *letzten Straßenbahn* in Lissabon, Linie 28, um 23:12 Uhr",
+      "angle": "Nicht die Touristenroute, sondern der Moment, in dem die letzte Bahn die leeren Gassen Alfamas durchfährt – eine Stille, die nur Einheimische kennen.",
+      "hook": "Das quietschende Metall der Schienen hallt durch die engen Gassen, als die letzte Bahn um die Kurve gleitet.",
       "forbidden": [
-        "bunte Häuser",
-        "Künstlerstadt"
+        "Touristenattraktion",
+        "historische Straßenbahn"
       ],
-      "feeling": "Der Leser spürt die Melancholie des Abschieds, als würde er selbst den Schalter umlegen.",
-      "image_query": "flickering street lamp colorful wall",
-      "published": true,
-      "published_at": "2026-10-07T11:39:02"
+      "feeling": "Das Gefühl, als würde die Stadt für eine Stunde nur dir gehören.",
+      "image_query": "Lisbon tram 28 night empty streets"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
       "category": "Work-Life Balance",
-      "topic": "Die 13:00-Pause der *Kalligrafen* in Fès, wenn die Tinte getrocknet wird",
-      "angle": "In der Medersa Bou Inania legen die Schreiber ihre Feder nieder, wenn die Sonne den Hof in zwei Hälften teilt. Diese Woche fällt der Moment mit dem ersten Herbstregen zusammen – die Tinte trocknet langsamer.",
-      "hook": "Das Kratzen der Feder auf Papier verstummt, als der erste Tropfen auf das Pergament fällt.",
+      "topic": "Die 11:11-Pause der *Korbflechterinnen* in Oaxaca, wenn die Fasern gewässert werden",
+      "angle": "Ein Ritual, das den Arbeitstag in zwei Hälften teilt – nicht aus Effizienz, sondern aus Respekt vor dem Material. Der Herbst bringt die letzte Ernte des Jahres.",
+      "hook": "Das Plätschern des Wassers im Steinbecken vermischt sich mit dem Rascheln der Palmenblätter, die in den Händen der Frauen liegen.",
       "forbidden": [
-        "orientalische Schriftkunst",
-        "marokkanische Traditionen"
+        "handgefertigte Körbe",
+        "indigene Traditionen"
       ],
-      "feeling": "Der Leser hört das leise Tropfen des Regens auf den Steinplatten, als stünde er im Innenhof.",
-      "image_query": "calligraphy inkwell sunlight courtyard",
-      "published": true,
-      "published_at": "2026-10-08T11:53:40"
+      "feeling": "Die Kühle des nassen Bastes zwischen den Fingern, als würde die Zeit für einen Moment innehalten.",
+      "image_query": "Oaxaca basket weavers water break"
     },
     {
       "day": 5,
       "weekday": "Freitag",
       "category": "Kochen/Essen",
-      "topic": "Der *letzte Apfelwein* des Wirts im *Zum Storch* in Frankfurt, gezapft um 22:00 Uhr",
-      "angle": "Der Wirt zapft den letzten Schluck des Jahres an diesem Freitag, wenn die Äpfel der Saison 2026 aufgebraucht sind. Wer zu spät kommt, bekommt nur noch den Geruch der leeren Fässer.",
-      "hook": "Das Holz des Fasses ächzt, als der letzte Strahl in das Glas läuft.",
+      "topic": "Der *letzte Bissen* *Kibbeh Nayyeh* des Metzgers Hassan in Beirut, zubereitet nur freitags",
+      "angle": "Ein Gericht, das nur am Wochenanfang serviert wird – rohes Lamm, gewürzt mit der Schärfe des Libanon und der Geduld eines Lebenswerks.",
+      "hook": "Das Messer schneidet durch das rohe Fleisch, während der Duft von Kreuzkümmel und Minze in der Luft liegt.",
       "forbidden": [
-        "Hessische Gemütlichkeit",
-        "Apfelwein-Kultur"
+        "libanesische Spezialität",
+        "rohes Fleisch"
       ],
-      "feeling": "Der Leser spürt den sauren Nachgeschmack auf der Zunge, als hätte er den letzten Schluck getrunken.",
-      "image_query": "wooden barrel last pour apple wine",
-      "published": true,
-      "published_at": "2026-10-09T11:45:29"
+      "feeling": "Der metallische Geschmack auf der Zunge, als würde man nicht nur Essen, sondern eine ganze Kultur kosten.",
+      "image_query": "Beirut butcher raw kibbeh preparation"
     },
     {
       "day": 6,
       "weekday": "Samstag",
       "category": "Reise",
-      "topic": "Der *Klang der Glocke* im *Kloster San Juan* in Cusco, die um 6:00 Uhr die ersten Pilger weckt",
-      "angle": "Die Glocke läutet nur an Samstagen – und nur, wenn der Nebel über den Anden so dicht ist, dass die Sonne die Stadt noch nicht berührt. Diese Woche ist es soweit.",
-      "hook": "Das Metall der Glocke schwingt nach, als der Nebel den Ton verschluckt.",
+      "topic": "Der *Klang der Glocke* der *letzten Buchhandlung* in Reykjavík, die um 18:00 Uhr schließt",
+      "angle": "Nicht der Lärm der Touristen, sondern das leise Läuten, das den Ende eines Tages in der stillsten Buchhandlung Islands markiert – ein Ort, an dem die Zeit langsamer tickt.",
+      "hook": "Das dumpfe Klingeln der Glocke hallt durch den leeren Raum, als die letzte Seite eines Buches umgeschlagen wird.",
       "forbidden": [
-        "Inka-Kultur",
-        "mystische Anden"
+        "Bücherparadies",
+        "islandische Literatur"
       ],
-      "feeling": "Der Leser spürt die Kälte der Morgenluft in den Lungen, als stünde er selbst im Klosterhof.",
-      "image_query": "monastery bell fog morning",
-      "published": true,
-      "published_at": "2026-10-10T11:03:13"
+      "feeling": "Die Stille nach dem letzten Klang, als würde die Welt für einen Moment den Atem anhalten.",
+      "image_query": "Reykjavik bookstore closing bell autumn"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Work-Life Balance",
-      "topic": "Die 10:00-Ruhe der *Schriftsteller* in der *Bibliothek von Alexandria*, wenn die Seiten umgeschlagen werden",
-      "angle": "Jeden Sonntag um diese Uhrzeit legen die Leser ihre Bücher für genau sieben Minuten beiseite – eine Regel, die seit der Wiedereröffnung 2002 gilt. Diese Woche fällt sie mit dem ersten Herbststurm zusammen.",
-      "hook": "Das Rascheln der Seiten verstummt, als der Wind gegen die Fenster schlägt.",
+      "category": "Kochen/Essen",
+      "topic": "Der *erste Schluck* *Mate* des Gauchos in der Pampa, geteilt um 7:00 Uhr",
+      "angle": "Ein Ritual, das den Tag beginnt – nicht mit Kaffee, sondern mit der Bitterkeit der Pampa und der Wärme einer geteilten Kalebasse. Der Frühling bringt die ersten warmen Morgen.",
+      "hook": "Das Zischen des heißen Wassers im hohlen Kürbis vermischt sich mit dem Geräusch der Vögel, die über der Pampa kreisen.",
       "forbidden": [
-        "antike Weisheit",
-        "Bücherparadies"
+        "argentinische Tradition",
+        "Teezeremonie"
       ],
-      "feeling": "Der Leser spürt die Stille zwischen den Zeilen, als hätte er selbst das Buch zugeschlagen.",
-      "image_query": "library reading room storm light",
-      "published": true,
-      "published_at": "2026-10-11T11:20:16"
+      "feeling": "Die Wärme des Mate in den Händen, als würde man nicht nur einen Tee, sondern eine ganze Landschaft trinken.",
+      "image_query": "gaucho mate ritual pampa sunrise"
     }
   ]
 }
