@@ -30,7 +30,9 @@
         "exotische Gewürze"
       ],
       "feeling": "Die Schwere des Löffels in der Hand, als würde man nicht nur Suppe, sondern eine ganze Geschichte schlürfen.",
-      "image_query": "rainy market Cartagena sancocho pot"
+      "image_query": "rainy market Cartagena sancocho pot",
+      "published": true,
+      "published_at": "2026-10-13T12:33:43"
     },
     {
       "day": 3,
