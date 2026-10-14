@@ -725,5 +725,12 @@
     "base": "[Kochen/Essen] Der erste Löffel *Sancocho* der Marktfrau Doña Rosa in Cartagena, gekocht nur bei Regen",
     "file": "archive/2026-10-13-der-erste-löffel-sancocho-der-marktfrau-doa-rosa-in-cartagena-gekocht-nur-bei-re.md",
     "n_sources": 6
+  },
+  {
+    "date": "2026-10-14T10:00:34",
+    "topic": "Der Schatten der *letzten Straßenbahn* in Lissabon, Linie 28, um 23:12 Uhr",
+    "base": "[Reise] Der Schatten der *letzten Straßenbahn* in Lissabon, Linie 28, um 23:12 Uhr",
+    "file": "archive/2026-10-14-der-schatten-der-letzten-straßenbahn-in-lissabon-linie-28-um-2312-uhr.md",
+    "n_sources": 10
   }
 ]
