@@ -78,7 +78,9 @@
         "rohes Fleisch"
       ],
       "feeling": "Der metallische Geschmack auf der Zunge, als würde man nicht nur Essen, sondern eine ganze Kultur kosten.",
-      "image_query": "Beirut butcher raw kibbeh preparation"
+      "image_query": "Beirut butcher raw kibbeh preparation",
+      "published": true,
+      "published_at": "2026-10-16T09:36:50"
     },
     {
       "day": 6,
