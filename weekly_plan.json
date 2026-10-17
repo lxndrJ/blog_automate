@@ -94,7 +94,9 @@
         "islandische Literatur"
       ],
       "feeling": "Die Stille nach dem letzten Klang, als würde die Welt für einen Moment den Atem anhalten.",
-      "image_query": "Reykjavik bookstore closing bell autumn"
+      "image_query": "Reykjavik bookstore closing bell autumn",
+      "published": true,
+      "published_at": "2026-10-17T09:07:50"
     },
     {
       "day": 7,
