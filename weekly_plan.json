@@ -110,7 +110,9 @@
         "Teezeremonie"
       ],
       "feeling": "Die Wärme des Mate in den Händen, als würde man nicht nur einen Tee, sondern eine ganze Landschaft trinken.",
-      "image_query": "gaucho mate ritual pampa sunrise"
+      "image_query": "gaucho mate ritual pampa sunrise",
+      "published": true,
+      "published_at": "2026-10-18T09:25:18"
     }
   ]
 }
