@@ -14,7 +14,9 @@
         "Uhrenmuseum"
       ],
       "feeling": "Der Leser spürt das Gewicht einer Sekunde, die sich wie eine Stunde anfühlt.",
-      "image_query": "Swiss watchmaker workshop interior"
+      "image_query": "Swiss watchmaker workshop interior",
+      "published": true,
+      "published_at": "2026-10-19T10:38:22"
     },
     {
       "day": 2,
