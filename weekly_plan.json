@@ -1,118 +1,104 @@
 {
-  "week": "2026-W42",
-  "generated_at": "2026-10-12T11:35:58",
+  "week": "2026-W43",
+  "generated_at": "2026-10-19T09:31:27",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
       "category": "Work-Life Balance",
-      "topic": "Die 16:47-Minute der Schiffsmodellbauer in der Werft von Riga, wenn der Leim trocknet",
-      "angle": "Der Moment, in dem die Hände stillhalten müssen – eine Pause, die nicht verhandelt wird. Relevant, weil der Herbst die Werkstätten in Lettland mit Feuchtigkeit füllt, die das Holz quellen lässt.",
-      "hook": "Der scharfe Geruch von Holzleim und altem Eichenholz hängt in der Luft, als die Uhr an der Wand 16:47 anzeigt.",
+      "topic": "Die 14:33-Stille der Uhrmacher in der Werkstatt von Le Locle",
+      "angle": "Der Moment, in dem alle Uhren gleichzeitig auf 14:33 gestellt werden – ein wöchentliches Ritual, das die Präzision der Schweizer Handwerkskunst mit einer fast meditativen Pause verbindet. Relevant, weil der Herbst die Uhren umstellt, doch hier bleibt die Zeit stehen.",
+      "hook": "Das gleichmäßige Ticken von zwölf Pendulen vereint sich zu einem einzigen, fast unsichtbaren Herzschlag.",
       "forbidden": [
-        "Handwerkskunst",
-        "Tradition bewahren"
+        "Schweizer Pünktlichkeit",
+        "Uhrenmuseum"
       ],
-      "feeling": "Das leise Knacken des trocknenden Leims unter den Fingerspitzen, als würde die Zeit selbst atmen.",
-      "image_query": "ship model workshop Riga golden hour",
-      "published": true,
-      "published_at": "2026-10-12T12:56:05"
+      "feeling": "Der Leser spürt das Gewicht einer Sekunde, die sich wie eine Stunde anfühlt.",
+      "image_query": "Swiss watchmaker workshop interior"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
       "category": "Kochen/Essen",
-      "topic": "Der erste Löffel *Sancocho* der Marktfrau Doña Rosa in Cartagena, gekocht nur bei Regen",
-      "angle": "Ein Gericht, das nur dann zubereitet wird, wenn der Regen die Hitze der Karibik für einen Tag vertreibt – eine Regel, die niemand bricht. Diese Woche fällt der erste Herbstregen.",
-      "hook": "Der dampfende Topf zischt, als der erste Tropfen Regen auf das Blechdach der Markthalle fällt.",
+      "topic": "Der erste Bissen *Bun Cha* der Köchin Mai in Hanoi, nur bei Nordostwind",
+      "angle": "Mai kocht das Gericht nur, wenn der Wind aus einer bestimmten Richtung weht – eine jahrhundertealte Regel, die den Geschmack des Grillfleischs beeinflussen soll. Diese Woche ist der Wind vorhergesagt.",
+      "hook": "Der Rauch der Holzkohle vermischt sich mit dem salzigen Hauch des Flusses und legt sich auf die Zunge, bevor der erste Bissen kommt.",
       "forbidden": [
-        "kolumbianische Küche",
-        "exotische Gewürze"
+        "Street Food Hanoi",
+        "Anthony Bourdain"
       ],
-      "feeling": "Die Schwere des Löffels in der Hand, als würde man nicht nur Suppe, sondern eine ganze Geschichte schlürfen.",
-      "image_query": "rainy market Cartagena sancocho pot",
-      "published": true,
-      "published_at": "2026-10-13T12:33:43"
+      "feeling": "Der Leser schmeckt den Wind in jedem Bissen.",
+      "image_query": "Hanoi street food grill smoke"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
       "category": "Reise",
-      "topic": "Der Schatten der *letzten Straßenbahn* in Lissabon, Linie 28, um 23:12 Uhr",
-      "angle": "Nicht die Touristenroute, sondern der Moment, in dem die letzte Bahn die leeren Gassen Alfamas durchfährt – eine Stille, die nur Einheimische kennen.",
-      "hook": "Das quietschende Metall der Schienen hallt durch die engen Gassen, als die letzte Bahn um die Kurve gleitet.",
+      "topic": "Der Schatten des *letzten Leuchtturmwärters* in Kap Trafalgar, um 16:00 Uhr",
+      "angle": "Der letzte Wärter des Leuchtturms von Kap Trafalgar geht jeden Mittwoch um 16:00 Uhr die 197 Stufen hinauf, um das Licht zu prüfen – ein Akt des Widerstands gegen die Automatisierung. Sein Schatten fällt dabei genau auf die Klippe.",
+      "hook": "Das Knarren der Metalltreppe hallt im Turm wider, während der Schatten des Wärters langsam über den Felsen kriecht.",
       "forbidden": [
-        "Touristenattraktion",
-        "historische Straßenbahn"
+        "Leuchtturm Romantik",
+        "Einsamkeit"
       ],
-      "feeling": "Das Gefühl, als würde die Stadt für eine Stunde nur dir gehören.",
-      "image_query": "Lisbon tram 28 night empty streets",
-      "published": true,
-      "published_at": "2026-10-14T10:00:36"
+      "feeling": "Der Leser spürt die Stille eines Ortes, an dem die Zeit noch von Menschen gemessen wird.",
+      "image_query": "lighthouse keeper shadow cliff"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Work-Life Balance",
-      "topic": "Die 11:11-Pause der *Korbflechterinnen* in Oaxaca, wenn die Fasern gewässert werden",
-      "angle": "Ein Ritual, das den Arbeitstag in zwei Hälften teilt – nicht aus Effizienz, sondern aus Respekt vor dem Material. Der Herbst bringt die letzte Ernte des Jahres.",
-      "hook": "Das Plätschern des Wassers im Steinbecken vermischt sich mit dem Rascheln der Palmenblätter, die in den Händen der Frauen liegen.",
+      "category": "Kochen/Essen",
+      "topic": "Der *letzte Löffel* *Pulque* des Fermentierers Don Javier in Teotihuacán, getrunken bei Sonnenuntergang",
+      "angle": "Don Javier serviert seinen selbst fermentierten Pulque nur an einem bestimmten Donnerstag im Monat – wenn die Agavenblüte ihren Höhepunkt erreicht. Diese Woche ist es soweit.",
+      "hook": "Der säuerliche Duft des Pulque steigt in die Nase, während die Sonne hinter der Pyramide untergeht.",
       "forbidden": [
-        "handgefertigte Körbe",
-        "indigene Traditionen"
+        "Mezcal vs. Pulque",
+        "Azteken Ritual"
       ],
-      "feeling": "Die Kühle des nassen Bastes zwischen den Fingern, als würde die Zeit für einen Moment innehalten.",
-      "image_query": "Oaxaca basket weavers water break",
-      "published": true,
-      "published_at": "2026-10-15T09:42:52"
+      "feeling": "Der Leser spürt die Wärme des Getränks, das die Kälte der Dämmerung ausgleicht.",
+      "image_query": "pulque fermentation sunset Teotihuacan"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Kochen/Essen",
-      "topic": "Der *letzte Bissen* *Kibbeh Nayyeh* des Metzgers Hassan in Beirut, zubereitet nur freitags",
-      "angle": "Ein Gericht, das nur am Wochenanfang serviert wird – rohes Lamm, gewürzt mit der Schärfe des Libanon und der Geduld eines Lebenswerks.",
-      "hook": "Das Messer schneidet durch das rohe Fleisch, während der Duft von Kreuzkümmel und Minze in der Luft liegt.",
+      "category": "Work-Life Balance",
+      "topic": "Die 9:07-Pause der *Seidenweberinnen* in Varanasi, wenn die Fäden gesponnen werden",
+      "angle": "Jeden Freitagmorgen um 9:07 Uhr legen die Weberinnen in einer versteckten Gasse ihre Arbeit für genau sieben Minuten nieder, um die Fäden zu benetzen – ein Ritual, das die Seide geschmeidiger machen soll.",
+      "hook": "Das Plätschern des Wassers im Bronzekessel vermischt sich mit dem Rascheln der Seidenfäden.",
       "forbidden": [
-        "libanesische Spezialität",
-        "rohes Fleisch"
+        "Indien Spiritualität",
+        "Ganges bei Sonnenaufgang"
       ],
-      "feeling": "Der metallische Geschmack auf der Zunge, als würde man nicht nur Essen, sondern eine ganze Kultur kosten.",
-      "image_query": "Beirut butcher raw kibbeh preparation",
-      "published": true,
-      "published_at": "2026-10-16T09:36:50"
+      "feeling": "Der Leser hört das leise Knistern der Seide, als würde sie atmen.",
+      "image_query": "Varanasi silk weavers morning light"
     },
     {
       "day": 6,
       "weekday": "Samstag",
       "category": "Reise",
-      "topic": "Der *Klang der Glocke* der *letzten Buchhandlung* in Reykjavík, die um 18:00 Uhr schließt",
-      "angle": "Nicht der Lärm der Touristen, sondern das leise Läuten, das den Ende eines Tages in der stillsten Buchhandlung Islands markiert – ein Ort, an dem die Zeit langsamer tickt.",
-      "hook": "Das dumpfe Klingeln der Glocke hallt durch den leeren Raum, als die letzte Seite eines Buches umgeschlagen wird.",
+      "topic": "Der *Klang der Hupe* des *letzten Fahrradtaxis* in Addis Abeba, um 22:30 Uhr",
+      "angle": "In einer Stadt, die sich immer schneller dreht, fährt der letzte Fahrradtaxi-Fahrer jeden Samstagabend um 22:30 Uhr seine letzte Runde – und hupt dabei in einem Rhythmus, den nur die alten Bewohner noch kennen.",
+      "hook": "Das schrille, fast melodische Hupen schneidet durch die nächtliche Luft und bleibt in den Ohren hängen.",
       "forbidden": [
-        "Bücherparadies",
-        "islandische Literatur"
+        "Äthiopien Kaffee",
+        "Chaos des Verkehrs"
       ],
-      "feeling": "Die Stille nach dem letzten Klang, als würde die Welt für einen Moment den Atem anhalten.",
-      "image_query": "Reykjavik bookstore closing bell autumn",
-      "published": true,
-      "published_at": "2026-10-17T09:07:50"
+      "feeling": "Der Leser spürt die Vibration der Hupe in seiner Brust, als würde sie ihn an etwas erinnern, das er nie erlebt hat.",
+      "image_query": "Addis Ababa bicycle taxi night"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Kochen/Essen",
-      "topic": "Der *erste Schluck* *Mate* des Gauchos in der Pampa, geteilt um 7:00 Uhr",
-      "angle": "Ein Ritual, das den Tag beginnt – nicht mit Kaffee, sondern mit der Bitterkeit der Pampa und der Wärme einer geteilten Kalebasse. Der Frühling bringt die ersten warmen Morgen.",
-      "hook": "Das Zischen des heißen Wassers im hohlen Kürbis vermischt sich mit dem Geräusch der Vögel, die über der Pampa kreisen.",
+      "category": "Reise",
+      "topic": "Der *Geruch von nassem Moos* am *ersten Stein* des Pilgerwegs in Kumano Kodo, um 6:45 Uhr",
+      "angle": "Der erste Stein des Kumano Kodo-Pilgerwegs ist jeden Sonntagmorgen um 6:45 Uhr von Tau bedeckt – und wer ihn berührt, soll Glück haben. Diese Woche ist der Weg besonders leer.",
+      "hook": "Das Moos unter den Fingern gibt einen erdigen, fast süßen Duft ab, als würde der Wald atmen.",
       "forbidden": [
-        "argentinische Tradition",
-        "Teezeremonie"
+        "Japanische Tempel",
+        "Meditation"
       ],
-      "feeling": "Die Wärme des Mate in den Händen, als würde man nicht nur einen Tee, sondern eine ganze Landschaft trinken.",
-      "image_query": "gaucho mate ritual pampa sunrise",
-      "published": true,
-      "published_at": "2026-10-18T09:25:18"
+      "feeling": "Der Leser spürt die Kühle des Steins und den Geruch des Waldes, als stünde er selbst dort.",
+      "image_query": "Kumano Kodo pilgrimage path moss morning"
     }
   ]
 }
