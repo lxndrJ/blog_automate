@@ -30,7 +30,9 @@
         "Anthony Bourdain"
       ],
       "feeling": "Der Leser schmeckt den Wind in jedem Bissen.",
-      "image_query": "Hanoi street food grill smoke"
+      "image_query": "Hanoi street food grill smoke",
+      "published": true,
+      "published_at": "2026-10-20T09:55:14"
     },
     {
       "day": 3,
