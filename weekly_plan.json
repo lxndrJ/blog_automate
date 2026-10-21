@@ -46,7 +46,9 @@
         "Einsamkeit"
       ],
       "feeling": "Der Leser spürt die Stille eines Ortes, an dem die Zeit noch von Menschen gemessen wird.",
-      "image_query": "lighthouse keeper shadow cliff"
+      "image_query": "lighthouse keeper shadow cliff",
+      "published": true,
+      "published_at": "2026-10-21T09:56:58"
     },
     {
       "day": 4,
