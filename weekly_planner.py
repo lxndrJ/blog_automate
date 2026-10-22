@@ -20,6 +20,11 @@ from config import (
     WEEKLY_PLAN_SYSTEM,
     WEEKLY_PLAN_BRIEF,
 )
+from topic_generator import _is_time_anchored
+
+
+_WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag",
+             "Freitag", "Samstag", "Sonntag"]
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
@@ -53,6 +58,31 @@ def _recent_posts(site_repo: str, limit: int = 14) -> list[str]:
         except Exception:
             continue
     return titles
+
+
+def _validate_slots(slots: list[dict]) -> None:
+    """Validiert die 7 Slots und setzt sinnvolle Defaults."""
+    if len(slots) != 7:
+        print(f"      ⚠ Erwartet 7 Slots, bekommen {len(slots)}", file=sys.stderr)
+    for i, s in enumerate(slots, 1):
+        if not s.get("topic"):
+            raise ValueError(f"Slot {i} hat kein 'topic'")
+        s.setdefault("day", i)
+        s.setdefault("weekday", _WEEKDAYS[i - 1])
+        s.setdefault("category", "Reise")
+        s.setdefault("angle", "")
+        s.setdefault("hook", "")
+        s.setdefault("forbidden", [])
+        s.setdefault("feeling", "")
+        s.setdefault("image_query", "")
+
+
+def _slot_time_anchored(slot: dict) -> bool:
+    """True, wenn das Slot-Thema oder der Hook um eine konkrete Uhrzeit kreist."""
+    return (
+        _is_time_anchored(slot.get("topic", ""))
+        or _is_time_anchored(slot.get("hook", ""))
+    )
 
 
 def _season_label(dt: datetime) -> str:
@@ -110,22 +140,39 @@ def generate_plan(site_repo: str = "") -> dict:
     )
     raw = raw.strip()
     slots = _extract_json(raw)
+    _validate_slots(slots)
 
-    # Validierung: 7 Slots, alle mit topic
-    if len(slots) != 7:
-        print(f"      ⚠ Erwartet 7 Slots, bekommen {len(slots)}", file=sys.stderr)
-    for i, s in enumerate(slots, 1):
-        if not s.get("topic"):
-            raise ValueError(f"Slot {i} hat kein 'topic'")
-        s.setdefault("day", i)
-        s.setdefault("weekday", ["Montag", "Dienstag", "Mittwoch", "Donnerstag",
-                                 "Freitag", "Samstag", "Sonntag"][i - 1])
-        s.setdefault("category", "Reise")
-        s.setdefault("angle", "")
-        s.setdefault("hook", "")
-        s.setdefault("forbidden", [])
-        s.setdefault("feeling", "")
-        s.setdefault("image_query", "")
+    # Guard gegen den bekannten Bias: Slot kreist um eine konkrete Uhrzeit
+    bad = [s.get("day", i) for i, s in enumerate(slots, 1) if _slot_time_anchored(s)]
+    if bad:
+        print(f"      ⚠ Slot(s) {bad} mit Uhrzeit-Anker – Retry mit Verbot …",
+              file=sys.stderr)
+        retry_prompt = (
+            brief
+            + "\n\nABSOLUT VERBOTEN: Weder Thema, Winkel noch Hook dürfen eine "
+              "konkrete Uhrzeit enthalten (keine \u201e9:07\u201c, keine \u201eum 16 Uhr\u201c, "
+              "keine \u201e16-Uhr-Grenze\u201c). Erstelle den kompletten Plan neu, ohne "
+              "jegliche Uhrzeit-Anker."
+        )
+        try:
+            raw2, _ = llm_client.chat(
+                model=TOPIC_MODEL,
+                max_tokens=8000,
+                system=WEEKLY_PLAN_SYSTEM,
+                messages=[{"role": "user", "content": retry_prompt}],
+            )
+            slots2 = _extract_json(raw2.strip())
+            if len(slots2) == 7 and all(s.get("topic") for s in slots2):
+                slots = slots2
+                _validate_slots(slots)
+        except Exception as e:
+            print(f"      ⚠ Retry fehlgeschlagen ({e})", file=sys.stderr)
+
+    still_bad = [s.get("day", i) for i, s in enumerate(slots, 1)
+                 if _slot_time_anchored(s)]
+    if still_bad:
+        print(f"      ⚠ WARNUNG: Slot(s) {still_bad} enthalten weiterhin Uhrzeiten – "
+              f"daily_publisher.py ersetzt sie bei Bedarf.", file=sys.stderr)
 
     return {
         "week": _week_label(today),

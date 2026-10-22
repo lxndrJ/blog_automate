@@ -99,6 +99,30 @@ def main() -> int:
     feeling = slot.get("feeling", "")
     image_query = slot.get("image_query", "")
 
+    # ── Uhrzeit-Guard: Slot kreist um eine konkrete Uhrzeit? ─────────────
+    # Bekannter LLM-Bias: Themen wie „Die 9:07-Pause …“ / „… um 16:00 Uhr“.
+    # Stattdessen ein neues Thema generieren (topic_generator hat eigenen Guard).
+    from topic_generator import _is_time_anchored
+    if _is_time_anchored(topic) or _is_time_anchored(hook):
+        print(f"⚠ Slot-Thema kreist um eine Uhrzeit („{topic}“).")
+        print("  → Generiere stattdessen ein neues Thema …")
+        try:
+            import titles as _titles
+            import topic_generator as _tg
+            recent = _titles.all_titles()[-50:]
+            picked = _tg.generate(category, recent)
+            topic = picked["topic"]
+            angle = picked.get("context", "")
+            hook = ""
+            feeling = ""
+            forbidden = []
+            image_query = picked.get("image_query", "")
+            print(f"  ✔ Neues Thema: {topic}")
+        except Exception as e:
+            print(f"  ❌ Neue Themen-Generierung fehlgeschlagen ({e}). Abbruch – "
+                  f"kein Uhrzeit-Post wird veröffentlicht.", file=sys.stderr)
+            return 1
+
     print(f"\n{'=' * 62}")
     print(f"  {weekday}  ·  Woche {plan.get('week', '?')}")
     print(f"{'=' * 62}")

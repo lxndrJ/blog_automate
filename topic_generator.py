@@ -3,6 +3,7 @@
 # Fallback: Falls die API nicht erreichbar ist, greifen die alten Templates.
 
 import json
+import re
 import sys
 
 import llm_client
@@ -47,7 +48,7 @@ def generate(category: str, recent_titles: list[str] | None = None,
             f"\n\nWICHTIG: Der heutige Reise-Post behandelt: \"{cross_ref}\". "
             f"Verknüpfe dein Thema mit diesem Ort/Thema, wo es natürlich passt "
             f"(z. B. ein Gericht aus dieser Region, ein lokales Ritual, eine Zutat)"
-            f"ohne zu groß auf die Details des Reise-Posts einzugehen wie zB die Uhrzeit etc.."
+            f" – ohne zu groß auf die Details des Reise-Posts einzugehen (z. B. Preise, Routendetails)."
         )
 
     # Beispiel-Angel (keine Pflicht, nur Inspiration)
@@ -70,7 +71,8 @@ Beschreibung: {description}
 
 Regeln:
 - KEIN generisches "Top 10" oder "Guide" oder "Ratgeber"
-- Eher: ein konkreter Ort, ein Wort, ein Beruf, eine Zutat, eine Uhrzeit, ein Geruch, ein Konflikt, eine Frage ohne einfache Antwort
+- Eher: ein konkreter Ort, ein Wort, ein Beruf, eine Zutat, ein Geruch, ein Konflikt, eine Frage ohne einfache Antwort
+- KEIN Thema, das um eine konkrete Uhrzeit kreist – keine Titel wie „Die 14:33-Stille …“, „um 23:12 Uhr“, „Die 16:47-Minute …“. Uhrzeiten als Anker sind NICHT erlaubt.
 - Deutsch, 5–15 Wörter als Titel-Vorschlag
 - Der Kontext (2–3 Sätze) soll dem Writer sagen, WELCHEN WINKEL er nehmen soll – nicht WAS er schreiben soll
 - Keine Fragen an den Leser
@@ -87,25 +89,26 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
 """
 
     try:
-        raw, _ = llm_client.chat(
-            model=TOPIC_MODEL,
-            max_tokens=300,
-            system="Du bist ein kreativer Themen-Editor für einen deutschsprachigen Blog. "
-                   "Du schlägst immer UNERWARTETE, konkrete, persönliche Winkel vor. "
-                   "Kein Marketing-Ton. Kein Generisches.",
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = raw.strip()
-        # JSON extrahieren (ggf. in Code-Block)
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-        data = json.loads(raw)
+        data = _call_llm(prompt)
         topic = data.get("topic", "").strip()
-        context = data.get("context", "").strip()
-        image_query = data.get("image_query", "").strip()
 
         if not topic:
             raise ValueError("Leerer Topic-Vorschlag")
+
+        # Guard gegen den bekannten Bias: Thema kreist um eine konkrete Uhrzeit
+        if _is_time_anchored(topic):
+            print(f"      ⚠ Uhrzeit-Anker erkannt („{topic}”), Retry mit Verbot …",
+                  file=sys.stderr)
+            data = _call_llm(prompt + (
+                "\n\nABSOLUT VERBOTEN: Das Thema und der Titel dürfen KEINE Uhrzeit "
+                "enthalten (keine „14:33“, keine „23:12 Uhr“, keine „…-Minute“ als Anker)."
+            ))
+            topic = data.get("topic", "").strip()
+            if not topic or _is_time_anchored(topic):
+                raise ValueError(f"Uhrzeit-Anker auch nach Retry: {topic!r}")
+
+        context = data.get("context", "").strip()
+        image_query = data.get("image_query", "").strip()
 
         return {
             "topic": topic,
@@ -119,6 +122,31 @@ Gib NUR dieses JSON aus (kein Markdown, kein Code-Block):
               file=sys.stderr)
         # Fallback: alte kuratierte Templates
         return _legacy_topics.pick_topic(_legacy_topics.used_topics())
+
+
+def _call_llm(prompt: str) -> dict:
+    """Ruft das Topic-Modell ab und parst die JSON-Antwort."""
+    raw, _ = llm_client.chat(
+        model=TOPIC_MODEL,
+        max_tokens=300,
+        system="Du bist ein kreativer Themen-Editor für einen deutschsprachigen Blog. "
+               "Du schlägst immer UNERWARTETE, konkrete, persönliche Winkel vor. "
+               "Kein Marketing-Ton. Kein Generisches.",
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw = raw.strip()
+    # JSON extrahieren (ggf. in Code-Block)
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+    return json.loads(raw)
+
+
+def _is_time_anchored(topic: str) -> bool:
+    """True, wenn das Thema um eine konkrete Uhrzeit kreist (bekannter Bias)."""
+    return bool(re.search(
+        r"\b\d{1,2}[:.\-]\d{2}\b|\b\d{1,2}\s*-?\s*Uhr\b",
+        topic, re.IGNORECASE,
+    ))
 
 
 def generate_daily_set(recent_titles: list[str] | None = None) -> list[dict]:

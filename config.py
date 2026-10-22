@@ -34,7 +34,7 @@ CATEGORIES = {
             "Warum in Kosice niemand die Hauptstraße benutzt",
             "Die eine Straßenecke in Lissabon, die nach Zimt riecht",
             "Ein Busfahrer in Zagreb, der seine Route kennt wie ein Gedicht",
-            "Der Markt in Split, an dem die Locals abends um 22 Uhr noch frisch einkauft",
+            "Der Markt in Split, an dem die Locals abends noch frisch einkaufen, während die Touristen längst abgereist sind",
         ],
     },
     "Kochen/Essen": {
@@ -70,7 +70,7 @@ CATEGORIES = {
             "System, eine Regel, ein Ritual, das man bei uns nicht hat."
         ),
         "examples": [
-            "Die 14-Uhr-Pause in Italien und warum sie produktiver macht als Koffein",
+            "Die lange Mittagspause in Italien und warum sie produktiver macht als Koffein",
             "Warum in Finnland niemand nach Feierabend mailt – und was stattdessen passiert",
             "Der 'Feierabend-Bier'-Kult in Tschechien als Arbeitskultur-Instrument",
             "Wie in Japan das 'Kaizen' im Büro wirklich aussieht (nicht wie im Wikipedia-Artikel)",
@@ -231,9 +231,13 @@ Deine Aufgabe: einen Wochenplan mit 7 konkreten, unverwechselbaren Blogthemen er
 Qualitätsmaßstab: Monocle, Kinfolk, Der Freitag. Kein Travel-Blog, kein Portal, kein Ratgeber.
 
 Regeln:
-- Jedes Thema braucht einen KONKRETEN Anker: eine Straßenecke, eine Uhrzeit, einen Beruf,
+- Jedes Thema braucht einen KONKRETEN Anker: eine Straßenecke, einen Beruf,
   ein Gericht, ein Wort, ein Geruch, ein Klang. Nicht "Kultur von X", sondern "der eine
   Stand am Markt, an dem …".
+- ABSOLUTES VERBOT: KEINE Uhrzeit als Anker. Kein „um 14 Uhr", keine „9:07-Pause",
+  keine „16-Uhr-Grenze", keine „Die 14:33-Stille …". Weder Thema, Winkel noch Hook
+  dürfen um eine konkrete Uhrzeit kreisen. (Dauern wie „sieben Minuten" sind okay,
+  Uhrzeitpunkte nicht.)
 - KEIN generisches "Land X" oder "Kultur von Y". Immer auf Straßenebene zoomen.
 - Die 7 Themen decken verschiedene Regionen und Kontinente ab – nicht 5× Osteuropa.
 - Alle 3 Kategorien kommen vor: mindestens 2× Reise, 2× Kochen/Essen, 2× Work-Life Balance.
@@ -260,6 +264,10 @@ Kategorien (mindestens 2× pro Kategorie über 7 Tage):
 - Reise: Orte, Routen, Kulturen, Begegnungen. Winkel: das Unerwartete, das Daneben, das Konkrete.
 - Kochen/Essen: Ein Gericht, eine Zutat, eine Zubereitung. Winkel: das Rezept, die Hand, der Topf.
 - Work-Life Balance: Arbeitskultur, Pausen, Rhythmus. Winkel: ein konkretes System, eine Regel, ein Ritual.
+
+HARTE REGEL: KEIN Thema, KEIN Winkel, KEIN Hook mit konkreter Uhrzeit
+(kein „um 9 Uhr", keine „9:07-Pause", keine „16-Uhr-Grenze"). Auch wenn ältere,
+bereits veröffentlichte Posts solche Titel tragen – das ist KEIN Vorbild.
 
 Gib NUR dieses JSON-Array aus (kein Markdown, kein Code-Block, keine Erklärungen):
 [
