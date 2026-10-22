@@ -62,7 +62,9 @@
         "Azteken Ritual"
       ],
       "feeling": "Der Leser spürt die Wärme des Getränks, das die Kälte der Dämmerung ausgleicht.",
-      "image_query": "pulque fermentation sunset Teotihuacan"
+      "image_query": "pulque fermentation sunset Teotihuacan",
+      "published": true,
+      "published_at": "2026-10-22T09:57:42"
     },
     {
       "day": 5,
