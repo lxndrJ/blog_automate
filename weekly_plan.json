@@ -78,7 +78,9 @@
         "Ganges bei Sonnenaufgang"
       ],
       "feeling": "Der Leser hört das leise Knistern der Seide, als würde sie atmen.",
-      "image_query": "Varanasi silk weavers morning light"
+      "image_query": "Varanasi silk weavers morning light",
+      "published": true,
+      "published_at": "2026-10-23T09:52:35"
     },
     {
       "day": 6,
