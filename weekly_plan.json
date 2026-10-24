@@ -94,7 +94,9 @@
         "Chaos des Verkehrs"
       ],
       "feeling": "Der Leser spürt die Vibration der Hupe in seiner Brust, als würde sie ihn an etwas erinnern, das er nie erlebt hat.",
-      "image_query": "Addis Ababa bicycle taxi night"
+      "image_query": "Addis Ababa bicycle taxi night",
+      "published": true,
+      "published_at": "2026-10-24T09:23:20"
     },
     {
       "day": 7,
