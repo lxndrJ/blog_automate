@@ -110,7 +110,9 @@
         "Meditation"
       ],
       "feeling": "Der Leser spürt die Kühle des Steins und den Geruch des Waldes, als stünde er selbst dort.",
-      "image_query": "Kumano Kodo pilgrimage path moss morning"
+      "image_query": "Kumano Kodo pilgrimage path moss morning",
+      "published": true,
+      "published_at": "2026-10-25T09:40:41"
     }
   ]
 }
