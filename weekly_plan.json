@@ -1,118 +1,104 @@
 {
-  "week": "2026-W43",
-  "generated_at": "2026-10-19T09:31:27",
+  "week": "2026-W44",
+  "generated_at": "2026-10-26T09:35:38",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Work-Life Balance",
-      "topic": "Die 14:33-Stille der Uhrmacher in der Werkstatt von Le Locle",
-      "angle": "Der Moment, in dem alle Uhren gleichzeitig auf 14:33 gestellt werden – ein wöchentliches Ritual, das die Präzision der Schweizer Handwerkskunst mit einer fast meditativen Pause verbindet. Relevant, weil der Herbst die Uhren umstellt, doch hier bleibt die Zeit stehen.",
-      "hook": "Das gleichmäßige Ticken von zwölf Pendulen vereint sich zu einem einzigen, fast unsichtbaren Herzschlag.",
+      "category": "Kochen/Essen",
+      "topic": "Der letzte Ofen der Brotbäckerin Lina in Valparaíso und das Knacken der Kruste",
+      "angle": "Wie die 87-jährige Lina ihr Sauerteigbrot nur noch in einem Holzofen aus dem 19. Jahrhundert backt – und warum der Rauch der Eukalyptusäste den Geschmack prägt. Relevant, weil der Herbst die ideale Jahreszeit für langes Fermentieren ist.",
+      "hook": "Der Geruch von verbranntem Eukalyptus klebt in den Poren der Backsteinwand.",
       "forbidden": [
-        "Schweizer Pünktlichkeit",
-        "Uhrenmuseum"
+        "Tradition bewahren",
+        "Handwerk in Gefahr"
       ],
-      "feeling": "Der Leser spürt das Gewicht einer Sekunde, die sich wie eine Stunde anfühlt.",
-      "image_query": "Swiss watchmaker workshop interior",
-      "published": true,
-      "published_at": "2026-10-19T10:38:22"
+      "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht, als stünde er daneben.",
+      "image_query": "wooden oven bakery Valparaiso"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Kochen/Essen",
-      "topic": "Der erste Bissen *Bun Cha* der Köchin Mai in Hanoi, nur bei Nordostwind",
-      "angle": "Mai kocht das Gericht nur, wenn der Wind aus einer bestimmten Richtung weht – eine jahrhundertealte Regel, die den Geschmack des Grillfleischs beeinflussen soll. Diese Woche ist der Wind vorhergesagt.",
-      "hook": "Der Rauch der Holzkohle vermischt sich mit dem salzigen Hauch des Flusses und legt sich auf die Zunge, bevor der erste Bissen kommt.",
+      "category": "Reise",
+      "topic": "Die letzte Werkstatt der Kammacher in Sheffield und das Kratzen der Feile",
+      "angle": "Ein Porträt des letzten Handwerksbetriebs, der noch Hornkämme herstellt – und wie der Staub der Bearbeitung die Luft zum Flirren bringt. Relevant, weil der Herbst die Zeit der handwerklichen Einkehr ist.",
+      "hook": "Das metallische Kratzen der Feile auf Horn hallt durch den Raum wie ein vergangener Rhythmus.",
       "forbidden": [
-        "Street Food Hanoi",
-        "Anthony Bourdain"
+        "Industrielle Revolution",
+        "Nostalgie"
       ],
-      "feeling": "Der Leser schmeckt den Wind in jedem Bissen.",
-      "image_query": "Hanoi street food grill smoke",
-      "published": true,
-      "published_at": "2026-10-20T09:55:14"
+      "feeling": "Der Leser hört das Kratzen noch lange nach, als wäre es in seinem eigenen Ohr.",
+      "image_query": "horn comb workshop Sheffield"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Reise",
-      "topic": "Der Schatten des *letzten Leuchtturmwärters* in Kap Trafalgar, um 16:00 Uhr",
-      "angle": "Der letzte Wärter des Leuchtturms von Kap Trafalgar geht jeden Mittwoch um 16:00 Uhr die 197 Stufen hinauf, um das Licht zu prüfen – ein Akt des Widerstands gegen die Automatisierung. Sein Schatten fällt dabei genau auf die Klippe.",
-      "hook": "Das Knarren der Metalltreppe hallt im Turm wider, während der Schatten des Wärters langsam über den Felsen kriecht.",
+      "category": "Work-Life Balance",
+      "topic": "Die sieben Minuten Stille der Teppichweber in Isfahan zwischen zwei Knoten",
+      "angle": "Wie die Weberinnen in einer versteckten Werkstatt in Isfahan nach jedem fertigen Knoten innehalten – nicht aus Regel, sondern aus Notwendigkeit. Relevant, weil der Herbst eine Zeit der Besinnung ist.",
+      "hook": "Das Rascheln der Seidenfäden verstummt für sieben Atemzüge.",
       "forbidden": [
-        "Leuchtturm Romantik",
-        "Einsamkeit"
+        "Achtsamkeit",
+        "Meditation"
       ],
-      "feeling": "Der Leser spürt die Stille eines Ortes, an dem die Zeit noch von Menschen gemessen wird.",
-      "image_query": "lighthouse keeper shadow cliff",
-      "published": true,
-      "published_at": "2026-10-21T09:56:58"
+      "feeling": "Der Leser spürt die Stille wie einen schweren, warmen Mantel.",
+      "image_query": "Persian carpet weavers Isfahan"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
       "category": "Kochen/Essen",
-      "topic": "Der *letzte Löffel* *Pulque* des Fermentierers Don Javier in Teotihuacán, getrunken bei Sonnenuntergang",
-      "angle": "Don Javier serviert seinen selbst fermentierten Pulque nur an einem bestimmten Donnerstag im Monat – wenn die Agavenblüte ihren Höhepunkt erreicht. Diese Woche ist es soweit.",
-      "hook": "Der säuerliche Duft des Pulque steigt in die Nase, während die Sonne hinter der Pyramide untergeht.",
+      "topic": "Der erste Bissen *Borschtsch* der Köchin Olga in Lwiw, nur mit Rote-Bete aus dem eigenen Garten",
+      "angle": "Wie Olga den Borschtsch nur dann kocht, wenn die Rote Bete den ersten Frost abbekommen hat – und warum der Geschmack dann nach Erde und Winter schmeckt. Relevant, weil der Herbst die Erntezeit ist.",
+      "hook": "Der erste Löffel schmeckt nach feuchter Erde und dem ersten Schnee, der noch nicht gefallen ist.",
       "forbidden": [
-        "Mezcal vs. Pulque",
-        "Azteken Ritual"
+        "Omas Rezept",
+        "Ukrainische Tradition"
       ],
-      "feeling": "Der Leser spürt die Wärme des Getränks, das die Kälte der Dämmerung ausgleicht.",
-      "image_query": "pulque fermentation sunset Teotihuacan",
-      "published": true,
-      "published_at": "2026-10-22T09:57:42"
+      "feeling": "Der Leser schmeckt die Kälte des Herbstes auf der Zunge.",
+      "image_query": "beetroot borscht Lviv garden"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Work-Life Balance",
-      "topic": "Das Faden-Nässen der Seidenweberinnen in Varanasi – ein Ritual, das die Seide atmen lässt",
-      "angle": "Jeden Morgen legen die Weberinnen in einer versteckten Gasse ihre Arbeit für genau sieben Minuten nieder, um die Fäden zu benetzen – ein Ritual, das die Seide geschmeidiger machen soll. Was ein so kleines Ritual über Pausen, Rhythmus und Handwerk sagt.",
-      "hook": "Das Plätschern des Wassers im Bronzekessel vermischt sich mit dem Rascheln der Seidenfäden.",
+      "category": "Reise",
+      "topic": "Der letzte Briefkasten der Postbote Maria in den Abruzzen und das Knarren des Deckels",
+      "angle": "Wie Maria in einem abgelegenen Bergdorf noch immer Briefe von Hand sortiert – und warum der Briefkasten aus dem 19. Jahrhundert der einzige ist, der noch benutzt wird. Relevant, weil der Herbst eine Zeit der langsamen Kommunikation ist.",
+      "hook": "Das Knarren des rostigen Deckels ist das einzige Geräusch im leeren Dorfplatz.",
       "forbidden": [
-        "Indien Spiritualität",
-        "Ganges bei Sonnenaufgang"
+        "Digital Detox",
+        "Langsames Leben"
       ],
-      "feeling": "Der Leser hört das leise Knistern der Seide, als würde sie atmen.",
-      "image_query": "Varanasi silk weavers morning light",
-      "published": true,
-      "published_at": "2026-10-23T09:52:35"
+      "feeling": "Der Leser hört das Knarren wie ein Echo aus einer anderen Zeit.",
+      "image_query": "old postbox Abruzzo mountains"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Reise",
-      "topic": "Der letzte Fahrradtaxi-Fahrer in Addis Abeba und die Hup-Melodie, die nur die Alten kennen",
-      "angle": "In einer Stadt, die sich immer schneller dreht, fährt ein Fahrradtaxi-Fahrer abends seine letzte Runde – und hupt dabei in einem Rhythmus, den nur die alten Bewohner noch kennen. Was diese Melodie über die Stadt und ihr Tempo erzählt.",
-      "hook": "Das schrille, fast melodische Hupen schneidet durch die abendliche Luft und bleibt in den Ohren hängen.",
+      "category": "Work-Life Balance",
+      "topic": "Das Ritual der Schreiner in Kyoto, die ihre Werkzeuge mit Kamelienöl einreiben",
+      "angle": "Wie die Schreiner in einer versteckten Werkstatt in Kyoto ihre Werkzeuge jeden Abend mit Kamelienöl pflegen – und warum der Duft des Öls den Rhythmus des nächsten Tages bestimmt. Relevant, weil der Herbst eine Zeit der Vorbereitung ist.",
+      "hook": "Der Duft von Kamelienöl liegt schwer in der Luft, als würde er die Zeit anhalten.",
       "forbidden": [
-        "Äthiopien Kaffee",
-        "Chaos des Verkehrs"
+        "Japanische Präzision",
+        "Handwerkskunst"
       ],
-      "feeling": "Der Leser spürt die Vibration der Hupe in seiner Brust, als würde sie ihn an etwas erinnern, das er nie erlebt hat.",
-      "image_query": "Addis Ababa bicycle taxi night",
-      "published": true,
-      "published_at": "2026-10-24T09:23:20"
+      "feeling": "Der Leser riecht das Öl und spürt die Geduld, die es braucht, um es einziehen zu lassen.",
+      "image_query": "carpenter tools camellia oil Kyoto"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
       "category": "Reise",
-      "topic": "Der erste Stein des Kumano-Kodo-Pilgerwegs – und das Moos, das Glück bringen soll",
-      "angle": "Der erste Stein des Kumano Kodo-Pilgerwegs liegt im Morgentau von Moos bedeckt – und wer ihn berührt, soll Glück haben. Diese Woche ist der Weg besonders leer.",
-      "hook": "Das Moos unter den Fingern gibt einen erdigen, fast süßen Duft ab, als würde der Wald atmen.",
+      "topic": "Der letzte Pier der Fischer in Zanzibar und das Kreischen der Möwen um die Netze",
+      "angle": "Wie die Fischer am alten Holpier ihre Netze ausbessern, während die Möwen um die Beute kreisen – und warum der Pier bald dem Meer zurückgegeben wird. Relevant, weil der Herbst eine Zeit des Übergangs ist.",
+      "hook": "Das Kreischen der Möwen vermischt sich mit dem Knarren der Holzplanken unter den nackten Füßen.",
       "forbidden": [
-        "Japanische Tempel",
-        "Meditation"
+        "Klimawandel",
+        "Verschwindende Traditionen"
       ],
-      "feeling": "Der Leser spürt die Kühle des Steins und den Geruch des Waldes, als stünde er selbst dort.",
-      "image_query": "Kumano Kodo pilgrimage path moss morning",
-      "published": true,
-      "published_at": "2026-10-25T09:40:41"
+      "feeling": "Der Leser spürt das Salz auf der Haut und das Wackeln des Piers unter den Füßen.",
+      "image_query": "fishing pier Zanzibar wooden nets"
     }
   ]
 }
