@@ -14,7 +14,9 @@
         "Handwerk in Gefahr"
       ],
       "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht, als stünde er daneben.",
-      "image_query": "wooden oven bakery Valparaiso"
+      "image_query": "wooden oven bakery Valparaiso",
+      "published": true,
+      "published_at": "2026-10-26T10:54:41"
     },
     {
       "day": 2,
