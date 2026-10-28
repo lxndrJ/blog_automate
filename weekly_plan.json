@@ -46,7 +46,9 @@
         "Meditation"
       ],
       "feeling": "Der Leser spürt die Stille wie einen schweren, warmen Mantel.",
-      "image_query": "Persian carpet weavers Isfahan"
+      "image_query": "Persian carpet weavers Isfahan",
+      "published": true,
+      "published_at": "2026-10-28T11:11:21"
     },
     {
       "day": 4,
