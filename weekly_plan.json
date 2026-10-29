@@ -62,7 +62,9 @@
         "Ukrainische Tradition"
       ],
       "feeling": "Der Leser schmeckt die Kälte des Herbstes auf der Zunge.",
-      "image_query": "beetroot borscht Lviv garden"
+      "image_query": "beetroot borscht Lviv garden",
+      "published": true,
+      "published_at": "2026-10-29T11:23:50"
     },
     {
       "day": 5,
