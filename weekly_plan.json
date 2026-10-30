@@ -78,7 +78,9 @@
         "Langsames Leben"
       ],
       "feeling": "Der Leser hört das Knarren wie ein Echo aus einer anderen Zeit.",
-      "image_query": "old postbox Abruzzo mountains"
+      "image_query": "old postbox Abruzzo mountains",
+      "published": true,
+      "published_at": "2026-10-30T11:16:33"
     },
     {
       "day": 6,
