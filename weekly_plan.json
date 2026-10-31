@@ -94,7 +94,9 @@
         "Handwerkskunst"
       ],
       "feeling": "Der Leser riecht das Öl und spürt die Geduld, die es braucht, um es einziehen zu lassen.",
-      "image_query": "carpenter tools camellia oil Kyoto"
+      "image_query": "carpenter tools camellia oil Kyoto",
+      "published": true,
+      "published_at": "2026-10-31T10:49:29"
     },
     {
       "day": 7,
