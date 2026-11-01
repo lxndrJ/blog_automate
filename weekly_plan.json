@@ -110,7 +110,9 @@
         "Verschwindende Traditionen"
       ],
       "feeling": "Der Leser spürt das Salz auf der Haut und das Wackeln des Piers unter den Füßen.",
-      "image_query": "fishing pier Zanzibar wooden nets"
+      "image_query": "fishing pier Zanzibar wooden nets",
+      "published": true,
+      "published_at": "2026-11-01T11:45:56"
     }
   ]
 }
