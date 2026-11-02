@@ -14,7 +14,9 @@
         "historische Einordnung"
       ],
       "feeling": "Der Leser spürt die raue Textur der Maiskörner in seiner Handfläche, als hätte er sie selbst berührt.",
-      "image_query": "hands washing corn in clay bowl"
+      "image_query": "hands washing corn in clay bowl",
+      "published": true,
+      "published_at": "2026-11-02T13:18:03"
     },
     {
       "day": 2,
