@@ -1,118 +1,104 @@
 {
-  "week": "2026-W44",
-  "generated_at": "2026-10-26T09:35:38",
+  "week": "2026-W45",
+  "generated_at": "2026-11-02T11:56:59",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
       "category": "Kochen/Essen",
-      "topic": "Der letzte Ofen der Brotbäckerin Lina in Valparaíso und das Knacken der Kruste",
-      "angle": "Wie die 87-jährige Lina ihr Sauerteigbrot nur noch in einem Holzofen aus dem 19. Jahrhundert backt – und warum der Rauch der Eukalyptusäste den Geschmack prägt. Relevant, weil der Herbst die ideale Jahreszeit für langes Fermentieren ist.",
-      "hook": "Der Geruch von verbranntem Eukalyptus klebt in den Poren der Backsteinwand.",
+      "topic": "Der letzte Topf *Pozole* der Köchin Rosa in Oaxaca, gekocht mit Mais aus dem Tal von Etla",
+      "angle": "Der Fokus liegt auf dem spezifischen Mais der Region, der nur hier wächst – und wie Rosa ihn mit den Händen wäscht, bevor er in den TonTopf kommt. Relevant, weil die Ernte jetzt beginnt.",
+      "hook": "Der Mais knirscht zwischen den Fingern wie trockener Sand, bevor er im Wasser aufquillt.",
       "forbidden": [
-        "Tradition bewahren",
-        "Handwerk in Gefahr"
+        "Rezeptanleitung",
+        "historische Einordnung"
       ],
-      "feeling": "Der Leser spürt die Wärme des Ofens im eigenen Gesicht, als stünde er daneben.",
-      "image_query": "wooden oven bakery Valparaiso",
-      "published": true,
-      "published_at": "2026-10-26T10:54:41"
+      "feeling": "Der Leser spürt die raue Textur der Maiskörner in seiner Handfläche, als hätte er sie selbst berührt.",
+      "image_query": "hands washing corn in clay bowl"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
       "category": "Reise",
-      "topic": "Die letzte Werkstatt der Kammacher in Sheffield und das Kratzen der Feile",
-      "angle": "Ein Porträt des letzten Handwerksbetriebs, der noch Hornkämme herstellt – und wie der Staub der Bearbeitung die Luft zum Flirren bringt. Relevant, weil der Herbst die Zeit der handwerklichen Einkehr ist.",
-      "hook": "Das metallische Kratzen der Feile auf Horn hallt durch den Raum wie ein vergangener Rhythmus.",
+      "topic": "Die letzte Gasse in Lissabon, wo die *Adegas* noch Wein aus dem Fass zapfen",
+      "angle": "Nicht die Touristenbars, sondern die eine schmale Gasse hinter dem Mercado da Ribeira, wo der Wein direkt aus dem Holzfass in den Glas fließt – und der Boden nach Jahrzenten des Verschüttens klebrig ist.",
+      "hook": "Der Geruch von altem Holz und saurem Wein steigt aus den Ritzen der Steinplatten auf.",
       "forbidden": [
-        "Industrielle Revolution",
-        "Nostalgie"
+        "Fado-Musik",
+        "Pastéis de Nata"
       ],
-      "feeling": "Der Leser hört das Kratzen noch lange nach, als wäre es in seinem eigenen Ohr.",
-      "image_query": "horn comb workshop Sheffield",
-      "published": true,
-      "published_at": "2026-10-27T10:18:37"
+      "feeling": "Der Leser riecht den scharfen, süßlichen Duft des Weins, als stünde er selbst in der Gasse.",
+      "image_query": "wine barrel tap in narrow alley"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
       "category": "Work-Life Balance",
-      "topic": "Die sieben Minuten Stille der Teppichweber in Isfahan zwischen zwei Knoten",
-      "angle": "Wie die Weberinnen in einer versteckten Werkstatt in Isfahan nach jedem fertigen Knoten innehalten – nicht aus Regel, sondern aus Notwendigkeit. Relevant, weil der Herbst eine Zeit der Besinnung ist.",
-      "hook": "Das Rascheln der Seidenfäden verstummt für sieben Atemzüge.",
+      "topic": "Die sieben Minuten der *Korbflechterinnen* in Marrakesch, in denen sie die Fasern befeuchten",
+      "angle": "Ein Ritual des Innehaltens: Bevor die Arbeit beginnt, werden die Palmfasern für genau sieben Minuten in Wasser getaucht – eine Pause, die kein Wort braucht.",
+      "hook": "Das Wasser zischt leise, als die Fasern es aufsaugen wie durstiges Papier.",
       "forbidden": [
-        "Achtsamkeit",
-        "Meditation"
+        "Handwerk als Touristenattraktion",
+        "Preisverhandlungen"
       ],
-      "feeling": "Der Leser spürt die Stille wie einen schweren, warmen Mantel.",
-      "image_query": "Persian carpet weavers Isfahan",
-      "published": true,
-      "published_at": "2026-10-28T11:11:21"
+      "feeling": "Der Leser spürt die kühle Feuchtigkeit der Fasern zwischen seinen Fingern.",
+      "image_query": "hands soaking palm fibers in water"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Kochen/Essen",
-      "topic": "Der erste Bissen *Borschtsch* der Köchin Olga in Lwiw, nur mit Rote-Bete aus dem eigenen Garten",
-      "angle": "Wie Olga den Borschtsch nur dann kocht, wenn die Rote Bete den ersten Frost abbekommen hat – und warum der Geschmack dann nach Erde und Winter schmeckt. Relevant, weil der Herbst die Erntezeit ist.",
-      "hook": "Der erste Löffel schmeckt nach feuchter Erde und dem ersten Schnee, der noch nicht gefallen ist.",
+      "category": "Reise",
+      "topic": "Der letzte *Dhobi* in Mumbai, der die Wäsche mit dem Holzhammer auf dem Stein schlägt",
+      "angle": "In einer Stadt, die sich rasend schnell modernisiert, klopft ein Mann noch immer Wäsche am Fluss – nicht aus Nostalgie, sondern weil seine Hände den Rhythmus nicht vergessen haben.",
+      "hook": "Das dumpfe *Tock-Tock* des Hammers hallt über den Ghats wider, als würde der Fluss selbst antworten.",
       "forbidden": [
-        "Omas Rezept",
-        "Ukrainische Tradition"
+        "Slums",
+        "Bollywood"
       ],
-      "feeling": "Der Leser schmeckt die Kälte des Herbstes auf der Zunge.",
-      "image_query": "beetroot borscht Lviv garden",
-      "published": true,
-      "published_at": "2026-10-29T11:23:50"
+      "feeling": "Der Leser hört das Echo des Hammers in seinem eigenen Puls.",
+      "image_query": "man washing clothes with wooden hammer"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Reise",
-      "topic": "Der letzte Briefkasten der Postbote Maria in den Abruzzen und das Knarren des Deckels",
-      "angle": "Wie Maria in einem abgelegenen Bergdorf noch immer Briefe von Hand sortiert – und warum der Briefkasten aus dem 19. Jahrhundert der einzige ist, der noch benutzt wird. Relevant, weil der Herbst eine Zeit der langsamen Kommunikation ist.",
-      "hook": "Das Knarren des rostigen Deckels ist das einzige Geräusch im leeren Dorfplatz.",
+      "category": "Kochen/Essen",
+      "topic": "Der erste Bissen *Kibbeh Nayyeh* des Metzgers Sami in Beirut, gewürzt mit frischem Minzblatt",
+      "angle": "Sami serviert das rohe Lammfleisch nur an Stammgäste – und nur, wenn die Minze aus dem Garten seiner Mutter kommt. Jetzt, im Herbst, ist sie am aromatischsten.",
+      "hook": "Die Minze knistert zwischen den Zähnen, als würde sie noch auf der Pflanze wachsen.",
       "forbidden": [
-        "Digital Detox",
-        "Langsames Leben"
+        "Libanesischer Bürgerkrieg",
+        "Hummus"
       ],
-      "feeling": "Der Leser hört das Knarren wie ein Echo aus einer anderen Zeit.",
-      "image_query": "old postbox Abruzzo mountains",
-      "published": true,
-      "published_at": "2026-10-30T11:16:33"
+      "feeling": "Der Leser schmeckt das kühle, scharfe Aroma der Minze auf der Zunge, als hätte er gerade gebissen.",
+      "image_query": "raw lamb kibbeh with fresh mint"
     },
     {
       "day": 6,
       "weekday": "Samstag",
       "category": "Work-Life Balance",
-      "topic": "Das Ritual der Schreiner in Kyoto, die ihre Werkzeuge mit Kamelienöl einreiben",
-      "angle": "Wie die Schreiner in einer versteckten Werkstatt in Kyoto ihre Werkzeuge jeden Abend mit Kamelienöl pflegen – und warum der Duft des Öls den Rhythmus des nächsten Tages bestimmt. Relevant, weil der Herbst eine Zeit der Vorbereitung ist.",
-      "hook": "Der Duft von Kamelienöl liegt schwer in der Luft, als würde er die Zeit anhalten.",
+      "topic": "Die Regel der *Schriftsteller* in Reykjavík: Kein Wort vor dem ersten Schluck Kaffee",
+      "angle": "In den Cafés der Stadt sitzen Autoren, die erst dann zur Feder greifen, wenn der Kaffee – schwarz, ohne Zucker – vor ihnen steht. Ein stilles Gesetz, das niemand bricht.",
+      "hook": "Der Dampf des Kaffees steigt in spiralförmigen Fäden auf, als würde er die Gedanken ordnen.",
       "forbidden": [
-        "Japanische Präzision",
-        "Handwerkskunst"
+        "Nordlichter",
+        "Island als Reiseziel"
       ],
-      "feeling": "Der Leser riecht das Öl und spürt die Geduld, die es braucht, um es einziehen zu lassen.",
-      "image_query": "carpenter tools camellia oil Kyoto",
-      "published": true,
-      "published_at": "2026-10-31T10:49:29"
+      "feeling": "Der Leser spürt die Wärme der Tasse in seinen Händen und das leere Blatt Papier vor sich.",
+      "image_query": "black coffee steam over notebook"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
       "category": "Reise",
-      "topic": "Der letzte Pier der Fischer in Zanzibar und das Kreischen der Möwen um die Netze",
-      "angle": "Wie die Fischer am alten Holpier ihre Netze ausbessern, während die Möwen um die Beute kreisen – und warum der Pier bald dem Meer zurückgegeben wird. Relevant, weil der Herbst eine Zeit des Übergangs ist.",
-      "hook": "Das Kreischen der Möwen vermischt sich mit dem Knarren der Holzplanken unter den nackten Füßen.",
+      "topic": "Der letzte *Baobab* am Rande von Dakar, unter dem die Fischer ihre Netze flicken",
+      "angle": "Der Baum ist kein Denkmal, sondern ein Arbeitsplatz: Seine Wurzeln halten die Netze fest, während die Männer mit Nadeln aus Knochen die Maschen reparieren. Jetzt, im Herbst, ist die Luft feucht genug, dass die Fasern nicht brechen.",
+      "hook": "Das Knistern der trocknenden Netze vermischt sich mit dem Rascheln der Blätter, als würde der Baum selbst atmen.",
       "forbidden": [
-        "Klimawandel",
-        "Verschwindende Traditionen"
+        "Safari",
+        "Kolonialgeschichte"
       ],
-      "feeling": "Der Leser spürt das Salz auf der Haut und das Wackeln des Piers unter den Füßen.",
-      "image_query": "fishing pier Zanzibar wooden nets",
-      "published": true,
-      "published_at": "2026-11-01T11:45:56"
+      "feeling": "Der Leser hört das leise Kratzen der Nadel auf dem Netz und das Knarren des Baums im Wind.",
+      "image_query": "fishermen mending nets under baobab"
     }
   ]
 }
