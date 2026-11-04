@@ -46,7 +46,9 @@
         "Preisverhandlungen"
       ],
       "feeling": "Der Leser spürt die kühle Feuchtigkeit der Fasern zwischen seinen Fingern.",
-      "image_query": "hands soaking palm fibers in water"
+      "image_query": "hands soaking palm fibers in water",
+      "published": true,
+      "published_at": "2026-11-04T12:52:18"
     },
     {
       "day": 4,
