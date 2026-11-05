@@ -62,7 +62,9 @@
         "Bollywood"
       ],
       "feeling": "Der Leser hört das Echo des Hammers in seinem eigenen Puls.",
-      "image_query": "man washing clothes with wooden hammer"
+      "image_query": "man washing clothes with wooden hammer",
+      "published": true,
+      "published_at": "2026-11-05T13:00:29"
     },
     {
       "day": 5,
