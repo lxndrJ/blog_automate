@@ -78,7 +78,9 @@
         "Hummus"
       ],
       "feeling": "Der Leser schmeckt das kühle, scharfe Aroma der Minze auf der Zunge, als hätte er gerade gebissen.",
-      "image_query": "raw lamb kibbeh with fresh mint"
+      "image_query": "raw lamb kibbeh with fresh mint",
+      "published": true,
+      "published_at": "2026-11-06T12:48:24"
     },
     {
       "day": 6,
