@@ -94,7 +94,9 @@
         "Island als Reiseziel"
       ],
       "feeling": "Der Leser spürt die Wärme der Tasse in seinen Händen und das leere Blatt Papier vor sich.",
-      "image_query": "black coffee steam over notebook"
+      "image_query": "black coffee steam over notebook",
+      "published": true,
+      "published_at": "2026-11-07T11:36:56"
     },
     {
       "day": 7,
