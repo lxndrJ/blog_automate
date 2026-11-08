@@ -110,7 +110,9 @@
         "Kolonialgeschichte"
       ],
       "feeling": "Der Leser hört das leise Kratzen der Nadel auf dem Netz und das Knarren des Baums im Wind.",
-      "image_query": "fishermen mending nets under baobab"
+      "image_query": "fishermen mending nets under baobab",
+      "published": true,
+      "published_at": "2026-11-08T11:49:15"
     }
   ]
 }
