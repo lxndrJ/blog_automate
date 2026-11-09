@@ -14,7 +14,9 @@
         "Ureinwohner-Klischee"
       ],
       "feeling": "Die Wärme der Asche auf der Haut, lange nachdem der Ofen erloschen ist.",
-      "image_query": "Patagonian woman baking bread in ashes"
+      "image_query": "Patagonian woman baking bread in ashes",
+      "published": true,
+      "published_at": "2026-11-09T13:43:41"
     },
     {
       "day": 2,
