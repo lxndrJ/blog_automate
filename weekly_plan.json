@@ -1,118 +1,104 @@
 {
-  "week": "2026-W45",
-  "generated_at": "2026-11-02T11:56:59",
+  "week": "2026-W46",
+  "generated_at": "2026-11-09T12:27:13",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
       "category": "Kochen/Essen",
-      "topic": "Der letzte Topf *Pozole* der Köchin Rosa in Oaxaca, gekocht mit Mais aus dem Tal von Etla",
-      "angle": "Der Fokus liegt auf dem spezifischen Mais der Region, der nur hier wächst – und wie Rosa ihn mit den Händen wäscht, bevor er in den TonTopf kommt. Relevant, weil die Ernte jetzt beginnt.",
-      "hook": "Der Mais knirscht zwischen den Fingern wie trockener Sand, bevor er im Wasser aufquillt.",
+      "topic": "Der letzte Ofen der *Tortilla de Rescoldo* in Patagonien, beheizt mit Guanaco-Mist",
+      "angle": "Die fast vergessene Technik, Fladenbrot in der Ascheglut zu backen – und warum die Mapuche-Familie in El Chaltén sie nur noch an einem Tag im Jahr praktiziert. Diese Woche fällt der erste Schnee, der die Asche schützt.",
+      "hook": "Der scharfe Geruch von verbranntem Mist steigt auf, als die Hand der Großmutter die glühende Asche zur Seite schiebt.",
       "forbidden": [
-        "Rezeptanleitung",
-        "historische Einordnung"
+        "Tradition bewahren",
+        "Ureinwohner-Klischee"
       ],
-      "feeling": "Der Leser spürt die raue Textur der Maiskörner in seiner Handfläche, als hätte er sie selbst berührt.",
-      "image_query": "hands washing corn in clay bowl",
-      "published": true,
-      "published_at": "2026-11-02T13:18:03"
+      "feeling": "Die Wärme der Asche auf der Haut, lange nachdem der Ofen erloschen ist.",
+      "image_query": "Patagonian woman baking bread in ashes"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Reise",
-      "topic": "Die letzte Gasse in Lissabon, wo die *Adegas* noch Wein aus dem Fass zapfen",
-      "angle": "Nicht die Touristenbars, sondern die eine schmale Gasse hinter dem Mercado da Ribeira, wo der Wein direkt aus dem Holzfass in den Glas fließt – und der Boden nach Jahrzenten des Verschüttens klebrig ist.",
-      "hook": "Der Geruch von altem Holz und saurem Wein steigt aus den Ritzen der Steinplatten auf.",
+      "category": "Work-Life Balance",
+      "topic": "Die Regel der *Korallenfischer* in Zanzans, die ihre Netze nur bei Ebbe auswerfen",
+      "angle": "Wie der Rhythmus der Gezeiten die Arbeitstage strukturiert – und warum die Männer des Dorfes die Stunden des Wartens mit dem Reparieren alter Holzboote verbringen, nicht mit Reden.",
+      "hook": "Das Knarren der nassen Holzbretter, wenn das Boot sich mit der letzten Welle des Rückzugs auf den Sand legt.",
       "forbidden": [
-        "Fado-Musik",
-        "Pastéis de Nata"
+        "Inselparadies",
+        "exotische Entspannung"
       ],
-      "feeling": "Der Leser riecht den scharfen, süßlichen Duft des Weins, als stünde er selbst in der Gasse.",
-      "image_query": "wine barrel tap in narrow alley",
-      "published": true,
-      "published_at": "2026-11-03T12:42:41"
+      "feeling": "Der salzige Geschmack auf den Lippen, wenn die Flut zurückkehrt und die Arbeit wieder beginnt.",
+      "image_query": "Zanzibar fishermen mending nets at low tide"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Work-Life Balance",
-      "topic": "Die sieben Minuten der *Korbflechterinnen* in Marrakesch, in denen sie die Fasern befeuchten",
-      "angle": "Ein Ritual des Innehaltens: Bevor die Arbeit beginnt, werden die Palmfasern für genau sieben Minuten in Wasser getaucht – eine Pause, die kein Wort braucht.",
-      "hook": "Das Wasser zischt leise, als die Fasern es aufsaugen wie durstiges Papier.",
+      "category": "Reise",
+      "topic": "Die letzte *Telefonzelle* in der Wüste Gobi, bewacht von einem Mann mit einer Thermoskanne Tee",
+      "angle": "Ein Relikt der sowjetischen Ära, das nur noch von Nomaden genutzt wird, die ihre Herden über die Steppe treiben – und vom Wächter, der jeden Anrufer mit einem Schluck salzigen Buttertees empfängt.",
+      "hook": "Das Klicken des Hörers, wenn der Wind durch die offene Tür der Zelle fegt und den Staub aufwirbelt.",
       "forbidden": [
-        "Handwerk als Touristenattraktion",
-        "Preisverhandlungen"
+        "abgelegenes Paradies",
+        "letzte Verbindung zur Zivilisation"
       ],
-      "feeling": "Der Leser spürt die kühle Feuchtigkeit der Fasern zwischen seinen Fingern.",
-      "image_query": "hands soaking palm fibers in water",
-      "published": true,
-      "published_at": "2026-11-04T12:52:18"
+      "feeling": "Das Kratzen im Hals nach dem ersten Schluck Tee, der nach Schaf und Steppe schmeckt.",
+      "image_query": "Mongolian desert phone booth with herder"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Reise",
-      "topic": "Der letzte *Dhobi* in Mumbai, der die Wäsche mit dem Holzhammer auf dem Stein schlägt",
-      "angle": "In einer Stadt, die sich rasend schnell modernisiert, klopft ein Mann noch immer Wäsche am Fluss – nicht aus Nostalgie, sondern weil seine Hände den Rhythmus nicht vergessen haben.",
-      "hook": "Das dumpfe *Tock-Tock* des Hammers hallt über den Ghats wider, als würde der Fluss selbst antworten.",
+      "category": "Kochen/Essen",
+      "topic": "Der erste *Käse* der Saison aus der Alpkäserei der Familie Leuenberger im Berner Oberland",
+      "angle": "Die einzige Käserei, die den Käse noch mit Lab aus den Mägen von Alpkälbern herstellt – und warum der erste Laib des Jahres immer an den alten Dorflehrer geht.",
+      "hook": "Der säuerliche Duft von frischer Molke, der sich mit dem Geruch von nassem Holz und Heu vermischt.",
       "forbidden": [
-        "Slums",
-        "Bollywood"
+        "Schweizer Tradition",
+        "Bergromantik"
       ],
-      "feeling": "Der Leser hört das Echo des Hammers in seinem eigenen Puls.",
-      "image_query": "man washing clothes with wooden hammer",
-      "published": true,
-      "published_at": "2026-11-05T13:00:29"
+      "feeling": "Die raue Textur der Rinde auf der Zunge, als wäre die ganze Alm darin gefangen.",
+      "image_query": "Swiss alpine cheese wheel fresh from mold"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Kochen/Essen",
-      "topic": "Der erste Bissen *Kibbeh Nayyeh* des Metzgers Sami in Beirut, gewürzt mit frischem Minzblatt",
-      "angle": "Sami serviert das rohe Lammfleisch nur an Stammgäste – und nur, wenn die Minze aus dem Garten seiner Mutter kommt. Jetzt, im Herbst, ist sie am aromatischsten.",
-      "hook": "Die Minze knistert zwischen den Zähnen, als würde sie noch auf der Pflanze wachsen.",
+      "category": "Work-Life Balance",
+      "topic": "Das Ritual der *Buchbinder* in Fès, die ihre Werkzeuge jeden Freitag mit Rosenwasser abreiben",
+      "angle": "Warum die Handwerker in der Medersa Bou Inania ihre Messer und Ahlen nicht schärfen, sondern mit dem Duft der Blumen reinigen – und wie dieser Brauch die Woche in zwei Hälften teilt.",
+      "hook": "Das leise Zischen des Tuchs über das Metall, während der Geruch von Rosen und Leder in der Luft hängt.",
       "forbidden": [
-        "Libanesischer Bürgerkrieg",
-        "Hummus"
+        "orientalische Mystik",
+        "handwerkliche Perfektion"
       ],
-      "feeling": "Der Leser schmeckt das kühle, scharfe Aroma der Minze auf der Zunge, als hätte er gerade gebissen.",
-      "image_query": "raw lamb kibbeh with fresh mint",
-      "published": true,
-      "published_at": "2026-11-06T12:48:24"
+      "feeling": "Der kühle Metallgeschmack im Mund, als hätte man selbst das Werkzeug berührt.",
+      "image_query": "Moroccan bookbinder polishing tools with rosewater"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Work-Life Balance",
-      "topic": "Die Regel der *Schriftsteller* in Reykjavík: Kein Wort vor dem ersten Schluck Kaffee",
-      "angle": "In den Cafés der Stadt sitzen Autoren, die erst dann zur Feder greifen, wenn der Kaffee – schwarz, ohne Zucker – vor ihnen steht. Ein stilles Gesetz, das niemand bricht.",
-      "hook": "Der Dampf des Kaffees steigt in spiralförmigen Fäden auf, als würde er die Gedanken ordnen.",
+      "category": "Reise",
+      "topic": "Die letzte *Straßenlaterne* in Havannas Chinatown, unter der die alten Männer Domino spielen",
+      "angle": "Ein Relikt aus den 1920ern, das nie repariert wurde und dessen Licht die Schatten der Spieler auf den abblätternden Wänden tanzen lässt – während der Rest des Viertels längst im Dunkeln versinkt.",
+      "hook": "Das Klackern der Dominosteine auf dem Metalltisch, begleitet vom Summen der Laterne, die ihr letztes Licht gibt.",
       "forbidden": [
-        "Nordlichter",
-        "Island als Reiseziel"
+        "Nostalgie",
+        "verlorene Zeit"
       ],
-      "feeling": "Der Leser spürt die Wärme der Tasse in seinen Händen und das leere Blatt Papier vor sich.",
-      "image_query": "black coffee steam over notebook",
-      "published": true,
-      "published_at": "2026-11-07T11:36:56"
+      "feeling": "Das warme Gelb der Laterne, das sich in die Netzhaut brennt, wenn man zu lange hinschaut.",
+      "image_query": "Havana Chinatown streetlamp domino players"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Reise",
-      "topic": "Der letzte *Baobab* am Rande von Dakar, unter dem die Fischer ihre Netze flicken",
-      "angle": "Der Baum ist kein Denkmal, sondern ein Arbeitsplatz: Seine Wurzeln halten die Netze fest, während die Männer mit Nadeln aus Knochen die Maschen reparieren. Jetzt, im Herbst, ist die Luft feucht genug, dass die Fasern nicht brechen.",
-      "hook": "Das Knistern der trocknenden Netze vermischt sich mit dem Rascheln der Blätter, als würde der Baum selbst atmen.",
+      "category": "Kochen/Essen",
+      "topic": "Der letzte *Eintopf* der Köchin Aisha in Accra, gekocht mit den letzten Yams der Saison",
+      "angle": "Warum der Topf mit dem *Fufu* und der Erdnusssoße nur noch an Sonntagen auf dem Feuer steht – und wie die Nachbarn wissen, dass sie kommen dürfen, sobald der Duft der gerösteten Zwiebeln durch die Gasse zieht.",
+      "hook": "Der schwere, erdige Geruch von Yams, die im Holzfeuer langsam weich werden.",
       "forbidden": [
-        "Safari",
-        "Kolonialgeschichte"
+        "afrikanische Gastfreundschaft",
+        "Familienrezept"
       ],
-      "feeling": "Der Leser hört das leise Kratzen der Nadel auf dem Netz und das Knarren des Baums im Wind.",
-      "image_query": "fishermen mending nets under baobab",
-      "published": true,
-      "published_at": "2026-11-08T11:49:15"
+      "feeling": "Die Schwere im Magen, als hätte man nicht nur den Eintopf, sondern die ganze Saison gegessen.",
+      "image_query": "Ghanaian woman cooking yam stew in clay pot"
     }
   ]
 }
