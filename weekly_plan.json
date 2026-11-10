@@ -30,7 +30,9 @@
         "exotische Entspannung"
       ],
       "feeling": "Der salzige Geschmack auf den Lippen, wenn die Flut zurückkehrt und die Arbeit wieder beginnt.",
-      "image_query": "Zanzibar fishermen mending nets at low tide"
+      "image_query": "Zanzibar fishermen mending nets at low tide",
+      "published": true,
+      "published_at": "2026-11-10T13:21:52"
     },
     {
       "day": 3,
