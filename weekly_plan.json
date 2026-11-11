@@ -46,7 +46,9 @@
         "letzte Verbindung zur Zivilisation"
       ],
       "feeling": "Das Kratzen im Hals nach dem ersten Schluck Tee, der nach Schaf und Steppe schmeckt.",
-      "image_query": "Mongolian desert phone booth with herder"
+      "image_query": "Mongolian desert phone booth with herder",
+      "published": true,
+      "published_at": "2026-11-11T12:33:46"
     },
     {
       "day": 4,
