@@ -62,7 +62,9 @@
         "Bergromantik"
       ],
       "feeling": "Die raue Textur der Rinde auf der Zunge, als wäre die ganze Alm darin gefangen.",
-      "image_query": "Swiss alpine cheese wheel fresh from mold"
+      "image_query": "Swiss alpine cheese wheel fresh from mold",
+      "published": true,
+      "published_at": "2026-11-12T13:38:13"
     },
     {
       "day": 5,
