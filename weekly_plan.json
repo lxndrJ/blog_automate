@@ -78,7 +78,9 @@
         "handwerkliche Perfektion"
       ],
       "feeling": "Der kühle Metallgeschmack im Mund, als hätte man selbst das Werkzeug berührt.",
-      "image_query": "Moroccan bookbinder polishing tools with rosewater"
+      "image_query": "Moroccan bookbinder polishing tools with rosewater",
+      "published": true,
+      "published_at": "2026-11-13T12:57:10"
     },
     {
       "day": 6,
