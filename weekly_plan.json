@@ -94,7 +94,9 @@
         "verlorene Zeit"
       ],
       "feeling": "Das warme Gelb der Laterne, das sich in die Netzhaut brennt, wenn man zu lange hinschaut.",
-      "image_query": "Havana Chinatown streetlamp domino players"
+      "image_query": "Havana Chinatown streetlamp domino players",
+      "published": true,
+      "published_at": "2026-11-14T12:00:29"
     },
     {
       "day": 7,
