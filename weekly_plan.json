@@ -110,7 +110,9 @@
         "Familienrezept"
       ],
       "feeling": "Die Schwere im Magen, als hätte man nicht nur den Eintopf, sondern die ganze Saison gegessen.",
-      "image_query": "Ghanaian woman cooking yam stew in clay pot"
+      "image_query": "Ghanaian woman cooking yam stew in clay pot",
+      "published": true,
+      "published_at": "2026-11-15T12:36:07"
     }
   ]
 }
