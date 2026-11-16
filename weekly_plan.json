@@ -1,118 +1,104 @@
 {
-  "week": "2026-W46",
-  "generated_at": "2026-11-09T12:27:13",
+  "week": "2026-W47",
+  "generated_at": "2026-11-16T12:22:43",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
       "category": "Kochen/Essen",
-      "topic": "Der letzte Ofen der *Tortilla de Rescoldo* in Patagonien, beheizt mit Guanaco-Mist",
-      "angle": "Die fast vergessene Technik, Fladenbrot in der Ascheglut zu backen – und warum die Mapuche-Familie in El Chaltén sie nur noch an einem Tag im Jahr praktiziert. Diese Woche fällt der erste Schnee, der die Asche schützt.",
-      "hook": "Der scharfe Geruch von verbranntem Mist steigt auf, als die Hand der Großmutter die glühende Asche zur Seite schiebt.",
+      "topic": "Der letzte Sack *Sumach* des Händlers Elias in Aleppo, gemahlen zwischen zwei Steinen",
+      "angle": "Sumach wird im Herbst geerntet – dieser letzte Sack markiert das Ende der Saison. Der Fokus liegt auf der Handarbeit des Mahlens und der Bedeutung der Gewürzmischung für die syrische Küche.",
+      "hook": "Der scharfe, zitronige Duft von frisch gemahlenem Sumach kitzelt in der Nase, als Elias die Steine über die getrockneten Beeren rollt.",
       "forbidden": [
-        "Tradition bewahren",
-        "Ureinwohner-Klischee"
+        "Krieg in Syrien",
+        "historische Souks"
       ],
-      "feeling": "Die Wärme der Asche auf der Haut, lange nachdem der Ofen erloschen ist.",
-      "image_query": "Patagonian woman baking bread in ashes",
-      "published": true,
-      "published_at": "2026-11-09T13:43:41"
+      "feeling": "Der Leser spürt den Staub des Gewürzes auf den Fingerspitzen und die Stille eines Handwerks, das langsam verschwindet.",
+      "image_query": "hands grinding sumac stones"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Work-Life Balance",
-      "topic": "Die Regel der *Korallenfischer* in Zanzans, die ihre Netze nur bei Ebbe auswerfen",
-      "angle": "Wie der Rhythmus der Gezeiten die Arbeitstage strukturiert – und warum die Männer des Dorfes die Stunden des Wartens mit dem Reparieren alter Holzboote verbringen, nicht mit Reden.",
-      "hook": "Das Knarren der nassen Holzbretter, wenn das Boot sich mit der letzten Welle des Rückzugs auf den Sand legt.",
+      "category": "Reise",
+      "topic": "Die letzte *Holzbrücke* in Kyoto, über die nur die Teemeister gehen dürfen",
+      "angle": "Eine fast vergessene Brücke im Bambuswald, die nur noch von einer Handvoll Teemeistern genutzt wird – ein Symbol für die schrumpfende Tradition.",
+      "hook": "Das Knarren der alten Holzplanken unter den Schritten der Teemeister vermischt sich mit dem Rascheln der Bambusblätter.",
       "forbidden": [
-        "Inselparadies",
-        "exotische Entspannung"
+        "Touristenmassen",
+        "Fushimi Inari"
       ],
-      "feeling": "Der salzige Geschmack auf den Lippen, wenn die Flut zurückkehrt und die Arbeit wieder beginnt.",
-      "image_query": "Zanzibar fishermen mending nets at low tide",
-      "published": true,
-      "published_at": "2026-11-10T13:21:52"
+      "feeling": "Der Leser hört das Echo der Schritte auf dem Holz und spürt die Ehrfurcht vor einem Ort, der nur den Eingeweihten gehört.",
+      "image_query": "wooden bridge bamboo forest"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Reise",
-      "topic": "Die letzte *Telefonzelle* in der Wüste Gobi, bewacht von einem Mann mit einer Thermoskanne Tee",
-      "angle": "Ein Relikt der sowjetischen Ära, das nur noch von Nomaden genutzt wird, die ihre Herden über die Steppe treiben – und vom Wächter, der jeden Anrufer mit einem Schluck salzigen Buttertees empfängt.",
-      "hook": "Das Klicken des Hörers, wenn der Wind durch die offene Tür der Zelle fegt und den Staub aufwirbelt.",
+      "category": "Work-Life Balance",
+      "topic": "Die Regel der *Korbmacher* in Oaxaca: Kein Wort während der ersten sieben Fasern",
+      "angle": "Ein Ritual der Konzentration – die ersten sieben Fasern werden in Stille geflochten, um den Rhythmus für den Tag zu finden.",
+      "hook": "Das trockene Knistern der Palmfasern ist das einzige Geräusch, während die Hände die ersten sieben Stränge verweben.",
       "forbidden": [
-        "abgelegenes Paradies",
-        "letzte Verbindung zur Zivilisation"
+        "Handwerk als Trend",
+        "nachhaltige Materialien"
       ],
-      "feeling": "Das Kratzen im Hals nach dem ersten Schluck Tee, der nach Schaf und Steppe schmeckt.",
-      "image_query": "Mongolian desert phone booth with herder",
-      "published": true,
-      "published_at": "2026-11-11T12:33:46"
+      "feeling": "Der Leser spürt die meditative Stille und die Disziplin, die in jedem Korb steckt.",
+      "image_query": "hands weaving palm fibers"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
       "category": "Kochen/Essen",
-      "topic": "Der erste *Käse* der Saison aus der Alpkäserei der Familie Leuenberger im Berner Oberland",
-      "angle": "Die einzige Käserei, die den Käse noch mit Lab aus den Mägen von Alpkälbern herstellt – und warum der erste Laib des Jahres immer an den alten Dorflehrer geht.",
-      "hook": "Der säuerliche Duft von frischer Molke, der sich mit dem Geruch von nassem Holz und Heu vermischt.",
+      "topic": "Der erste *Miso-Sud* der Saison in der Küche von Tante Fumiko in Nagano",
+      "angle": "Der erste Sud des Herbstes wird aus frischem Sojabohnen-Paste und dem letzten Reis der Ernte zubereitet – ein Ritual des Übergangs.",
+      "hook": "Der dampfende Topf verströmt einen erdigen, umami-reichen Duft, der sich mit dem kühlen Herbstwind vermischt.",
       "forbidden": [
-        "Schweizer Tradition",
-        "Bergromantik"
+        "Sushi-Klischees",
+        "Tokyo Skyline"
       ],
-      "feeling": "Die raue Textur der Rinde auf der Zunge, als wäre die ganze Alm darin gefangen.",
-      "image_query": "Swiss alpine cheese wheel fresh from mold",
-      "published": true,
-      "published_at": "2026-11-12T13:38:13"
+      "feeling": "Der Leser schmeckt die Tiefe des Misos und spürt die Wärme eines Hauses, in dem die Jahreszeiten im Topf zubereitet werden.",
+      "image_query": "steaming miso pot traditional kitchen"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Work-Life Balance",
-      "topic": "Das Ritual der *Buchbinder* in Fès, die ihre Werkzeuge jeden Freitag mit Rosenwasser abreiben",
-      "angle": "Warum die Handwerker in der Medersa Bou Inania ihre Messer und Ahlen nicht schärfen, sondern mit dem Duft der Blumen reinigen – und wie dieser Brauch die Woche in zwei Hälften teilt.",
-      "hook": "Das leise Zischen des Tuchs über das Metall, während der Geruch von Rosen und Leder in der Luft hängt.",
+      "category": "Reise",
+      "topic": "Der letzte *Leuchtturmwärter* von Kap der Guten Hoffnung, der die Laterne noch mit Öl füllt",
+      "angle": "Ein Mann, der als Letzter die alte Tradition des Öl-Laternen-Leuchtturms aufrechterhält, während die Automatisierung alles andere ersetzt.",
+      "hook": "Das gleichmäßige Tropfen des Öls in die Laterne ist das einzige Geräusch in der stürmischen Nacht am Kap.",
       "forbidden": [
-        "orientalische Mystik",
-        "handwerkliche Perfektion"
+        "Pinguine",
+        "Kapstadt Skyline"
       ],
-      "feeling": "Der kühle Metallgeschmack im Mund, als hätte man selbst das Werkzeug berührt.",
-      "image_query": "Moroccan bookbinder polishing tools with rosewater",
-      "published": true,
-      "published_at": "2026-11-13T12:57:10"
+      "feeling": "Der Leser hört das Meer gegen die Klippen schlagen und spürt die Einsamkeit und den Stolz des letzten Wärters.",
+      "image_query": "lighthouse keeper oil lamp"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Reise",
-      "topic": "Die letzte *Straßenlaterne* in Havannas Chinatown, unter der die alten Männer Domino spielen",
-      "angle": "Ein Relikt aus den 1920ern, das nie repariert wurde und dessen Licht die Schatten der Spieler auf den abblätternden Wänden tanzen lässt – während der Rest des Viertels längst im Dunkeln versinkt.",
-      "hook": "Das Klackern der Dominosteine auf dem Metalltisch, begleitet vom Summen der Laterne, die ihr letztes Licht gibt.",
+      "category": "Work-Life Balance",
+      "topic": "Die Pause der *Schneider* in Port-au-Prince: Sieben Minuten Stille nach jedem Saum",
+      "angle": "Ein Rhythmus der Arbeit – nach jedem fertigen Saum legen die Schneider die Nadel für sieben Minuten beiseite, um den Faden und den Geist zu beruhigen.",
+      "hook": "Das Surren der Nähmaschine verstummt, und für sieben Minuten liegt nur das leise Knistern des Stoffes in der Luft.",
       "forbidden": [
-        "Nostalgie",
-        "verlorene Zeit"
+        "Armut in Haiti",
+        "Kinderarbeit"
       ],
-      "feeling": "Das warme Gelb der Laterne, das sich in die Netzhaut brennt, wenn man zu lange hinschaut.",
-      "image_query": "Havana Chinatown streetlamp domino players",
-      "published": true,
-      "published_at": "2026-11-14T12:00:29"
+      "feeling": "Der Leser spürt die Disziplin der Stille und die Wertschätzung für jede Naht.",
+      "image_query": "tailor hands sewing pause"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Kochen/Essen",
-      "topic": "Der letzte *Eintopf* der Köchin Aisha in Accra, gekocht mit den letzten Yams der Saison",
-      "angle": "Warum der Topf mit dem *Fufu* und der Erdnusssoße nur noch an Sonntagen auf dem Feuer steht – und wie die Nachbarn wissen, dass sie kommen dürfen, sobald der Duft der gerösteten Zwiebeln durch die Gasse zieht.",
-      "hook": "Der schwere, erdige Geruch von Yams, die im Holzfeuer langsam weich werden.",
+      "category": "Reise",
+      "topic": "Der letzte *Pferdehufschmied* in der Pampa, der die Eisen noch mit dem Amboss formt",
+      "angle": "In einer Zeit der Maschinen ist er der Letzte, der die Hufeisen von Hand schmiedet – ein Handwerk, das mit dem Rhythmus der Pampa verschmilzt.",
+      "hook": "Das glühende Eisen zischt, als es in das Wasser getaucht wird, und der Geruch von verbranntem Horn füllt die Werkstatt.",
       "forbidden": [
-        "afrikanische Gastfreundschaft",
-        "Familienrezept"
+        "Gauchos als Klischee",
+        "Tango"
       ],
-      "feeling": "Die Schwere im Magen, als hätte man nicht nur den Eintopf, sondern die ganze Saison gegessen.",
-      "image_query": "Ghanaian woman cooking yam stew in clay pot",
-      "published": true,
-      "published_at": "2026-11-15T12:36:07"
+      "feeling": "Der Leser riecht das heiße Metall und spürt die Verbindung zwischen Handwerk und Land.",
+      "image_query": "blacksmith horse shoe anvil"
     }
   ]
 }
