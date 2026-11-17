@@ -30,7 +30,9 @@
         "Fushimi Inari"
       ],
       "feeling": "Der Leser hört das Echo der Schritte auf dem Holz und spürt die Ehrfurcht vor einem Ort, der nur den Eingeweihten gehört.",
-      "image_query": "wooden bridge bamboo forest"
+      "image_query": "wooden bridge bamboo forest",
+      "published": true,
+      "published_at": "2026-11-17T14:13:41"
     },
     {
       "day": 3,
