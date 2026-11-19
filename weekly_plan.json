@@ -62,7 +62,9 @@
         "Tokyo Skyline"
       ],
       "feeling": "Der Leser schmeckt die Tiefe des Misos und spürt die Wärme eines Hauses, in dem die Jahreszeiten im Topf zubereitet werden.",
-      "image_query": "steaming miso pot traditional kitchen"
+      "image_query": "steaming miso pot traditional kitchen",
+      "published": true,
+      "published_at": "2026-11-19T14:14:41"
     },
     {
       "day": 5,
