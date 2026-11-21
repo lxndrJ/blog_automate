@@ -92,7 +92,9 @@
         "Kinderarbeit"
       ],
       "feeling": "Der Leser spürt die Disziplin der Stille und die Wertschätzung für jede Naht.",
-      "image_query": "tailor hands sewing pause"
+      "image_query": "tailor hands sewing pause",
+      "published": true,
+      "published_at": "2026-11-21T13:19:21"
     },
     {
       "day": 7,
