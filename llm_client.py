@@ -1,17 +1,17 @@
 # llm_client.py – zentrale, STABLE LLM-Schnittstelle (dünne Fassade).
 #
 # Alle Agents/Module rufen NUR `llm_client.chat(...)` auf. Die eigentliche
-# Provider-Logik (Anthropic, Mistral, Ollama) lebt isoliert in providers/
+# Provider-Logik (Gemini, Anthropic, Mistral, Ollama) lebt isoliert in providers/
 # und wird vom router.py gewählt – inkl. Fallback. So bricht ein defekter
 # Provider die anderen nicht.
 #
 # Routing (Env BLOG_LLM_PROVIDER):
-#   - "auto" (Default): anthropic → mistral → ollama, nächster verfügbarer wird genutzt
-#   - "anthropic" | "mistral" | "ollama": nur dieser Provider
+#   - "auto" (Default): gemini → anthropic → mistral → ollama, nächster verfügbarer wird genutzt
+#   - "gemini" | "anthropic" | "mistral" | "ollama": nur dieser Provider
 #
 # Modellnamen in config.py bleiben Claude-Namen. Jeder Provider übersetzt sie
 # selbst (resolve_model) oder nutzt einen eigenen Override:
-#   BLOG_MISTRAL_MODEL, BLOG_OLLAMA_MODEL, OLLAMA_BASE_URL.
+#   BLOG_GEMINI_MODEL, BLOG_MISTRAL_MODEL, BLOG_OLLAMA_MODEL, OLLAMA_BASE_URL.
 import re
 
 import router
@@ -27,7 +27,8 @@ def require_provider() -> None:
     if not router.available_providers():
         raise RuntimeError(
             "Kein LLM-Provider konfiguriert/verfügbar. Setze z. B. "
-            "ANTHROPIC_API_KEY oder starte Ollama (BLOG_LLM_PROVIDER=ollama)."
+            "GEMINI_API_KEY oder ANTHROPIC_API_KEY, oder starte Ollama "
+            "(BLOG_LLM_PROVIDER=ollama)."
         )
 
 

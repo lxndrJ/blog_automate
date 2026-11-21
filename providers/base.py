@@ -1,6 +1,6 @@
 # providers/base.py – gemeinsame Schnittstelle aller LLM-Provider.
 #
-# Jeder Adapter (Anthropic, Mistral, Ollama) implementiert:
+# Jeder Adapter (Gemini, Anthropic, Mistral, Ollama) implementiert:
 #   - name:         eindeutiger Provider-Name (für Routing/Logs)
 #   - is_available(): True, wenn der Provider genutzt werden KANN
 #                     (Key vorhanden, SDK importierbar, Server erreichbar …)
@@ -13,7 +13,7 @@ from abc import ABC, abstractmethod
 class BaseProvider(ABC):
     """Gemeinsame Basis für alle LLM-Provider."""
 
-    #: eindeutiger Name, z. B. "anthropic", "mistral", "ollama"
+    #: eindeutiger Name, z. B. "gemini", "anthropic", "mistral", "ollama"
     name: str = "base"
 
     def is_available(self) -> bool:
