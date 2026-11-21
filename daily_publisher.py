@@ -70,8 +70,8 @@ def main() -> int:
     args = ap.parse_args()
 
     if not router.available_providers():
-        print("FEHLER: Kein LLM-Provider verfügbar. Setze ANTHROPIC_API_KEY "
-              "oder MISTRAL_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
+        print("FEHLER: Kein LLM-Provider verfügbar. Setze GEMINI_API_KEY "
+              "oder ANTHROPIC_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
               file=sys.stderr)
         return 2
 

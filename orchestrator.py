@@ -241,8 +241,8 @@ def main() -> int:
         os.environ["BLOG_SITE_REPO"] = args.site_repo
 
     if not router.available_providers():
-        print("FEHLER: Kein LLM-Provider verfügbar. Setze ANTHROPIC_API_KEY "
-              "oder MISTRAL_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
+        print("FEHLER: Kein LLM-Provider verfügbar. Setze GEMINI_API_KEY "
+              "oder ANTHROPIC_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama).",
               file=sys.stderr)
         return 2
 

@@ -1,5 +1,6 @@
 anthropic>=1.0.0,<2.0.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+# Gemini läuft per REST über requests – GEMINI_API_KEY genügt, kein SDK nötig.
 # Optionaler Provider (nur nötig, wenn BLOG_LLM_PROVIDER=mistral):
 mistralai>=2.0.0

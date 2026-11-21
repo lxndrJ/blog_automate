@@ -1,22 +1,23 @@
 # router.py – wählt den aktiven LLM-Provider und regelt Fallbacks.
 #
 # Routing-Regeln (Env: BLOG_LLM_PROVIDER):
-#   - "anthropic" / "mistral" / "ollama" → NUR dieser Provider.
+#   - "gemini" / "anthropic" / "mistral" / "ollama" → NUR dieser Provider.
 #     Ist er nicht verfügbar → klare Fehlermeldung (kein stiller Fallback).
 #   - "auto" (Default) → Provider in Prioritätsreihenfolge versuchen:
-#       anthropic → mistral → ollama
+#       gemini → anthropic → mistral → ollama
 #     Ein defekter Provider (Key fehlt, SDK fehlt, API-Fehler, Server down)
 #     bricht NICHT die anderen: der nächste verfügbare wird genutzt.
 #
 # Agenten rufen nie den Router direkt an, sondern llm_client.chat().
 import os
 
+from providers.gemini_provider import GeminiProvider
 from providers.anthropic_provider import AnthropicProvider
 from providers.mistral_provider import MistralProvider
 from providers.ollama_provider import OllamaProvider
 
-# Prioritätsreihenfolge für "auto" (Claude = stabiler Default zuerst).
-_PRIORITY = [AnthropicProvider, MistralProvider, OllamaProvider]
+# Prioritätsreihenfolge für "auto" (Gemini = Primär-Provider).
+_PRIORITY = [GeminiProvider, AnthropicProvider, MistralProvider, OllamaProvider]
 
 
 def _requested() -> str:
@@ -104,6 +105,6 @@ def chat(model: str,
         )
 
     raise RuntimeError(
-        "Kein LLM-Provider konfiguriert/verfügbar. Setze z. B. ANTHROPIC_API_KEY "
-        "oder starte Ollama (BLOG_LLM_PROVIDER=ollama)."
+        "Kein LLM-Provider konfiguriert/verfügbar. Setze z. B. GEMINI_API_KEY "
+        "oder ANTHROPIC_API_KEY, oder starte Ollama (BLOG_LLM_PROVIDER=ollama)."
     )
