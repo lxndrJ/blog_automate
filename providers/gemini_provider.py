@@ -23,13 +23,14 @@ logger = logging.getLogger(__name__)
 _BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 
 # Claude-Namen → Gemini-Namen (Fallback-Mapping, falls kein Override gesetzt).
+# Achtung: gemini-2.5-* ist für neue Keys nicht mehr verfügbar → 3.x-Line.
 _MODEL_MAP = {
-    "claude-haiku-4-5": "gemini-2.5-flash",
-    "claude-3-5-haiku": "gemini-2.5-flash",
-    "claude-sonnet-4-5": "gemini-2.5-pro",
-    "claude-3-5-sonnet": "gemini-2.5-pro",
-    "claude-opus-4-1": "gemini-2.5-pro",
-    "claude-3-5-opus": "gemini-2.5-pro",
+    "claude-haiku-4-5": "gemini-3.8-flash",
+    "claude-3-5-haiku": "gemini-3.8-flash",
+    "claude-sonnet-4-5": "gemini-3.1-pro",
+    "claude-3-5-sonnet": "gemini-3.1-pro",
+    "claude-opus-4-1": "gemini-3.1-pro",
+    "claude-3-5-opus": "gemini-3.1-pro",
 }
 
 
@@ -92,7 +93,11 @@ class GeminiProvider(BaseProvider):
         override = os.getenv("BLOG_GEMINI_MODEL", "").strip()
         if override:
             return override
-        return _MODEL_MAP.get(model, model)
+        if model in _MODEL_MAP:
+            return _MODEL_MAP[model]
+        if model.startswith("claude"):
+            return "gemini-3.8-flash"
+        return model
 
     def chat(self,
              model: str,
