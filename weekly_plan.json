@@ -108,7 +108,9 @@
         "Tango"
       ],
       "feeling": "Der Leser riecht das heiße Metall und spürt die Verbindung zwischen Handwerk und Land.",
-      "image_query": "blacksmith horse shoe anvil"
+      "image_query": "blacksmith horse shoe anvil",
+      "published": true,
+      "published_at": "2026-11-22T13:11:48"
     }
   ]
 }
