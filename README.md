@@ -94,6 +94,25 @@ Jeder Post erhält den **tatsächlichen Erzeugungszeitpunkt** in der Zone
 - **Quellen-Sektion** in jedem Beitrag + `sources:` im Frontmatter
 - **Transparenz**: `author: lxndrJ`, `ai_assisted: true`, Hinweis am Ende
 
+## Websuche (modellunabhängig)
+
+Die Recherche nutzt KEIN serverseitiges Search-Tool des LLM mehr.
+`agents/researcher.py` sucht zuerst direkt (`websearch.py`) und reicht
+die Treffer + Seitenauszüge als Kontext in einen normalen LLM-Call –
+funktioniert also mit jedem Provider/Modell (auch Gemma).
+
+Strategie-Kaskade (erste nicht-leere gewinnt):
+1. **Google Programmable Search API** – 100 Abfragen/Tag frei; Secrets
+   `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` ([hier anlegen](https://programmablesearchengine.google.com))
+2. **Brave Search API** – Secret `BRAVE_API_KEY` (Free-Tier)
+3. **DuckDuckGo HTML** – keylos, klappt lokal; aus Cloud-IPs meist geblockt
+4. **Wikipedia-API** – keylos, auch aus CI zuverlässig (de+en)
+
+Ohne CSE/Brave-Keys läuft die Suche also automatisch auf Wikipedia-
+Ressourcen zurück. Für breitere Recherche in GitHub Actions
+`GOOGLE_CSE_KEY` und `GOOGLE_CSE_CX` als Secrets anlegen (100 Abfragen/Tag
+kostenlos; die Pipeline macht ~9 Suchanfragen pro Post-Lauf).
+
 ## LLM-Provider (Gemini, Anthropic, Mistral, Ollama – isoliert)
 
 Alle Agents nutzen `llm_client.py` als **einzige, stabile Schnittstelle**
@@ -120,20 +139,29 @@ Anthropic → `ANTHROPIC_API_KEY` + SDK. Mistral → `MISTRAL_API_KEY`
 + `mistralai`. Ollama → laufender Server (`OLLAMA_BASE_URL`, Default
 `http://localhost:11434`).
 
-**Modellnamen:** In `config.py` stehen Claude-Namen. Anthropic nimmt sie 1:1.
-Gemini/Mistral/Ollama übersetzen sie selbst (`resolve_model`) oder nutzen einen
-Override: `BLOG_GEMINI_MODEL`, `BLOG_MISTRAL_MODEL`, `BLOG_OLLAMA_MODEL`.
+**Modellnamen – EIN Modell pro Provider:** Jeder Provider nutzt genau ein
+gesetztes Default-Modell (`_DEFAULT_MODEL` im jeweiligen Adapter). Die
+Claude-Namen aus `config.py` werden dabei ignoriert – ein Anbieter, ein Modell.
+
+| Provider | Default-Modell | Override (Env / GitHub-Variable) |
+|---|---|---|
+| Gemini | `gemini-3.8-flash` (Free Tier) | `BLOG_GEMINI_MODEL` / Repo-Variable `GEMINI_MODEL` |
+| Anthropic | `claude-haiku-4-5` (1:1 aus `config.py`) | `BLOG_RESEARCH_MODEL` etc. |
+| Mistral | `mistral-large-latest` | `BLOG_MISTRAL_MODEL` |
+| Ollama | laufend, per `BLOG_OLLAMA_MODEL` | `BLOG_OLLAMA_MODEL` |
+
+**Modelle aktuell halten:** Pro Provider nur *eine* Stelle ändern – in GitHub
+unter `Settings → Secrets and variables → Actions → Variables` die Variable
+`GEMINI_MODEL` setzen (leer = Default aus dem Adapter). Lokal:
+`export BLOG_GEMINI_MODEL=gemma-4-27b`.
+
+**Gemma (kostenlos):** Gemma 4 läuft im Gemini-Free-Tier mit deutlich höherem
+Tageslimit als die Flash-Modelle, unterstützt aber keine serverseitige
+Google-Suche. Der Adapter fällt dann automatisch auf einen Call ohne
+Web-Suche zurück (Recherche ohne Grounding-Quellen, dafür höheres Limit
+und keine Kosten).
 
 ## Modelle (per Env überschreibbar)
-
-| Rolle | Default (Claude) | Env |
-|---|---|---|
-| Recherche | `claude-haiku-4-5` | `BLOG_RESEARCH_MODEL` |
-| Entwurf | `claude-haiku-4-5` | `BLOG_DRAFTER_MODEL` |
-| Lektor | `claude-haiku-4-5` | `BLOG_EDITOR_MODEL` |
-| Themen | `claude-haiku-4-5` | `BLOG_TOPIC_MODEL` |
-
-Provider-Overrides: `BLOG_GEMINI_MODEL`, `BLOG_MISTRAL_MODEL`, `BLOG_OLLAMA_MODEL`, `OLLAMA_BASE_URL`.
 
 ## Altes (v1, noch vorhanden)
 

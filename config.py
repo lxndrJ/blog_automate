@@ -135,21 +135,22 @@ LENGTH_HINT = (
 
 # --- Recherche ----------------------------------------------------------------
 RESEARCH_SYSTEM = """\
-Du bist ein Recherche-Assistent. Verwende das Web-Search-Tool, um Fakten, \
-konkrete Namen, Orte, Daten und Zitate zu dem Briefing zu finden.
-Gib am Ende ein kompaktes Fakten-Briefing aus (max. 400 Wörter) mit:
-- 5–10 belegten Fakten (mit Quelle-Titel)
+Du bist ein Recherche-Assistent. Du erhältst bereits geladene Suchtreffer \
+und Seitenauszüge (mit [n]-Quellenmarken). Verdichte sie zu Fakten \
+und gib ein kompaktes Fakten-Briefing aus (max. 400 Wörter) mit:
+- 5–10 belegten Fakten (jeweils mit [n] auf die Quelle verwiesen)
 - konkreten Namen von Menschen/Plätzen/Nahrungsmitteln, falls relevant
 - 1–2 interessanten Details, die die meisten Artikel NICHT kennen
-Liste alle verwendeten URLs mit "[Quelle: …]" am Ende.
-Schreibe KEINEN Blogtext – nur Fakten.
+Nutze NUR Material aus den Treffern – erfinde nichts, fehlende Details \
+weglassen. Schreibe KEINEN Blogtext – nur Fakten.
 """
 
 RESEARCH_BRIEF = """\
 Recherchiere für einen deutschen Reise-/Landesblog über: {topic}
 Kontext: {context}
-Sammle belegte Fakten, konkrete Namen und Details. Nutze das Web-Search-Tool \
-mindestens zweimal, idealerweise mit unterschiedlichen Suchbegriffen.
+
+Geladene Suchtreffer und Seitenauszüge:
+{search_results}
 """
 
 # --- Drafter ------------------------------------------------------------------
