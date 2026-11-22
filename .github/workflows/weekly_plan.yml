@@ -52,6 +52,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BLOG_LLM_PROVIDER: gemini
+          # Modell zentral aktuell halten: Repository-Variable GEMINI_MODEL
+          # (Settings > Secrets and variables > Actions > Variables). Leer = Default.
+          BLOG_GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           BLOG_MISTRAL_MODEL: mistral-medium-latest
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: |

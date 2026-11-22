@@ -11,7 +11,7 @@
 #
 # Modellwahl:
 #   - BLOG_MISTRAL_MODEL (optional) erzwingt einen konkreten Mistral-Modellnamen.
-#   - Sonst werden bekannte Claude-Namen auf sinnvolle Mistral-Modelle gemappt.
+#   - Sonst: _DEFAULT_MODEL. Updates = nur diese Konstante oder die Env ändern.
 import os
 import re
 import json
@@ -25,15 +25,9 @@ logger = logging.getLogger(__name__)
 
 _BASE_URL = "https://api.mistral.ai/v1"
 
-# Claude-Namen → Mistral-Namen (Fallback-Mapping, falls kein Override gesetzt).
-_MODEL_MAP = {
-    "claude-haiku-4-5": "mistral-small-latest",
-    "claude-3-5-haiku": "mistral-small-latest",
-    "claude-sonnet-4-5": "mistral-medium-latest",
-    "claude-3-5-sonnet": "mistral-medium-latest",
-    "claude-opus-4-1": "mistral-large-latest",
-    "claude-3-5-opus": "mistral-large-latest",
-}
+# Das EINE Mistral-Modell dieser Pipeline (Stand Nov 2026).
+# Aktuell halten = diese Zeile (oder besser: die Env BLOG_MISTRAL_MODEL) ändern.
+_DEFAULT_MODEL = "mistral-large-latest"
 
 
 def _api_key() -> str:
@@ -108,7 +102,7 @@ class MistralProvider(BaseProvider):
         override = os.getenv("BLOG_MISTRAL_MODEL", "").strip()
         if override:
             return override
-        return _MODEL_MAP.get(model, model)
+        return _DEFAULT_MODEL
 
     # ------------------------------------------------------------------
     # Haupt-Methoden

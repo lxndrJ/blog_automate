@@ -8,9 +8,10 @@
 #   - GEMINI_API_KEY (oder GOOGLE_API_KEY) gesetzt
 #   - `requests` installiert (steht in requirements.txt)
 #
-# Modellwahl:
-#   - BLOG_GEMINI_MODEL (optional) erzwingt einen konkreten Gemini-Modellnamen.
-#   - Sonst werden bekannte Claude-Namen auf sinnvolle Gemini-Modelle gemappt.
+# Modellwahl (EIN Modell pro Provider, zentral pflegbar):
+#   - BLOG_GEMINI_MODEL (optional) erzwingt einen konkreten Modellnamen
+#     (z. B. "gemma-4-27b" für den Free Tier ohne Such-Grounding).
+#   - Sonst: _DEFAULT_MODEL. Updates = nur diese Konstante oder die Env ändern.
 import os
 import logging
 
@@ -22,16 +23,9 @@ logger = logging.getLogger(__name__)
 
 _BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 
-# Claude-Namen → Gemini-Namen (Fallback-Mapping, falls kein Override gesetzt).
-# Achtung: gemini-2.5-* ist für neue Keys nicht mehr verfügbar → 3.x-Line.
-_MODEL_MAP = {
-    "claude-haiku-4-5": "gemini-3.8-flash",
-    "claude-3-5-haiku": "gemini-3.8-flash",
-    "claude-sonnet-4-5": "gemini-3.1-pro",
-    "claude-3-5-sonnet": "gemini-3.1-pro",
-    "claude-opus-4-1": "gemini-3.1-pro",
-    "claude-3-5-opus": "gemini-3.1-pro",
-}
+# Das EINE Gemini-Modell dieser Pipeline (Stand Nov 2026, Free Tier).
+# Aktuell halten = diese Zeile (oder besser: die Env BLOG_GEMINI_MODEL) ändern.
+_DEFAULT_MODEL = "gemini-3.8-flash"
 
 
 def _api_key() -> str:
@@ -93,11 +87,7 @@ class GeminiProvider(BaseProvider):
         override = os.getenv("BLOG_GEMINI_MODEL", "").strip()
         if override:
             return override
-        if model in _MODEL_MAP:
-            return _MODEL_MAP[model]
-        if model.startswith("claude"):
-            return "gemini-3.8-flash"
-        return model
+        return _DEFAULT_MODEL
 
     def chat(self,
              model: str,
@@ -132,6 +122,21 @@ class GeminiProvider(BaseProvider):
             json=body,
             timeout=120,
         )
+        if resp.status_code in (400, 404) and web_search:
+            # Nicht jedes Modell unterstützt serverseitige Suche
+            # (z. B. Gemma) → ohne tools weiterversuchen.
+            logger.warning(
+                "Gemini web_search für Modell '%s' nicht verfügbar "
+                "(HTTP %d): %s – Retry ohne Suche.",
+                resolved_model, resp.status_code, resp.text[:200],
+            )
+            body.pop("tools", None)
+            resp = requests.post(
+                f"{_BASE_URL}/models/{resolved_model}:generateContent",
+                headers={"x-goog-api-key": _api_key()},
+                json=body,
+                timeout=120,
+            )
         if resp.status_code != 200:
             raise RuntimeError(
                 f"Gemini generateContent failed (HTTP {resp.status_code}): "
