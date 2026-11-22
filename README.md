@@ -94,6 +94,25 @@ Jeder Post erhält den **tatsächlichen Erzeugungszeitpunkt** in der Zone
 - **Quellen-Sektion** in jedem Beitrag + `sources:` im Frontmatter
 - **Transparenz**: `author: lxndrJ`, `ai_assisted: true`, Hinweis am Ende
 
+## Websuche (modellunabhängig)
+
+Die Recherche nutzt KEIN serverseitiges Search-Tool des LLM mehr.
+`agents/researcher.py` sucht zuerst direkt (`websearch.py`) und reicht
+die Treffer + Seitenauszüge als Kontext in einen normalen LLM-Call –
+funktioniert also mit jedem Provider/Modell (auch Gemma).
+
+Strategie-Kaskade (erste nicht-leere gewinnt):
+1. **Google Programmable Search API** – 100 Abfragen/Tag frei; Secrets
+   `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` ([hier anlegen](https://programmablesearchengine.google.com))
+2. **Brave Search API** – Secret `BRAVE_API_KEY` (Free-Tier)
+3. **DuckDuckGo HTML** – keylos, klappt lokal; aus Cloud-IPs meist geblockt
+4. **Wikipedia-API** – keylos, auch aus CI zuverlässig (de+en)
+
+Ohne CSE/Brave-Keys läuft die Suche also automatisch auf Wikipedia-
+Ressourcen zurück. Für breitere Recherche in GitHub Actions
+`GOOGLE_CSE_KEY` und `GOOGLE_CSE_CX` als Secrets anlegen (100 Abfragen/Tag
+kostenlos; die Pipeline macht ~9 Suchanfragen pro Post-Lauf).
+
 ## LLM-Provider (Gemini, Anthropic, Mistral, Ollama – isoliert)
 
 Alle Agents nutzen `llm_client.py` als **einzige, stabile Schnittstelle**

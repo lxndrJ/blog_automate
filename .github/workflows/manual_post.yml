@@ -76,6 +76,10 @@ jobs:
           # Modell zentral aktuell halten: Repository-Variable GEMINI_MODEL
           # (Settings > Secrets and variables > Actions > Variables). Leer = Default.
           BLOG_GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          # Modellunabhängige Websuche (websearch.py) – optional:
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           BLOG_MISTRAL_MODEL: mistral-medium-latest
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
