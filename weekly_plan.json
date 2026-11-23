@@ -1,116 +1,104 @@
 {
-  "week": "2026-W47",
-  "generated_at": "2026-11-16T12:22:43",
+  "week": "2026-W48",
+  "generated_at": "2026-11-23T13:57:12",
   "slots": [
     {
       "day": 1,
       "weekday": "Montag",
-      "category": "Kochen/Essen",
-      "topic": "Der letzte Sack *Sumach* des Händlers Elias in Aleppo, gemahlen zwischen zwei Steinen",
-      "angle": "Sumach wird im Herbst geerntet – dieser letzte Sack markiert das Ende der Saison. Der Fokus liegt auf der Handarbeit des Mahlens und der Bedeutung der Gewürzmischung für die syrische Küche.",
-      "hook": "Der scharfe, zitronige Duft von frisch gemahlenem Sumach kitzelt in der Nase, als Elias die Steine über die getrockneten Beeren rollt.",
+      "category": "Work-Life Balance",
+      "topic": "Der Schieferknochen von Blaenau Ffestiniog: Die Handruhe der walisischen Spalter vor dem Spaltkeil",
+      "angle": "In den feuchten Stollen Nordwales' bestimmen nicht Schichtpläne den Rhythmus, sondern das Nachschwingen des Metalls im Handgelenk. Die Spalter erzwingen nach jedem Schlag eine körperliche Atempause, um Fehlschnitte im brüchigen Schiefergestein zu verhindern. Ein Plädoyer für physiologische Taktgeber statt digitaler Taktung zum Winterbeginn.",
+      "hook": "Kalter Schieferstaub legt sich trocken auf die Lippen, noch bevor der Holzschlägel das Gestein berührt.",
       "forbidden": [
-        "Krieg in Syrien",
-        "historische Souks"
+        "Burnout-Prävention",
+        "malerisches Wales"
       ],
-      "feeling": "Der Leser spürt den Staub des Gewürzes auf den Fingerspitzen und die Stille eines Handwerks, das langsam verschwindet.",
-      "image_query": "hands grinding sumac stones",
-      "published": true,
-      "published_at": "2026-11-16T13:28:02"
+      "feeling": "Das Bedürfnis, die Hände flach auf eine kühle Tischplatte zu legen und jeden Muskeltonus bewusst loszulassen.",
+      "image_query": "slate quarry worker hands splitting stone"
     },
     {
       "day": 2,
       "weekday": "Dienstag",
-      "category": "Reise",
-      "topic": "Die letzte *Holzbrücke* in Kyoto, über die nur die Teemeister gehen dürfen",
-      "angle": "Eine fast vergessene Brücke im Bambuswald, die nur noch von einer Handvoll Teemeistern genutzt wird – ein Symbol für die schrumpfende Tradition.",
-      "hook": "Das Knarren der alten Holzplanken unter den Schritten der Teemeister vermischt sich mit dem Rascheln der Bambusblätter.",
+      "category": "Kochen/Essen",
+      "topic": "Der Zedernbrett-Druck für Karasumi im Fischerdorf Donggang: Gesalzener Rogen im Spätherbstwind",
+      "angle": "Ende November wandern die Meeräschen an der Südwestküste Taiwans vorbei. Anker ist das millimetergenaue Beschweren des Rogens mit Flusskieseln auf sägerauen Zedernbrettern, die dem Kaviar Feuchtigkeit entziehen, ohne ihn zu zerdrücken.",
+      "hook": "Der klebrig-salzige Duft von getrocknetem Fischrogen mischt sich mit dem herben Harz nasser Zedernbretter.",
       "forbidden": [
-        "Touristenmassen",
-        "Fushimi Inari"
+        "exotische Köstlichkeit",
+        "Geheimrezept"
       ],
-      "feeling": "Der Leser hört das Echo der Schritte auf dem Holz und spürt die Ehrfurcht vor einem Ort, der nur den Eingeweihten gehört.",
-      "image_query": "wooden bridge bamboo forest",
-      "published": true,
-      "published_at": "2026-11-17T14:13:41"
+      "feeling": "Den dichten, wachsartigen Schmelz von bernsteinfarbenem Rogen am Gaumen.",
+      "image_query": "drying mullet roe cedar boards sun"
     },
     {
       "day": 3,
       "weekday": "Mittwoch",
-      "category": "Work-Life Balance",
-      "topic": "Die Regel der *Korbmacher* in Oaxaca: Kein Wort während der ersten sieben Fasern",
-      "angle": "Ein Ritual der Konzentration – die ersten sieben Fasern werden in Stille geflochten, um den Rhythmus für den Tag zu finden.",
-      "hook": "Das trockene Knistern der Palmfasern ist das einzige Geräusch, während die Hände die ersten sieben Stränge verweben.",
+      "category": "Reise",
+      "topic": "Die letzte Seilwinde von Valparaíso: Mit Aufzugführer Don Marcelo auf den Cerro Polanco",
+      "angle": "Während die Zahnradbahnen der chilenischen Hafenstadt von Touristen überrannt werden, fährt der Ascensor Polanco als einziger rein senkrechter Aufzug durch einen hundert Meter langen Felsschacht. Eine Fahrt durch den dunklen Basalt mitten hinein in den Frühlingswind der oberen Barrios.",
+      "hook": "Ein metallisches Rucken vibriert durch die Sohlen, als die gelbe Kabine in den feuchten Schacht aus Vulkangestein hinabfährt.",
       "forbidden": [
-        "Handwerk als Trend",
-        "nachhaltige Materialien"
+        "bunte Häuser",
+        "Sehnsuchtsort"
       ],
-      "feeling": "Der Leser spürt die meditative Stille und die Disziplin, die in jedem Korb steckt.",
-      "image_query": "hands weaving palm fibers",
-      "published": true,
-      "published_at": "2026-11-18T13:44:56"
+      "feeling": "Den kühlen Windzug auf der Haut, wenn man nach einer Tunneldurchquerung unvermittelt über einer offenen Bucht steht.",
+      "image_query": "old funicular lift shaft Valparaiso chile"
     },
     {
       "day": 4,
       "weekday": "Donnerstag",
-      "category": "Kochen/Essen",
-      "topic": "Der erste *Miso-Sud* der Saison in der Küche von Tante Fumiko in Nagano",
-      "angle": "Der erste Sud des Herbstes wird aus frischem Sojabohnen-Paste und dem letzten Reis der Ernte zubereitet – ein Ritual des Übergangs.",
-      "hook": "Der dampfende Topf verströmt einen erdigen, umami-reichen Duft, der sich mit dem kühlen Herbstwind vermischt.",
+      "category": "Work-Life Balance",
+      "topic": "Der Webstuhlknoten der Weberinnen von Maheshwar: Arbeitsstopp bei feuchtem Narmada-Nebel",
+      "angle": "Wenn der Spätherbstnebel vom heiligen Fluss in die Webereien zieht, quellen die Seidenfäden auf und die Arbeit muss zwingend ruhen. Die Handwerkerinnen nutzen das Phänomen als institutionalisierte Pause, die sich keinen ökonomischen Deadlines beugt.",
+      "hook": "Das dumpfe Schlagen der Weberschiffchen verstummt in dem Moment, in dem die feuchte Kälte des Narmada-Flusses durch die Dielen kriecht.",
       "forbidden": [
-        "Sushi-Klischees",
-        "Tokyo Skyline"
+        "spirituelle Auszeit",
+        "magisches Indien"
       ],
-      "feeling": "Der Leser schmeckt die Tiefe des Misos und spürt die Wärme eines Hauses, in dem die Jahreszeiten im Topf zubereitet werden.",
-      "image_query": "steaming miso pot traditional kitchen",
-      "published": true,
-      "published_at": "2026-11-19T14:14:41"
+      "feeling": "Eine unnachgiebige Gelassenheit gegenüber Verzögerungen, die von den Elementen diktiert werden.",
+      "image_query": "handloom silk weaver workshop loom close up"
     },
     {
       "day": 5,
       "weekday": "Freitag",
-      "category": "Reise",
-      "topic": "Der letzte *Leuchtturmwärter* von Kap der Guten Hoffnung, der die Laterne noch mit Öl füllt",
-      "angle": "Ein Mann, der als Letzter die alte Tradition des Öl-Laternen-Leuchtturms aufrechterhält, während die Automatisierung alles andere ersetzt.",
-      "hook": "Das gleichmäßige Tropfen des Öls in die Laterne ist das einzige Geräusch in der stürmischen Nacht am Kap.",
+      "category": "Kochen/Essen",
+      "topic": "Die gusseiserne Lochpfanne von Doña Maria in Bragança: Kastanien über rauchendem Stechginster",
+      "angle": "In Trás-os-Montes werden die Spätherbstkastanien nicht über Holzkohle geröstet, sondern auf getrockneten Ginsterbüschen. Die ätherischen Öle des verbrennenden Ginsters dringen durch die Schlitze der Pfanne direkt in das stärkehaltige Fleisch der Frucht.",
+      "hook": "Beißender Rauch von brennendem Stechginster sticht in die Augen, während die ersten Kastanienschalen mit lautem Knall aufplatzen.",
       "forbidden": [
-        "Pinguine",
-        "Kapstadt Skyline"
+        "rustikales Aroma",
+        "herzhaft genießen"
       ],
-      "feeling": "Der Leser hört das Meer gegen die Klippen schlagen und spürt die Einsamkeit und den Stolz des letzten Wärters.",
-      "image_query": "lighthouse keeper oil lamp"
+      "feeling": "Rußgeschwärzte Fingerspitzen und das heiße, mehlige Brechen einer frisch geöffneten Kastanie.",
+      "image_query": "roasting chestnuts iron pan open fire"
     },
     {
       "day": 6,
       "weekday": "Samstag",
-      "category": "Work-Life Balance",
-      "topic": "Die Pause der *Schneider* in Port-au-Prince: Sieben Minuten Stille nach jedem Saum",
-      "angle": "Ein Rhythmus der Arbeit – nach jedem fertigen Saum legen die Schneider die Nadel für sieben Minuten beiseite, um den Faden und den Geist zu beruhigen.",
-      "hook": "Das Surren der Nähmaschine verstummt, und für sieben Minuten liegt nur das leise Knistern des Stoffes in der Luft.",
+      "category": "Reise",
+      "topic": "Die Dattelpalmen-Zäune von Chott el Djerid: Entlang des Asphaltbandes durch Tunesiens Salztonebene",
+      "angle": "Die P16 schneidet schnurgerade durch die erstarrende weiße Leere des Salzsees. Thema ist der tägliche Einsatz der Straßenwärter, die getrocknete Palmwedel in den Salzschlick rammen, um zu verhindern, dass die winterliche Kruste die Straße sprengt.",
+      "hook": "Grellweißes Licht blendet die Netzhaut, während trockene Dattelwedel im Wüstenwind wie Pergament aneinanderreiben.",
       "forbidden": [
-        "Armut in Haiti",
-        "Kinderarbeit"
+        "Fata Morgana",
+        "endloses Nichts"
       ],
-      "feeling": "Der Leser spürt die Disziplin der Stille und die Wertschätzung für jede Naht.",
-      "image_query": "tailor hands sewing pause",
-      "published": true,
-      "published_at": "2026-11-21T13:19:21"
+      "feeling": "Das Knirschen von groben Salzkristallen unter schweren Gummisohlen.",
+      "image_query": "salt lake asphalt road dry palm leaves"
     },
     {
       "day": 7,
       "weekday": "Sonntag",
-      "category": "Reise",
-      "topic": "Der letzte *Pferdehufschmied* in der Pampa, der die Eisen noch mit dem Amboss formt",
-      "angle": "In einer Zeit der Maschinen ist er der Letzte, der die Hufeisen von Hand schmiedet – ein Handwerk, das mit dem Rhythmus der Pampa verschmilzt.",
-      "hook": "Das glühende Eisen zischt, als es in das Wasser getaucht wird, und der Geruch von verbranntem Horn füllt die Werkstatt.",
+      "category": "Work-Life Balance",
+      "topic": "Die Thermoskannen-Regel im Nationalarchiv von Montevideo: Bitterkraut vor dem ersten Manuskript",
+      "angle": "Die Archivare in Uruguays Hauptstadt beginnen die Schicht niemals mit dem Aufschlagen der Akten, sondern mit einem geteilten Mate-Tee im zugigen Flur. Das Ritual reinigt den Kopf vom Lärm der Stadt und zwingt die Atmung in den ruhigen Rhythmus, den brüchiges Papier verlangt.",
+      "hook": "Der bittere, grasige Dampf des ersten Aufgusses steigt heiß in die klamme Luft zwischen den deckenhohen Holzregalen.",
       "forbidden": [
-        "Gauchos als Klischee",
-        "Tango"
+        "Südamerika-Flair",
+        "Kaffeepause"
       ],
-      "feeling": "Der Leser riecht das heiße Metall und spürt die Verbindung zwischen Handwerk und Land.",
-      "image_query": "blacksmith horse shoe anvil",
-      "published": true,
-      "published_at": "2026-11-22T13:11:48"
+      "feeling": "Das schwere, beruhigende Gewicht einer warmen Kalebasse in beiden Händen.",
+      "image_query": "mate gourd hands old archive library"
     }
   ]
 }
