@@ -30,7 +30,9 @@
         "Geheimrezept"
       ],
       "feeling": "Den dichten, wachsartigen Schmelz von bernsteinfarbenem Rogen am Gaumen.",
-      "image_query": "drying mullet roe cedar boards sun"
+      "image_query": "drying mullet roe cedar boards sun",
+      "published": true,
+      "published_at": "2026-11-24T15:40:36"
     },
     {
       "day": 3,
