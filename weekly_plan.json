@@ -78,7 +78,9 @@
         "herzhaft genießen"
       ],
       "feeling": "Rußgeschwärzte Fingerspitzen und das heiße, mehlige Brechen einer frisch geöffneten Kastanie.",
-      "image_query": "roasting chestnuts iron pan open fire"
+      "image_query": "roasting chestnuts iron pan open fire",
+      "published": true,
+      "published_at": "2026-11-27T14:51:11"
     },
     {
       "day": 6,
